@@ -1,0 +1,16 @@
+
+
+1634900465.815339059  Node Startup
+1634900466.122216246 INFO [/tmp/binarydeb/ros-kinetic-joy-1.12.0/src/joy_node.cpp:255(main) [topics: /rosout, /diagnostics, /ss42/joy] Opened joystick: /dev/input/js0. deadzone_: 0.010000.
+1634900467.387192010 INFO [joy_mapper_node.py:57(setupParam) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/wheels_driver_node/emergency_stop, /ss42/joy, /rosout, /ss42/joy_mapper_node/parallel_autonomy, /ss42/joy_mapper_node/start_avoidance, /ss42/anti_instagram_node/click, /ss42/joy_mapper_node/car_cmd] [/ss42/joy_mapper_node] ~simulated_vehicle_length = 0.18 
+1634900467.515218973 INFO [velocity_to_pose_node.py:26(__init__) [topics: /ss42/forward_kinematics_node/velocity, /rosout, /ss42/velocity_to_pose_node/pose] [/ss42/velocity_to_pose_node] Initialized.
+1634900467.602504014 INFO [wheels_driver_node.py:9(__init__) [topics: /ss42/wheels_driver_node/wheels_cmd_executed, /ss42/wheels_driver_node/emergency_stop, /ss42/wheels_driver_node/wheels_cmd, /rosout] [/ss42/wheels_driver_node] Initializing 
+1634900469.384334087 INFO [inverse_kinematics_node.py:182(setup_parameter) [topics: /rosout] [/ss42/inverse_kinematics_node] ~limit = 1.0 
+1634900469.443916082 INFO [inverse_kinematics_node.py:46(__init__) [topics: /ss42/joy_mapper_node/car_cmd, /ss42/wheels_driver_node/wheels_cmd, /rosout] [/ss42/inverse_kinematics_node] Initialized.
+1634900469.445230960 INFO [inverse_kinematics_node.py:147(printValues) [topics: /ss42/joy_mapper_node/car_cmd, /ss42/wheels_driver_node/wheels_cmd, /rosout] [/ss42/inverse_kinematics_node] gain: 1.0 trim: 0.0 baseline: 0.1 radius: 0.0318 k: 27.0 limit: 1.0
+1634900469.731167078 INFO [forward_kinematics_node.py:72(printValues) [topics: /ss42/wheels_driver_node/wheels_cmd_executed, /ss42/forward_kinematics_node/velocity, /rosout] [/ss42/forward_kinematics_node] gain: 1.0 trim: 0.0 baseline: 0.1 radius: 0.0318 k: 27.0
+1634900471.059962034 INFO [joy_mapper_node.py:120(processButtons) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/wheels_driver_node/emergency_stop, /ss42/joy, /rosout, /ss42/joy_mapper_node/parallel_autonomy, /ss42/joy_mapper_node/start_avoidance, /ss42/anti_instagram_node/click, /ss42/joy_mapper_node/car_cmd] E-stop message
+1634900471.070558071 INFO [wheels_driver_node.py:45(cbEStop) [topics: /ss42/wheels_driver_node/wheels_cmd_executed, /ss42/wheels_driver_node/emergency_stop, /ss42/wheels_driver_node/wheels_cmd, /rosout] [%s] Emergency Stop Activated
+1634900473.901446104 INFO [joy_mapper_node.py:120(processButtons) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/wheels_driver_node/emergency_stop, /ss42/joy, /rosout, /ss42/joy_mapper_node/parallel_autonomy, /ss42/joy_mapper_node/start_avoidance, /ss42/anti_instagram_node/click, /ss42/joy_mapper_node/car_cmd] E-stop message
+1634900473.907708883 INFO [wheels_driver_node.py:47(cbEStop) [topics: /ss42/wheels_driver_node/wheels_cmd_executed, /ss42/wheels_driver_node/emergency_stop, /ss42/wheels_driver_node/wheels_cmd, /rosout] [%s] Emergency Stop Released
+1634900749.431066989 INFO [wheels_driver_node.py:51(on_shutdown) [topics: /ss42/wheels_driver_node/wheels_cmd_executed, /ss42/wheels_driver_node/emergency_stop, /ss42/wheels_driver_node/wheels_cmd, /rosout] [/ss42/wheels_driver_node] Shutting down.

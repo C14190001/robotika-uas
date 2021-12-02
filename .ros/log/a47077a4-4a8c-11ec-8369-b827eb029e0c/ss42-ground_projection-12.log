@@ -1,0 +1,41 @@
+[rospy.client][INFO] 2021-11-21 06:34:43,832: [32minit_node, name[/ss42/ground_projection], pid[2636][0m
+[xmlrpc][INFO] 2021-11-21 06:34:43,854: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[rospy.init][INFO] 2021-11-21 06:34:43,859: [32mROS Slave URI: [http://ss42.local:41119/][0m
+[xmlrpc][INFO] 2021-11-21 06:34:43,859: [32mStarted XML-RPC server [http://ss42.local:41119/][0m
+[rospy.impl.masterslave][INFO] 2021-11-21 06:34:43,862: [32m_ready: http://ss42.local:41119/[0m
+[rospy.registration][INFO] 2021-11-21 06:34:43,887: [32mRegistering with master node http://ss42.local:11311/[0m
+[xmlrpc][INFO] 2021-11-21 06:34:43,888: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.init][INFO] 2021-11-21 06:34:43,961: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-11-21 06:34:43,963: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-11-21 06:34:44,007: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-11-21 06:34:44,020: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[DT][WARNING] 2021-11-21 06:34:44,077: [33mno extrinsic calibration parameters for ss42, trying default[0m
+[DT][INFO] 2021-11-21 06:34:44,188: [32mLoaded homography for default.yaml[0m
+[rospy.internal][INFO] 2021-11-21 06:34:44,307: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[DT][INFO] 2021-11-21 06:34:45,170: [32mLoaded checkerboard parameters[0m
+[rosout][INFO] 2021-11-21 06:34:45,172: [32mcamera info topic is /ss42/camera_node/camera_info[0m
+[rosout][INFO] 2021-11-21 06:34:45,183: [32mwaiting for camera info[0m
+[rospy.internal][INFO] 2021-11-21 06:34:45,304: [32mtopic[/ss42/camera_node/camera_info] adding connection to [http://ss42.local:40537/], count 0[0m
+[rospy.internal][INFO] 2021-11-21 06:34:45,389: [32mtopic impl's ref count is zero, deleting topic /ss42/camera_node/camera_info...[0m
+[rospy.internal][INFO] 2021-11-21 06:34:45,391: [32mtopic[/ss42/camera_node/camera_info] removing connection to http://ss42.local:40537/[0m
+[rosout][INFO] 2021-11-21 06:34:45,423: [32mcamera info received[0m
+[rospy.internal][INFO] 2021-11-21 06:34:45,606: [32mtopic[/ss42/ground_projection/lineseglist_out] adding connection to [/ss42/duckiebot_visualizer], count 0[0m
+[rospy.internal][INFO] 2021-11-21 06:34:46,230: [32mtopic[/ss42/ground_projection/lineseglist_out] adding connection to [/ss42/lane_filter_node], count 1[0m
+[rospy.internal][INFO] 2021-11-21 06:34:47,430: [32mtopic[/ss42/line_detector_node/segment_list] adding connection to [http://ss42.local:45368/], count 0[0m
+[rospy.core][INFO] 2021-11-21 06:38:17,275: [32msignal_shutdown [signal-2][0m
+[rosout][INFO] 2021-11-21 06:38:17,277: [32m[GroundProjectionNode] Shutdown.[0m
+[rospy.internal][INFO] 2021-11-21 06:38:17,620: [32mtopic[/ss42/ground_projection/lineseglist_out] removing connection to /ss42/duckiebot_visualizer[0m
+[rospy.internal][INFO] 2021-11-21 06:38:17,623: [32mtopic[/ss42/ground_projection/lineseglist_out] removing connection to /ss42/lane_filter_node[0m
+[rospy.internal][INFO] 2021-11-21 06:38:17,626: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][ERROR] 2021-11-21 06:38:17,637: [31mUnable to initiate TCP/IP socket to ss42.local:44824 (http://ss42.local:45368/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+[0m
+[rospy.internal][INFO] 2021-11-21 06:38:17,642: [32mtopic[/ss42/line_detector_node/segment_list] removing connection to http://ss42.local:45368/[0m
+[rospy.impl.masterslave][INFO] 2021-11-21 06:38:17,645: [32msignal-2[0m
+[rospy.core][INFO] 2021-11-21 06:38:17,921: [32msignal_shutdown [atexit][0m

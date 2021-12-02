@@ -1,0 +1,18 @@
+[rospy.client][INFO] 2021-10-22 12:02:25,564: init_node, name[/ss42/intrinsic_calibrator], pid[2910]
+[xmlrpc][INFO] 2021-10-22 12:02:25,567: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-10-22 12:02:25,571: Started XML-RPC server [http://ss42.local:35482/]
+[rospy.init][INFO] 2021-10-22 12:02:25,572: ROS Slave URI: [http://ss42.local:35482/]
+[rospy.impl.masterslave][INFO] 2021-10-22 12:02:25,572: _ready: http://ss42.local:35482/
+[rospy.registration][INFO] 2021-10-22 12:02:25,575: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-10-22 12:02:25,575: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-10-22 12:02:25,673: registered with master
+[rospy.rosout][INFO] 2021-10-22 12:02:25,674: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-10-22 12:02:25,688: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-10-22 12:02:25,694: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-10-22 12:02:25,767: topic[/ss42/camera_node/image/raw] adding connection to [http://ss42.local:40213/], count 0
+[rospy.internal][INFO] 2021-10-22 12:02:25,937: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2021-10-22 12:16:42,451: signal_shutdown [Quit]
+[rospy.internal][INFO] 2021-10-22 12:16:42,510: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-10-22 12:16:42,512: topic[/ss42/camera_node/image/raw] removing connection to http://ss42.local:40213/
+[rospy.impl.masterslave][INFO] 2021-10-22 12:16:42,514: Quit
+[rospy.core][INFO] 2021-10-22 12:16:42,956: signal_shutdown [atexit]

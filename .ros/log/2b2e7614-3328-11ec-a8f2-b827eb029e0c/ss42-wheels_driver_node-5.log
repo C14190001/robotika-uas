@@ -1,0 +1,27 @@
+[rospy.client][INFO] 2021-10-22 13:07:04,382: init_node, name[/ss42/wheels_driver_node], pid[3079]
+[xmlrpc][INFO] 2021-10-22 13:07:04,401: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-10-22 13:07:04,403: Started XML-RPC server [http://ss42.local:37618/]
+[rospy.impl.masterslave][INFO] 2021-10-22 13:07:04,404: _ready: http://ss42.local:37618/
+[rospy.init][INFO] 2021-10-22 13:07:04,411: ROS Slave URI: [http://ss42.local:37618/]
+[rospy.registration][INFO] 2021-10-22 13:07:04,423: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-10-22 13:07:04,424: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-10-22 13:07:04,512: registered with master
+[rospy.rosout][INFO] 2021-10-22 13:07:04,513: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-10-22 13:07:04,543: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-10-22 13:07:04,567: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-10-22 13:07:04,645: [/ss42/wheels_driver_node] Initializing 
+[rospy.internal][INFO] 2021-10-22 13:07:04,813: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-10-22 13:07:06,649: topic[/ss42/wheels_driver_node/emergency_stop] adding connection to [http://ss42.local:40754/], count 0
+[rospy.internal][INFO] 2021-10-22 13:07:11,517: topic[/ss42/wheels_driver_node/wheels_cmd] adding connection to [http://ss42.local:42455/], count 0
+[rospy.core][INFO] 2021-10-22 13:24:38,622: signal_shutdown [signal-2]
+[rospy.internal][WARNING] 2021-10-22 13:24:38,708: Unknown error initiating TCP/IP socket to ss42.local:40192 (http://ss42.local:40754/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2021-10-22 13:24:38,802: topic[/ss42/wheels_driver_node/emergency_stop] removing connection to http://ss42.local:40754/
+[rospy.core][INFO] 2021-10-22 13:24:39,019: signal_shutdown [atexit]

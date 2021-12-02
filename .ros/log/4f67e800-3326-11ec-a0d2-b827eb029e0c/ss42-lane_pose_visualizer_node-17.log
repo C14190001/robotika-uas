@@ -1,0 +1,38 @@
+[rospy.client][INFO] 2021-10-22 12:54:04,545: init_node, name[/ss42/lane_pose_visualizer_node], pid[1665]
+[xmlrpc][INFO] 2021-10-22 12:54:04,566: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-10-22 12:54:04,570: Started XML-RPC server [http://ss42.local:40354/]
+[rospy.init][INFO] 2021-10-22 12:54:04,571: ROS Slave URI: [http://ss42.local:40354/]
+[rospy.impl.masterslave][INFO] 2021-10-22 12:54:04,573: _ready: http://ss42.local:40354/
+[rospy.registration][INFO] 2021-10-22 12:54:04,581: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-10-22 12:54:04,577: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-10-22 12:54:04,674: registered with master
+[rospy.rosout][INFO] 2021-10-22 12:54:04,676: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-10-22 12:54:04,717: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-10-22 12:54:04,739: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-10-22 12:54:04,793: [/ss42/lane_pose_visualizer_node] Initialzing.
+[rosout][INFO] 2021-10-22 12:54:04,796: [/ss42/lane_pose_visualizer_node] Vehicle name: ss42
+[rosout][INFO] 2021-10-22 12:54:04,861: [/ss42/lane_pose_visualizer_node] Initialzed.
+[rospy.internal][INFO] 2021-10-22 12:54:04,921: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-10-22 12:54:05,184: topic[/ss42/lane_filter_node/lane_pose] adding connection to [http://ss42.local:42917/], count 0
+[rospy.core][INFO] 2021-10-22 13:00:54,103: signal_shutdown [signal-2]
+[rosout][INFO] 2021-10-22 13:00:54,103: [/ss42/lane_pose_visualizer_node] Shutting down.
+[rospy.internal][INFO] 2021-10-22 13:00:54,333: topic[/rosout] removing connection to /rosout
+[rospy.internal][ERROR] 2021-10-22 13:00:54,339: Unable to initiate TCP/IP socket to ss42.local:45789 (http://ss42.local:42917/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2021-10-22 13:00:54,340: topic[/ss42/lane_filter_node/lane_pose] removing connection to http://ss42.local:42917/
+[rospy.topics][ERROR] 2021-10-22 13:00:54,357: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2021-10-22 13:00:54,366: signal-2
+[rospy.core][INFO] 2021-10-22 13:00:54,735: signal_shutdown [atexit]

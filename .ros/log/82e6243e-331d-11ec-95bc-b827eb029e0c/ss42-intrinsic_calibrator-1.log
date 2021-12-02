@@ -1,0 +1,13 @@
+[rospy.client][INFO] 2021-10-22 11:51:47,327: init_node, name[/ss42/intrinsic_calibrator], pid[7066]
+[xmlrpc][INFO] 2021-10-22 11:51:47,329: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-10-22 11:51:47,331: Started XML-RPC server [http://ss42.local:36034/]
+[rospy.init][INFO] 2021-10-22 11:51:47,332: ROS Slave URI: [http://ss42.local:36034/]
+[rospy.impl.masterslave][INFO] 2021-10-22 11:51:47,333: _ready: http://ss42.local:36034/
+[rospy.registration][INFO] 2021-10-22 11:51:47,335: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-10-22 11:51:47,336: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-10-22 11:51:47,433: registered with master
+[rospy.rosout][INFO] 2021-10-22 11:51:47,434: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-10-22 11:51:47,443: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-10-22 11:51:47,448: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-10-22 11:51:47,513: topic[/ss42/camera_node/image/raw] adding connection to [http://ss42.local:35146/], count 0
+[rospy.internal][INFO] 2021-10-22 11:51:47,660: topic[/rosout] adding connection to [/rosout], count 0

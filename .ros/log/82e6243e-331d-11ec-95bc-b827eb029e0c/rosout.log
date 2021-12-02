@@ -1,0 +1,14 @@
+
+
+1634896241.719319849  Node Startup
+1634896243.503221988 INFO [decoder_node.py:26(setupParam) [topics: /ss42/camera_node/image/raw, /ss42/camera_node/image/compressed, /rosout, /ss42/decoder_node/switch] [/ss42/decoder_node] ~publish_freq = 2.0 
+1634896245.365655899 WARN [cam_info_reader_node.py:45(__init__) [topics: /ss42/camera_node/image/raw, /rosout, /ss42/camera_node/raw_camera_info] [/ss42/raw_cam_info_reader_node] ==============Image
+1634896245.381378889 INFO [camera_node_sequence.py:112(setupParam) [topics: /rosout] [/ss42/camera_node] ~res_h = 480 
+1634896245.344855070 WARN [cam_info_reader_node.py:45(__init__) [topics: /ss42/camera_node/camera_info, /rosout, /ss42/camera_node/image/compressed] [/ss42/cam_info_reader_node] ==============CompressedImage
+1634896245.798569917 INFO [camera_node_sequence.py:56(__init__) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [/ss42/camera_node] Initialized.
+1634896245.800755023 INFO [camera_node_sequence.py:68(startCapturing) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [/ss42/camera_node] Start capturing.
+1634896245.897486925 INFO [camera_node_sequence.py:104(grabAndPublish) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [/ss42/camera_node] Published the first image.
+1634896350.945774078 INFO [cam_info_reader_node.py:74(on_shutdown) [topics: /ss42/camera_node/image/raw, /rosout, /ss42/camera_node/raw_camera_info] [/ss42/raw_cam_info_reader_node] Shutdown.
+1634896350.959691047 INFO [cam_info_reader_node.py:74(on_shutdown) [topics: /ss42/camera_node/camera_info, /rosout, /ss42/camera_node/image/compressed] [/ss42/cam_info_reader_node] Shutdown.
+1634896350.963037014 INFO [camera_node_sequence.py:116(onShutdown) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [/ss42/camera_node] Closing camera.
+1634896350.965141057 INFO [camera_node_sequence.py:118(onShutdown) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [/ss42/camera_node] Shutdown.
