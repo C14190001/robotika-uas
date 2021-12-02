@@ -117,3 +117,4 @@ if ! shopt -oq posix; then
 fi
 export DUCKIEFLEET_ROOT=~/duckiefleet
 export DUCKIEFLEET_ROOT=~/duckiefleet
+export DUCKIEFLEET_ROOT=~/duckiefleet
