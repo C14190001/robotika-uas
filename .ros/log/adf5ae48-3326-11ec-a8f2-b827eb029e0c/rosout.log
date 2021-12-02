@@ -1,0 +1,22 @@
+
+
+1634900181.643978230  Node Startup
+1634900182.093147500 INFO [/tmp/binarydeb/ros-kinetic-joy-1.12.0/src/joy_node.cpp:255(main) [topics: /rosout, /diagnostics, /ss42/joy] Opened joystick: /dev/input/js0. deadzone_: 0.010000.
+1634900183.857361078 INFO [joy_mapper_node.py:57(setupParam) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/wheels_driver_node/emergency_stop, /rosout, /ss42/joy_mapper_node/parallel_autonomy, /ss42/anti_instagram_node/click, /ss42/joy_mapper_node/car_cmd] [/ss42/joy_mapper_node] ~simulated_vehicle_length = 0.18 
+1634900184.241183042 INFO [wheels_driver_node.py:9(__init__) [topics: /ss42/wheels_driver_node/wheels_cmd_executed, /ss42/wheels_driver_node/emergency_stop, /ss42/wheels_driver_node/wheels_cmd, /rosout] [/ss42/wheels_driver_node] Initializing 
+1634900184.635016918 INFO [velocity_to_pose_node.py:26(__init__) [topics: /ss42/forward_kinematics_node/velocity, /rosout, /ss42/velocity_to_pose_node/pose] [/ss42/velocity_to_pose_node] Initialized.
+1634900190.525063991 INFO [forward_kinematics_node.py:101(setup_parameter) [topics: /rosout] [/ss42/forward_kinematics_node] ~radius = 0.0318 
+1634900190.530106067 INFO [inverse_kinematics_node.py:182(setup_parameter) [topics: /rosout] [/ss42/inverse_kinematics_node] ~baseline = 0.1 
+1634900190.551229000 INFO [forward_kinematics_node.py:101(setup_parameter) [topics: /rosout] [/ss42/forward_kinematics_node] ~k = 27.0 
+1634900190.556277036 INFO [inverse_kinematics_node.py:182(setup_parameter) [topics: /rosout] [/ss42/inverse_kinematics_node] ~radius = 0.0318 
+1634900190.581680059 INFO [inverse_kinematics_node.py:182(setup_parameter) [topics: /rosout] [/ss42/inverse_kinematics_node] ~k = 27.0 
+1634900190.588459968 INFO [forward_kinematics_node.py:37(__init__) [topics: /ss42/wheels_driver_node/wheels_cmd_executed, /ss42/forward_kinematics_node/velocity, /rosout] [/ss42/forward_kinematics_node] Initialized.
+1634900190.591105937 INFO [forward_kinematics_node.py:72(printValues) [topics: /ss42/wheels_driver_node/wheels_cmd_executed, /ss42/forward_kinematics_node/velocity, /rosout] [/ss42/forward_kinematics_node] gain: 1.0 trim: 0.0 baseline: 0.1 radius: 0.0318 k: 27.0
+1634900190.603311061 INFO [inverse_kinematics_node.py:182(setup_parameter) [topics: /rosout] [/ss42/inverse_kinematics_node] ~limit = 1.0 
+1634900190.731127977 INFO [inverse_kinematics_node.py:46(__init__) [topics: /ss42/joy_mapper_node/car_cmd, /ss42/wheels_driver_node/wheels_cmd, /rosout] [/ss42/inverse_kinematics_node] Initialized.
+1634900190.734977960 INFO [inverse_kinematics_node.py:147(printValues) [topics: /ss42/joy_mapper_node/car_cmd, /ss42/wheels_driver_node/wheels_cmd, /rosout] [/ss42/inverse_kinematics_node] gain: 1.0 trim: 0.0 baseline: 0.1 radius: 0.0318 k: 27.0 limit: 1.0
+1634900197.672921895 INFO [joy_mapper_node.py:120(processButtons) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/wheels_driver_node/emergency_stop, /ss42/joy, /rosout, /ss42/joy_mapper_node/parallel_autonomy, /ss42/joy_mapper_node/start_avoidance, /ss42/anti_instagram_node/click, /ss42/joy_mapper_node/car_cmd] E-stop message
+1634900197.690867900 INFO [wheels_driver_node.py:45(cbEStop) [topics: /ss42/wheels_driver_node/wheels_cmd_executed, /ss42/wheels_driver_node/emergency_stop, /ss42/wheels_driver_node/wheels_cmd, /rosout] [%s] Emergency Stop Activated
+1634900197.693885087 INFO [joy_mapper_node.py:120(processButtons) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/wheels_driver_node/emergency_stop, /ss42/joy, /rosout, /ss42/joy_mapper_node/parallel_autonomy, /ss42/joy_mapper_node/start_avoidance, /ss42/anti_instagram_node/click, /ss42/joy_mapper_node/car_cmd] E-stop message
+1634900197.708741903 INFO [wheels_driver_node.py:47(cbEStop) [topics: /ss42/wheels_driver_node/wheels_cmd_executed, /ss42/wheels_driver_node/emergency_stop, /ss42/wheels_driver_node/wheels_cmd, /rosout] [%s] Emergency Stop Released
+1634900273.486660003 INFO [wheels_driver_node.py:51(on_shutdown) [topics: /ss42/wheels_driver_node/wheels_cmd_executed, /ss42/wheels_driver_node/emergency_stop, /ss42/wheels_driver_node/wheels_cmd, /rosout] [/ss42/wheels_driver_node] Shutting down.

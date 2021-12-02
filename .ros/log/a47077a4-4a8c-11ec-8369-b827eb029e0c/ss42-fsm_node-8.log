@@ -1,0 +1,303 @@
+[rospy.client][INFO] 2021-11-21 06:34:27,511: init_node, name[/ss42/fsm_node], pid[2611]
+[xmlrpc][INFO] 2021-11-21 06:34:27,529: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-11-21 06:34:27,531: Started XML-RPC server [http://ss42.local:45729/]
+[rospy.init][INFO] 2021-11-21 06:34:27,564: ROS Slave URI: [http://ss42.local:45729/]
+[rospy.impl.masterslave][INFO] 2021-11-21 06:34:27,566: _ready: http://ss42.local:45729/
+[rospy.registration][INFO] 2021-11-21 06:34:27,582: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-11-21 06:34:27,625: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-11-21 06:34:27,667: registered with master
+[rospy.rosout][INFO] 2021-11-21 06:34:27,669: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-11-21 06:34:27,771: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-11-21 06:34:27,851: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-11-21 06:34:28,034: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-11-21 06:34:28,988: topic[/ss42/fsm_node/mode] adding connection to [/ss42/car_cmd_switch_node], count 0
+[rospy.internal][INFO] 2021-11-21 06:34:30,475: topic[/ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy] adding connection to [http://ss42.local:35321/], count 0
+[rospy.internal][INFO] 2021-11-21 06:34:30,773: topic[/ss42/fsm_node/mode] adding connection to [/ss42/fake_coordinator_node], count 1
+[rospy.internal][INFO] 2021-11-21 06:34:30,930: topic[/ss42/logic_gate_node/intersection_done_and_parallel_autonomy] adding connection to [http://ss42.local:35321/], count 0
+[rospy.internal][INFO] 2021-11-21 06:34:30,966: topic[/ss42/led_emitter_node/switch] adding connection to [/ss42/led_emitter_node], count 0
+[rospy.internal][INFO] 2021-11-21 06:34:31,041: topic[/ss42/joy_mapper_node/joystick_override] adding connection to [http://ss42.local:33000/], count 0
+[rospy.internal][INFO] 2021-11-21 06:34:31,210: topic[/ss42/joy_mapper_node/parallel_autonomy] adding connection to [http://ss42.local:33000/], count 0
+[rospy.internal][INFO] 2021-11-21 06:34:31,258: topic[/ss42/joy_mapper_node/start_avoidance] adding connection to [http://ss42.local:33000/], count 0
+[rosout][INFO] 2021-11-21 06:34:31,358: [/ss42/fsm_node] Initialized.
+[rosout][INFO] 2021-11-21 06:34:31,370: [/ss42/fsm_node] Node vehicle_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:34:31,393: [/ss42/fsm_node] Node framerate_high is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:34:31,417: [/ss42/fsm_node] Node decoder_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:34:31,433: [/ss42/fsm_node] Node stop_line_filter_node is ON in JOYSTICK_CONTROL
+[rospy.internal][INFO] 2021-11-21 06:34:31,457: topic[/ss42/simple_coordinator_node/intersection_go] adding connection to [http://ss42.local:35915/], count 0
+[rosout][INFO] 2021-11-21 06:34:31,452: [/ss42/fsm_node] Node lane_filter_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:34:31,473: [/ss42/fsm_node] Node led_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:34:31,495: [/ss42/fsm_node] Node static_object_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:34:31,514: [/ss42/fsm_node] Node led_emitter_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:34:31,538: [/ss42/fsm_node] Node line_detector_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:34:31,545: [/ss42/fsm_node] Node apriltag_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:34:31,568: [/ss42/fsm_node] FSMState: JOYSTICK_CONTROL
+[rospy.internal][INFO] 2021-11-21 06:34:44,576: topic[/ss42/camera_node/framerate_high_switch] adding connection to [/ss42/camera_node], count 0
+[rospy.internal][INFO] 2021-11-21 06:34:46,077: topic[/ss42/lane_filter_node/switch] adding connection to [/ss42/lane_filter_node], count 0
+[rospy.internal][INFO] 2021-11-21 06:34:47,611: topic[/ss42/line_detector_node/switch] adding connection to [/ss42/line_detector_node], count 0
+[rosout][INFO] 2021-11-21 06:35:41,674: [/ss42/fsm_node] Event: joystick_override_off
+[rosout][INFO] 2021-11-21 06:35:41,679: [/ss42/fsm_node] Node vehicle_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:35:41,688: [/ss42/fsm_node] Node framerate_high is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:35:41,697: [/ss42/fsm_node] Node decoder_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:35:41,707: [/ss42/fsm_node] Node stop_line_filter_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:35:41,712: [/ss42/fsm_node] Node lane_filter_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:35:41,733: [/ss42/fsm_node] Node led_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:35:41,741: [/ss42/fsm_node] Node static_object_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:35:41,752: [/ss42/fsm_node] Node led_emitter_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:35:41,756: [/ss42/fsm_node] Node line_detector_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:35:41,759: [/ss42/fsm_node] Node apriltag_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:35:41,771: [/ss42/fsm_node] FSMState: LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:35:59,891: [/ss42/fsm_node] Event: joystick_override_on
+[rosout][INFO] 2021-11-21 06:35:59,899: [/ss42/fsm_node] Node vehicle_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:35:59,903: [/ss42/fsm_node] Node framerate_high is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:35:59,912: [/ss42/fsm_node] Node decoder_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:35:59,921: [/ss42/fsm_node] Node stop_line_filter_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:35:59,926: [/ss42/fsm_node] Node lane_filter_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:35:59,929: [/ss42/fsm_node] Node led_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:35:59,932: [/ss42/fsm_node] Node static_object_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:35:59,936: [/ss42/fsm_node] Node led_emitter_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:35:59,940: [/ss42/fsm_node] Node line_detector_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:35:59,945: [/ss42/fsm_node] Node apriltag_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:35:59,949: [/ss42/fsm_node] FSMState: JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:05,546: [/ss42/fsm_node] Event: joystick_override_off
+[rosout][INFO] 2021-11-21 06:36:05,549: [/ss42/fsm_node] Node vehicle_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:05,551: [/ss42/fsm_node] Node framerate_high is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:05,556: [/ss42/fsm_node] Node decoder_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:05,565: [/ss42/fsm_node] Node stop_line_filter_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:05,569: [/ss42/fsm_node] Node lane_filter_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:05,578: [/ss42/fsm_node] Node led_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:05,582: [/ss42/fsm_node] Node static_object_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:05,596: [/ss42/fsm_node] Node led_emitter_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:05,601: [/ss42/fsm_node] Node line_detector_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:05,610: [/ss42/fsm_node] Node apriltag_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:05,616: [/ss42/fsm_node] FSMState: LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:15,419: [/ss42/fsm_node] Event: joystick_override_on
+[rosout][INFO] 2021-11-21 06:36:15,422: [/ss42/fsm_node] Node vehicle_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:15,425: [/ss42/fsm_node] Node framerate_high is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:15,429: [/ss42/fsm_node] Node decoder_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:15,441: [/ss42/fsm_node] Node stop_line_filter_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:15,444: [/ss42/fsm_node] Node lane_filter_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:15,457: [/ss42/fsm_node] Node led_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:15,461: [/ss42/fsm_node] Node static_object_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:15,464: [/ss42/fsm_node] Node led_emitter_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:15,475: [/ss42/fsm_node] Node line_detector_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:15,478: [/ss42/fsm_node] Node apriltag_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:15,490: [/ss42/fsm_node] FSMState: JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:35,301: [/ss42/fsm_node] Event: joystick_override_off
+[rosout][INFO] 2021-11-21 06:36:35,305: [/ss42/fsm_node] Node vehicle_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:35,312: [/ss42/fsm_node] Node framerate_high is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:35,317: [/ss42/fsm_node] Node decoder_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:35,323: [/ss42/fsm_node] Node stop_line_filter_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:35,327: [/ss42/fsm_node] Node lane_filter_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:35,331: [/ss42/fsm_node] Node led_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:35,335: [/ss42/fsm_node] Node static_object_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:35,339: [/ss42/fsm_node] Node led_emitter_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:35,344: [/ss42/fsm_node] Node line_detector_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:35,349: [/ss42/fsm_node] Node apriltag_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:35,354: [/ss42/fsm_node] FSMState: LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:49,196: [/ss42/fsm_node] Event: joystick_override_on
+[rosout][INFO] 2021-11-21 06:36:49,199: [/ss42/fsm_node] Node vehicle_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:49,205: [/ss42/fsm_node] Node framerate_high is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:49,213: [/ss42/fsm_node] Node decoder_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:49,224: [/ss42/fsm_node] Node stop_line_filter_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:49,232: [/ss42/fsm_node] Node lane_filter_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:49,236: [/ss42/fsm_node] Node led_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:49,240: [/ss42/fsm_node] Node static_object_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:49,244: [/ss42/fsm_node] Node led_emitter_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:49,248: [/ss42/fsm_node] Node line_detector_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:49,253: [/ss42/fsm_node] Node apriltag_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:49,259: [/ss42/fsm_node] FSMState: JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:36:59,187: [/ss42/fsm_node] Event: joystick_override_off
+[rosout][INFO] 2021-11-21 06:36:59,203: [/ss42/fsm_node] Node vehicle_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:59,207: [/ss42/fsm_node] Node framerate_high is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:59,211: [/ss42/fsm_node] Node decoder_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:59,216: [/ss42/fsm_node] Node stop_line_filter_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:59,220: [/ss42/fsm_node] Node lane_filter_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:59,224: [/ss42/fsm_node] Node led_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:59,228: [/ss42/fsm_node] Node static_object_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:59,235: [/ss42/fsm_node] Node led_emitter_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:59,239: [/ss42/fsm_node] Node line_detector_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:59,243: [/ss42/fsm_node] Node apriltag_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:36:59,248: [/ss42/fsm_node] FSMState: LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:10,847: [/ss42/fsm_node] Event: joystick_override_on
+[rosout][INFO] 2021-11-21 06:37:10,851: [/ss42/fsm_node] Node vehicle_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:10,855: [/ss42/fsm_node] Node framerate_high is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:10,859: [/ss42/fsm_node] Node decoder_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:10,864: [/ss42/fsm_node] Node stop_line_filter_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:10,868: [/ss42/fsm_node] Node lane_filter_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:10,871: [/ss42/fsm_node] Node led_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:10,875: [/ss42/fsm_node] Node static_object_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:10,880: [/ss42/fsm_node] Node led_emitter_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:10,884: [/ss42/fsm_node] Node line_detector_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:10,890: [/ss42/fsm_node] Node apriltag_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:10,895: [/ss42/fsm_node] FSMState: JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:20,179: [/ss42/fsm_node] Event: joystick_override_off
+[rosout][INFO] 2021-11-21 06:37:20,186: [/ss42/fsm_node] Node vehicle_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:20,189: [/ss42/fsm_node] Node framerate_high is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:20,195: [/ss42/fsm_node] Node decoder_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:20,199: [/ss42/fsm_node] Node stop_line_filter_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:20,202: [/ss42/fsm_node] Node lane_filter_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:20,207: [/ss42/fsm_node] Node led_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:20,211: [/ss42/fsm_node] Node static_object_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:20,226: [/ss42/fsm_node] Node led_emitter_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:20,230: [/ss42/fsm_node] Node line_detector_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:20,233: [/ss42/fsm_node] Node apriltag_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:20,238: [/ss42/fsm_node] FSMState: LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:21,414: [/ss42/fsm_node] Event: joystick_override_on
+[rosout][INFO] 2021-11-21 06:37:21,417: [/ss42/fsm_node] Node vehicle_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:21,421: [/ss42/fsm_node] Node framerate_high is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:21,425: [/ss42/fsm_node] Node decoder_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:21,429: [/ss42/fsm_node] Node stop_line_filter_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:21,433: [/ss42/fsm_node] Node lane_filter_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:21,437: [/ss42/fsm_node] Node led_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:21,441: [/ss42/fsm_node] Node static_object_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:21,445: [/ss42/fsm_node] Node led_emitter_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:21,449: [/ss42/fsm_node] Node line_detector_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:21,454: [/ss42/fsm_node] Node apriltag_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:21,459: [/ss42/fsm_node] FSMState: JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:29,254: [/ss42/fsm_node] Event: joystick_override_off
+[rosout][INFO] 2021-11-21 06:37:29,258: [/ss42/fsm_node] Node vehicle_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:29,265: [/ss42/fsm_node] Node framerate_high is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:29,271: [/ss42/fsm_node] Node decoder_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:29,277: [/ss42/fsm_node] Node stop_line_filter_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:29,287: [/ss42/fsm_node] Node lane_filter_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:29,290: [/ss42/fsm_node] Node led_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:29,295: [/ss42/fsm_node] Node static_object_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:29,301: [/ss42/fsm_node] Node led_emitter_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:29,306: [/ss42/fsm_node] Node line_detector_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:29,310: [/ss42/fsm_node] Node apriltag_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:29,318: [/ss42/fsm_node] FSMState: LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:32,828: [/ss42/fsm_node] Event: joystick_override_on
+[rosout][INFO] 2021-11-21 06:37:32,832: [/ss42/fsm_node] Node vehicle_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:32,836: [/ss42/fsm_node] Node framerate_high is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:32,840: [/ss42/fsm_node] Node decoder_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:32,846: [/ss42/fsm_node] Node stop_line_filter_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:32,860: [/ss42/fsm_node] Node lane_filter_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:32,867: [/ss42/fsm_node] Node led_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:32,874: [/ss42/fsm_node] Node static_object_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:32,877: [/ss42/fsm_node] Node led_emitter_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:32,881: [/ss42/fsm_node] Node line_detector_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:32,884: [/ss42/fsm_node] Node apriltag_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:32,910: [/ss42/fsm_node] FSMState: JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:41,016: [/ss42/fsm_node] Event: joystick_override_off
+[rosout][INFO] 2021-11-21 06:37:41,019: [/ss42/fsm_node] Node vehicle_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:41,023: [/ss42/fsm_node] Node framerate_high is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:41,036: [/ss42/fsm_node] Node decoder_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:41,042: [/ss42/fsm_node] Node stop_line_filter_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:41,047: [/ss42/fsm_node] Node lane_filter_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:41,054: [/ss42/fsm_node] Node led_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:41,059: [/ss42/fsm_node] Node static_object_detector_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:41,066: [/ss42/fsm_node] Node led_emitter_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:41,071: [/ss42/fsm_node] Node line_detector_node is ON in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:41,075: [/ss42/fsm_node] Node apriltag_node is OFF in LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:41,080: [/ss42/fsm_node] FSMState: LANE_FOLLOWING
+[rosout][INFO] 2021-11-21 06:37:45,870: [/ss42/fsm_node] Event: joystick_override_on
+[rosout][INFO] 2021-11-21 06:37:45,873: [/ss42/fsm_node] Node vehicle_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:45,877: [/ss42/fsm_node] Node framerate_high is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:45,881: [/ss42/fsm_node] Node decoder_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:45,885: [/ss42/fsm_node] Node stop_line_filter_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:45,892: [/ss42/fsm_node] Node lane_filter_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:45,898: [/ss42/fsm_node] Node led_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:45,907: [/ss42/fsm_node] Node static_object_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:45,921: [/ss42/fsm_node] Node led_emitter_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:45,926: [/ss42/fsm_node] Node line_detector_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:45,929: [/ss42/fsm_node] Node apriltag_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:37:45,934: [/ss42/fsm_node] FSMState: JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:38:12,341: [/ss42/fsm_node] Event: joystick_override_on
+[rosout][INFO] 2021-11-21 06:38:12,345: [/ss42/fsm_node] Node vehicle_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:38:12,350: [/ss42/fsm_node] Node framerate_high is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:38:12,355: [/ss42/fsm_node] Node decoder_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:38:12,359: [/ss42/fsm_node] Node stop_line_filter_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:38:12,362: [/ss42/fsm_node] Node lane_filter_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:38:12,366: [/ss42/fsm_node] Node led_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:38:12,369: [/ss42/fsm_node] Node static_object_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:38:12,377: [/ss42/fsm_node] Node led_emitter_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:38:12,381: [/ss42/fsm_node] Node line_detector_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:38:12,385: [/ss42/fsm_node] Node apriltag_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-11-21 06:38:12,390: [/ss42/fsm_node] FSMState: JOYSTICK_CONTROL
+[rospy.internal][ERROR] 2021-11-21 06:38:17,365: Unable to initiate TCP/IP socket to ss42.local:35275 (http://ss42.local:35915/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rosout][WARNING] 2021-11-21 06:38:17,380: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2021-11-21 06:38:17,414: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2021-11-21 06:38:17,535: topic[/ss42/fsm_node/mode] removing connection to /ss42/fake_coordinator_node
+[rospy.internal][INFO] 2021-11-21 06:38:18,041: topic[/ss42/led_emitter_node/switch] removing connection to /ss42/led_emitter_node
+[rospy.internal][INFO] 2021-11-21 06:38:18,047: topic[/ss42/line_detector_node/switch] removing connection to /ss42/line_detector_node
+[rospy.internal][INFO] 2021-11-21 06:38:18,049: topic[/ss42/lane_filter_node/switch] removing connection to /ss42/lane_filter_node
+[rospy.internal][ERROR] 2021-11-21 06:38:18,119: Unable to initiate TCP/IP socket to ss42.local:35914 (http://ss42.local:35321/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2021-11-21 06:38:18,224: Unknown error initiating TCP/IP socket to ss42.local:35914 (http://ss42.local:35321/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2021-11-21 06:38:18,226: topic[/ss42/logic_gate_node/intersection_done_and_parallel_autonomy] removing connection to http://ss42.local:35321/
+[rospy.core][INFO] 2021-11-21 06:38:18,371: signal_shutdown [signal-2]
+[rosout][INFO] 2021-11-21 06:38:18,373: [/ss42/fsm_node] Shutting down.
+[rospy.internal][WARNING] 2021-11-21 06:38:18,393: Unknown error initiating TCP/IP socket to ss42.local:35275 (http://ss42.local:35915/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2021-11-21 06:38:18,395: topic[/ss42/simple_coordinator_node/intersection_go] removing connection to http://ss42.local:35915/
+[rospy.internal][ERROR] 2021-11-21 06:38:18,652: Unable to initiate TCP/IP socket to ss42.local:40777 (http://ss42.local:33000/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2021-11-21 06:38:18,681: Unable to initiate TCP/IP socket to ss42.local:40777 (http://ss42.local:33000/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2021-11-21 06:38:18,683: Unable to initiate TCP/IP socket to ss42.local:40777 (http://ss42.local:33000/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2021-11-21 06:38:18,801: topic[/ss42/fsm_node/mode] removing connection to /ss42/car_cmd_switch_node
+[rospy.internal][INFO] 2021-11-21 06:38:18,809: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-11-21 06:38:18,819: topic[/ss42/camera_node/framerate_high_switch] removing connection to /ss42/camera_node
+[rospy.internal][INFO] 2021-11-21 06:38:18,822: topic[/ss42/joy_mapper_node/joystick_override] removing connection to http://ss42.local:33000/
+[rospy.internal][INFO] 2021-11-21 06:38:18,834: topic[/ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy] removing connection to http://ss42.local:35321/
+[rospy.internal][INFO] 2021-11-21 06:38:18,836: topic[/ss42/joy_mapper_node/parallel_autonomy] removing connection to http://ss42.local:33000/
+[rospy.internal][INFO] 2021-11-21 06:38:18,837: topic[/ss42/joy_mapper_node/start_avoidance] removing connection to http://ss42.local:33000/
+[rospy.impl.masterslave][INFO] 2021-11-21 06:38:18,839: signal-2
+[rospy.core][INFO] 2021-11-21 06:38:19,008: signal_shutdown [atexit]

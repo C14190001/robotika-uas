@@ -1,0 +1,28 @@
+[rospy.client][INFO] 2021-10-22 12:36:11,432: init_node, name[/ss42/velocity_to_pose_node], pid[22642]
+[xmlrpc][INFO] 2021-10-22 12:36:11,434: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2021-10-22 12:36:11,437: ROS Slave URI: [http://ss42.local:38783/]
+[xmlrpc][INFO] 2021-10-22 12:36:11,438: Started XML-RPC server [http://ss42.local:38783/]
+[rospy.impl.masterslave][INFO] 2021-10-22 12:36:11,438: _ready: http://ss42.local:38783/
+[xmlrpc][INFO] 2021-10-22 12:36:11,440: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-10-22 12:36:11,443: Registering with master node http://ss42.local:11311/
+[rospy.init][INFO] 2021-10-22 12:36:11,538: registered with master
+[rospy.rosout][INFO] 2021-10-22 12:36:11,539: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-10-22 12:36:11,564: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-10-22 12:36:11,574: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-10-22 12:36:11,644: [/ss42/velocity_to_pose_node] Initialized.
+[rospy.internal][INFO] 2021-10-22 12:36:11,785: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-10-22 12:36:13,888: topic[/ss42/forward_kinematics_node/velocity] adding connection to [http://ss42.local:38732/], count 0
+[rospy.core][INFO] 2021-10-22 12:38:28,658: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-10-22 12:38:28,771: topic[/rosout] removing connection to /rosout
+[rospy.internal][ERROR] 2021-10-22 12:38:28,777: Unable to initiate TCP/IP socket to ss42.local:40153 (http://ss42.local:38732/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2021-10-22 12:38:28,775: topic[/ss42/forward_kinematics_node/velocity] removing connection to http://ss42.local:38732/
+[rospy.impl.masterslave][INFO] 2021-10-22 12:38:28,779: signal-2
+[rospy.core][INFO] 2021-10-22 12:38:29,294: signal_shutdown [atexit]

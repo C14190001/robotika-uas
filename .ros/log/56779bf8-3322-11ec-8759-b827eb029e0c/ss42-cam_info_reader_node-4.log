@@ -1,0 +1,61 @@
+[rospy.client][INFO] 2021-10-22 12:25:17,991: [32minit_node, name[/ss42/cam_info_reader_node], pid[16051][0m
+[xmlrpc][INFO] 2021-10-22 12:25:17,993: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[xmlrpc][INFO] 2021-10-22 12:25:17,995: [32mStarted XML-RPC server [http://ss42.local:35675/][0m
+[rospy.init][INFO] 2021-10-22 12:25:17,996: [32mROS Slave URI: [http://ss42.local:35675/][0m
+[rospy.impl.masterslave][INFO] 2021-10-22 12:25:17,997: [32m_ready: http://ss42.local:35675/[0m
+[rospy.registration][INFO] 2021-10-22 12:25:18,000: [32mRegistering with master node http://ss42.local:11311/[0m
+[xmlrpc][INFO] 2021-10-22 12:25:18,000: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.init][INFO] 2021-10-22 12:25:18,097: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-10-22 12:25:18,098: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-10-22 12:25:18,108: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-10-22 12:25:18,115: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rosout][INFO] 2021-10-22 12:25:18,139: [32m[/ss42/cam_info_reader_node] ~config = baseline [0m
+[rosout][INFO] 2021-10-22 12:25:18,149: [32m[/ss42/cam_info_reader_node] ~cali_file_name = ss42 [0m
+[rosout][INFO] 2021-10-22 12:25:18,159: [32m[/ss42/cam_info_reader_node] ~image_type = compressed [0m
+[rosout][INFO] 2021-10-22 12:25:18,167: [32m[/ss42/cam_info_reader_node] Using calibration file: /home/robotikabot/duckiefleet/calibrations/camera_intrinsic/ss42.yaml[0m
+[rosout][INFO] 2021-10-22 12:25:18,210: [32m[/ss42/cam_info_reader_node] CameraInfo: header: 
+  seq: 0
+  stamp: 
+    secs: 0
+    nsecs:         0
+  frame_id: "/ss42/camera_optical_frame"
+height: 480
+width: 640
+distortion_model: "plumb_bob"
+D: [-0.27461809148614347, 0.05310162092969184, -0.0028468333210795024, 0.0008335823753335609, 0.0]
+K: [338.81946180832574, 0.0, 326.66950360401523, 0.0, 339.5982146662145, 228.002648610418, 0.0, 0.0, 1.0]
+R: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+P: [229.75657653808594, 0.0, 326.88036190003913, 0.0, 0.0, 279.500244140625, 218.55408220592653, 0.0, 0.0, 0.0, 1.0, 0.0]
+binning_x: 0
+binning_y: 0
+roi: 
+  x_offset: 0
+  y_offset: 0
+  height: 0
+  width: 0
+  do_rectify: False[0m
+[rosout][WARNING] 2021-10-22 12:25:18,211: [33m[/ss42/cam_info_reader_node] ==============CompressedImage[0m
+[rospy.internal][INFO] 2021-10-22 12:25:18,384: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rospy.internal][INFO] 2021-10-22 12:25:18,793: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [http://ss42.local:37063/], count 0[0m
+[rospy.internal][INFO] 2021-10-22 12:26:12,775: [32mtopic[/ss42/camera_node/camera_info] adding connection to [/ss42/ground_projection], count 0[0m
+[rospy.internal][INFO] 2021-10-22 12:26:12,826: [32mtopic[/ss42/camera_node/camera_info] removing connection to /ss42/ground_projection[0m
+[rospy.core][INFO] 2021-10-22 12:28:26,105: [32msignal_shutdown [signal-2][0m
+[rosout][INFO] 2021-10-22 12:28:26,106: [32m[/ss42/cam_info_reader_node] Shutdown.[0m
+[rospy.internal][INFO] 2021-10-22 12:28:26,139: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-10-22 12:28:26,141: [32mtopic[/ss42/camera_node/image/compressed] removing connection to http://ss42.local:37063/[0m
+[rospy.topics][ERROR] 2021-10-22 12:28:26,146: [31mTraceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+[0m
+[rospy.impl.masterslave][INFO] 2021-10-22 12:28:26,146: [32msignal-2[0m
+[rospy.internal][WARNING] 2021-10-22 12:28:26,143: [33mUnknown error initiating TCP/IP socket to ss42.local:43655 (http://ss42.local:37063/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+[0m
+[rospy.core][INFO] 2021-10-22 12:28:26,762: [32msignal_shutdown [atexit][0m

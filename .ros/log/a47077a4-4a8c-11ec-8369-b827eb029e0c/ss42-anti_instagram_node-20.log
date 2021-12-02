@@ -1,0 +1,22 @@
+[rospy.client][INFO] 2021-11-21 06:34:47,115: [32minit_node, name[/ss42/anti_instagram_node], pid[2656][0m
+[xmlrpc][INFO] 2021-11-21 06:34:47,118: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[rospy.init][INFO] 2021-11-21 06:34:47,130: [32mROS Slave URI: [http://ss42.local:42333/][0m
+[xmlrpc][INFO] 2021-11-21 06:34:47,131: [32mStarted XML-RPC server [http://ss42.local:42333/][0m
+[rospy.impl.masterslave][INFO] 2021-11-21 06:34:47,132: [32m_ready: http://ss42.local:42333/[0m
+[rospy.registration][INFO] 2021-11-21 06:34:47,146: [32mRegistering with master node http://ss42.local:11311/[0m
+[xmlrpc][INFO] 2021-11-21 06:34:47,149: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.init][INFO] 2021-11-21 06:34:47,231: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-11-21 06:34:47,233: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-11-21 06:34:47,274: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-11-21 06:34:47,299: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rospy.internal][INFO] 2021-11-21 06:34:47,535: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [http://ss42.local:33258/], count 0[0m
+[rospy.internal][INFO] 2021-11-21 06:34:47,527: [32mtopic[/ss42/anti_instagram_node/click] adding connection to [http://ss42.local:33000/], count 0[0m
+[rospy.internal][INFO] 2021-11-21 06:34:47,545: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rospy.internal][INFO] 2021-11-21 06:34:47,600: [32mtopic[/ss42/anti_instagram_node/transform] adding connection to [/ss42/line_detector_node], count 0[0m
+[rospy.core][INFO] 2021-11-21 06:38:17,115: [32msignal_shutdown [signal-2][0m
+[rospy.internal][INFO] 2021-11-21 06:38:17,535: [32mtopic[/ss42/anti_instagram_node/transform] removing connection to /ss42/line_detector_node[0m
+[rospy.internal][INFO] 2021-11-21 06:38:17,538: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-11-21 06:38:17,548: [32mtopic[/ss42/anti_instagram_node/click] removing connection to http://ss42.local:33000/[0m
+[rospy.internal][INFO] 2021-11-21 06:38:17,555: [32mtopic[/ss42/camera_node/image/compressed] removing connection to http://ss42.local:33258/[0m
+[rospy.impl.masterslave][INFO] 2021-11-21 06:38:17,623: [32msignal-2[0m
+[rospy.core][INFO] 2021-11-21 06:38:17,747: [32msignal_shutdown [atexit][0m

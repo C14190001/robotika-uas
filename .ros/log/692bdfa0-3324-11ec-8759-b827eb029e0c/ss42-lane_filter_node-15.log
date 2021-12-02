@@ -1,0 +1,44 @@
+[rospy.client][INFO] 2021-10-22 12:40:18,916: [32minit_node, name[/ss42/lane_filter_node], pid[23288][0m
+[xmlrpc][INFO] 2021-10-22 12:40:18,927: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[xmlrpc][INFO] 2021-10-22 12:40:18,930: [32mStarted XML-RPC server [http://ss42.local:37863/][0m
+[rospy.init][INFO] 2021-10-22 12:40:18,946: [32mROS Slave URI: [http://ss42.local:37863/][0m
+[rospy.impl.masterslave][INFO] 2021-10-22 12:40:18,946: [32m_ready: http://ss42.local:37863/[0m
+[rospy.registration][INFO] 2021-10-22 12:40:18,950: [32mRegistering with master node http://ss42.local:11311/[0m
+[xmlrpc][INFO] 2021-10-22 12:40:18,951: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.init][INFO] 2021-10-22 12:40:19,047: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-10-22 12:40:19,052: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-10-22 12:40:19,093: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-10-22 12:40:19,108: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rosout][INFO] 2021-10-22 12:40:19,184: [32m[Lane Filter] new filter config: ['lane_filter.LaneFilterHistogram', {'configuration': {'phi_max': 1.5, 'lanewidth': 0.23, 'mean_d_0': 0, 'min_max': 0.1, 'phi_min': -1.5, 'd_max': 0.3, 'sigma_phi_mask': 2.0, 'sigma_d_mask': 1.0, 'mean_phi_0': 0, 'sigma_phi_0': 0.1, 'linewidth_white': 0.05, 'linewidth_yellow': 0.025, 'delta_d': 0.02, 'd_min': -0.15, 'delta_phi': 0.1, 'sigma_d_0': 0.1, 'cov_v': 0.5}}][0m
+[rospy.internal][INFO] 2021-10-22 12:40:19,330: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rospy.internal][INFO] 2021-10-22 12:40:21,506: [32mtopic[/ss42/ground_projection/lineseglist_out] adding connection to [http://ss42.local:37290/], count 0[0m
+[rospy.internal][INFO] 2021-10-22 12:40:21,516: [32mtopic[/ss42/car_cmd_switch_node/cmd] adding connection to [http://ss42.local:34371/], count 0[0m
+[rospy.internal][INFO] 2021-10-22 12:40:21,535: [32mtopic[/ss42/lane_filter_node/switch] adding connection to [http://ss42.local:35872/], count 0[0m
+[rospy.internal][INFO] 2021-10-22 12:40:21,595: [32mtopic[/ss42/lane_filter_node/lane_pose] adding connection to [/ss42/lane_controller_node], count 0[0m
+[rospy.internal][INFO] 2021-10-22 12:40:21,656: [32mtopic[/ss42/lane_filter_node/lane_pose] adding connection to [/ss42/lane_pose_visualizer_node], count 1[0m
+[rospy.internal][INFO] 2021-10-22 12:49:03,502: [32mtopic[/ss42/lane_filter_node/lane_pose] adding connection to [/ss42/lane_controller_node], count 2[0m
+[rospy.internal][INFO] 2021-10-22 12:49:03,510: [32mtopic[/ss42/lane_filter_node/lane_pose] removing connection to /ss42/lane_controller_node[0m
+[rospy.core][INFO] 2021-10-22 12:49:03,515: [32msignal_shutdown [signal-2][0m
+[rosout][INFO] 2021-10-22 12:49:03,516: [32m[LaneFilterNode] Shutdown.[0m
+[rospy.internal][INFO] 2021-10-22 12:49:03,547: [32mtopic[/ss42/lane_filter_node/lane_pose] removing connection to /ss42/lane_controller_node[0m
+[rospy.internal][INFO] 2021-10-22 12:49:03,660: [32mtopic[/ss42/lane_filter_node/lane_pose] removing connection to /ss42/lane_pose_visualizer_node[0m
+[rospy.internal][INFO] 2021-10-22 12:49:03,662: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-10-22 12:49:03,663: [32mtopic[/ss42/ground_projection/lineseglist_out] removing connection to http://ss42.local:37290/[0m
+[rospy.internal][WARNING] 2021-10-22 12:49:03,674: [33mUnknown error initiating TCP/IP socket to ss42.local:36263 (http://ss42.local:37290/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+[0m
+[rospy.topics][ERROR] 2021-10-22 12:49:03,678: [31mTraceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+[0m
+[rospy.internal][INFO] 2021-10-22 12:49:03,679: [32mtopic[/ss42/lane_filter_node/switch] removing connection to http://ss42.local:35872/[0m
+[rospy.internal][INFO] 2021-10-22 12:49:03,680: [32mtopic[/ss42/car_cmd_switch_node/cmd] removing connection to http://ss42.local:34371/[0m
+[rospy.impl.masterslave][INFO] 2021-10-22 12:49:03,682: [32msignal-2[0m
+[rospy.core][INFO] 2021-10-22 12:49:04,152: [32msignal_shutdown [atexit][0m

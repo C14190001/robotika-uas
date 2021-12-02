@@ -1,0 +1,27 @@
+[rospy.client][INFO] 2021-10-22 13:07:18,105: [32minit_node, name[/ss42/anti_instagram_node], pid[3134][0m
+[xmlrpc][INFO] 2021-10-22 13:07:18,108: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[xmlrpc][INFO] 2021-10-22 13:07:18,111: [32mStarted XML-RPC server [http://ss42.local:46620/][0m
+[rospy.init][INFO] 2021-10-22 13:07:18,112: [32mROS Slave URI: [http://ss42.local:46620/][0m
+[rospy.impl.masterslave][INFO] 2021-10-22 13:07:18,113: [32m_ready: http://ss42.local:46620/[0m
+[rospy.registration][INFO] 2021-10-22 13:07:18,119: [32mRegistering with master node http://ss42.local:11311/[0m
+[xmlrpc][INFO] 2021-10-22 13:07:18,119: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.init][INFO] 2021-10-22 13:07:18,214: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-10-22 13:07:18,215: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-10-22 13:07:18,237: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-10-22 13:07:18,247: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rospy.internal][INFO] 2021-10-22 13:07:18,450: [32mtopic[/ss42/anti_instagram_node/click] adding connection to [http://ss42.local:40754/], count 0[0m
+[rospy.internal][INFO] 2021-10-22 13:07:18,455: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [http://ss42.local:34618/], count 0[0m
+[rospy.internal][INFO] 2021-10-22 13:07:18,480: [32mtopic[/ss42/anti_instagram_node/transform] adding connection to [/ss42/line_detector_node], count 0[0m
+[rospy.internal][INFO] 2021-10-22 13:07:18,527: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rospy.core][INFO] 2021-10-22 13:24:37,598: [32msignal_shutdown [signal-2][0m
+[rospy.internal][INFO] 2021-10-22 13:24:37,638: [32mtopic[/ss42/anti_instagram_node/transform] removing connection to /ss42/line_detector_node[0m
+[rospy.internal][INFO] 2021-10-22 13:24:37,639: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-10-22 13:24:37,642: [32mtopic[/ss42/anti_instagram_node/click] removing connection to http://ss42.local:40754/[0m
+[rospy.internal][INFO] 2021-10-22 13:24:37,644: [32mtopic[/ss42/camera_node/image/compressed] removing connection to http://ss42.local:34618/[0m
+[rospy.impl.masterslave][INFO] 2021-10-22 13:24:37,645: [32msignal-2[0m
+[rospy.internal][WARNING] 2021-10-22 13:24:37,650: [33mUnknown error initiating TCP/IP socket to ss42.local:40192 (http://ss42.local:40754/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+[0m
+[rospy.core][INFO] 2021-10-22 13:24:38,265: [32msignal_shutdown [atexit][0m

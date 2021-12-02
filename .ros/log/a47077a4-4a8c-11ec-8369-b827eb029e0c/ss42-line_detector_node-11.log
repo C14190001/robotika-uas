@@ -1,0 +1,303 @@
+[rospy.client][INFO] 2021-11-21 06:34:47,115: [32minit_node, name[/ss42/line_detector_node], pid[2631][0m
+[xmlrpc][INFO] 2021-11-21 06:34:47,118: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[rospy.init][INFO] 2021-11-21 06:34:47,124: [32mROS Slave URI: [http://ss42.local:45368/][0m
+[xmlrpc][INFO] 2021-11-21 06:34:47,122: [32mStarted XML-RPC server [http://ss42.local:45368/][0m
+[rospy.impl.masterslave][INFO] 2021-11-21 06:34:47,128: [32m_ready: http://ss42.local:45368/[0m
+[rospy.registration][INFO] 2021-11-21 06:34:47,156: [32mRegistering with master node http://ss42.local:11311/[0m
+[xmlrpc][INFO] 2021-11-21 06:34:47,162: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.init][INFO] 2021-11-21 06:34:47,225: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-11-21 06:34:47,227: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-11-21 06:34:47,246: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-11-21 06:34:47,265: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rosout][INFO] 2021-11-21 06:34:47,315: [32m[LineDetectorNode] Verbose is now False[0m
+[rosout][INFO] 2021-11-21 06:34:47,362: [32m[LineDetectorNode] new detector config: ['line_detector.LineDetectorHSV', {'configuration': {'hough_max_line_gap': 1, 'dilation_kernel_size': 3, 'hsv_yellow1': [25, 140, 100], 'hsv_yellow2': [45, 255, 255], 'hsv_white1': [0, 0, 150], 'hsv_white2': [180, 60, 255], 'hough_min_line_length': 3, 'hough_threshold': 2, 'canny_thresholds': [80, 200], 'hsv_red4': [180, 255, 255], 'hsv_red1': [0, 140, 100], 'hsv_red3': [165, 140, 100], 'hsv_red2': [15, 255, 255]}}][0m
+[rospy.internal][INFO] 2021-11-21 06:34:47,443: [32mtopic[/ss42/line_detector_node/segment_list] adding connection to [/ss42/ground_projection], count 0[0m
+[rospy.internal][INFO] 2021-11-21 06:34:47,529: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rosout][INFO] 2021-11-21 06:34:47,552: [32m[LineDetectorNode] Initialized (verbose = False).[0m
+[rospy.internal][INFO] 2021-11-21 06:34:47,580: [32mtopic[/ss42/anti_instagram_node/transform] adding connection to [http://ss42.local:42333/], count 0[0m
+[rospy.internal][INFO] 2021-11-21 06:34:47,595: [32mtopic[/ss42/line_detector_node/switch] adding connection to [http://ss42.local:45729/], count 0[0m
+[rospy.internal][INFO] 2021-11-21 06:34:47,622: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [http://ss42.local:33258/], count 0[0m
+[rosout][INFO] 2021-11-21 06:34:47,645: [32mline_detector_node received first image.[0m
+[rosout][INFO] 2021-11-21 06:34:47,655: [32mline_detector_node processing first image.[0m
+[rosout][INFO] 2021-11-21 06:34:48,069: [32m[LineDetectorNode]   1:# segments: white   0 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:34:48,073: [32m[LineDetectorNode]   1:
+Latencies:
+               acquired | total latency    19.2 ms | delta wall     None clock     None
+                decoded | total latency   121.7 ms | delta wall 102.5 ms clock  45.1 ms
+                resized | total latency   301.0 ms | delta wall 179.3 ms clock  15.7 ms
+              corrected | total latency   320.0 ms | delta wall  19.0 ms clock   8.9 ms
+               detected | total latency   429.7 ms | delta wall 109.7 ms clock  31.1 ms
+               prepared | total latency   433.4 ms | delta wall   3.8 ms clock   3.8 ms
+          --pub_lines-- | total latency   434.1 ms | delta wall   0.6 ms clock   0.8 ms
+[0m
+[rosout][INFO] 2021-11-21 06:34:48,087: [32m[LineDetectorNode]   1:In the last 0.8 s: received 14 (17.9 fps) processed 2 (2.6 fps) skipped 12 (15.4 fps) (86%)[0m
+[rosout][INFO] 2021-11-21 06:34:56,653: [32m[LineDetectorNode] 101:# segments: white   0 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:34:56,658: [32m[LineDetectorNode] 101:
+Latencies:
+               acquired | total latency     6.5 ms | delta wall     None clock     None
+                decoded | total latency    41.8 ms | delta wall  35.3 ms clock  34.9 ms
+                resized | total latency    43.2 ms | delta wall   1.4 ms clock   1.5 ms
+              corrected | total latency    49.1 ms | delta wall   6.0 ms clock   5.3 ms
+               detected | total latency    77.3 ms | delta wall  28.1 ms clock  20.0 ms
+               prepared | total latency    81.3 ms | delta wall   4.1 ms clock   3.8 ms
+          --pub_lines-- | total latency    82.4 ms | delta wall   1.1 ms clock   0.6 ms
+[0m
+[rosout][INFO] 2021-11-21 06:34:56,672: [32m[LineDetectorNode] 101:In the last 8.6 s: received 258 (30.1 fps) processed 100 (11.7 fps) skipped 158 (18.4 fps) (61%)[0m
+[rosout][INFO] 2021-11-21 06:35:05,136: [32m[LineDetectorNode] 201:# segments: white   0 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:35:05,145: [32m[LineDetectorNode] 201:
+Latencies:
+               acquired | total latency     7.7 ms | delta wall     None clock     None
+                decoded | total latency    43.5 ms | delta wall  35.9 ms clock  35.7 ms
+                resized | total latency    45.0 ms | delta wall   1.4 ms clock   1.4 ms
+              corrected | total latency    50.7 ms | delta wall   5.7 ms clock   5.0 ms
+               detected | total latency    67.8 ms | delta wall  17.2 ms clock  18.2 ms
+               prepared | total latency    75.7 ms | delta wall   7.9 ms clock   5.8 ms
+          --pub_lines-- | total latency    76.6 ms | delta wall   0.8 ms clock   1.1 ms
+[0m
+[rosout][INFO] 2021-11-21 06:35:05,155: [32m[LineDetectorNode] 201:In the last 8.5 s: received 254 (30.0 fps) processed 100 (11.8 fps) skipped 154 (18.2 fps) (61%)[0m
+[rosout][INFO] 2021-11-21 06:35:13,875: [32m[LineDetectorNode] 301:# segments: white   0 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:35:13,879: [32m[LineDetectorNode] 301:
+Latencies:
+               acquired | total latency    10.2 ms | delta wall     None clock     None
+                decoded | total latency    48.7 ms | delta wall  38.6 ms clock  36.2 ms
+                resized | total latency    50.5 ms | delta wall   1.8 ms clock   1.1 ms
+              corrected | total latency    57.3 ms | delta wall   6.8 ms clock   4.8 ms
+               detected | total latency    78.7 ms | delta wall  21.4 ms clock  19.5 ms
+               prepared | total latency    82.3 ms | delta wall   3.6 ms clock   3.3 ms
+          --pub_lines-- | total latency    82.8 ms | delta wall   0.6 ms clock   0.6 ms
+[0m
+[rosout][INFO] 2021-11-21 06:35:13,901: [32m[LineDetectorNode] 301:In the last 8.7 s: received 263 (30.1 fps) processed 100 (11.4 fps) skipped 163 (18.6 fps) (62%)[0m
+[rosout][INFO] 2021-11-21 06:35:22,929: [32m[LineDetectorNode] 401:# segments: white   0 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:35:22,935: [32m[LineDetectorNode] 401:
+Latencies:
+               acquired | total latency     5.5 ms | delta wall     None clock     None
+                decoded | total latency    47.3 ms | delta wall  41.8 ms clock  36.5 ms
+                resized | total latency    48.8 ms | delta wall   1.5 ms clock   1.5 ms
+              corrected | total latency    54.5 ms | delta wall   5.7 ms clock   4.5 ms
+               detected | total latency    74.6 ms | delta wall  20.2 ms clock  18.8 ms
+               prepared | total latency    78.0 ms | delta wall   3.3 ms clock   3.9 ms
+          --pub_lines-- | total latency    78.6 ms | delta wall   0.6 ms clock   0.7 ms
+[0m
+[rosout][INFO] 2021-11-21 06:35:22,958: [32m[LineDetectorNode] 401:In the last 9.1 s: received 272 (30.0 fps) processed 100 (11.0 fps) skipped 172 (19.0 fps) (63%)[0m
+[rosout][INFO] 2021-11-21 06:35:31,809: [32m[LineDetectorNode] 501:# segments: white   0 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:35:31,813: [32m[LineDetectorNode] 501:
+Latencies:
+               acquired | total latency    14.9 ms | delta wall     None clock     None
+                decoded | total latency    60.7 ms | delta wall  45.8 ms clock  38.0 ms
+                resized | total latency    62.7 ms | delta wall   1.9 ms clock   1.7 ms
+              corrected | total latency    71.1 ms | delta wall   8.4 ms clock   7.6 ms
+               detected | total latency    88.2 ms | delta wall  17.1 ms clock  16.7 ms
+               prepared | total latency    91.9 ms | delta wall   3.7 ms clock   3.3 ms
+          --pub_lines-- | total latency    92.5 ms | delta wall   0.6 ms clock   0.6 ms
+[0m
+[rosout][INFO] 2021-11-21 06:35:31,855: [32m[LineDetectorNode] 501:In the last 8.9 s: received 267 (30.0 fps) processed 100 (11.2 fps) skipped 167 (18.8 fps) (63%)[0m
+[rosout][INFO] 2021-11-21 06:35:41,358: [32m[LineDetectorNode] 601:# segments: white   0 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:35:41,363: [32m[LineDetectorNode] 601:
+Latencies:
+               acquired | total latency     5.5 ms | delta wall     None clock     None
+                decoded | total latency    50.1 ms | delta wall  44.5 ms clock  37.6 ms
+                resized | total latency    52.5 ms | delta wall   2.5 ms clock   1.6 ms
+              corrected | total latency    59.8 ms | delta wall   7.3 ms clock   4.9 ms
+               detected | total latency    79.9 ms | delta wall  20.0 ms clock  19.5 ms
+               prepared | total latency    84.2 ms | delta wall   4.4 ms clock   3.0 ms
+          --pub_lines-- | total latency    84.8 ms | delta wall   0.5 ms clock   0.8 ms
+[0m
+[rosout][INFO] 2021-11-21 06:35:41,388: [32m[LineDetectorNode] 601:In the last 9.5 s: received 286 (30.0 fps) processed 100 (10.5 fps) skipped 186 (19.5 fps) (65%)[0m
+[rosout][INFO] 2021-11-21 06:35:52,033: [32m[LineDetectorNode] 701:# segments: white   0 yellow   1 red   0[0m
+[rosout][INFO] 2021-11-21 06:35:52,037: [32m[LineDetectorNode] 701:
+Latencies:
+               acquired | total latency    10.4 ms | delta wall     None clock     None
+                decoded | total latency    48.3 ms | delta wall  38.0 ms clock  38.1 ms
+                resized | total latency    50.1 ms | delta wall   1.7 ms clock   1.5 ms
+              corrected | total latency    54.5 ms | delta wall   4.4 ms clock   4.4 ms
+               detected | total latency    75.0 ms | delta wall  20.5 ms clock  23.5 ms
+               prepared | total latency    78.8 ms | delta wall   3.8 ms clock   3.8 ms
+          --pub_lines-- | total latency    79.4 ms | delta wall   0.6 ms clock   0.7 ms
+[0m
+[rosout][INFO] 2021-11-21 06:35:52,096: [32m[LineDetectorNode] 701:In the last 10.7 s: received 161 (15.0 fps) processed 100 (9.3 fps) skipped 61 (5.7 fps) (38%)[0m
+[rosout][INFO] 2021-11-21 06:36:02,479: [32m[LineDetectorNode] 801:# segments: white   0 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:36:02,483: [32m[LineDetectorNode] 801:
+Latencies:
+               acquired | total latency     7.8 ms | delta wall     None clock     None
+                decoded | total latency    48.4 ms | delta wall  40.6 ms clock  37.8 ms
+                resized | total latency    50.0 ms | delta wall   1.7 ms clock   1.3 ms
+              corrected | total latency    55.9 ms | delta wall   5.9 ms clock   5.0 ms
+               detected | total latency    78.0 ms | delta wall  22.1 ms clock  20.6 ms
+               prepared | total latency    81.5 ms | delta wall   3.5 ms clock   3.5 ms
+          --pub_lines-- | total latency    82.4 ms | delta wall   0.9 ms clock   0.9 ms
+[0m
+[rosout][INFO] 2021-11-21 06:36:02,504: [32m[LineDetectorNode] 801:In the last 10.4 s: received 187 (18.0 fps) processed 100 (9.6 fps) skipped 87 (8.4 fps) (47%)[0m
+[rosout][INFO] 2021-11-21 06:36:13,671: [32m[LineDetectorNode] 901:# segments: white   0 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:36:13,681: [32m[LineDetectorNode] 901:
+Latencies:
+               acquired | total latency     6.6 ms | delta wall     None clock     None
+                decoded | total latency    44.9 ms | delta wall  38.3 ms clock  38.1 ms
+                resized | total latency    46.6 ms | delta wall   1.7 ms clock   1.4 ms
+              corrected | total latency    51.2 ms | delta wall   4.6 ms clock   4.4 ms
+               detected | total latency    64.9 ms | delta wall  13.7 ms clock  16.3 ms
+               prepared | total latency    74.3 ms | delta wall   9.4 ms clock   6.6 ms
+          --pub_lines-- | total latency    75.1 ms | delta wall   0.7 ms clock   1.0 ms
+[0m
+[rosout][INFO] 2021-11-21 06:36:13,746: [32m[LineDetectorNode] 901:In the last 11.2 s: received 210 (18.7 fps) processed 100 (8.9 fps) skipped 110 (9.8 fps) (52%)[0m
+[rosout][INFO] 2021-11-21 06:36:23,786: [32m[LineDetectorNode] 1001:# segments: white   0 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:36:23,790: [32m[LineDetectorNode] 1001:
+Latencies:
+               acquired | total latency     5.7 ms | delta wall     None clock     None
+                decoded | total latency    49.4 ms | delta wall  43.7 ms clock  40.6 ms
+                resized | total latency    51.7 ms | delta wall   2.2 ms clock   2.0 ms
+              corrected | total latency    57.3 ms | delta wall   5.7 ms clock   4.9 ms
+               detected | total latency    75.9 ms | delta wall  18.6 ms clock  20.5 ms
+               prepared | total latency    79.7 ms | delta wall   3.8 ms clock   3.7 ms
+          --pub_lines-- | total latency    80.4 ms | delta wall   0.7 ms clock   0.7 ms
+[0m
+[rosout][INFO] 2021-11-21 06:36:23,815: [32m[LineDetectorNode] 1001:In the last 10.1 s: received 269 (26.7 fps) processed 100 (9.9 fps) skipped 169 (16.8 fps) (63%)[0m
+[rosout][INFO] 2021-11-21 06:36:33,681: [32m[LineDetectorNode] 1101:# segments: white   2 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:36:33,687: [32m[LineDetectorNode] 1101:
+Latencies:
+               acquired | total latency     8.4 ms | delta wall     None clock     None
+                decoded | total latency    47.8 ms | delta wall  39.4 ms clock  36.9 ms
+                resized | total latency    48.8 ms | delta wall   1.0 ms clock   0.9 ms
+              corrected | total latency    53.1 ms | delta wall   4.3 ms clock   4.3 ms
+               detected | total latency    73.8 ms | delta wall  20.7 ms clock  19.4 ms
+               prepared | total latency    80.5 ms | delta wall   6.7 ms clock   7.3 ms
+          --pub_lines-- | total latency    81.6 ms | delta wall   1.1 ms clock   1.1 ms
+[0m
+[rosout][INFO] 2021-11-21 06:36:33,710: [32m[LineDetectorNode] 1101:In the last 9.9 s: received 296 (29.9 fps) processed 100 (10.1 fps) skipped 196 (19.8 fps) (66%)[0m
+[rosout][INFO] 2021-11-21 06:36:44,825: [32m[LineDetectorNode] 1201:# segments: white   5 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:36:44,830: [32m[LineDetectorNode] 1201:
+Latencies:
+               acquired | total latency     7.6 ms | delta wall     None clock     None
+                decoded | total latency    46.7 ms | delta wall  39.1 ms clock  38.8 ms
+                resized | total latency    48.2 ms | delta wall   1.5 ms clock   1.4 ms
+              corrected | total latency    52.8 ms | delta wall   4.7 ms clock   4.6 ms
+               detected | total latency    74.9 ms | delta wall  22.1 ms clock  23.0 ms
+               prepared | total latency    79.7 ms | delta wall   4.8 ms clock   4.2 ms
+          --pub_lines-- | total latency    81.4 ms | delta wall   1.7 ms clock   1.0 ms
+[0m
+[rosout][INFO] 2021-11-21 06:36:44,887: [32m[LineDetectorNode] 1201:In the last 11.2 s: received 187 (16.7 fps) processed 100 (9.0 fps) skipped 87 (7.8 fps) (47%)[0m
+[rosout][INFO] 2021-11-21 06:36:55,824: [32m[LineDetectorNode] 1301:# segments: white   0 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:36:55,839: [32m[LineDetectorNode] 1301:
+Latencies:
+               acquired | total latency     6.4 ms | delta wall     None clock     None
+                decoded | total latency    45.8 ms | delta wall  39.4 ms clock  36.3 ms
+                resized | total latency    47.7 ms | delta wall   1.9 ms clock   1.8 ms
+              corrected | total latency    52.2 ms | delta wall   4.5 ms clock   4.4 ms
+               detected | total latency    67.3 ms | delta wall  15.1 ms clock  16.9 ms
+               prepared | total latency    71.0 ms | delta wall   3.7 ms clock   3.5 ms
+          --pub_lines-- | total latency    81.6 ms | delta wall  10.7 ms clock   3.3 ms
+[0m
+[rosout][INFO] 2021-11-21 06:36:55,842: [32m[LineDetectorNode] 1301:In the last 11.0 s: received 256 (23.4 fps) processed 100 (9.1 fps) skipped 156 (14.2 fps) (61%)[0m
+[rosout][INFO] 2021-11-21 06:37:06,225: [32m[LineDetectorNode] 1401:# segments: white   0 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:37:06,229: [32m[LineDetectorNode] 1401:
+Latencies:
+               acquired | total latency    15.7 ms | delta wall     None clock     None
+                decoded | total latency    61.5 ms | delta wall  45.8 ms clock  37.5 ms
+                resized | total latency    64.2 ms | delta wall   2.8 ms clock   1.7 ms
+              corrected | total latency    69.4 ms | delta wall   5.2 ms clock   5.0 ms
+               detected | total latency    84.8 ms | delta wall  15.3 ms clock  19.1 ms
+               prepared | total latency    88.6 ms | delta wall   3.9 ms clock   3.3 ms
+          --pub_lines-- | total latency    89.3 ms | delta wall   0.7 ms clock   0.7 ms
+[0m
+[rosout][INFO] 2021-11-21 06:37:06,283: [32m[LineDetectorNode] 1401:In the last 10.4 s: received 203 (19.5 fps) processed 100 (9.6 fps) skipped 103 (9.9 fps) (51%)[0m
+[rosout][INFO] 2021-11-21 06:37:15,969: [32m[LineDetectorNode] 1501:# segments: white   1 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:37:15,982: [32m[LineDetectorNode] 1501:
+Latencies:
+               acquired | total latency     7.7 ms | delta wall     None clock     None
+                decoded | total latency    54.1 ms | delta wall  46.4 ms clock  41.3 ms
+                resized | total latency    55.6 ms | delta wall   1.5 ms clock   1.4 ms
+              corrected | total latency    60.4 ms | delta wall   4.8 ms clock   4.6 ms
+               detected | total latency    86.7 ms | delta wall  26.4 ms clock  22.6 ms
+               prepared | total latency    98.4 ms | delta wall  11.7 ms clock   4.8 ms
+          --pub_lines-- | total latency    99.8 ms | delta wall   1.3 ms clock   1.2 ms
+[0m
+[rosout][INFO] 2021-11-21 06:37:16,004: [32m[LineDetectorNode] 1501:In the last 9.7 s: received 215 (22.1 fps) processed 100 (10.3 fps) skipped 115 (11.8 fps) (53%)[0m
+[rosout][INFO] 2021-11-21 06:37:26,217: [32m[LineDetectorNode] 1601:# segments: white   0 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:37:26,226: [32m[LineDetectorNode] 1601:
+Latencies:
+               acquired | total latency    11.7 ms | delta wall     None clock     None
+                decoded | total latency    84.1 ms | delta wall  72.4 ms clock  41.9 ms
+                resized | total latency    85.5 ms | delta wall   1.4 ms clock   1.4 ms
+              corrected | total latency    93.5 ms | delta wall   8.0 ms clock   5.0 ms
+               detected | total latency   110.6 ms | delta wall  17.1 ms clock  19.9 ms
+               prepared | total latency   118.3 ms | delta wall   7.7 ms clock   4.4 ms
+          --pub_lines-- | total latency   119.2 ms | delta wall   0.9 ms clock   1.3 ms
+[0m
+[rosout][INFO] 2021-11-21 06:37:26,252: [32m[LineDetectorNode] 1601:In the last 10.2 s: received 277 (27.0 fps) processed 100 (9.8 fps) skipped 177 (17.3 fps) (64%)[0m
+[rosout][INFO] 2021-11-21 06:37:36,259: [32m[LineDetectorNode] 1701:# segments: white   0 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:37:36,266: [32m[LineDetectorNode] 1701:
+Latencies:
+               acquired | total latency     6.9 ms | delta wall     None clock     None
+                decoded | total latency    46.6 ms | delta wall  39.7 ms clock  35.8 ms
+                resized | total latency    47.7 ms | delta wall   1.1 ms clock   1.0 ms
+              corrected | total latency    52.1 ms | delta wall   4.4 ms clock   4.5 ms
+               detected | total latency    66.5 ms | delta wall  14.4 ms clock  16.7 ms
+               prepared | total latency    69.8 ms | delta wall   3.3 ms clock   3.2 ms
+          --pub_lines-- | total latency    74.3 ms | delta wall   4.5 ms clock   1.6 ms
+[0m
+[rosout][INFO] 2021-11-21 06:37:36,272: [32m[LineDetectorNode] 1701:In the last 10.0 s: received 235 (23.5 fps) processed 100 (10.0 fps) skipped 135 (13.5 fps) (57%)[0m
+[rosout][INFO] 2021-11-21 06:37:46,886: [32m[LineDetectorNode] 1801:# segments: white   3 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:37:46,891: [32m[LineDetectorNode] 1801:
+Latencies:
+               acquired | total latency     7.1 ms | delta wall     None clock     None
+                decoded | total latency    45.3 ms | delta wall  38.3 ms clock  35.0 ms
+                resized | total latency    46.8 ms | delta wall   1.5 ms clock   1.5 ms
+              corrected | total latency    51.5 ms | delta wall   4.7 ms clock   4.5 ms
+               detected | total latency    68.5 ms | delta wall  17.0 ms clock  19.1 ms
+               prepared | total latency    76.0 ms | delta wall   7.5 ms clock   6.5 ms
+          --pub_lines-- | total latency    76.8 ms | delta wall   0.8 ms clock   0.9 ms
+[0m
+[rosout][INFO] 2021-11-21 06:37:46,923: [32m[LineDetectorNode] 1801:In the last 10.6 s: received 235 (22.1 fps) processed 100 (9.4 fps) skipped 135 (12.7 fps) (57%)[0m
+[rosout][INFO] 2021-11-21 06:37:55,817: [32m[LineDetectorNode] 1901:# segments: white   2 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:37:55,827: [32m[LineDetectorNode] 1901:
+Latencies:
+               acquired | total latency     9.1 ms | delta wall     None clock     None
+                decoded | total latency    70.6 ms | delta wall  61.5 ms clock  36.6 ms
+                resized | total latency    72.7 ms | delta wall   2.1 ms clock   2.4 ms
+              corrected | total latency    79.6 ms | delta wall   6.9 ms clock   7.4 ms
+               detected | total latency    99.7 ms | delta wall  20.1 ms clock  18.7 ms
+               prepared | total latency   110.2 ms | delta wall  10.5 ms clock   6.8 ms
+          --pub_lines-- | total latency   115.2 ms | delta wall   5.0 ms clock   1.2 ms
+[0m
+[rosout][INFO] 2021-11-21 06:37:55,859: [32m[LineDetectorNode] 1901:In the last 8.9 s: received 268 (30.0 fps) processed 100 (11.2 fps) skipped 168 (18.8 fps) (63%)[0m
+[rosout][INFO] 2021-11-21 06:38:04,953: [32m[LineDetectorNode] 2001:# segments: white   1 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:38:04,958: [32m[LineDetectorNode] 2001:
+Latencies:
+               acquired | total latency     8.4 ms | delta wall     None clock     None
+                decoded | total latency    47.3 ms | delta wall  38.9 ms clock  36.7 ms
+                resized | total latency    48.9 ms | delta wall   1.6 ms clock   1.6 ms
+              corrected | total latency    55.4 ms | delta wall   6.4 ms clock   4.5 ms
+               detected | total latency    78.9 ms | delta wall  23.5 ms clock  22.1 ms
+               prepared | total latency    83.7 ms | delta wall   4.8 ms clock   4.7 ms
+          --pub_lines-- | total latency    84.9 ms | delta wall   1.1 ms clock   1.1 ms
+[0m
+[rosout][INFO] 2021-11-21 06:38:04,982: [32m[LineDetectorNode] 2001:In the last 9.1 s: received 274 (30.1 fps) processed 100 (11.0 fps) skipped 174 (19.1 fps) (64%)[0m
+[rosout][INFO] 2021-11-21 06:38:13,942: [32m[LineDetectorNode] 2101:# segments: white   0 yellow   0 red   0[0m
+[rosout][INFO] 2021-11-21 06:38:13,947: [32m[LineDetectorNode] 2101:
+Latencies:
+               acquired | total latency     6.1 ms | delta wall     None clock     None
+                decoded | total latency    44.2 ms | delta wall  38.1 ms clock  36.0 ms
+                resized | total latency    45.8 ms | delta wall   1.7 ms clock   1.7 ms
+              corrected | total latency    50.6 ms | delta wall   4.7 ms clock   4.7 ms
+               detected | total latency    73.1 ms | delta wall  22.6 ms clock  20.2 ms
+               prepared | total latency    77.3 ms | delta wall   4.1 ms clock   3.9 ms
+          --pub_lines-- | total latency    77.9 ms | delta wall   0.7 ms clock   0.9 ms
+[0m
+[rosout][INFO] 2021-11-21 06:38:13,974: [32m[LineDetectorNode] 2101:In the last 9.0 s: received 270 (30.0 fps) processed 100 (11.1 fps) skipped 170 (18.9 fps) (63%)[0m
+[rospy.core][INFO] 2021-11-21 06:38:17,241: [32msignal_shutdown [signal-2][0m
+[rosout][INFO] 2021-11-21 06:38:17,242: [32m[LineDetectorNode] Shutdown.[0m
+[rospy.internal][ERROR] 2021-11-21 06:38:17,547: [31mUnable to initiate TCP/IP socket to ss42.local:40040 (http://ss42.local:42333/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+[0m
+[rospy.internal][INFO] 2021-11-21 06:38:17,628: [32mtopic[/ss42/line_detector_node/segment_list] removing connection to /ss42/ground_projection[0m
+[rospy.internal][INFO] 2021-11-21 06:38:17,653: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-11-21 06:38:17,661: [32mtopic[/ss42/line_detector_node/switch] removing connection to http://ss42.local:45729/[0m
+[rospy.internal][INFO] 2021-11-21 06:38:17,664: [32mtopic[/ss42/camera_node/image/compressed] removing connection to http://ss42.local:33258/[0m
+[rospy.internal][INFO] 2021-11-21 06:38:17,666: [32mtopic[/ss42/anti_instagram_node/transform] removing connection to http://ss42.local:42333/[0m
+[rospy.impl.masterslave][INFO] 2021-11-21 06:38:17,669: [32msignal-2[0m
+[rospy.core][INFO] 2021-11-21 06:38:17,898: [32msignal_shutdown [atexit][0m

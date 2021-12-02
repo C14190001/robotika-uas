@@ -1,0 +1,26 @@
+[rospy.client][INFO] 2021-10-22 12:56:24,030: init_node, name[/ss42/wheels_driver_node], pid[1626]
+[xmlrpc][INFO] 2021-10-22 12:56:24,040: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-10-22 12:56:24,055: Started XML-RPC server [http://ss42.local:38203/]
+[rospy.init][INFO] 2021-10-22 12:56:24,056: ROS Slave URI: [http://ss42.local:38203/]
+[rospy.impl.masterslave][INFO] 2021-10-22 12:56:24,057: _ready: http://ss42.local:38203/
+[rospy.registration][INFO] 2021-10-22 12:56:24,062: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-10-22 12:56:24,063: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-10-22 12:56:24,158: registered with master
+[rospy.rosout][INFO] 2021-10-22 12:56:24,160: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-10-22 12:56:24,196: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-10-22 12:56:24,208: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-10-22 12:56:24,239: [/ss42/wheels_driver_node] Initializing 
+[rospy.internal][INFO] 2021-10-22 12:56:24,350: topic[/ss42/wheels_driver_node/emergency_stop] adding connection to [http://ss42.local:43561/], count 0
+[rospy.internal][INFO] 2021-10-22 12:56:24,406: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-10-22 12:56:30,643: topic[/ss42/wheels_driver_node/wheels_cmd_executed] adding connection to [/ss42/forward_kinematics_node], count 0
+[rospy.internal][INFO] 2021-10-22 12:56:30,777: topic[/ss42/wheels_driver_node/wheels_cmd] adding connection to [http://ss42.local:38331/], count 0
+[rosout][INFO] 2021-10-22 12:56:37,688: [%s] Emergency Stop Activated
+[rosout][INFO] 2021-10-22 12:56:37,707: [%s] Emergency Stop Released
+[rospy.core][INFO] 2021-10-22 12:57:53,470: signal_shutdown [signal-2]
+[rosout][INFO] 2021-10-22 12:57:53,485: [/ss42/wheels_driver_node] Shutting down.
+[rospy.internal][INFO] 2021-10-22 12:57:53,562: topic[/ss42/wheels_driver_node/wheels_cmd_executed] removing connection to /ss42/forward_kinematics_node
+[rospy.internal][INFO] 2021-10-22 12:57:53,564: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-10-22 12:57:53,566: topic[/ss42/wheels_driver_node/emergency_stop] removing connection to http://ss42.local:43561/
+[rospy.internal][INFO] 2021-10-22 12:57:53,568: topic[/ss42/wheels_driver_node/wheels_cmd] removing connection to http://ss42.local:38331/
+[rospy.impl.masterslave][INFO] 2021-10-22 12:57:53,569: signal-2
+[rospy.core][INFO] 2021-10-22 12:57:54,141: signal_shutdown [atexit]

@@ -1,0 +1,51 @@
+[rospy.client][INFO] 2021-10-25 05:13:51,386: init_node, name[/ss42/wheels_driver_node], pid[2729]
+[xmlrpc][INFO] 2021-10-25 05:13:51,388: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2021-10-25 05:13:51,391: ROS Slave URI: [http://ss42.local:42341/]
+[xmlrpc][INFO] 2021-10-25 05:13:51,390: Started XML-RPC server [http://ss42.local:42341/]
+[rospy.impl.masterslave][INFO] 2021-10-25 05:13:51,392: _ready: http://ss42.local:42341/
+[xmlrpc][INFO] 2021-10-25 05:13:51,393: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-10-25 05:13:51,396: Registering with master node http://ss42.local:11311/
+[rospy.init][INFO] 2021-10-25 05:13:51,492: registered with master
+[rospy.rosout][INFO] 2021-10-25 05:13:51,493: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-10-25 05:13:51,517: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-10-25 05:13:51,523: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-10-25 05:13:51,549: [/ss42/wheels_driver_node] Initializing 
+[rospy.internal][INFO] 2021-10-25 05:13:51,629: topic[/ss42/wheels_driver_node/emergency_stop] adding connection to [http://ss42.local:37536/], count 0
+[rospy.internal][INFO] 2021-10-25 05:13:51,819: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-10-25 05:13:56,041: topic[/ss42/wheels_driver_node/wheels_cmd_executed] adding connection to [/ss42/forward_kinematics_node], count 0
+[rospy.internal][INFO] 2021-10-25 05:13:56,132: topic[/ss42/wheels_driver_node/wheels_cmd] adding connection to [http://ss42.local:37954/], count 0
+[rosout][INFO] 2021-10-25 05:14:00,353: [%s] Emergency Stop Activated
+[rosout][INFO] 2021-10-25 05:14:00,366: [%s] Emergency Stop Released
+[rospy.core][INFO] 2021-10-25 05:14:52,873: signal_shutdown [signal-2]
+[rosout][INFO] 2021-10-25 05:14:52,882: [/ss42/wheels_driver_node] Shutting down.
+[rospy.internal][ERROR] 2021-10-25 05:14:52,939: Unable to initiate TCP/IP socket to ss42.local:44760 (http://ss42.local:37536/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2021-10-25 05:14:52,982: topic[/ss42/wheels_driver_node/wheels_cmd_executed] removing connection to /ss42/forward_kinematics_node
+[rospy.internal][INFO] 2021-10-25 05:14:52,983: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-10-25 05:14:52,984: topic[/ss42/wheels_driver_node/emergency_stop] removing connection to http://ss42.local:37536/
+[rospy.internal][ERROR] 2021-10-25 05:14:52,994: Unable to initiate TCP/IP socket to ss42.local:42955 (http://ss42.local:37954/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2021-10-25 05:14:52,997: topic[/ss42/wheels_driver_node/wheels_cmd] removing connection to http://ss42.local:37954/
+[rospy.topics][ERROR] 2021-10-25 05:14:53,004: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2021-10-25 05:14:53,005: signal-2
+[rospy.core][INFO] 2021-10-25 05:14:53,520: signal_shutdown [atexit]

@@ -1,0 +1,38 @@
+[rospy.client][INFO] 2021-10-22 13:01:09,134: [32minit_node, name[/ss42/inverse_kinematics_node], pid[2183][0m
+[xmlrpc][INFO] 2021-10-22 13:01:09,136: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[xmlrpc][INFO] 2021-10-22 13:01:09,137: [32mStarted XML-RPC server [http://ss42.local:42406/][0m
+[rospy.init][INFO] 2021-10-22 13:01:09,138: [32mROS Slave URI: [http://ss42.local:42406/][0m
+[rospy.impl.masterslave][INFO] 2021-10-22 13:01:09,138: [32m_ready: http://ss42.local:42406/[0m
+[rospy.registration][INFO] 2021-10-22 13:01:09,142: [32mRegistering with master node http://ss42.local:11311/[0m
+[xmlrpc][INFO] 2021-10-22 13:01:09,142: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.init][INFO] 2021-10-22 13:01:09,239: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-10-22 13:01:09,240: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-10-22 13:01:09,254: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-10-22 13:01:09,259: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rosout][WARNING] 2021-10-22 13:01:09,273: [33m[/ss42/inverse_kinematics_node] /home/robotikabot/duckiefleet/calibrations/kinematics/ss42.yaml does not exist. Using default.yaml.[0m
+[rosout][INFO] 2021-10-22 13:01:09,327: [32m[/ss42/inverse_kinematics_node] ~gain = 1.0 [0m
+[rosout][INFO] 2021-10-22 13:01:09,339: [32m[/ss42/inverse_kinematics_node] ~trim = 0.0 [0m
+[rosout][INFO] 2021-10-22 13:01:09,350: [32m[/ss42/inverse_kinematics_node] ~baseline = 0.1 [0m
+[rosout][INFO] 2021-10-22 13:01:09,361: [32m[/ss42/inverse_kinematics_node] ~radius = 0.0318 [0m
+[rosout][INFO] 2021-10-22 13:01:09,372: [32m[/ss42/inverse_kinematics_node] ~k = 27.0 [0m
+[rosout][INFO] 2021-10-22 13:01:09,383: [32m[/ss42/inverse_kinematics_node] ~limit = 1.0 [0m
+[rospy.internal][INFO] 2021-10-22 13:01:09,423: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rosout][INFO] 2021-10-22 13:01:09,443: [32m[/ss42/inverse_kinematics_node] Initialized.[0m
+[rosout][INFO] 2021-10-22 13:01:09,444: [32m[/ss42/inverse_kinematics_node] gain: 1.0 trim: 0.0 baseline: 0.1 radius: 0.0318 k: 27.0 limit: 1.0[0m
+[rospy.internal][INFO] 2021-10-22 13:01:09,466: [32mtopic[/ss42/joy_mapper_node/car_cmd] adding connection to [http://ss42.local:43149/], count 0[0m
+[rospy.internal][INFO] 2021-10-22 13:01:09,569: [32mtopic[/ss42/wheels_driver_node/wheels_cmd] adding connection to [/ss42/wheels_driver_node], count 0[0m
+[rospy.core][INFO] 2021-10-22 13:05:49,448: [32msignal_shutdown [signal-2][0m
+[rospy.internal][INFO] 2021-10-22 13:05:49,587: [32mtopic[/ss42/wheels_driver_node/wheels_cmd] removing connection to /ss42/wheels_driver_node[0m
+[rospy.internal][INFO] 2021-10-22 13:05:49,590: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-10-22 13:05:49,591: [32mtopic[/ss42/joy_mapper_node/car_cmd] removing connection to http://ss42.local:43149/[0m
+[rospy.internal][WARNING] 2021-10-22 13:05:49,592: [33mUnknown error initiating TCP/IP socket to ss42.local:38155 (http://ss42.local:43149/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+[0m
+[rospy.impl.masterslave][INFO] 2021-10-22 13:05:49,593: [32msignal-2[0m
+[rospy.core][INFO] 2021-10-22 13:05:50,109: [32msignal_shutdown [atexit][0m

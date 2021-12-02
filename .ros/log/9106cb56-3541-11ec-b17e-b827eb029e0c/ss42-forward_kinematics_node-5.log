@@ -1,0 +1,28 @@
+[rospy.client][INFO] 2021-10-25 05:13:55,693: [32minit_node, name[/ss42/forward_kinematics_node], pid[2727][0m
+[xmlrpc][INFO] 2021-10-25 05:13:55,695: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[xmlrpc][INFO] 2021-10-25 05:13:55,697: [32mStarted XML-RPC server [http://ss42.local:35288/][0m
+[rospy.impl.masterslave][INFO] 2021-10-25 05:13:55,697: [32m_ready: http://ss42.local:35288/[0m
+[rospy.init][INFO] 2021-10-25 05:13:55,698: [32mROS Slave URI: [http://ss42.local:35288/][0m
+[xmlrpc][INFO] 2021-10-25 05:13:55,700: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.registration][INFO] 2021-10-25 05:13:55,703: [32mRegistering with master node http://ss42.local:11311/[0m
+[rospy.init][INFO] 2021-10-25 05:13:55,804: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-10-25 05:13:55,805: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-10-25 05:13:55,825: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-10-25 05:13:55,836: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rosout][WARNING] 2021-10-25 05:13:55,852: [33m[/ss42/forward_kinematics_node] /home/robotikabot/duckiefleet/calibrations/kinematics/ss42.yaml does not exist. Using default.yaml.[0m
+[rosout][INFO] 2021-10-25 05:13:55,910: [32m[/ss42/forward_kinematics_node] ~gain = 1.0 [0m
+[rosout][INFO] 2021-10-25 05:13:55,930: [32m[/ss42/forward_kinematics_node] ~trim = 0.0 [0m
+[rosout][INFO] 2021-10-25 05:13:55,945: [32m[/ss42/forward_kinematics_node] ~baseline = 0.1 [0m
+[rosout][INFO] 2021-10-25 05:13:55,959: [32m[/ss42/forward_kinematics_node] ~radius = 0.0318 [0m
+[rosout][INFO] 2021-10-25 05:13:55,973: [32m[/ss42/forward_kinematics_node] ~k = 27.0 [0m
+[rosout][INFO] 2021-10-25 05:13:55,998: [32m[/ss42/forward_kinematics_node] Initialized.[0m
+[rosout][INFO] 2021-10-25 05:13:56,000: [32m[/ss42/forward_kinematics_node] gain: 1.0 trim: 0.0 baseline: 0.1 radius: 0.0318 k: 27.0[0m
+[rospy.internal][INFO] 2021-10-25 05:13:56,027: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rospy.internal][INFO] 2021-10-25 05:13:56,032: [32mtopic[/ss42/wheels_driver_node/wheels_cmd_executed] adding connection to [http://ss42.local:42341/], count 0[0m
+[rospy.internal][INFO] 2021-10-25 05:13:56,091: [32mtopic[/ss42/forward_kinematics_node/velocity] adding connection to [/ss42/velocity_to_pose_node], count 0[0m
+[rospy.core][INFO] 2021-10-25 05:14:52,881: [32msignal_shutdown [signal-2][0m
+[rospy.internal][INFO] 2021-10-25 05:14:52,915: [32mtopic[/ss42/forward_kinematics_node/velocity] removing connection to /ss42/velocity_to_pose_node[0m
+[rospy.internal][INFO] 2021-10-25 05:14:52,917: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-10-25 05:14:52,918: [32mtopic[/ss42/wheels_driver_node/wheels_cmd_executed] removing connection to http://ss42.local:42341/[0m
+[rospy.impl.masterslave][INFO] 2021-10-25 05:14:52,919: [32msignal-2[0m
+[rospy.core][INFO] 2021-10-25 05:14:53,535: [32msignal_shutdown [atexit][0m

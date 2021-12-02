@@ -1,0 +1,109 @@
+[rosmaster.main][INFO] 2021-10-22 11:59:46,052: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2021-10-22 11:59:46,053: Starting ROS Master Node
+[xmlrpc][INFO] 2021-10-22 11:59:46,055: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2021-10-22 11:59:46,056: Started XML-RPC server [http://ss42.local:11311/]
+[rosmaster.master][INFO] 2021-10-22 11:59:46,057: Master initialized: port[11311], uri[http://ss42.local:11311/]
+[xmlrpc][INFO] 2021-10-22 11:59:46,057: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2021-10-22 11:59:46,142: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2021-10-22 11:59:46,148: +PARAM [/roslaunch/uris/host_ss42_local__45068] by /roslaunch
+[rosmaster.master][INFO] 2021-10-22 11:59:46,677: +PARAM [/ss42/camera_node/res_w] by /roslaunch
+[rosmaster.master][INFO] 2021-10-22 11:59:46,677: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2021-10-22 11:59:46,678: +PARAM [/ss42/cam_info_reader_node/cali_file_name] by /roslaunch
+[rosmaster.master][INFO] 2021-10-22 11:59:46,678: +PARAM [/ss42/camera_node/framerate_low] by /roslaunch
+[rosmaster.master][INFO] 2021-10-22 11:59:46,679: +PARAM [/ss42/raw_cam_info_reader_node/cali_file_name] by /roslaunch
+[rosmaster.master][INFO] 2021-10-22 11:59:46,680: +PARAM [/ss42/cam_info_reader_node/config] by /roslaunch
+[rosmaster.master][INFO] 2021-10-22 11:59:46,680: +PARAM [/ss42/raw_cam_info_reader_node/config] by /roslaunch
+[rosmaster.master][INFO] 2021-10-22 11:59:46,681: +PARAM [/ss42/cam_info_reader_node/pub_freq] by /roslaunch
+[rosmaster.master][INFO] 2021-10-22 11:59:46,681: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2021-10-22 11:59:46,681: +PARAM [/ss42/decoder_node/publish_freq] by /roslaunch
+[rosmaster.master][INFO] 2021-10-22 11:59:46,682: +PARAM [/ss42/raw_cam_info_reader_node/image_type] by /roslaunch
+[rosmaster.master][INFO] 2021-10-22 11:59:46,682: +PARAM [/ss42/raw_cam_info_reader_node/pub_freq] by /roslaunch
+[rosmaster.master][INFO] 2021-10-22 11:59:46,683: +PARAM [/ss42/cam_info_reader_node/image_type] by /roslaunch
+[rosmaster.master][INFO] 2021-10-22 11:59:46,683: +PARAM [/ss42/camera_node/framerate_high] by /roslaunch
+[rosmaster.master][INFO] 2021-10-22 11:59:46,683: +PARAM [/ss42/camera_node/res_h] by /roslaunch
+[rosmaster.master][INFO] 2021-10-22 11:59:46,947: +SERVICE [/rosout/get_loggers] /rosout http://ss42.local:44683/
+[rosmaster.master][INFO] 2021-10-22 11:59:46,977: +SERVICE [/rosout/set_logger_level] /rosout http://ss42.local:44683/
+[rosmaster.master][INFO] 2021-10-22 11:59:46,997: +PUB [/rosout_agg] /rosout http://ss42.local:44683/
+[rosmaster.master][INFO] 2021-10-22 11:59:47,097: +SUB [/rosout] /rosout http://ss42.local:44683/
+[rosmaster.master][INFO] 2021-10-22 11:59:50,149: +PUB [/rosout] /ss42/decoder_node http://ss42.local:44557/
+[rosmaster.master][INFO] 2021-10-22 11:59:50,163: publisherUpdate[/rosout] -> http://ss42.local:44683/ ['http://ss42.local:44557/']
+[rosmaster.master][INFO] 2021-10-22 11:59:50,182: publisherUpdate[/rosout] -> http://ss42.local:44683/ ['http://ss42.local:44557/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-22 11:59:50,201: +SERVICE [/ss42/decoder_node/get_loggers] /ss42/decoder_node http://ss42.local:44557/
+[rosmaster.master][INFO] 2021-10-22 11:59:50,209: +SERVICE [/ss42/decoder_node/set_logger_level] /ss42/decoder_node http://ss42.local:44557/
+[rosmaster.master][INFO] 2021-10-22 11:59:50,233: +PARAM [/ss42/decoder_node/publish_freq] by /ss42/decoder_node
+[rosmaster.master][INFO] 2021-10-22 11:59:50,243: +PUB [/ss42/camera_node/image/raw] /ss42/decoder_node http://ss42.local:44557/
+[rosmaster.master][INFO] 2021-10-22 11:59:50,255: +SUB [/ss42/camera_node/image/compressed] /ss42/decoder_node http://ss42.local:44557/
+[rosmaster.master][INFO] 2021-10-22 11:59:50,271: +SUB [/ss42/decoder_node/switch] /ss42/decoder_node http://ss42.local:44557/
+[rosmaster.master][INFO] 2021-10-22 11:59:51,668: +PUB [/rosout] /ss42/cam_info_reader_node http://ss42.local:46482/
+[rosmaster.master][INFO] 2021-10-22 11:59:51,675: +PUB [/rosout] /ss42/raw_cam_info_reader_node http://ss42.local:35687/
+[rosmaster.master][INFO] 2021-10-22 11:59:51,686: publisherUpdate[/rosout] -> http://ss42.local:44683/ ['http://ss42.local:44557/', 'http://ss42.local:46482/']
+[rosmaster.master][INFO] 2021-10-22 11:59:51,688: +SERVICE [/ss42/cam_info_reader_node/get_loggers] /ss42/cam_info_reader_node http://ss42.local:46482/
+[rosmaster.master][INFO] 2021-10-22 11:59:51,693: publisherUpdate[/rosout] -> http://ss42.local:44683/ ['http://ss42.local:44557/', 'http://ss42.local:46482/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-22 11:59:51,695: publisherUpdate[/rosout] -> http://ss42.local:44683/ ['http://ss42.local:44557/', 'http://ss42.local:46482/', 'http://ss42.local:35687/']
+[rosmaster.master][INFO] 2021-10-22 11:59:51,697: +SERVICE [/ss42/raw_cam_info_reader_node/get_loggers] /ss42/raw_cam_info_reader_node http://ss42.local:35687/
+[rosmaster.master][INFO] 2021-10-22 11:59:51,699: publisherUpdate[/rosout] -> http://ss42.local:44683/ ['http://ss42.local:44557/', 'http://ss42.local:46482/', 'http://ss42.local:35687/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-22 11:59:51,703: +SERVICE [/ss42/cam_info_reader_node/set_logger_level] /ss42/cam_info_reader_node http://ss42.local:46482/
+[rosmaster.master][INFO] 2021-10-22 11:59:51,706: +SERVICE [/ss42/raw_cam_info_reader_node/set_logger_level] /ss42/raw_cam_info_reader_node http://ss42.local:35687/
+[rosmaster.master][INFO] 2021-10-22 11:59:51,716: +PARAM [/ss42/cam_info_reader_node/config] by /ss42/cam_info_reader_node
+[rosmaster.master][INFO] 2021-10-22 11:59:51,720: +PARAM [/ss42/raw_cam_info_reader_node/config] by /ss42/raw_cam_info_reader_node
+[rosmaster.master][INFO] 2021-10-22 11:59:51,731: +PARAM [/ss42/cam_info_reader_node/cali_file_name] by /ss42/cam_info_reader_node
+[rosmaster.master][INFO] 2021-10-22 11:59:51,735: +PARAM [/ss42/raw_cam_info_reader_node/cali_file_name] by /ss42/raw_cam_info_reader_node
+[rosmaster.master][INFO] 2021-10-22 11:59:51,745: +PARAM [/ss42/cam_info_reader_node/image_type] by /ss42/cam_info_reader_node
+[rosmaster.master][INFO] 2021-10-22 11:59:51,749: +PARAM [/ss42/raw_cam_info_reader_node/image_type] by /ss42/raw_cam_info_reader_node
+[rosmaster.master][INFO] 2021-10-22 11:59:51,752: +PUB [/ss42/camera_node/camera_info] /ss42/cam_info_reader_node http://ss42.local:46482/
+[rosmaster.master][INFO] 2021-10-22 11:59:51,757: +PUB [/ss42/camera_node/raw_camera_info] /ss42/raw_cam_info_reader_node http://ss42.local:35687/
+[rosmaster.master][INFO] 2021-10-22 11:59:51,823: +SUB [/ss42/camera_node/image/raw] /ss42/raw_cam_info_reader_node http://ss42.local:35687/
+[rosmaster.master][INFO] 2021-10-22 11:59:51,826: +SUB [/ss42/camera_node/image/compressed] /ss42/cam_info_reader_node http://ss42.local:46482/
+[rosmaster.master][INFO] 2021-10-22 11:59:52,029: +PUB [/rosout] /ss42/camera_node http://ss42.local:33812/
+[rosmaster.master][INFO] 2021-10-22 11:59:52,042: +SERVICE [/ss42/camera_node/get_loggers] /ss42/camera_node http://ss42.local:33812/
+[rosmaster.master][INFO] 2021-10-22 11:59:52,047: +SERVICE [/ss42/camera_node/set_logger_level] /ss42/camera_node http://ss42.local:33812/
+[rosmaster.master][INFO] 2021-10-22 11:59:52,059: +PARAM [/ss42/camera_node/framerate_high] by /ss42/camera_node
+[rosmaster.master][INFO] 2021-10-22 11:59:52,067: publisherUpdate[/rosout] -> http://ss42.local:44683/ ['http://ss42.local:44557/', 'http://ss42.local:46482/', 'http://ss42.local:35687/', 'http://ss42.local:33812/']
+[rosmaster.master][INFO] 2021-10-22 11:59:52,071: publisherUpdate[/rosout] -> http://ss42.local:44683/ ['http://ss42.local:44557/', 'http://ss42.local:46482/', 'http://ss42.local:35687/', 'http://ss42.local:33812/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-22 11:59:52,073: +PARAM [/ss42/camera_node/framerate_low] by /ss42/camera_node
+[rosmaster.master][INFO] 2021-10-22 11:59:52,083: +PARAM [/ss42/camera_node/res_w] by /ss42/camera_node
+[rosmaster.master][INFO] 2021-10-22 11:59:52,094: +PARAM [/ss42/camera_node/res_h] by /ss42/camera_node
+[rosmaster.master][INFO] 2021-10-22 11:59:52,540: +PUB [/ss42/camera_node/image/compressed] /ss42/camera_node http://ss42.local:33812/
+[rosmaster.master][INFO] 2021-10-22 11:59:52,551: +SUB [/ss42/camera_node/framerate_high_switch] /ss42/camera_node http://ss42.local:33812/
+[rosmaster.master][INFO] 2021-10-22 11:59:52,557: +SERVICE [/ss42/camera_node/set_camera_info] /ss42/camera_node http://ss42.local:33812/
+[rosmaster.master][INFO] 2021-10-22 11:59:52,568: publisherUpdate[/ss42/camera_node/image/compressed] -> http://ss42.local:44557/ ['http://ss42.local:33812/']
+[rosmaster.master][INFO] 2021-10-22 11:59:52,572: publisherUpdate[/ss42/camera_node/image/compressed] -> http://ss42.local:46482/ ['http://ss42.local:33812/']
+[rosmaster.master][INFO] 2021-10-22 11:59:52,575: publisherUpdate[/ss42/camera_node/image/compressed] -> http://ss42.local:44557/ ['http://ss42.local:33812/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-22 11:59:52,580: publisherUpdate[/ss42/camera_node/image/compressed] -> http://ss42.local:46482/ ['http://ss42.local:33812/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-22 12:01:07,195: -SUB [/ss42/camera_node/image/raw] /ss42/raw_cam_info_reader_node http://ss42.local:35687/
+[rosmaster.master][INFO] 2021-10-22 12:01:07,196: -PUB [/rosout] /ss42/raw_cam_info_reader_node http://ss42.local:35687/
+[rosmaster.master][INFO] 2021-10-22 12:01:07,196: -PUB [/ss42/camera_node/raw_camera_info] /ss42/raw_cam_info_reader_node http://ss42.local:35687/
+[rosmaster.master][INFO] 2021-10-22 12:01:07,197: -SERVICE [/ss42/raw_cam_info_reader_node/set_logger_level] /ss42/raw_cam_info_reader_node rosrpc://ss42.local:38131
+[rosmaster.master][INFO] 2021-10-22 12:01:07,198: -SERVICE [/ss42/raw_cam_info_reader_node/get_loggers] /ss42/raw_cam_info_reader_node rosrpc://ss42.local:38131
+[rosmaster.master][INFO] 2021-10-22 12:01:07,203: publisherUpdate[/rosout] -> http://ss42.local:44683/ ['http://ss42.local:44557/', 'http://ss42.local:46482/', 'http://ss42.local:33812/']
+[rosmaster.master][INFO] 2021-10-22 12:01:07,206: publisherUpdate[/rosout] -> http://ss42.local:44683/ ['http://ss42.local:44557/', 'http://ss42.local:46482/', 'http://ss42.local:33812/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-22 12:01:07,222: -SUB [/ss42/camera_node/image/compressed] /ss42/cam_info_reader_node http://ss42.local:46482/
+[rosmaster.master][INFO] 2021-10-22 12:01:07,224: -PUB [/ss42/camera_node/camera_info] /ss42/cam_info_reader_node http://ss42.local:46482/
+[rosmaster.master][INFO] 2021-10-22 12:01:07,225: -PUB [/rosout] /ss42/cam_info_reader_node http://ss42.local:46482/
+[rosmaster.master][INFO] 2021-10-22 12:01:07,227: -SERVICE [/ss42/cam_info_reader_node/set_logger_level] /ss42/cam_info_reader_node rosrpc://ss42.local:44487
+[rosmaster.master][INFO] 2021-10-22 12:01:07,232: -SUB [/ss42/decoder_node/switch] /ss42/decoder_node http://ss42.local:44557/
+[rosmaster.master][INFO] 2021-10-22 12:01:07,233: -SERVICE [/ss42/cam_info_reader_node/get_loggers] /ss42/cam_info_reader_node rosrpc://ss42.local:44487
+[rosmaster.master][INFO] 2021-10-22 12:01:07,233: publisherUpdate[/rosout] -> http://ss42.local:44683/ ['http://ss42.local:44557/', 'http://ss42.local:33812/']
+[rosmaster.master][INFO] 2021-10-22 12:01:07,238: -SUB [/ss42/camera_node/image/compressed] /ss42/decoder_node http://ss42.local:44557/
+[rosmaster.master][INFO] 2021-10-22 12:01:07,240: -PUB [/ss42/camera_node/image/raw] /ss42/decoder_node http://ss42.local:44557/
+[rosmaster.master][INFO] 2021-10-22 12:01:07,242: publisherUpdate[/rosout] -> http://ss42.local:44683/ ['http://ss42.local:44557/', 'http://ss42.local:33812/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-22 12:01:07,243: -PUB [/rosout] /ss42/decoder_node http://ss42.local:44557/
+[rosmaster.master][INFO] 2021-10-22 12:01:07,243: publisherUpdate[/rosout] -> http://ss42.local:44683/ ['http://ss42.local:33812/']
+[rosmaster.master][INFO] 2021-10-22 12:01:07,244: -SERVICE [/ss42/decoder_node/get_loggers] /ss42/decoder_node rosrpc://ss42.local:33391
+[rosmaster.master][INFO] 2021-10-22 12:01:07,246: -SERVICE [/ss42/decoder_node/set_logger_level] /ss42/decoder_node rosrpc://ss42.local:33391
+[rosmaster.master][INFO] 2021-10-22 12:01:07,248: publisherUpdate[/rosout] -> http://ss42.local:44683/ ['http://ss42.local:33812/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-22 12:01:07,250: -SUB [/ss42/camera_node/framerate_high_switch] /ss42/camera_node http://ss42.local:33812/
+[rosmaster.master][INFO] 2021-10-22 12:01:07,251: -PUB [/ss42/camera_node/image/compressed] /ss42/camera_node http://ss42.local:33812/
+[rosmaster.master][INFO] 2021-10-22 12:01:07,252: -PUB [/rosout] /ss42/camera_node http://ss42.local:33812/
+[rosmaster.master][INFO] 2021-10-22 12:01:07,254: -SERVICE [/ss42/camera_node/get_loggers] /ss42/camera_node rosrpc://ss42.local:36621
+[rosmaster.master][INFO] 2021-10-22 12:01:07,255: -SERVICE [/ss42/camera_node/set_camera_info] /ss42/camera_node rosrpc://ss42.local:36621
+[rosmaster.master][INFO] 2021-10-22 12:01:07,258: -SERVICE [/ss42/camera_node/set_logger_level] /ss42/camera_node rosrpc://ss42.local:36621
+[rosmaster.master][INFO] 2021-10-22 12:01:07,304: publisherUpdate[/rosout] -> http://ss42.local:44683/ []
+[rosmaster.master][INFO] 2021-10-22 12:01:07,307: publisherUpdate[/rosout] -> http://ss42.local:44683/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-10-22 12:01:08,312: -PUB [/rosout_agg] /rosout http://ss42.local:44683/
+[rosmaster.master][INFO] 2021-10-22 12:01:08,319: -SUB [/rosout] /rosout http://ss42.local:44683/
+[rosmaster.master][INFO] 2021-10-22 12:01:08,326: -SERVICE [/rosout/get_loggers] /rosout rosrpc://ss42.local:47316
+[rosmaster.master][INFO] 2021-10-22 12:01:08,332: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://ss42.local:47316
+[rosmaster.main][INFO] 2021-10-22 12:01:08,521: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2021-10-22 12:01:08,522: stopping master...
+[rospy.core][INFO] 2021-10-22 12:01:08,522: signal_shutdown [atexit]

@@ -1,0 +1,38 @@
+[rospy.client][INFO] 2021-10-22 12:40:18,915: [32minit_node, name[/ss42/inverse_kinematics_node], pid[23253][0m
+[xmlrpc][INFO] 2021-10-22 12:40:18,917: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[xmlrpc][INFO] 2021-10-22 12:40:18,922: [32mStarted XML-RPC server [http://ss42.local:39393/][0m
+[rospy.init][INFO] 2021-10-22 12:40:18,923: [32mROS Slave URI: [http://ss42.local:39393/][0m
+[rospy.impl.masterslave][INFO] 2021-10-22 12:40:18,924: [32m_ready: http://ss42.local:39393/[0m
+[xmlrpc][INFO] 2021-10-22 12:40:18,935: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.registration][INFO] 2021-10-22 12:40:18,942: [32mRegistering with master node http://ss42.local:11311/[0m
+[rospy.init][INFO] 2021-10-22 12:40:19,025: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-10-22 12:40:19,026: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-10-22 12:40:19,073: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-10-22 12:40:19,100: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rosout][WARNING] 2021-10-22 12:40:19,139: [33m[/ss42/inverse_kinematics_node] /home/robotikabot/duckiefleet/calibrations/kinematics/ss42.yaml does not exist. Using default.yaml.[0m
+[rospy.internal][INFO] 2021-10-22 12:40:19,274: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rosout][INFO] 2021-10-22 12:40:19,302: [32m[/ss42/inverse_kinematics_node] ~gain = 1.0 [0m
+[rosout][INFO] 2021-10-22 12:40:19,316: [32m[/ss42/inverse_kinematics_node] ~trim = 0.0 [0m
+[rosout][INFO] 2021-10-22 12:40:19,336: [32m[/ss42/inverse_kinematics_node] ~baseline = 0.1 [0m
+[rosout][INFO] 2021-10-22 12:40:19,350: [32m[/ss42/inverse_kinematics_node] ~radius = 0.0318 [0m
+[rosout][INFO] 2021-10-22 12:40:19,367: [32m[/ss42/inverse_kinematics_node] ~k = 27.0 [0m
+[rosout][INFO] 2021-10-22 12:40:19,380: [32m[/ss42/inverse_kinematics_node] ~limit = 1.0 [0m
+[rosout][INFO] 2021-10-22 12:40:19,462: [32m[/ss42/inverse_kinematics_node] Initialized.[0m
+[rosout][INFO] 2021-10-22 12:40:19,464: [32m[/ss42/inverse_kinematics_node] gain: 1.0 trim: 0.0 baseline: 0.1 radius: 0.0318 k: 27.0 limit: 1.0[0m
+[rospy.internal][INFO] 2021-10-22 12:40:19,476: [32mtopic[/ss42/car_cmd_switch_node/cmd] adding connection to [http://ss42.local:34371/], count 0[0m
+[rospy.internal][INFO] 2021-10-22 12:40:19,535: [32mtopic[/ss42/wheels_driver_node/wheels_cmd] adding connection to [/ss42/wheels_driver_node], count 0[0m
+[rospy.internal][ERROR] 2021-10-22 12:49:04,342: [31mUnable to initiate TCP/IP socket to ss42.local:43035 (http://ss42.local:34371/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+[0m
+[rospy.core][INFO] 2021-10-22 12:49:04,852: [32msignal_shutdown [signal-2][0m
+[rospy.internal][INFO] 2021-10-22 12:49:04,858: [32mtopic[/ss42/wheels_driver_node/wheels_cmd] removing connection to /ss42/wheels_driver_node[0m
+[rospy.internal][INFO] 2021-10-22 12:49:04,901: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-10-22 12:49:04,902: [32mtopic[/ss42/car_cmd_switch_node/cmd] removing connection to http://ss42.local:34371/[0m
+[rospy.impl.masterslave][INFO] 2021-10-22 12:49:04,903: [32msignal-2[0m
+[rospy.core][INFO] 2021-10-22 12:49:05,478: [32msignal_shutdown [atexit][0m
