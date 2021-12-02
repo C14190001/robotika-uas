@@ -1,0 +1,17 @@
+
+
+1638452620.515651994  Node Startup
+1638452624.128408908 INFO [decoder_node.py:26(setupParam) [topics: /ss42/camera_node/image/raw, /ss42/camera_node/image/compressed, /rosout, /ss42/decoder_node/switch] [/ss42/decoder_node] ~publish_freq = 2.0 
+1638452628.065978050 WARN [cam_info_reader_node.py:45(__init__) [topics: /ss42/camera_node/camera_info, /rosout] [/ss42/cam_info_reader_node] ==============CompressedImage
+1638452628.084355115 WARN [cam_info_reader_node.py:45(__init__) [topics: /rosout, /ss42/camera_node/raw_camera_info] [/ss42/raw_cam_info_reader_node] ==============Image
+1638452628.075133085 INFO [camera_node_sequence.py:112(setupParam) [topics: /rosout] [/ss42/camera_node] ~res_h = 480 
+1638452628.625775098 INFO [camera_node_sequence.py:56(__init__) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [/ss42/camera_node] Initialized.
+1638452628.633361101 INFO [camera_node_sequence.py:68(startCapturing) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [/ss42/camera_node] Start capturing.
+1638452628.723751068 INFO [camera_node_sequence.py:104(grabAndPublish) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [/ss42/camera_node] Published the first image.
+1638452685.079461590 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.13/src/rviz/ogre_helpers/render_system.cpp:430(RenderWindow* rviz::RenderSystem::makeRenderWindow) [topics: /rosout] Stereo is NOT SUPPORTED
+1638452685.079728060 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.13/src/rviz/ogre_helpers/render_system.cpp:211(RenderSystem::detectGlVersion) [topics: /rosout] OpenGl version: 2.1 (GLSL 1.2).
+1638452702.459969405 WARN [/tmp/binarydeb/ros-kinetic-image-transport-1.11.12/src/subscriber.cpp:106(Subscriber::Subscriber) [topics: /rosout, /initialpose, /move_base_simple/goal, /clicked_point] [image_transport] It looks like you are trying to subscribe directly to a transport-specific image topic '/ss42/camera_node/image/raw', in which case you will likely get a connection error. Try subscribing to the base topic '/ss42/camera_node/image' instead with parameter ~image_transport set to 'raw' (on the command line, _image_transport:=raw). See http://ros.org/wiki/image_transport for details.
+1638452725.652149915 INFO [cam_info_reader_node.py:74(on_shutdown) [topics: /ss42/camera_node/image/raw, /rosout, /ss42/camera_node/raw_camera_info] [/ss42/raw_cam_info_reader_node] Shutdown.
+1638452725.671989917 INFO [cam_info_reader_node.py:74(on_shutdown) [topics: /ss42/camera_node/camera_info, /rosout, /ss42/camera_node/image/compressed] [/ss42/cam_info_reader_node] Shutdown.
+1638452725.685934066 INFO [camera_node_sequence.py:116(onShutdown) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [/ss42/camera_node] Closing camera.
+1638452725.691160917 INFO [camera_node_sequence.py:118(onShutdown) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [/ss42/camera_node] Shutdown.

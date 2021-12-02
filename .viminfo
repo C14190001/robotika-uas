@@ -125,17 +125,21 @@
 -'  1  17  ~/duckietown/.git/COMMIT_EDITMSG
 -'  1  29  ~/duckiefleet/.git/COMMIT_EDITMSG
 -'  7  30  ~/duckiefleet/robots/taiwan/ss42.robot.yaml
+-'  3  17  ~/duckiefleet/robots/taiwan/ss42.robot.yaml
+-'  1  0  ~/duckiefleet/robots/taiwan/ss42.robot.yaml
+-'  5  21  ~/duckiefleet/robots/taiwan/ss42.robot.yaml
 
 # History of marks within files (newest to oldest):
 
 > ~/.git/COMMIT_EDITMSG
 	"	1	10
 	^	1	11
-	.	2	0
+	.	1	10
 	+	1	20
 	+	2	20
 	+	1	11
 	+	2	0
+	+	1	10
 
 > ~/duckiefleet/robots/taiwan/ss42.robot.yaml
 	"	3	17

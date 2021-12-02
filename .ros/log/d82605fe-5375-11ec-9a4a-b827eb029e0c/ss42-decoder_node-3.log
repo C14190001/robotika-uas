@@ -1,0 +1,32 @@
+[rospy.client][INFO] 2021-12-02 14:43:43,816: init_node, name[/ss42/decoder_node], pid[8728]
+[xmlrpc][INFO] 2021-12-02 14:43:43,820: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2021-12-02 14:43:43,824: ROS Slave URI: [http://ss42.local:46381/]
+[xmlrpc][INFO] 2021-12-02 14:43:43,825: Started XML-RPC server [http://ss42.local:46381/]
+[rospy.impl.masterslave][INFO] 2021-12-02 14:43:43,826: _ready: http://ss42.local:46381/
+[xmlrpc][INFO] 2021-12-02 14:43:43,828: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-12-02 14:43:43,832: Registering with master node http://ss42.local:11311/
+[rospy.init][INFO] 2021-12-02 14:43:43,935: registered with master
+[rospy.rosout][INFO] 2021-12-02 14:43:43,936: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-02 14:43:43,989: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-02 14:43:44,028: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-02 14:43:44,127: [/ss42/decoder_node] ~publish_freq = 2.0 
+[rospy.internal][INFO] 2021-12-02 14:43:44,235: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-02 14:43:48,145: topic[/ss42/camera_node/image/raw] adding connection to [/ss42/raw_cam_info_reader_node], count 0
+[rospy.internal][INFO] 2021-12-02 14:43:48,630: topic[/ss42/camera_node/image/compressed] adding connection to [http://ss42.local:43755/], count 0
+[rospy.internal][INFO] 2021-12-02 14:45:00,153: topic[/ss42/camera_node/image/raw] adding connection to [/rviz_1638452683224223567], count 1
+[rospy.internal][INFO] 2021-12-02 14:45:22,445: topic[/ss42/camera_node/image/raw] removing connection to /rviz_1638452683224223567
+[rospy.core][INFO] 2021-12-02 14:45:25,674: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-12-02 14:45:25,718: topic[/ss42/camera_node/image/raw] removing connection to /ss42/raw_cam_info_reader_node
+[rospy.internal][INFO] 2021-12-02 14:45:25,767: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-02 14:45:25,775: topic[/ss42/camera_node/image/compressed] removing connection to http://ss42.local:43755/
+[rospy.impl.masterslave][INFO] 2021-12-02 14:45:25,777: signal-2
+[rospy.internal][ERROR] 2021-12-02 14:45:25,782: Unable to initiate TCP/IP socket to ss42.local:33037 (http://ss42.local:43755/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.core][INFO] 2021-12-02 14:45:26,345: signal_shutdown [atexit]
