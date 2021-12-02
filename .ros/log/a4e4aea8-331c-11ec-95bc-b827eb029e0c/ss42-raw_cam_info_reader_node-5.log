@@ -1,0 +1,56 @@
+[rospy.client][INFO] 2021-10-22 11:44:32,581: [32minit_node, name[/ss42/raw_cam_info_reader_node], pid[5022][0m
+[xmlrpc][INFO] 2021-10-22 11:44:32,582: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[xmlrpc][INFO] 2021-10-22 11:44:32,584: [32mStarted XML-RPC server [http://ss42.local:44841/][0m
+[rospy.init][INFO] 2021-10-22 11:44:32,585: [32mROS Slave URI: [http://ss42.local:44841/][0m
+[rospy.impl.masterslave][INFO] 2021-10-22 11:44:32,586: [32m_ready: http://ss42.local:44841/[0m
+[xmlrpc][INFO] 2021-10-22 11:44:32,587: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.registration][INFO] 2021-10-22 11:44:32,595: [32mRegistering with master node http://ss42.local:11311/[0m
+[rospy.init][INFO] 2021-10-22 11:44:32,686: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-10-22 11:44:32,687: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-10-22 11:44:32,697: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-10-22 11:44:32,703: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rosout][INFO] 2021-10-22 11:44:32,731: [32m[/ss42/raw_cam_info_reader_node] ~config = baseline [0m
+[rosout][INFO] 2021-10-22 11:44:32,744: [32m[/ss42/raw_cam_info_reader_node] ~cali_file_name = ss42 [0m
+[rosout][INFO] 2021-10-22 11:44:32,755: [32m[/ss42/raw_cam_info_reader_node] ~image_type = raw [0m
+[rosout][WARNING] 2021-10-22 11:44:32,762: [33m[/ss42/raw_cam_info_reader_node] Can't find calibration file: /home/robotikabot/duckiefleet/calibrations/camera_intrinsic/ss42.yaml.
+Using default calibration instead.[0m
+[rosout][INFO] 2021-10-22 11:44:32,763: [32m[/ss42/raw_cam_info_reader_node] Using calibration file: /home/robotikabot/duckiefleet/calibrations/camera_intrinsic/default.yaml[0m
+[rosout][INFO] 2021-10-22 11:44:32,805: [32m[/ss42/raw_cam_info_reader_node] CameraInfo: header: 
+  seq: 0
+  stamp: 
+    secs: 0
+    nsecs:         0
+  frame_id: "/ss42/camera_optical_frame"
+height: 480
+width: 640
+distortion_model: "plumb_bob"
+D: [-0.2565888993516047, 0.04481160508242147, -0.00505275149956019, 0.001308569367976665, 0]
+K: [307.7379294605756, 0, 329.692367951685, 0, 314.9827773443905, 244.4605588877848, 0, 0, 1]
+R: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+P: [210.1107940673828, 0, 327.2577820024981, 0, 0, 253.8408660888672, 239.9969353923052, 0, 0, 0, 1, 0]
+binning_x: 0
+binning_y: 0
+roi: 
+  x_offset: 0
+  y_offset: 0
+  height: 0
+  width: 0
+  do_rectify: False[0m
+[rosout][WARNING] 2021-10-22 11:44:32,806: [33m[/ss42/raw_cam_info_reader_node] ==============Image[0m
+[rospy.internal][INFO] 2021-10-22 11:44:32,841: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rospy.internal][INFO] 2021-10-22 11:44:32,860: [32mtopic[/ss42/camera_node/image/raw] adding connection to [http://ss42.local:45336/], count 0[0m
+[rospy.core][INFO] 2021-10-22 11:49:08,746: [32msignal_shutdown [signal-2][0m
+[rosout][INFO] 2021-10-22 11:49:08,746: [32m[/ss42/raw_cam_info_reader_node] Shutdown.[0m
+[rospy.internal][ERROR] 2021-10-22 11:49:08,890: [31mUnable to initiate TCP/IP socket to ss42.local:33106 (http://ss42.local:45336/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+[0m
+[rospy.internal][INFO] 2021-10-22 11:49:08,904: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-10-22 11:49:08,905: [32mtopic[/ss42/camera_node/image/raw] removing connection to http://ss42.local:45336/[0m
+[rospy.impl.masterslave][INFO] 2021-10-22 11:49:08,910: [32msignal-2[0m
+[rospy.core][INFO] 2021-10-22 11:49:09,427: [32msignal_shutdown [atexit][0m

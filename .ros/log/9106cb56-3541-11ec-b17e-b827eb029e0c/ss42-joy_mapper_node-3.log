@@ -1,0 +1,39 @@
+[rospy.client][INFO] 2021-10-25 05:13:51,164: init_node, name[/ss42/joy_mapper_node], pid[2725]
+[xmlrpc][INFO] 2021-10-25 05:13:51,166: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-10-25 05:13:51,168: Started XML-RPC server [http://ss42.local:37536/]
+[rospy.init][INFO] 2021-10-25 05:13:51,169: ROS Slave URI: [http://ss42.local:37536/]
+[rospy.impl.masterslave][INFO] 2021-10-25 05:13:51,169: _ready: http://ss42.local:37536/
+[rospy.registration][INFO] 2021-10-25 05:13:51,172: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-10-25 05:13:51,173: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-10-25 05:13:51,270: registered with master
+[rospy.rosout][INFO] 2021-10-25 05:13:51,271: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-10-25 05:13:51,285: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-10-25 05:13:51,296: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-10-25 05:13:51,327: [/ss42/joy_mapper_node] Initializing 
+[rosout][INFO] 2021-10-25 05:13:51,344: [/ss42/joy_mapper_node] ~speed_gain = 0.41 
+[rosout][INFO] 2021-10-25 05:13:51,359: [/ss42/joy_mapper_node] ~steer_gain = 8.3 
+[rosout][INFO] 2021-10-25 05:13:51,375: [/ss42/joy_mapper_node] ~bicycle_kinematics = 0.0 
+[rosout][INFO] 2021-10-25 05:13:51,390: [/ss42/joy_mapper_node] ~steer_angle_gain = 1.04 
+[rosout][INFO] 2021-10-25 05:13:51,407: [/ss42/joy_mapper_node] ~simulated_vehicle_length = 0.18 
+[rospy.internal][INFO] 2021-10-25 05:13:51,494: topic[/ss42/joy] adding connection to [http://ss42.local:45904/], count 0
+[rospy.internal][INFO] 2021-10-25 05:13:51,510: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-10-25 05:13:51,639: topic[/ss42/wheels_driver_node/emergency_stop] adding connection to [/ss42/wheels_driver_node], count 0
+[rospy.internal][INFO] 2021-10-25 05:13:56,100: topic[/ss42/joy_mapper_node/car_cmd] adding connection to [/ss42/inverse_kinematics_node], count 0
+[rosout][INFO] 2021-10-25 05:14:00,344: E-stop message
+[rosout][INFO] 2021-10-25 05:14:00,364: E-stop message
+[rospy.core][INFO] 2021-10-25 05:14:52,889: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-10-25 05:14:52,931: topic[/ss42/wheels_driver_node/emergency_stop] removing connection to /ss42/wheels_driver_node
+[rospy.internal][INFO] 2021-10-25 05:14:52,932: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-10-25 05:14:52,935: topic[/ss42/joy_mapper_node/car_cmd] removing connection to /ss42/inverse_kinematics_node
+[rospy.internal][INFO] 2021-10-25 05:14:52,941: topic[/ss42/joy] removing connection to http://ss42.local:45904/
+[rospy.impl.masterslave][INFO] 2021-10-25 05:14:52,942: signal-2
+[rospy.internal][WARNING] 2021-10-25 05:14:53,023: Unknown error initiating TCP/IP socket to ss42.local:44398 (http://ss42.local:45904/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.core][INFO] 2021-10-25 05:14:53,559: signal_shutdown [atexit]

@@ -1,0 +1,27 @@
+[rospy.client][INFO] 2021-10-22 12:40:20,367: init_node, name[/ss42/lane_pose_visualizer_node], pid[23298]
+[xmlrpc][INFO] 2021-10-22 12:40:20,373: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-10-22 12:40:20,375: Started XML-RPC server [http://ss42.local:45160/]
+[rospy.impl.masterslave][INFO] 2021-10-22 12:40:20,376: _ready: http://ss42.local:45160/
+[rospy.init][INFO] 2021-10-22 12:40:20,378: ROS Slave URI: [http://ss42.local:45160/]
+[rospy.registration][INFO] 2021-10-22 12:40:20,382: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-10-22 12:40:20,383: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-10-22 12:40:20,479: registered with master
+[rospy.rosout][INFO] 2021-10-22 12:40:20,480: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-10-22 12:40:20,491: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-10-22 12:40:20,498: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-10-22 12:40:20,532: [/ss42/lane_pose_visualizer_node] Initialzing.
+[rosout][INFO] 2021-10-22 12:40:20,540: [/ss42/lane_pose_visualizer_node] Vehicle name: ss42
+[rosout][INFO] 2021-10-22 12:40:20,563: [/ss42/lane_pose_visualizer_node] Initialzed.
+[rospy.internal][INFO] 2021-10-22 12:40:20,634: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-10-22 12:40:21,583: topic[/ss42/lane_filter_node/lane_pose] adding connection to [http://ss42.local:37863/], count 0
+[rospy.core][INFO] 2021-10-22 12:49:03,487: signal_shutdown [signal-2]
+[rosout][INFO] 2021-10-22 12:49:03,488: [/ss42/lane_pose_visualizer_node] Shutting down.
+[rospy.internal][INFO] 2021-10-22 12:49:03,644: topic[/rosout] removing connection to /rosout
+[rospy.internal][WARNING] 2021-10-22 12:49:03,649: Unknown error initiating TCP/IP socket to ss42.local:38585 (http://ss42.local:37863/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2021-10-22 12:49:03,647: topic[/ss42/lane_filter_node/lane_pose] removing connection to http://ss42.local:37863/
+[rospy.impl.masterslave][INFO] 2021-10-22 12:49:03,651: signal-2
+[rospy.core][INFO] 2021-10-22 12:49:04,148: signal_shutdown [atexit]

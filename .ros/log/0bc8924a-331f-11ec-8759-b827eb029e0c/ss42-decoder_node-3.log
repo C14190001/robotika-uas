@@ -1,0 +1,23 @@
+[rospy.client][INFO] 2021-10-22 12:01:42,473: init_node, name[/ss42/decoder_node], pid[2260]
+[xmlrpc][INFO] 2021-10-22 12:01:42,476: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2021-10-22 12:01:42,479: ROS Slave URI: [http://ss42.local:40213/]
+[xmlrpc][INFO] 2021-10-22 12:01:42,479: Started XML-RPC server [http://ss42.local:40213/]
+[rospy.impl.masterslave][INFO] 2021-10-22 12:01:42,481: _ready: http://ss42.local:40213/
+[rospy.registration][INFO] 2021-10-22 12:01:42,484: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-10-22 12:01:42,486: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-10-22 12:01:42,580: registered with master
+[rospy.rosout][INFO] 2021-10-22 12:01:42,582: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-10-22 12:01:42,604: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-10-22 12:01:42,629: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-10-22 12:01:42,668: [/ss42/decoder_node] ~publish_freq = 2.0 
+[rospy.internal][INFO] 2021-10-22 12:01:42,855: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-10-22 12:01:44,475: topic[/ss42/camera_node/image/raw] adding connection to [/ss42/raw_cam_info_reader_node], count 0
+[rospy.internal][INFO] 2021-10-22 12:01:44,980: topic[/ss42/camera_node/image/compressed] adding connection to [http://ss42.local:44402/], count 0
+[rospy.internal][INFO] 2021-10-22 12:02:25,779: topic[/ss42/camera_node/image/raw] adding connection to [/ss42/intrinsic_calibrator], count 1
+[rospy.internal][INFO] 2021-10-22 12:16:42,610: topic[/ss42/camera_node/image/raw] removing connection to /ss42/intrinsic_calibrator
+[rospy.impl.masterslave][INFO] 2021-10-22 12:19:19,683: external shutdown request from [/master]: new node registered with same name
+[rospy.core][INFO] 2021-10-22 12:19:19,685: signal_shutdown [external shutdown request from [/master]: [new node registered with same name]]
+[rospy.internal][INFO] 2021-10-22 12:19:19,731: topic[/ss42/camera_node/image/raw] removing connection to /ss42/raw_cam_info_reader_node
+[rospy.internal][INFO] 2021-10-22 12:19:19,742: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-10-22 12:19:19,743: topic[/ss42/camera_node/image/compressed] removing connection to http://ss42.local:44402/
+[rospy.core][INFO] 2021-10-22 12:19:20,113: signal_shutdown [atexit]

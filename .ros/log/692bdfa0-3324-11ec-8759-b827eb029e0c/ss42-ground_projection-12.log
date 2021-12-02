@@ -1,0 +1,32 @@
+[rospy.client][INFO] 2021-10-22 12:40:18,921: [32minit_node, name[/ss42/ground_projection], pid[23276][0m
+[xmlrpc][INFO] 2021-10-22 12:40:18,924: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[xmlrpc][INFO] 2021-10-22 12:40:18,926: [32mStarted XML-RPC server [http://ss42.local:37290/][0m
+[rospy.init][INFO] 2021-10-22 12:40:18,928: [32mROS Slave URI: [http://ss42.local:37290/][0m
+[rospy.impl.masterslave][INFO] 2021-10-22 12:40:18,929: [32m_ready: http://ss42.local:37290/[0m
+[rospy.registration][INFO] 2021-10-22 12:40:18,937: [32mRegistering with master node http://ss42.local:11311/[0m
+[xmlrpc][INFO] 2021-10-22 12:40:18,940: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.init][INFO] 2021-10-22 12:40:19,030: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-10-22 12:40:19,031: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-10-22 12:40:19,064: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-10-22 12:40:19,097: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[DT][WARNING] 2021-10-22 12:40:19,195: [33mno extrinsic calibration parameters for ss42, trying default[0m
+[DT][INFO] 2021-10-22 12:40:19,218: [32mLoaded homography for default.yaml[0m
+[rospy.internal][INFO] 2021-10-22 12:40:19,285: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[DT][INFO] 2021-10-22 12:40:19,663: [32mLoaded checkerboard parameters[0m
+[rosout][INFO] 2021-10-22 12:40:19,664: [32mcamera info topic is /ss42/camera_node/camera_info[0m
+[rosout][INFO] 2021-10-22 12:40:19,667: [32mwaiting for camera info[0m
+[rospy.internal][INFO] 2021-10-22 12:40:19,730: [32mtopic[/ss42/camera_node/camera_info] adding connection to [http://ss42.local:36413/], count 0[0m
+[rospy.internal][INFO] 2021-10-22 12:40:20,014: [32mtopic impl's ref count is zero, deleting topic /ss42/camera_node/camera_info...[0m
+[rospy.internal][INFO] 2021-10-22 12:40:20,015: [32mtopic[/ss42/camera_node/camera_info] removing connection to http://ss42.local:36413/[0m
+[rosout][INFO] 2021-10-22 12:40:20,039: [32mcamera info received[0m
+[rospy.internal][INFO] 2021-10-22 12:40:20,177: [32mtopic[/ss42/ground_projection/lineseglist_out] adding connection to [/ss42/duckiebot_visualizer], count 0[0m
+[rospy.internal][INFO] 2021-10-22 12:40:20,915: [32mtopic[/ss42/line_detector_node/segment_list] adding connection to [http://ss42.local:33525/], count 0[0m
+[rospy.internal][INFO] 2021-10-22 12:40:21,525: [32mtopic[/ss42/ground_projection/lineseglist_out] adding connection to [/ss42/lane_filter_node], count 1[0m
+[rospy.core][INFO] 2021-10-22 12:49:03,519: [32msignal_shutdown [signal-2][0m
+[rosout][INFO] 2021-10-22 12:49:03,520: [32m[GroundProjectionNode] Shutdown.[0m
+[rospy.internal][INFO] 2021-10-22 12:49:03,669: [32mtopic[/ss42/ground_projection/lineseglist_out] removing connection to /ss42/duckiebot_visualizer[0m
+[rospy.internal][INFO] 2021-10-22 12:49:03,671: [32mtopic[/ss42/ground_projection/lineseglist_out] removing connection to /ss42/lane_filter_node[0m
+[rospy.internal][INFO] 2021-10-22 12:49:03,674: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-10-22 12:49:03,681: [32mtopic[/ss42/line_detector_node/segment_list] removing connection to http://ss42.local:33525/[0m
+[rospy.impl.masterslave][INFO] 2021-10-22 12:49:03,683: [32msignal-2[0m
+[rospy.core][INFO] 2021-10-22 12:49:04,152: [32msignal_shutdown [atexit][0m

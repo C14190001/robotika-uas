@@ -1,0 +1,49 @@
+[rospy.client][INFO] 2021-10-22 12:40:10,956: init_node, name[/ss42/joy_mapper_node], pid[23256]
+[xmlrpc][INFO] 2021-10-22 12:40:10,966: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-10-22 12:40:10,967: Started XML-RPC server [http://ss42.local:40508/]
+[rospy.impl.masterslave][INFO] 2021-10-22 12:40:10,968: _ready: http://ss42.local:40508/
+[rospy.init][INFO] 2021-10-22 12:40:10,969: ROS Slave URI: [http://ss42.local:40508/]
+[rospy.registration][INFO] 2021-10-22 12:40:10,987: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-10-22 12:40:10,988: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-10-22 12:40:11,070: registered with master
+[rospy.rosout][INFO] 2021-10-22 12:40:11,071: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-10-22 12:40:11,131: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-10-22 12:40:11,171: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-10-22 12:40:11,277: [/ss42/joy_mapper_node] Initializing 
+[rosout][INFO] 2021-10-22 12:40:11,393: [/ss42/joy_mapper_node] ~speed_gain = 0.41 
+[rospy.internal][INFO] 2021-10-22 12:40:11,436: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2021-10-22 12:40:11,570: [/ss42/joy_mapper_node] ~steer_gain = 8.3 
+[rosout][INFO] 2021-10-22 12:40:11,714: [/ss42/joy_mapper_node] ~bicycle_kinematics = 0.0 
+[rosout][INFO] 2021-10-22 12:40:11,870: [/ss42/joy_mapper_node] ~steer_angle_gain = 1.04 
+[rosout][INFO] 2021-10-22 12:40:12,032: [/ss42/joy_mapper_node] ~simulated_vehicle_length = 0.18 
+[rospy.internal][INFO] 2021-10-22 12:40:12,670: topic[/ss42/wheels_driver_node/emergency_stop] adding connection to [/ss42/wheels_driver_node], count 0
+[rospy.internal][INFO] 2021-10-22 12:40:12,716: topic[/ss42/joy] adding connection to [http://ss42.local:40892/], count 0
+[rospy.internal][INFO] 2021-10-22 12:40:13,229: topic[/ss42/joy_mapper_node/car_cmd] adding connection to [/ss42/car_cmd_switch_node], count 0
+[rospy.internal][INFO] 2021-10-22 12:40:13,504: topic[/ss42/joy_mapper_node/parallel_autonomy] adding connection to [/ss42/logic_gate_node], count 0
+[rospy.internal][INFO] 2021-10-22 12:40:13,741: topic[/ss42/joy_mapper_node/joystick_override] adding connection to [/ss42/fsm_node], count 0
+[rospy.internal][INFO] 2021-10-22 12:40:13,826: topic[/ss42/joy_mapper_node/start_avoidance] adding connection to [/ss42/fsm_node], count 0
+[rospy.internal][INFO] 2021-10-22 12:40:13,964: topic[/ss42/joy_mapper_node/parallel_autonomy] adding connection to [/ss42/fsm_node], count 1
+[rosout][INFO] 2021-10-22 12:40:19,394: E-stop message
+[rospy.internal][INFO] 2021-10-22 12:40:20,049: topic[/ss42/anti_instagram_node/click] adding connection to [/ss42/anti_instagram_node], count 0
+[rosout][INFO] 2021-10-22 12:40:29,815: E-stop message
+[rosout][INFO] 2021-10-22 12:45:15,648: override_msg = False
+[rosout][INFO] 2021-10-22 12:46:11,676: override_msg = True
+[rosout][INFO] 2021-10-22 12:48:06,306: override_msg = False
+[rosout][INFO] 2021-10-22 12:48:38,287: override_msg = True
+[rospy.internal][INFO] 2021-10-22 12:49:03,428: topic[/ss42/anti_instagram_node/click] removing connection to /ss42/anti_instagram_node
+[rospy.core][INFO] 2021-10-22 12:49:04,435: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-10-22 12:49:04,440: topic[/ss42/joy_mapper_node/joystick_override] removing connection to /ss42/fsm_node
+[rospy.internal][INFO] 2021-10-22 12:49:04,446: topic[/ss42/joy_mapper_node/parallel_autonomy] removing connection to /ss42/logic_gate_node
+[rospy.internal][INFO] 2021-10-22 12:49:04,448: topic[/ss42/joy_mapper_node/car_cmd] removing connection to /ss42/car_cmd_switch_node
+[rospy.internal][INFO] 2021-10-22 12:49:04,523: topic[/ss42/wheels_driver_node/emergency_stop] removing connection to /ss42/wheels_driver_node
+[rospy.internal][INFO] 2021-10-22 12:49:04,525: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-10-22 12:49:04,527: topic[/ss42/joy_mapper_node/parallel_autonomy] removing connection to /ss42/fsm_node
+[rospy.internal][INFO] 2021-10-22 12:49:04,529: topic[/ss42/joy_mapper_node/start_avoidance] removing connection to /ss42/fsm_node
+[rospy.internal][WARNING] 2021-10-22 12:49:04,536: Unknown error initiating TCP/IP socket to ss42.local:44714 (http://ss42.local:40892/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2021-10-22 12:49:04,532: topic[/ss42/joy] removing connection to http://ss42.local:40892/
+[rospy.impl.masterslave][INFO] 2021-10-22 12:49:04,539: signal-2
+[rospy.core][INFO] 2021-10-22 12:49:05,062: signal_shutdown [atexit]

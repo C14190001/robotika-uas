@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2021-10-22 12:53:49,980: init_node, name[/ss42/wheels_driver_node], pid[1628]
+[xmlrpc][INFO] 2021-10-22 12:53:50,007: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-10-22 12:53:50,013: Started XML-RPC server [http://ss42.local:36292/]
+[rospy.init][INFO] 2021-10-22 12:53:50,013: ROS Slave URI: [http://ss42.local:36292/]
+[rospy.impl.masterslave][INFO] 2021-10-22 12:53:50,023: _ready: http://ss42.local:36292/
+[rospy.registration][INFO] 2021-10-22 12:53:50,038: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-10-22 12:53:50,039: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-10-22 12:53:50,124: registered with master
+[rospy.rosout][INFO] 2021-10-22 12:53:50,125: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-10-22 12:53:50,165: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-10-22 12:53:50,211: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-10-22 12:53:50,366: [/ss42/wheels_driver_node] Initializing 
+[rospy.internal][INFO] 2021-10-22 12:53:50,476: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-10-22 12:53:51,768: topic[/ss42/wheels_driver_node/emergency_stop] adding connection to [http://ss42.local:36532/], count 0
+[rospy.internal][INFO] 2021-10-22 12:54:01,670: topic[/ss42/wheels_driver_node/wheels_cmd] adding connection to [http://ss42.local:40351/], count 0
+[rosout][INFO] 2021-10-22 12:54:13,609: [%s] Emergency Stop Activated
+[rosout][INFO] 2021-10-22 12:54:13,642: [%s] Emergency Stop Released
+[rospy.core][INFO] 2021-10-22 13:00:55,214: signal_shutdown [signal-2]
+[rosout][INFO] 2021-10-22 13:00:55,232: [/ss42/wheels_driver_node] Shutting down.
+[rospy.internal][INFO] 2021-10-22 13:00:55,426: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-10-22 13:00:55,427: topic[/ss42/wheels_driver_node/emergency_stop] removing connection to http://ss42.local:36532/
+[rospy.internal][INFO] 2021-10-22 13:00:55,429: topic[/ss42/wheels_driver_node/wheels_cmd] removing connection to http://ss42.local:40351/
+[rospy.impl.masterslave][INFO] 2021-10-22 13:00:55,602: signal-2
+[rospy.internal][WARNING] 2021-10-22 13:00:55,664: Unknown error initiating TCP/IP socket to ss42.local:46852 (http://ss42.local:40351/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2021-10-22 13:00:55,971: signal_shutdown [atexit]

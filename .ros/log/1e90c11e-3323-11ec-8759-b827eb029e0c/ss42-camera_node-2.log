@@ -1,0 +1,31 @@
+[rospy.client][INFO] 2021-10-22 12:30:53,861: [32minit_node, name[/ss42/camera_node], pid[19143][0m
+[xmlrpc][INFO] 2021-10-22 12:30:53,863: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[xmlrpc][INFO] 2021-10-22 12:30:53,864: [32mStarted XML-RPC server [http://ss42.local:42529/][0m
+[rospy.init][INFO] 2021-10-22 12:30:53,865: [32mROS Slave URI: [http://ss42.local:42529/][0m
+[rospy.impl.masterslave][INFO] 2021-10-22 12:30:53,865: [32m_ready: http://ss42.local:42529/[0m
+[rospy.registration][INFO] 2021-10-22 12:30:53,869: [32mRegistering with master node http://ss42.local:11311/[0m
+[xmlrpc][INFO] 2021-10-22 12:30:53,870: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.init][INFO] 2021-10-22 12:30:53,967: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-10-22 12:30:53,968: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-10-22 12:30:53,983: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-10-22 12:30:53,991: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rosout][INFO] 2021-10-22 12:30:54,014: [32m[/ss42/camera_node] Initializing......[0m
+[rosout][INFO] 2021-10-22 12:30:54,029: [32m[/ss42/camera_node] ~framerate_high = 30 [0m
+[rosout][INFO] 2021-10-22 12:30:54,044: [32m[/ss42/camera_node] ~framerate_low = 15 [0m
+[rosout][INFO] 2021-10-22 12:30:54,057: [32m[/ss42/camera_node] ~res_w = 640 [0m
+[rosout][INFO] 2021-10-22 12:30:54,068: [32m[/ss42/camera_node] ~res_h = 480 [0m
+[rospy.internal][INFO] 2021-10-22 12:30:54,207: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rosout][INFO] 2021-10-22 12:30:54,468: [32m[/ss42/camera_node] Initialized.[0m
+[rosout][INFO] 2021-10-22 12:30:54,470: [32m[/ss42/camera_node] Start capturing.[0m
+[rospy.internal][INFO] 2021-10-22 12:30:54,530: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/ss42/decoder_node], count 0[0m
+[rospy.internal][INFO] 2021-10-22 12:30:54,540: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/ss42/cam_info_reader_node], count 1[0m
+[rosout][INFO] 2021-10-22 12:30:54,566: [32m[/ss42/camera_node] Published the first image.[0m
+[rospy.core][INFO] 2021-10-22 12:33:55,328: [32msignal_shutdown [signal-2][0m
+[rosout][INFO] 2021-10-22 12:33:55,329: [32m[/ss42/camera_node] Closing camera.[0m
+[rosout][INFO] 2021-10-22 12:33:55,332: [32m[/ss42/camera_node] Shutdown.[0m
+[rospy.internal][INFO] 2021-10-22 12:33:55,381: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /ss42/cam_info_reader_node[0m
+[rospy.internal][INFO] 2021-10-22 12:33:55,399: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /ss42/decoder_node[0m
+[rospy.internal][INFO] 2021-10-22 12:33:55,404: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.impl.masterslave][INFO] 2021-10-22 12:33:55,415: [32msignal-2[0m
+[rosout][INFO] 2021-10-22 12:33:55,543: [32m[/ss42/camera_node] Capture Ended.[0m
+[rospy.core][INFO] 2021-10-22 12:33:56,032: [32msignal_shutdown [atexit][0m
