@@ -21,14 +21,14 @@
 # Registers:
 
 # File marks:
-'0  1  21  ~/.git/COMMIT_EDITMSG
+'0  1  20  ~/.git/COMMIT_EDITMSG
 '1  1  0  ~/duckietown/catkin_ws/src/05-teleop/pi_camera/launch/camera_node.launch
 '2  1  17  ~/duckietown/.git/COMMIT_EDITMSG
 '3  1  29  ~/duckiefleet/.git/COMMIT_EDITMSG
 '4  3  30  ~/duckiefleet/robots/taiwan/ss42.robot.yaml
 
 # Jumplist (newest first):
--'  1  21  ~/.git/COMMIT_EDITMSG
+-'  1  20  ~/.git/COMMIT_EDITMSG
 -'  1  0  ~/duckietown/catkin_ws/src/05-teleop/pi_camera/launch/camera_node.launch
 -'  1  17  ~/duckietown/.git/COMMIT_EDITMSG
 -'  1  29  ~/duckiefleet/.git/COMMIT_EDITMSG
@@ -125,15 +125,14 @@
 -'  3  30  ~/duckiefleet/robots/taiwan/ss42.robot.yaml
 -'  1  0  ~/duckiefleet/robots/taiwan/ss42.robot.yaml
 -'  1  29  ~/duckiefleet/.git/COMMIT_EDITMSG
--'  3  30  ~/duckiefleet/robots/taiwan/ss42.robot.yaml
 
 # History of marks within files (newest to oldest):
 
 > ~/.git/COMMIT_EDITMSG
-	"	1	21
-	^	1	22
-	.	1	21
-	+	1	21
+	"	1	20
+	^	1	21
+	.	1	20
+	+	1	20
 
 > ~/duckietown/catkin_ws/src/05-teleop/pi_camera/launch/camera_node.launch
 	"	1	0
