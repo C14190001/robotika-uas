@@ -1,0 +1,19 @@
+[rospy.client][INFO] 2021-12-03 13:14:40,718: init_node, name[/ss42/velocity_to_pose_node], pid[28066]
+[xmlrpc][INFO] 2021-12-03 13:14:40,722: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2021-12-03 13:14:40,726: ROS Slave URI: [http://ss42.local:35372/]
+[xmlrpc][INFO] 2021-12-03 13:14:40,728: Started XML-RPC server [http://ss42.local:35372/]
+[rospy.impl.masterslave][INFO] 2021-12-03 13:14:40,729: _ready: http://ss42.local:35372/
+[rospy.registration][INFO] 2021-12-03 13:14:40,740: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-03 13:14:40,741: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-03 13:14:40,828: registered with master
+[rospy.rosout][INFO] 2021-12-03 13:14:40,829: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-03 13:14:40,861: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-03 13:14:40,879: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-03 13:14:40,964: [/ss42/velocity_to_pose_node] Initialized.
+[rospy.internal][INFO] 2021-12-03 13:14:41,164: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-03 13:14:45,312: topic[/ss42/forward_kinematics_node/velocity] adding connection to [http://ss42.local:39876/], count 0
+[rospy.core][INFO] 2021-12-03 13:16:33,099: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-12-03 13:16:33,147: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-03 13:16:33,149: topic[/ss42/forward_kinematics_node/velocity] removing connection to http://ss42.local:39876/
+[rospy.impl.masterslave][INFO] 2021-12-03 13:16:33,151: signal-2
+[rospy.core][INFO] 2021-12-03 13:16:33,769: signal_shutdown [atexit]

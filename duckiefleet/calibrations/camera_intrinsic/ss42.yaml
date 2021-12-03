@@ -1,0 +1,23 @@
+camera_matrix:
+  cols: 3
+  data: [341.7458993299522, 0.0, 320.3474156981522, 0.0, 333.0071183936255, 227.2769727771955,
+    0.0, 0.0, 1.0]
+  rows: 3
+camera_name: ss42/camera_node
+distortion_coefficients:
+  cols: 5
+  data: [-0.28641390045488485, 0.06209789284600532, -0.0001318435562548337, 0.0031223920632866965,
+    0.0]
+  rows: 1
+distortion_model: plumb_bob
+image_height: 480
+image_width: 640
+projection_matrix:
+  cols: 4
+  data: [239.97491455078125, 0.0, 324.3419250574734, 0.0, 0.0, 270.124755859375, 220.02747465779248,
+    0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3

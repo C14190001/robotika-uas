@@ -1,0 +1,30 @@
+[rospy.client][INFO] 2021-12-03 13:14:39,621: init_node, name[/ss42/joy_mapper_node], pid[28048]
+[xmlrpc][INFO] 2021-12-03 13:14:39,626: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-03 13:14:39,629: Started XML-RPC server [http://ss42.local:42021/]
+[rospy.impl.masterslave][INFO] 2021-12-03 13:14:39,630: _ready: http://ss42.local:42021/
+[xmlrpc][INFO] 2021-12-03 13:14:39,646: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-03 13:14:39,647: ROS Slave URI: [http://ss42.local:42021/]
+[rospy.registration][INFO] 2021-12-03 13:14:39,658: Registering with master node http://ss42.local:11311/
+[rospy.init][INFO] 2021-12-03 13:14:39,759: registered with master
+[rospy.rosout][INFO] 2021-12-03 13:14:39,760: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-03 13:14:39,793: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-03 13:14:39,811: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-03 13:14:39,864: [/ss42/joy_mapper_node] Initializing 
+[rosout][INFO] 2021-12-03 13:14:39,922: [/ss42/joy_mapper_node] ~speed_gain = 0.41 
+[rosout][INFO] 2021-12-03 13:14:39,976: [/ss42/joy_mapper_node] ~steer_gain = 8.3 
+[rosout][INFO] 2021-12-03 13:14:40,023: [/ss42/joy_mapper_node] ~bicycle_kinematics = 0.0 
+[rospy.internal][INFO] 2021-12-03 13:14:40,077: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2021-12-03 13:14:40,083: [/ss42/joy_mapper_node] ~steer_angle_gain = 1.04 
+[rosout][INFO] 2021-12-03 13:14:40,150: [/ss42/joy_mapper_node] ~simulated_vehicle_length = 0.18 
+[rospy.internal][INFO] 2021-12-03 13:14:40,436: topic[/ss42/joy] adding connection to [http://ss42.local:34862/], count 0
+[rospy.internal][INFO] 2021-12-03 13:14:41,207: topic[/ss42/wheels_driver_node/emergency_stop] adding connection to [/ss42/wheels_driver_node], count 0
+[rospy.internal][INFO] 2021-12-03 13:14:45,568: topic[/ss42/joy_mapper_node/car_cmd] adding connection to [/ss42/inverse_kinematics_node], count 0
+[rosout][INFO] 2021-12-03 13:14:47,269: E-stop message
+[rosout][INFO] 2021-12-03 13:14:47,290: E-stop message
+[rospy.core][INFO] 2021-12-03 13:16:33,138: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-12-03 13:16:33,267: topic[/ss42/wheels_driver_node/emergency_stop] removing connection to /ss42/wheels_driver_node
+[rospy.internal][INFO] 2021-12-03 13:16:33,270: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-03 13:16:33,272: topic[/ss42/joy_mapper_node/car_cmd] removing connection to /ss42/inverse_kinematics_node
+[rospy.internal][INFO] 2021-12-03 13:16:33,274: topic[/ss42/joy] removing connection to http://ss42.local:34862/
+[rospy.impl.masterslave][INFO] 2021-12-03 13:16:33,287: signal-2
+[rospy.core][INFO] 2021-12-03 13:16:33,803: signal_shutdown [atexit]

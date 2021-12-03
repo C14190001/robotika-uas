@@ -1,0 +1,62 @@
+
+
+1638528414.119546305  Node Startup
+1638528420.654773950 INFO [decoder_node.py:26(setupParam) [topics: /ss42/camera_node/image/raw, /ss42/camera_node/image/compressed, /rosout, /ss42/decoder_node/switch] [/ss42/decoder_node] ~publish_freq = 2.0 
+1638528424.165895938 INFO [cam_info_reader_node.py:37(__init__) [topics: /ss42/camera_node/camera_info, /rosout] [/ss42/cam_info_reader_node] Using calibration file: /home/robotikabot/duckiefleet/calibrations/camera_intrinsic/default.yaml
+1638528424.166155099 INFO [cam_info_reader_node.py:37(__init__) [topics: /rosout, /ss42/camera_node/raw_camera_info] [/ss42/raw_cam_info_reader_node] Using calibration file: /home/robotikabot/duckiefleet/calibrations/camera_intrinsic/default.yaml
+1638528424.289832115 INFO [cam_info_reader_node.py:40(__init__) [topics: /ss42/camera_node/camera_info, /rosout] [/ss42/cam_info_reader_node] CameraInfo: header: 
+  seq: 0
+  stamp: 
+    secs: 0
+    nsecs:         0
+  frame_id: "/ss42/camera_optical_frame"
+height: 480
+width: 640
+distortion_model: "plumb_bob"
+D: [-0.2565888993516047, 0.04481160508242147, -0.00505275149956019, 0.001308569367976665, 0]
+K: [307.7379294605756, 0, 329.692367951685, 0, 314.9827773443905, 244.4605588877848, 0, 0, 1]
+R: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+P: [210.1107940673828, 0, 327.2577820024981, 0, 0, 253.8408660888672, 239.9969353923052, 0, 0, 0, 1, 0]
+binning_x: 0
+binning_y: 0
+roi: 
+  x_offset: 0
+  y_offset: 0
+  height: 0
+  width: 0
+  do_rectify: False
+1638528424.293045043 WARN [cam_info_reader_node.py:45(__init__) [topics: /ss42/camera_node/camera_info, /rosout] [/ss42/cam_info_reader_node] ==============CompressedImage
+1638528424.328378915 INFO [cam_info_reader_node.py:40(__init__) [topics: /rosout, /ss42/camera_node/raw_camera_info] [/ss42/raw_cam_info_reader_node] CameraInfo: header: 
+  seq: 0
+  stamp: 
+    secs: 0
+    nsecs:         0
+  frame_id: "/ss42/camera_optical_frame"
+height: 480
+width: 640
+distortion_model: "plumb_bob"
+D: [-0.2565888993516047, 0.04481160508242147, -0.00505275149956019, 0.001308569367976665, 0]
+K: [307.7379294605756, 0, 329.692367951685, 0, 314.9827773443905, 244.4605588877848, 0, 0, 1]
+R: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+P: [210.1107940673828, 0, 327.2577820024981, 0, 0, 253.8408660888672, 239.9969353923052, 0, 0, 0, 1, 0]
+binning_x: 0
+binning_y: 0
+roi: 
+  x_offset: 0
+  y_offset: 0
+  height: 0
+  width: 0
+  do_rectify: False
+1638528424.331327915 WARN [cam_info_reader_node.py:45(__init__) [topics: /rosout, /ss42/camera_node/raw_camera_info] [/ss42/raw_cam_info_reader_node] ==============Image
+1638528424.764941930 INFO [camera_node_sequence.py:112(setupParam) [topics: /rosout] [/ss42/camera_node] ~res_h = 480 
+1638528425.371265888 INFO [camera_node_sequence.py:56(__init__) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [/ss42/camera_node] Initialized.
+1638528425.379935026 INFO [camera_node_sequence.py:68(startCapturing) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [/ss42/camera_node] Start capturing.
+1638528425.475748062 INFO [camera_node_sequence.py:104(grabAndPublish) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [/ss42/camera_node] Published the first image.
+1638532309.764453887 INFO [camera_node_sequence.py:123(cbSrvSetCameraInfo) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [cbSrvSetCameraInfo] Callback!
+1638532309.771666049 INFO [camera_node_sequence.py:132(saveCameraInfo) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [saveCameraInfo] filename: /home/robotikabot/duckiefleet/calibrations/camera_intrinsic/ss42.yaml
+1638532309.793251037 INFO [camera_node_sequence.py:144(saveCameraInfo) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [saveCameraInfo] calib {'projection_matrix': {'rows': 3, 'data': (239.97491455078125, 0.0, 324.3419250574734, 0.0, 0.0, 270.124755859375, 220.02747465779248, 0.0, 0.0, 0.0, 1.0, 0.0), 'cols': 4}, 'rectification_matrix': {'rows': 3, 'data': (1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0), 'cols': 3}, 'image_height': 480, 'distortion_coefficients': {'rows': 1, 'data': (-0.28641390045488485, 0.06209789284600532, -0.0001318435562548337, 0.0031223920632866965, 0.0), 'cols': 5}, 'camera_name': 'ss42/camera_node', 'image_width': 640, 'camera_matrix': {'rows': 3, 'data': (341.7458993299522, 0.0, 320.3474156981522, 0.0, 333.0071183936255, 227.2769727771955, 0.0, 0.0, 1.0), 'cols': 3}, 'distortion_model': 'plumb_bob'}
+1638532309.986346006 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /ss42/camera_node/image/raw, /ss42/camera_node/image/compressed, /rosout, /ss42/decoder_node/switch] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1638532492.499886989 INFO [cam_info_reader_node.py:74(on_shutdown) [topics: /ss42/camera_node/image/raw, /rosout, /ss42/camera_node/raw_camera_info] [/ss42/raw_cam_info_reader_node] Shutdown.
+1638532492.509227991 INFO [cam_info_reader_node.py:74(on_shutdown) [topics: /ss42/camera_node/camera_info, /rosout, /ss42/camera_node/image/compressed] [/ss42/cam_info_reader_node] Shutdown.
+1638532492.555221080 INFO [camera_node_sequence.py:116(onShutdown) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [/ss42/camera_node] Closing camera.
+1638532492.558353900 INFO [camera_node_sequence.py:118(onShutdown) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [/ss42/camera_node] Shutdown.

@@ -326,3 +326,220 @@ source set_ros_master.sh ss42
 source set_vehicle_name.sh ss42
 roslaunch duckietown_demos lane_following.launch veh:=ss42
 sudo shutdown now
+ls
+rm out2.jpg
+rm out.jpg
+ls
+git init
+git remote add origin https://github.com/C14190001/uas-robotika
+git status
+git add .
+git commit
+git status
+git push origin master
+git status
+git add .
+git commit
+git push origin master
+cd duckiefleet/
+ls
+ls -a
+rm -fr .git
+git status
+rm -fr .git
+ls -a
+git status
+ls -a
+cd ..
+cd duckie bot
+cd duckiebot
+ls
+cd duckietown
+rm -fr .git
+cd ..
+git status
+git add .
+git commit
+git push origin master
+rm -fr .git
+git status
+git init
+git remote origin add https://github.com/C14190001/uas-robotika
+git remote add origin  https://github.com/C14190001/uas-robotika
+git status
+git add .
+git commit
+git push origin master
+git status
+git pull origin master
+ls
+cd duckiefleet
+ls
+cd ..
+cd duckietown
+ls
+cd ..
+cd duckiefleet/
+ls
+ls -a
+cd ..
+ls -a
+git status
+git push origin master
+git config http.postBuffer 524288000
+git push origin master
+roslaunch duckietown_demos lane following.launch veh:=ss42
+ls
+cp -r /home/ubuntu/duckietown/ .
+cp -r /home/ubuntu/duckiefleet/ .
+ls
+cd duckietown
+source environment.sh 
+cd catkin_ws/
+catkin__make
+catkin_make
+echo "export DUCKIEFLEET_ROOT=~/duckiefleet" >> "~/.bashrc
+echo "export DUCKIEFLEET_ROOT=~/duckiefleet" >> ~/.bashrc
+source ~/.bashrc
+cd ~/duckiefleet/robots/taiwan/
+cat wama.robot.yaml 
+cd
+rm -rf duckiefleet
+ls -a
+git clone https://github.com/duckietown/duckiefleet.git
+cd ~/duckiefleet/robots/taiwan/
+cat wama.robot.yaml 
+ls
+vim ss42.robot.yaml
+ls
+cd ~/duckietown/
+source environment.sh 
+rosrun duckieteam create-machines
+cd
+git status
+ls -a
+rm -fr .git
+ls -a
+git status
+git init
+git remote origin add https://github.com/C14190001/uas-robotika.git
+git remote add origin https://github.com/C14190001/uas-robotika.git
+git status
+git add .
+git status
+git commit
+git push origin master
+rm -fr .git
+git status
+git init
+git remote add origin https://github.com/C14190001/uas-robotika.git
+git status
+git add .
+git commit
+git push origin master
+git pull origin master --allow-unrelated-histories
+git --version
+sudo add-apt-repository ppa:git-core/ppa
+git pull origin master --allow-unrelated-histories
+ls
+ls -a
+git stash
+git pull origin master
+git stash pop
+
+git stash pop
+git stash list
+git stash
+git stash list
+git stash pop --1
+git stash pop --help
+git stash pop stash@{1}
+git stash list
+ls
+cd duckiefleet
+ls
+cd
+cd duckietown/
+ls
+misc
+cd misc
+ls
+cd
+git pull origin master
+ls
+cd
+ls
+cp -r /home/ubuntu/duckietown/ .
+cp -r /home/ubuntu/duckiefleet/ .
+ls
+cd ~/duckietown/
+source environment.sh 
+cd catkin_ws/
+catkin_make
+echo "export DUCKIEFLEET_ROOT=~/duckiefleet" >> ~/.bashrc
+source ~/.bashrc
+cd ~/duckiefleet/robots/taiwan
+cat wama.robot.yaml
+cd
+git clone https://github.com/duckietown/duckiefleet.git
+cd ~/duckiefleet/robots/taiwan
+cat wama.robot.yaml
+vim ss42.robot.yaml
+ls
+cd ~/duckietown
+source environment.sh 
+rosrun duckieteam create-machines
+cd
+git status
+git add .
+git commit
+git push origin master
+cd duckiefleet/
+rm --fr .git
+rm -fr .git
+cd
+cd duckietown
+rm -fr .git
+cd
+git status
+git add .
+git commit
+git push origin master
+git add duckiefleet
+git add duckietown
+git status
+git add duckietown/.
+git add duckiefleet/.
+git status
+git commit
+git status
+git add duckietown/.
+git add duckiefleet/.
+git commit
+git add duckiefleet
+git add duckietown
+git commit
+git rm --cached duckiefleet
+git rm --cached duckietown
+git add duckietown
+git add duckiefleet
+git status
+git commit -m "Upload file"
+git push origin master
+cd ~/duckietown
+source environment.sh 
+source set_ros_master.sh ss42
+roslaunch duckietown camera.launch veh:=ss42 raw:=ture
+roslaunch duckietown camera.launch veh:=ss42 raw:=true
+cd ..
+git status
+git add .
+git commit -m "Update"
+git commit
+git add .
+git commit -m "Update 2 Dec"
+git push origin master
+sudo shutdown now
+roslaunch duckietown intrinsic_calibration.launch veh:=ss42 raw:=true
+roslaunch ground_projection ground_projection.launch veh:=ss42 raw:=true
+roslaunch duckietown camera.launch veh:=ss42 raw:=true

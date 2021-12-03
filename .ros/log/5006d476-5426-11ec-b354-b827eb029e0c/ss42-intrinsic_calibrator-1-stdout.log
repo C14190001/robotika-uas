@@ -1,0 +1,123 @@
+('Waiting for service', '/ss42/camera_node/set_camera_info', '...')
+OK
+*** Added sample 1, p_x = 0.553, p_y = 0.587, p_size = 0.229, skew = 0.087
+*** Added sample 2, p_x = 0.662, p_y = 0.656, p_size = 0.263, skew = 0.019
+*** Added sample 3, p_x = 0.792, p_y = 0.608, p_size = 0.262, skew = 0.137
+*** Added sample 4, p_x = 0.896, p_y = 0.581, p_size = 0.249, skew = 0.330
+*** Added sample 5, p_x = 0.978, p_y = 0.545, p_size = 0.229, skew = 0.410
+*** Added sample 6, p_x = 0.836, p_y = 0.542, p_size = 0.258, skew = 0.224
+*** Added sample 7, p_x = 0.408, p_y = 0.506, p_size = 0.245, skew = 0.168
+*** Added sample 8, p_x = 0.331, p_y = 0.469, p_size = 0.231, skew = 0.266
+*** Added sample 9, p_x = 0.277, p_y = 0.393, p_size = 0.205, skew = 0.334
+*** Added sample 10, p_x = 0.208, p_y = 0.457, p_size = 0.180, skew = 0.433
+*** Added sample 11, p_x = 0.322, p_y = 0.231, p_size = 0.142, skew = 0.139
+*** Added sample 12, p_x = 0.196, p_y = 0.415, p_size = 0.154, skew = 0.560
+*** Added sample 13, p_x = 0.190, p_y = 0.487, p_size = 0.131, skew = 0.836
+*** Added sample 14, p_x = 0.149, p_y = 0.422, p_size = 0.153, skew = 0.037
+*** Added sample 15, p_x = 0.113, p_y = 0.428, p_size = 0.159, skew = 0.202
+*** Added sample 16, p_x = 0.077, p_y = 0.458, p_size = 0.123, skew = 1.000
+*** Added sample 17, p_x = 0.068, p_y = 0.542, p_size = 0.168, skew = 0.015
+*** Added sample 18, p_x = 0.084, p_y = 0.510, p_size = 0.152, skew = 0.436
+*** Added sample 19, p_x = 0.008, p_y = 0.501, p_size = 0.145, skew = 0.548
+*** Added sample 20, p_x = 0.630, p_y = 0.475, p_size = 0.261, skew = 0.048
+*** Added sample 21, p_x = 0.629, p_y = 0.561, p_size = 0.368, skew = 0.209
+*** Added sample 22, p_x = 0.659, p_y = 0.343, p_size = 0.384, skew = 0.072
+*** Added sample 23, p_x = 0.583, p_y = 0.406, p_size = 0.327, skew = 0.001
+*** Added sample 24, p_x = 0.634, p_y = 0.236, p_size = 0.315, skew = 0.068
+*** Added sample 25, p_x = 0.536, p_y = 0.359, p_size = 0.134, skew = 0.002
+*** Added sample 26, p_x = 0.619, p_y = 0.338, p_size = 0.204, skew = 0.265
+*** Added sample 27, p_x = 0.533, p_y = 0.272, p_size = 0.184, skew = 0.064
+*** Added sample 28, p_x = 0.678, p_y = 0.257, p_size = 0.173, skew = 0.006
+*** Added sample 29, p_x = 0.661, p_y = 0.163, p_size = 0.150, skew = 0.074
+*** Added sample 30, p_x = 0.697, p_y = 0.115, p_size = 0.223, skew = 0.154
+*** Added sample 31, p_x = 0.698, p_y = 0.332, p_size = 0.217, skew = 0.095
+*** Added sample 32, p_x = 0.689, p_y = 0.419, p_size = 0.204, skew = 0.326
+*** Added sample 33, p_x = 0.553, p_y = 0.710, p_size = 0.206, skew = 0.003
+*** Added sample 34, p_x = 0.536, p_y = 0.817, p_size = 0.190, skew = 0.076
+*** Added sample 35, p_x = 0.499, p_y = 0.919, p_size = 0.179, skew = 0.016
+*** Added sample 36, p_x = 0.408, p_y = 0.228, p_size = 0.166, skew = 0.448
+*** Added sample 37, p_x = 0.508, p_y = 0.134, p_size = 0.209, skew = 0.102
+*** Added sample 38, p_x = 0.522, p_y = 0.243, p_size = 0.148, skew = 0.503
+*** Added sample 39, p_x = 0.450, p_y = 0.417, p_size = 0.162, skew = 0.249
+*** Added sample 40, p_x = 0.467, p_y = 0.475, p_size = 0.365, skew = 0.112
+*** Added sample 41, p_x = 0.446, p_y = 0.254, p_size = 0.303, skew = 0.011
+*** Added sample 42, p_x = 0.429, p_y = 0.165, p_size = 0.358, skew = 0.099
+*** Added sample 43, p_x = 0.324, p_y = 0.258, p_size = 0.416, skew = 0.038
+*** Added sample 44, p_x = 0.339, p_y = 0.460, p_size = 0.445, skew = 0.147
+*** Added sample 45, p_x = 0.398, p_y = 0.453, p_size = 0.456, skew = 0.286
+*** Added sample 46, p_x = 0.426, p_y = 0.521, p_size = 0.489, skew = 0.623
+*** Added sample 47, p_x = 0.712, p_y = 0.279, p_size = 0.461, skew = 0.300
+*** Added sample 48, p_x = 0.419, p_y = 0.315, p_size = 0.123, skew = 0.078
+('D = ', [-0.28641390045488485, 0.06209789284600532, -0.0001318435562548337, 0.0031223920632866965, 0.0])
+('K = ', [341.7458993299522, 0.0, 320.3474156981522, 0.0, 333.0071183936255, 227.2769727771955, 0.0, 0.0, 1.0])
+('R = ', [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0])
+('P = ', [239.97491455078125, 0.0, 324.3419250574734, 0.0, 0.0, 270.124755859375, 220.02747465779248, 0.0, 0.0, 0.0, 1.0, 0.0])
+None
+# oST version 5.0 parameters
+
+
+[image]
+
+width
+640
+
+height
+480
+
+[narrow_stereo]
+
+camera matrix
+341.745899 0.000000 320.347416
+0.000000 333.007118 227.276973
+0.000000 0.000000 1.000000
+
+distortion
+-0.286414 0.062098 -0.000132 0.003122 0.000000
+
+rectification
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 1.000000
+
+projection
+239.974915 0.000000 324.341925 0.000000
+0.000000 270.124756 220.027475 0.000000
+0.000000 0.000000 1.000000 0.000000
+
+
+('D = ', [-0.28641390045488485, 0.06209789284600532, -0.0001318435562548337, 0.0031223920632866965, 0.0])
+('K = ', [341.7458993299522, 0.0, 320.3474156981522, 0.0, 333.0071183936255, 227.2769727771955, 0.0, 0.0, 1.0])
+('R = ', [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0])
+('P = ', [239.97491455078125, 0.0, 324.3419250574734, 0.0, 0.0, 270.124755859375, 220.02747465779248, 0.0, 0.0, 0.0, 1.0, 0.0])
+# oST version 5.0 parameters
+
+
+[image]
+
+width
+640
+
+height
+480
+
+[narrow_stereo]
+
+camera matrix
+341.745899 0.000000 320.347416
+0.000000 333.007118 227.276973
+0.000000 0.000000 1.000000
+
+distortion
+-0.286414 0.062098 -0.000132 0.003122 0.000000
+
+rectification
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 1.000000
+
+projection
+239.974915 0.000000 324.341925 0.000000
+0.000000 270.124756 220.027475 0.000000
+0.000000 0.000000 1.000000 0.000000
+
+

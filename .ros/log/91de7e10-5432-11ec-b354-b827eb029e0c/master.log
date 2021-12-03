@@ -1,0 +1,173 @@
+[rosmaster.main][INFO] 2021-12-03 13:14:35,902: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2021-12-03 13:14:35,903: Starting ROS Master Node
+[xmlrpc][INFO] 2021-12-03 13:14:35,908: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2021-12-03 13:14:35,910: Started XML-RPC server [http://ss42.local:11311/]
+[rosmaster.master][INFO] 2021-12-03 13:14:35,911: Master initialized: port[11311], uri[http://ss42.local:11311/]
+[xmlrpc][INFO] 2021-12-03 13:14:35,912: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2021-12-03 13:14:36,035: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2021-12-03 13:14:36,045: +PARAM [/roslaunch/uris/host_ss42_local__39829] by /roslaunch
+[rosmaster.master][INFO] 2021-12-03 13:14:37,086: +PARAM [/ss42/joy/coalesce_interval] by /roslaunch
+[rosmaster.master][INFO] 2021-12-03 13:14:37,088: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2021-12-03 13:14:37,091: +PARAM [/ss42/joy_mapper_node/steer_angle_gain] by /roslaunch
+[rosmaster.master][INFO] 2021-12-03 13:14:37,093: +PARAM [/ss42/joy/dev] by /roslaunch
+[rosmaster.master][INFO] 2021-12-03 13:14:37,094: +PARAM [/ss42/joy_mapper_node/simulated_vehicle_length] by /roslaunch
+[rosmaster.master][INFO] 2021-12-03 13:14:37,096: +PARAM [/ss42/joy_mapper_node/bicycle_kinematics] by /roslaunch
+[rosmaster.master][INFO] 2021-12-03 13:14:37,097: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2021-12-03 13:14:37,099: +PARAM [/ss42/joy/deadzone] by /roslaunch
+[rosmaster.master][INFO] 2021-12-03 13:14:37,102: +SERVICE [/rosout/get_loggers] /rosout http://ss42.local:42919/
+[rosmaster.master][INFO] 2021-12-03 13:14:37,103: +PARAM [/ss42/joy/autorepeat_rate] by /roslaunch
+[rosmaster.master][INFO] 2021-12-03 13:14:37,105: +PARAM [/ss42/joy_mapper_node/steer_gain] by /roslaunch
+[rosmaster.master][INFO] 2021-12-03 13:14:37,107: +PARAM [/ss42/joy_mapper_node/speed_gain] by /roslaunch
+[rosmaster.master][INFO] 2021-12-03 13:14:37,113: +SERVICE [/rosout/set_logger_level] /rosout http://ss42.local:42919/
+[rosmaster.master][INFO] 2021-12-03 13:14:37,127: +PUB [/rosout_agg] /rosout http://ss42.local:42919/
+[rosmaster.master][INFO] 2021-12-03 13:14:37,161: +SUB [/rosout] /rosout http://ss42.local:42919/
+[rosmaster.master][INFO] 2021-12-03 13:14:37,272: +PUB [/rosout] /ss42/joy http://ss42.local:34862/
+[rosmaster.master][INFO] 2021-12-03 13:14:37,298: +SERVICE [/ss42/joy/get_loggers] /ss42/joy http://ss42.local:34862/
+[rosmaster.master][INFO] 2021-12-03 13:14:37,309: +SERVICE [/ss42/joy/set_logger_level] /ss42/joy http://ss42.local:34862/
+[rosmaster.master][INFO] 2021-12-03 13:14:37,314: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/']
+[rosmaster.master][INFO] 2021-12-03 13:14:37,353: +PUB [/diagnostics] /ss42/joy http://ss42.local:34862/
+[rosmaster.master][INFO] 2021-12-03 13:14:37,358: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/']: sec=0.04, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-03 13:14:37,382: +PUB [/ss42/joy] /ss42/joy http://ss42.local:34862/
+[rosmaster.master][INFO] 2021-12-03 13:14:39,789: +PUB [/rosout] /ss42/joy_mapper_node http://ss42.local:42021/
+[rosmaster.master][INFO] 2021-12-03 13:14:39,839: +SERVICE [/ss42/joy_mapper_node/get_loggers] /ss42/joy_mapper_node http://ss42.local:42021/
+[rosmaster.master][INFO] 2021-12-03 13:14:39,843: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/', 'http://ss42.local:42021/']
+[rosmaster.master][INFO] 2021-12-03 13:14:39,850: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/', 'http://ss42.local:42021/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-03 13:14:39,859: +SERVICE [/ss42/joy_mapper_node/set_logger_level] /ss42/joy_mapper_node http://ss42.local:42021/
+[rosmaster.master][INFO] 2021-12-03 13:14:39,918: +PARAM [/ss42/joy_mapper_node/speed_gain] by /ss42/joy_mapper_node
+[rosmaster.master][INFO] 2021-12-03 13:14:39,971: +PARAM [/ss42/joy_mapper_node/steer_gain] by /ss42/joy_mapper_node
+[rosmaster.master][INFO] 2021-12-03 13:14:40,018: +PARAM [/ss42/joy_mapper_node/bicycle_kinematics] by /ss42/joy_mapper_node
+[rosmaster.master][INFO] 2021-12-03 13:14:40,079: +PARAM [/ss42/joy_mapper_node/steer_angle_gain] by /ss42/joy_mapper_node
+[rosmaster.master][INFO] 2021-12-03 13:14:40,128: +PARAM [/ss42/joy_mapper_node/simulated_vehicle_length] by /ss42/joy_mapper_node
+[rosmaster.master][INFO] 2021-12-03 13:14:40,172: +PUB [/ss42/joy_mapper_node/car_cmd] /ss42/joy_mapper_node http://ss42.local:42021/
+[rosmaster.master][INFO] 2021-12-03 13:14:40,226: +PUB [/ss42/joy_mapper_node/joystick_override] /ss42/joy_mapper_node http://ss42.local:42021/
+[rosmaster.master][INFO] 2021-12-03 13:14:40,254: +PUB [/ss42/joy_mapper_node/parallel_autonomy] /ss42/joy_mapper_node http://ss42.local:42021/
+[rosmaster.master][INFO] 2021-12-03 13:14:40,288: +PUB [/ss42/anti_instagram_node/click] /ss42/joy_mapper_node http://ss42.local:42021/
+[rosmaster.master][INFO] 2021-12-03 13:14:40,308: +PUB [/ss42/wheels_driver_node/emergency_stop] /ss42/joy_mapper_node http://ss42.local:42021/
+[rosmaster.master][INFO] 2021-12-03 13:14:40,326: +PUB [/ss42/joy_mapper_node/start_avoidance] /ss42/joy_mapper_node http://ss42.local:42021/
+[rosmaster.master][INFO] 2021-12-03 13:14:40,366: +SUB [/ss42/joy] /ss42/joy_mapper_node http://ss42.local:42021/
+[rosmaster.master][INFO] 2021-12-03 13:14:40,856: +PUB [/rosout] /ss42/velocity_to_pose_node http://ss42.local:35372/
+[rosmaster.master][INFO] 2021-12-03 13:14:40,871: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/', 'http://ss42.local:42021/', 'http://ss42.local:35372/']
+[rosmaster.master][INFO] 2021-12-03 13:14:40,885: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/', 'http://ss42.local:42021/', 'http://ss42.local:35372/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-03 13:14:40,903: +SERVICE [/ss42/velocity_to_pose_node/get_loggers] /ss42/velocity_to_pose_node http://ss42.local:35372/
+[rosmaster.master][INFO] 2021-12-03 13:14:40,919: +SERVICE [/ss42/velocity_to_pose_node/set_logger_level] /ss42/velocity_to_pose_node http://ss42.local:35372/
+[rosmaster.master][INFO] 2021-12-03 13:14:40,946: +SUB [/ss42/forward_kinematics_node/velocity] /ss42/velocity_to_pose_node http://ss42.local:35372/
+[rosmaster.master][INFO] 2021-12-03 13:14:40,959: +PUB [/ss42/velocity_to_pose_node/pose] /ss42/velocity_to_pose_node http://ss42.local:35372/
+[rosmaster.master][INFO] 2021-12-03 13:14:41,003: +PUB [/rosout] /ss42/wheels_driver_node http://ss42.local:35856/
+[rosmaster.master][INFO] 2021-12-03 13:14:41,033: +SERVICE [/ss42/wheels_driver_node/get_loggers] /ss42/wheels_driver_node http://ss42.local:35856/
+[rosmaster.master][INFO] 2021-12-03 13:14:41,046: +SERVICE [/ss42/wheels_driver_node/set_logger_level] /ss42/wheels_driver_node http://ss42.local:35856/
+[rosmaster.master][INFO] 2021-12-03 13:14:41,052: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/', 'http://ss42.local:42021/', 'http://ss42.local:35372/', 'http://ss42.local:35856/']
+[rosmaster.master][INFO] 2021-12-03 13:14:41,059: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/', 'http://ss42.local:42021/', 'http://ss42.local:35372/', 'http://ss42.local:35856/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-03 13:14:41,098: +PUB [/ss42/wheels_driver_node/wheels_cmd_executed] /ss42/wheels_driver_node http://ss42.local:35856/
+[rosmaster.master][INFO] 2021-12-03 13:14:41,118: +SUB [/ss42/wheels_driver_node/wheels_cmd] /ss42/wheels_driver_node http://ss42.local:35856/
+[rosmaster.master][INFO] 2021-12-03 13:14:41,138: +SUB [/ss42/wheels_driver_node/emergency_stop] /ss42/wheels_driver_node http://ss42.local:35856/
+[rosmaster.master][INFO] 2021-12-03 13:14:44,991: +PUB [/rosout] /ss42/forward_kinematics_node http://ss42.local:39876/
+[rosmaster.master][INFO] 2021-12-03 13:14:44,995: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/', 'http://ss42.local:42021/', 'http://ss42.local:35372/', 'http://ss42.local:35856/', 'http://ss42.local:39876/']
+[rosmaster.master][INFO] 2021-12-03 13:14:45,003: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/', 'http://ss42.local:42021/', 'http://ss42.local:35372/', 'http://ss42.local:35856/', 'http://ss42.local:39876/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-03 13:14:45,018: +SERVICE [/ss42/forward_kinematics_node/get_loggers] /ss42/forward_kinematics_node http://ss42.local:39876/
+[rosmaster.master][INFO] 2021-12-03 13:14:45,029: +SERVICE [/ss42/forward_kinematics_node/set_logger_level] /ss42/forward_kinematics_node http://ss42.local:39876/
+[rosmaster.master][INFO] 2021-12-03 13:14:45,060: +PARAM [/ss42/forward_kinematics_node/gain] by /ss42/forward_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,070: +PARAM [/ss42/forward_kinematics_node/trim] by /ss42/forward_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,080: +PARAM [/ss42/forward_kinematics_node/baseline] by /ss42/forward_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,089: +PARAM [/ss42/forward_kinematics_node/k] by /ss42/forward_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,110: +PARAM [/ss42/forward_kinematics_node/radius] by /ss42/forward_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,116: +PUB [/rosout] /ss42/inverse_kinematics_node http://ss42.local:43595/
+[rosmaster.master][INFO] 2021-12-03 13:14:45,133: +PARAM [/ss42/forward_kinematics_node/gain] by /ss42/forward_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,143: +SERVICE [/ss42/inverse_kinematics_node/get_loggers] /ss42/inverse_kinematics_node http://ss42.local:43595/
+[rosmaster.master][INFO] 2021-12-03 13:14:45,156: +PARAM [/ss42/forward_kinematics_node/trim] by /ss42/forward_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,162: +SERVICE [/ss42/inverse_kinematics_node/set_logger_level] /ss42/inverse_kinematics_node http://ss42.local:43595/
+[rosmaster.master][INFO] 2021-12-03 13:14:45,165: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/', 'http://ss42.local:42021/', 'http://ss42.local:35372/', 'http://ss42.local:35856/', 'http://ss42.local:39876/', 'http://ss42.local:43595/']
+[rosmaster.master][INFO] 2021-12-03 13:14:45,173: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/', 'http://ss42.local:42021/', 'http://ss42.local:35372/', 'http://ss42.local:35856/', 'http://ss42.local:39876/', 'http://ss42.local:43595/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-03 13:14:45,180: +PARAM [/ss42/forward_kinematics_node/baseline] by /ss42/forward_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,200: +PARAM [/ss42/forward_kinematics_node/radius] by /ss42/forward_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,205: +PARAM [/ss42/inverse_kinematics_node/gain] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,217: +PARAM [/ss42/inverse_kinematics_node/trim] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,223: +PARAM [/ss42/forward_kinematics_node/k] by /ss42/forward_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,229: +PARAM [/ss42/inverse_kinematics_node/baseline] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,236: +PUB [/ss42/forward_kinematics_node/velocity] /ss42/forward_kinematics_node http://ss42.local:39876/
+[rosmaster.master][INFO] 2021-12-03 13:14:45,241: +PARAM [/ss42/inverse_kinematics_node/k] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,252: +PARAM [/ss42/inverse_kinematics_node/radius] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,258: +SUB [/ss42/wheels_driver_node/wheels_cmd_executed] /ss42/forward_kinematics_node http://ss42.local:39876/
+[rosmaster.master][INFO] 2021-12-03 13:14:45,263: +PARAM [/ss42/inverse_kinematics_node/limit] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,274: publisherUpdate[/ss42/forward_kinematics_node/velocity] -> http://ss42.local:35372/ ['http://ss42.local:39876/']
+[rosmaster.master][INFO] 2021-12-03 13:14:45,288: publisherUpdate[/ss42/forward_kinematics_node/velocity] -> http://ss42.local:35372/ ['http://ss42.local:39876/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-03 13:14:45,295: +PARAM [/ss42/inverse_kinematics_node/gain] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,321: +PARAM [/ss42/inverse_kinematics_node/trim] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,350: +PARAM [/ss42/inverse_kinematics_node/baseline] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,371: +PARAM [/ss42/inverse_kinematics_node/radius] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,399: +PARAM [/ss42/inverse_kinematics_node/k] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,426: +PARAM [/ss42/inverse_kinematics_node/limit] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-03 13:14:45,441: +SERVICE [/ss42/inverse_kinematics_node/set_gain] /ss42/inverse_kinematics_node http://ss42.local:43595/
+[rosmaster.master][INFO] 2021-12-03 13:14:45,451: +SERVICE [/ss42/inverse_kinematics_node/set_trim] /ss42/inverse_kinematics_node http://ss42.local:43595/
+[rosmaster.master][INFO] 2021-12-03 13:14:45,461: +SERVICE [/ss42/inverse_kinematics_node/set_baseline] /ss42/inverse_kinematics_node http://ss42.local:43595/
+[rosmaster.master][INFO] 2021-12-03 13:14:45,471: +SERVICE [/ss42/inverse_kinematics_node/set_radius] /ss42/inverse_kinematics_node http://ss42.local:43595/
+[rosmaster.master][INFO] 2021-12-03 13:14:45,482: +SERVICE [/ss42/inverse_kinematics_node/set_k] /ss42/inverse_kinematics_node http://ss42.local:43595/
+[rosmaster.master][INFO] 2021-12-03 13:14:45,492: +SERVICE [/ss42/inverse_kinematics_node/set_limit] /ss42/inverse_kinematics_node http://ss42.local:43595/
+[rosmaster.master][INFO] 2021-12-03 13:14:45,502: +SERVICE [/ss42/inverse_kinematics_node/save_calibration] /ss42/inverse_kinematics_node http://ss42.local:43595/
+[rosmaster.master][INFO] 2021-12-03 13:14:45,521: +SUB [/ss42/joy_mapper_node/car_cmd] /ss42/inverse_kinematics_node http://ss42.local:43595/
+[rosmaster.master][INFO] 2021-12-03 13:14:45,532: +PUB [/ss42/wheels_driver_node/wheels_cmd] /ss42/inverse_kinematics_node http://ss42.local:43595/
+[rosmaster.master][INFO] 2021-12-03 13:14:45,578: publisherUpdate[/ss42/wheels_driver_node/wheels_cmd] -> http://ss42.local:35856/ ['http://ss42.local:43595/']
+[rosmaster.master][INFO] 2021-12-03 13:14:45,588: publisherUpdate[/ss42/wheels_driver_node/wheels_cmd] -> http://ss42.local:35856/ ['http://ss42.local:43595/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-03 13:16:33,117: -SUB [/ss42/forward_kinematics_node/velocity] /ss42/velocity_to_pose_node http://ss42.local:35372/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,120: -PUB [/rosout] /ss42/velocity_to_pose_node http://ss42.local:35372/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,121: -PUB [/ss42/velocity_to_pose_node/pose] /ss42/velocity_to_pose_node http://ss42.local:35372/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,123: -SERVICE [/ss42/velocity_to_pose_node/set_logger_level] /ss42/velocity_to_pose_node rosrpc://ss42.local:38298
+[rosmaster.master][INFO] 2021-12-03 13:16:33,128: -SERVICE [/ss42/velocity_to_pose_node/get_loggers] /ss42/velocity_to_pose_node rosrpc://ss42.local:38298
+[rosmaster.master][INFO] 2021-12-03 13:16:33,145: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/', 'http://ss42.local:42021/', 'http://ss42.local:35856/', 'http://ss42.local:39876/', 'http://ss42.local:43595/']
+[rosmaster.master][INFO] 2021-12-03 13:16:33,159: -SUB [/ss42/wheels_driver_node/wheels_cmd_executed] /ss42/forward_kinematics_node http://ss42.local:39876/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,161: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/', 'http://ss42.local:42021/', 'http://ss42.local:35856/', 'http://ss42.local:39876/', 'http://ss42.local:43595/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-03 13:16:33,162: -PUB [/ss42/forward_kinematics_node/velocity] /ss42/forward_kinematics_node http://ss42.local:39876/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,166: -PUB [/rosout] /ss42/forward_kinematics_node http://ss42.local:39876/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,186: -SUB [/ss42/joy] /ss42/joy_mapper_node http://ss42.local:42021/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,187: -SUB [/ss42/wheels_driver_node/emergency_stop] /ss42/wheels_driver_node http://ss42.local:35856/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,188: -SERVICE [/ss42/forward_kinematics_node/set_logger_level] /ss42/forward_kinematics_node rosrpc://ss42.local:34326
+[rosmaster.master][INFO] 2021-12-03 13:16:33,189: -PUB [/ss42/joy_mapper_node/joystick_override] /ss42/joy_mapper_node http://ss42.local:42021/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,190: -SUB [/ss42/wheels_driver_node/wheels_cmd] /ss42/wheels_driver_node http://ss42.local:35856/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,191: -SERVICE [/ss42/forward_kinematics_node/get_loggers] /ss42/forward_kinematics_node rosrpc://ss42.local:34326
+[rosmaster.master][INFO] 2021-12-03 13:16:33,194: -PUB [/ss42/wheels_driver_node/emergency_stop] /ss42/joy_mapper_node http://ss42.local:42021/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,195: -PUB [/ss42/wheels_driver_node/wheels_cmd_executed] /ss42/wheels_driver_node http://ss42.local:35856/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,197: -PUB [/rosout] /ss42/wheels_driver_node http://ss42.local:35856/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,199: -SERVICE [/ss42/wheels_driver_node/get_loggers] /ss42/wheels_driver_node rosrpc://ss42.local:45194
+[rosmaster.master][INFO] 2021-12-03 13:16:33,200: -SERVICE [/ss42/wheels_driver_node/set_logger_level] /ss42/wheels_driver_node rosrpc://ss42.local:45194
+[rosmaster.master][INFO] 2021-12-03 13:16:33,216: -PUB [/rosout] /ss42/joy_mapper_node http://ss42.local:42021/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,218: -PUB [/ss42/joy_mapper_node/parallel_autonomy] /ss42/joy_mapper_node http://ss42.local:42021/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,223: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/', 'http://ss42.local:42021/', 'http://ss42.local:35856/', 'http://ss42.local:43595/']
+[rosmaster.master][INFO] 2021-12-03 13:16:33,231: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/', 'http://ss42.local:42021/', 'http://ss42.local:35856/', 'http://ss42.local:43595/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-03 13:16:33,232: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/', 'http://ss42.local:42021/', 'http://ss42.local:43595/']
+[rosmaster.master][INFO] 2021-12-03 13:16:33,227: -PUB [/ss42/joy_mapper_node/start_avoidance] /ss42/joy_mapper_node http://ss42.local:42021/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,238: -PUB [/ss42/anti_instagram_node/click] /ss42/joy_mapper_node http://ss42.local:42021/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,239: -PUB [/ss42/joy_mapper_node/car_cmd] /ss42/joy_mapper_node http://ss42.local:42021/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,240: -SERVICE [/ss42/joy_mapper_node/set_logger_level] /ss42/joy_mapper_node rosrpc://ss42.local:42701
+[rosmaster.master][INFO] 2021-12-03 13:16:33,241: -SERVICE [/ss42/joy_mapper_node/get_loggers] /ss42/joy_mapper_node rosrpc://ss42.local:42701
+[rosmaster.master][INFO] 2021-12-03 13:16:33,237: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/', 'http://ss42.local:42021/', 'http://ss42.local:43595/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-03 13:16:33,242: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/', 'http://ss42.local:43595/']
+[rosmaster.master][INFO] 2021-12-03 13:16:33,247: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/', 'http://ss42.local:43595/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-03 13:16:33,247: publisherUpdate[/ss42/joy_mapper_node/car_cmd] -> http://ss42.local:43595/ []
+[rosmaster.master][INFO] 2021-12-03 13:16:33,270: publisherUpdate[/ss42/joy_mapper_node/car_cmd] -> http://ss42.local:43595/ []: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-03 13:16:33,290: -SUB [/ss42/joy_mapper_node/car_cmd] /ss42/inverse_kinematics_node http://ss42.local:43595/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,292: -PUB [/ss42/wheels_driver_node/wheels_cmd] /ss42/inverse_kinematics_node http://ss42.local:43595/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,293: -PUB [/rosout] /ss42/inverse_kinematics_node http://ss42.local:43595/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,294: -SERVICE [/ss42/inverse_kinematics_node/set_radius] /ss42/inverse_kinematics_node rosrpc://ss42.local:33905
+[rosmaster.master][INFO] 2021-12-03 13:16:33,295: -SERVICE [/ss42/inverse_kinematics_node/set_limit] /ss42/inverse_kinematics_node rosrpc://ss42.local:33905
+[rosmaster.master][INFO] 2021-12-03 13:16:33,296: -SERVICE [/ss42/inverse_kinematics_node/set_baseline] /ss42/inverse_kinematics_node rosrpc://ss42.local:33905
+[rosmaster.master][INFO] 2021-12-03 13:16:33,297: -SERVICE [/ss42/inverse_kinematics_node/set_trim] /ss42/inverse_kinematics_node rosrpc://ss42.local:33905
+[rosmaster.master][INFO] 2021-12-03 13:16:33,298: -SERVICE [/ss42/inverse_kinematics_node/set_gain] /ss42/inverse_kinematics_node rosrpc://ss42.local:33905
+[rosmaster.master][INFO] 2021-12-03 13:16:33,299: -SERVICE [/ss42/inverse_kinematics_node/set_logger_level] /ss42/inverse_kinematics_node rosrpc://ss42.local:33905
+[rosmaster.master][INFO] 2021-12-03 13:16:33,300: -SERVICE [/ss42/inverse_kinematics_node/get_loggers] /ss42/inverse_kinematics_node rosrpc://ss42.local:33905
+[rosmaster.master][INFO] 2021-12-03 13:16:33,301: -SERVICE [/ss42/inverse_kinematics_node/set_k] /ss42/inverse_kinematics_node rosrpc://ss42.local:33905
+[rosmaster.master][INFO] 2021-12-03 13:16:33,302: -SERVICE [/ss42/inverse_kinematics_node/save_calibration] /ss42/inverse_kinematics_node rosrpc://ss42.local:33905
+[rosmaster.master][INFO] 2021-12-03 13:16:33,308: -PUB [/rosout] /ss42/joy http://ss42.local:34862/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,317: -PUB [/diagnostics] /ss42/joy http://ss42.local:34862/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,324: -PUB [/ss42/joy] /ss42/joy http://ss42.local:34862/
+[rosmaster.master][INFO] 2021-12-03 13:16:33,331: -SERVICE [/ss42/joy/get_loggers] /ss42/joy rosrpc://ss42.local:60108
+[rosmaster.master][INFO] 2021-12-03 13:16:33,338: -SERVICE [/ss42/joy/set_logger_level] /ss42/joy rosrpc://ss42.local:60108
+[rosmaster.master][INFO] 2021-12-03 13:16:33,349: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/']
+[rosmaster.master][INFO] 2021-12-03 13:16:33,353: publisherUpdate[/rosout] -> http://ss42.local:42919/ ['http://ss42.local:34862/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-03 13:16:33,354: publisherUpdate[/rosout] -> http://ss42.local:42919/ []
+[rosmaster.master][INFO] 2021-12-03 13:16:33,358: publisherUpdate[/rosout] -> http://ss42.local:42919/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-03 13:16:34,263: -PUB [/rosout_agg] /rosout http://ss42.local:42919/
+[rosmaster.master][INFO] 2021-12-03 13:16:34,270: -SUB [/rosout] /rosout http://ss42.local:42919/
+[rosmaster.master][INFO] 2021-12-03 13:16:34,276: -SERVICE [/rosout/get_loggers] /rosout rosrpc://ss42.local:51075
+[rosmaster.master][INFO] 2021-12-03 13:16:34,282: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://ss42.local:51075
+[rosmaster.main][INFO] 2021-12-03 13:16:34,428: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2021-12-03 13:16:34,428: stopping master...
+[rospy.core][INFO] 2021-12-03 13:16:34,429: signal_shutdown [atexit]

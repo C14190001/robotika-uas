@@ -1,0 +1,64 @@
+[rospy.client][INFO] 2021-12-03 11:48:34,029: init_node, name[/ss42/intrinsic_calibrator], pid[2455]
+[xmlrpc][INFO] 2021-12-03 11:48:34,032: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-03 11:48:34,035: Started XML-RPC server [http://ss42.local:39923/]
+[rospy.init][INFO] 2021-12-03 11:48:34,036: ROS Slave URI: [http://ss42.local:39923/]
+[rospy.impl.masterslave][INFO] 2021-12-03 11:48:34,037: _ready: http://ss42.local:39923/
+[rospy.registration][INFO] 2021-12-03 11:48:34,045: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-03 11:48:34,045: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-03 11:48:34,139: registered with master
+[rospy.rosout][INFO] 2021-12-03 11:48:34,140: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-03 11:48:34,166: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-03 11:48:34,177: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-03 11:48:34,323: topic[/ss42/camera_node/image/raw] adding connection to [http://ss42.local:38272/], count 0
+[rospy.internal][INFO] 2021-12-03 11:48:34,408: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2021-12-03 11:49:01,404: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-12-03 11:49:01,600: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-03 11:49:01,606: topic[/ss42/camera_node/image/raw] removing connection to http://ss42.local:38272/
+[rospy.impl.masterslave][INFO] 2021-12-03 11:49:01,612: signal-2
+[rospy.core][INFO] 2021-12-03 11:49:02,034: signal_shutdown [atexit]
+[rospy.client][INFO] 2021-12-03 11:49:13,970: init_node, name[/ss42/intrinsic_calibrator], pid[3011]
+[xmlrpc][INFO] 2021-12-03 11:49:13,973: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-03 11:49:13,975: Started XML-RPC server [http://ss42.local:43500/]
+[rospy.init][INFO] 2021-12-03 11:49:13,977: ROS Slave URI: [http://ss42.local:43500/]
+[rospy.impl.masterslave][INFO] 2021-12-03 11:49:13,977: _ready: http://ss42.local:43500/
+[rospy.registration][INFO] 2021-12-03 11:49:13,982: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-03 11:49:13,984: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-03 11:49:14,079: registered with master
+[rospy.rosout][INFO] 2021-12-03 11:49:14,080: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-03 11:49:14,100: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-03 11:49:14,111: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-03 11:49:14,254: topic[/ss42/camera_node/image/raw] adding connection to [http://ss42.local:38272/], count 0
+[rospy.internal][INFO] 2021-12-03 11:49:14,358: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2021-12-03 12:32:37,724: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-12-03 12:32:37,960: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-03 12:32:37,972: topic[/ss42/camera_node/image/raw] removing connection to http://ss42.local:38272/
+[rospy.impl.masterslave][INFO] 2021-12-03 12:32:37,980: signal-2
+[rospy.internal][WARNING] 2021-12-03 12:32:38,027: Unknown error initiating TCP/IP socket to ss42.local:44368 (http://ss42.local:38272/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2021-12-03 12:32:38,380: signal_shutdown [atexit]
+[rospy.client][INFO] 2021-12-03 12:32:52,848: init_node, name[/ss42/intrinsic_calibrator], pid[1769]
+[xmlrpc][INFO] 2021-12-03 12:32:52,851: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-03 12:32:52,858: Started XML-RPC server [http://ss42.local:34515/]
+[rospy.init][INFO] 2021-12-03 12:32:52,859: ROS Slave URI: [http://ss42.local:34515/]
+[rospy.impl.masterslave][INFO] 2021-12-03 12:32:52,860: _ready: http://ss42.local:34515/
+[xmlrpc][INFO] 2021-12-03 12:32:52,866: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-12-03 12:32:52,865: Registering with master node http://ss42.local:11311/
+[rospy.init][INFO] 2021-12-03 12:32:52,962: registered with master
+[rospy.rosout][INFO] 2021-12-03 12:32:52,963: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-03 12:32:52,990: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-03 12:32:53,002: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-03 12:32:53,127: topic[/ss42/camera_node/image/raw] adding connection to [http://ss42.local:38272/], count 0
+[rospy.internal][INFO] 2021-12-03 12:32:53,217: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2021-12-03 12:51:49,934: signal_shutdown [Quit]
+[rospy.internal][INFO] 2021-12-03 12:51:49,974: topic[/rosout] removing connection to /rosout
+[rospy.internal][WARNING] 2021-12-03 12:51:49,982: Unknown error initiating TCP/IP socket to ss42.local:44368 (http://ss42.local:38272/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2021-12-03 12:51:49,979: topic[/ss42/camera_node/image/raw] removing connection to http://ss42.local:38272/
+[rospy.impl.masterslave][INFO] 2021-12-03 12:51:49,984: Quit
+[rospy.core][INFO] 2021-12-03 12:51:50,301: signal_shutdown [atexit]
