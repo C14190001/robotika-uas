@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2021-12-08 11:09:14,818: [32minit_node, name[/ss42/inverse_kinematics_node], pid[4722][0m
+[xmlrpc][INFO] 2021-12-08 11:09:14,835: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[xmlrpc][INFO] 2021-12-08 11:09:14,836: [32mStarted XML-RPC server [http://ss42.local:33231/][0m
+[rospy.init][INFO] 2021-12-08 11:09:14,858: [32mROS Slave URI: [http://ss42.local:33231/][0m
+[rospy.impl.masterslave][INFO] 2021-12-08 11:09:14,860: [32m_ready: http://ss42.local:33231/[0m
+[xmlrpc][INFO] 2021-12-08 11:09:14,883: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.registration][INFO] 2021-12-08 11:09:14,886: [32mRegistering with master node http://ss42.local:11311/[0m
+[rospy.init][INFO] 2021-12-08 11:09:14,961: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-12-08 11:09:14,962: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-12-08 11:09:14,992: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-12-08 11:09:15,017: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rospy.internal][INFO] 2021-12-08 11:09:15,212: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rosout][WARNING] 2021-12-08 11:09:15,407: [33m[/ss42/inverse_kinematics_node] /home/robotikabot/duckiefleet/calibrations/kinematics/ss42.yaml does not exist. Using default.yaml.[0m
+[rosout][INFO] 2021-12-08 11:09:15,676: [32m[/ss42/inverse_kinematics_node] ~gain = 1.0 [0m
+[rosout][INFO] 2021-12-08 11:09:15,712: [32m[/ss42/inverse_kinematics_node] ~trim = 0.0 [0m
+[rosout][INFO] 2021-12-08 11:09:15,752: [32m[/ss42/inverse_kinematics_node] ~baseline = 0.1 [0m
+[rosout][INFO] 2021-12-08 11:09:15,785: [32m[/ss42/inverse_kinematics_node] ~radius = 0.0318 [0m
+[rosout][INFO] 2021-12-08 11:09:15,813: [32m[/ss42/inverse_kinematics_node] ~k = 27.0 [0m
+[rosout][INFO] 2021-12-08 11:09:15,841: [32m[/ss42/inverse_kinematics_node] ~limit = 1.0 [0m
+[rosout][INFO] 2021-12-08 11:09:15,964: [32m[/ss42/inverse_kinematics_node] Initialized.[0m
+[rosout][INFO] 2021-12-08 11:09:15,966: [32m[/ss42/inverse_kinematics_node] gain: 1.0 trim: 0.0 baseline: 0.1 radius: 0.0318 k: 27.0 limit: 1.0[0m
+[rospy.internal][INFO] 2021-12-08 11:09:15,982: [32mtopic[/ss42/car_cmd_switch_node/cmd] adding connection to [http://ss42.local:38693/], count 0[0m
+[rospy.internal][INFO] 2021-12-08 11:09:16,085: [32mtopic[/ss42/wheels_driver_node/wheels_cmd] adding connection to [/ss42/wheels_driver_node], count 0[0m
+[rospy.core][INFO] 2021-12-08 11:38:49,275: [32msignal_shutdown [signal-2][0m
+[rospy.internal][INFO] 2021-12-08 11:38:49,328: [32mtopic[/ss42/wheels_driver_node/wheels_cmd] removing connection to /ss42/wheels_driver_node[0m
+[rospy.internal][INFO] 2021-12-08 11:38:49,330: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-12-08 11:38:49,331: [32mtopic[/ss42/car_cmd_switch_node/cmd] removing connection to http://ss42.local:38693/[0m
+[rospy.impl.masterslave][INFO] 2021-12-08 11:38:49,332: [32msignal-2[0m
+[rospy.core][INFO] 2021-12-08 11:38:49,965: [32msignal_shutdown [atexit][0m

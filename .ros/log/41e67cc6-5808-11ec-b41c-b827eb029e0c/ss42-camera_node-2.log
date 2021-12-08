@@ -1,0 +1,36 @@
+[rospy.client][INFO] 2021-12-08 10:22:20,669: [32minit_node, name[/ss42/camera_node], pid[2381][0m
+[xmlrpc][INFO] 2021-12-08 10:22:20,714: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[rospy.init][INFO] 2021-12-08 10:22:20,732: [32mROS Slave URI: [http://ss42.local:33661/][0m
+[xmlrpc][INFO] 2021-12-08 10:22:20,733: [32mStarted XML-RPC server [http://ss42.local:33661/][0m
+[rospy.impl.masterslave][INFO] 2021-12-08 10:22:20,735: [32m_ready: http://ss42.local:33661/[0m
+[xmlrpc][INFO] 2021-12-08 10:22:20,738: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.registration][INFO] 2021-12-08 10:22:20,759: [32mRegistering with master node http://ss42.local:11311/[0m
+[rospy.init][INFO] 2021-12-08 10:22:20,834: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-12-08 10:22:20,837: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-12-08 10:22:20,973: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-12-08 10:22:21,076: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rosout][INFO] 2021-12-08 10:22:21,267: [32m[/ss42/camera_node] Initializing......[0m
+[rospy.internal][INFO] 2021-12-08 10:22:21,331: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rosout][INFO] 2021-12-08 10:22:21,454: [32m[/ss42/camera_node] ~framerate_high = 30 [0m
+[rosout][INFO] 2021-12-08 10:22:21,535: [32m[/ss42/camera_node] ~framerate_low = 15 [0m
+[rosout][INFO] 2021-12-08 10:22:21,573: [32m[/ss42/camera_node] ~res_w = 640 [0m
+[rosout][INFO] 2021-12-08 10:22:21,643: [32m[/ss42/camera_node] ~res_h = 480 [0m
+[rospy.internal][INFO] 2021-12-08 10:22:22,572: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/ss42/cam_info_reader_node], count 0[0m
+[rosout][INFO] 2021-12-08 10:22:22,578: [32m[/ss42/camera_node] Initialized.[0m
+[rospy.internal][INFO] 2021-12-08 10:22:22,623: [32mtopic[/ss42/camera_node/framerate_high_switch] adding connection to [http://ss42.local:33112/], count 0[0m
+[rosout][INFO] 2021-12-08 10:22:22,624: [32m[/ss42/camera_node] Start capturing.[0m
+[rosout][INFO] 2021-12-08 10:22:22,742: [32m[/ss42/camera_node] Published the first image.[0m
+[rospy.internal][INFO] 2021-12-08 10:22:25,745: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/ss42/anti_instagram_node], count 1[0m
+[rospy.internal][INFO] 2021-12-08 10:22:27,607: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/ss42/line_detector_node], count 2[0m
+[rospy.internal][INFO] 2021-12-08 10:29:01,248: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638955636250917164], count 3[0m
+[rospy.internal][INFO] 2021-12-08 10:29:06,659: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638955636250917164[0m
+[rospy.internal][INFO] 2021-12-08 10:30:34,869: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638955792730788131], count 3[0m
+[rospy.internal][INFO] 2021-12-08 10:30:38,212: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638955792730788131[0m
+[rospy.internal][INFO] 2021-12-08 10:32:41,874: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638955938398124993], count 3[0m
+[rospy.internal][INFO] 2021-12-08 10:34:52,928: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638955938398124993[0m
+[rospy.internal][INFO] 2021-12-08 10:34:53,248: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638955938398124993], count 3[0m
+[rospy.internal][INFO] 2021-12-08 10:34:56,108: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638955938398124993[0m
+[rospy.internal][INFO] 2021-12-08 10:37:19,689: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /ss42/anti_instagram_node[0m
+[rospy.internal][INFO] 2021-12-08 10:37:25,410: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /ss42/line_detector_node[0m
+[rospy.core][INFO] 2021-12-08 10:37:25,527: [32msignal_shutdown [signal-2][0m
+[rospy.core][INFO] 2021-12-08 10:37:25,607: [32msignal_shutdown [atexit][0m

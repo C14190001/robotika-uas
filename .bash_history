@@ -543,3 +543,89 @@ sudo shutdown now
 roslaunch duckietown intrinsic_calibration.launch veh:=ss42 raw:=true
 roslaunch ground_projection ground_projection.launch veh:=ss42 raw:=true
 roslaunch duckietown camera.launch veh:=ss42 raw:=true
+clear
+cd ~/duckietown
+source environment.sh 
+source set_ros_master.sh ss42
+byobu
+cd ~/duckiefleet/calibrations/camera_intrinsic/
+ls
+cd
+cd duckietown/
+source environment.sh 
+source set_ros_master.sh ss42
+byobu
+cd ~/duckiefleet/calibrations/camera_extrinsic/
+ls
+cd
+cd duckietown/
+byobu
+cd ~/duckiefleet/calibrations/camera_extrinsic/
+ls
+byobu
+cd ~/duckietown/
+source environment.sh 
+source set_ros_master.sh ss42
+roslaunch duckietown_demos joystick.launch veh:=ss42
+cd 
+raspistill -t 1 -o out.jpg
+ls
+rm out.jpg
+ls
+git status
+git add .
+git commit
+git push origin master
+git push origin master --force
+git push origin master
+git config --global user.name "c14190001@john.petra.ac.id"
+git config --global user.name
+git status
+git push origin master
+git config --global user.name
+git push origin master
+git config --global credential.helper store
+git pull
+git pull origin
+git push origin master
+git pull origin master
+ls -a
+ls -a -l
+clear
+git push origin master
+git pull origin master
+sudo shutdown now
+clear
+git status
+git push origin master
+git status
+git add .
+git status
+git reset HEAD .
+git status
+clear
+cd ~/duckietown/
+source environment.sh 
+source set_ros_master.sh ss42
+roslaunch duckietown_demos lane_following.launch veh:=ss42
+source set_vehicle_name.sh ss42
+roslaunch duckietown_demos lane_following.launch veh:=ss42
+sudo reboot now
+cd duckietown/
+source environment.sh 
+source set_ros_master.sh 
+source set_ros_master.sh ss42
+roslaunch duckietown_demos lane_following.launch veh:=ss42
+source set_vehicle_name.sh ss42
+roslaunch duckietown_demos lane_following.launch veh:=ss42
+sudo shutdown now
+cd duckietown/
+source environment.sh 
+source set_ros_master.sh ss42
+source set_vehicle_name.sh ss42
+roslaunch duckietown_demos lane_following.launch veh:=ss42
+cd duckietown/
+source environment.sh 
+source set_ros_master.sh ss42
+source set_vehicle_name.sh ss42
+roslaunch duckietown_demos lane_following.launch veh:=ss42

@@ -1,0 +1,23 @@
+[rospy.client][INFO] 2021-12-08 14:14:46,860: init_node, name[/ss42/fake_coordinator_node], pid[8109]
+[xmlrpc][INFO] 2021-12-08 14:14:46,876: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-08 14:14:46,882: Started XML-RPC server [http://ss42.local:44296/]
+[rospy.impl.masterslave][INFO] 2021-12-08 14:14:46,883: _ready: http://ss42.local:44296/
+[rospy.init][INFO] 2021-12-08 14:14:46,884: ROS Slave URI: [http://ss42.local:44296/]
+[rospy.registration][INFO] 2021-12-08 14:14:46,900: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-08 14:14:46,901: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-08 14:14:46,985: registered with master
+[rospy.rosout][INFO] 2021-12-08 14:14:46,986: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-08 14:14:47,082: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-08 14:14:47,178: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-08 14:14:47,418: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-08 14:14:47,928: topic[/ss42/fsm_node/mode] adding connection to [http://ss42.local:45789/], count 0
+[rospy.internal][INFO] 2021-12-08 14:14:48,072: topic[/ss42/simple_coordinator_node/car_cmd] adding connection to [/ss42/car_cmd_switch_node], count 0
+[rospy.internal][INFO] 2021-12-08 14:14:48,702: topic[/ss42/simple_coordinator_node/intersection_go] adding connection to [/ss42/fsm_node], count 0
+[rospy.core][INFO] 2021-12-08 15:04:46,675: signal_shutdown [signal-2]
+[rosout][INFO] 2021-12-08 15:04:47,241: [LaneFilterNode] Shutdown.
+[rospy.internal][INFO] 2021-12-08 15:04:49,466: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-08 15:04:49,625: topic[/ss42/simple_coordinator_node/intersection_go] removing connection to /ss42/fsm_node
+[rospy.internal][INFO] 2021-12-08 15:04:49,648: topic[/ss42/simple_coordinator_node/car_cmd] removing connection to /ss42/car_cmd_switch_node
+[rospy.internal][INFO] 2021-12-08 15:04:49,669: topic[/ss42/fsm_node/mode] removing connection to http://ss42.local:45789/
+[rospy.impl.masterslave][INFO] 2021-12-08 15:04:49,858: signal-2
+[rospy.core][INFO] 2021-12-08 15:04:50,340: signal_shutdown [atexit]

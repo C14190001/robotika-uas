@@ -1,0 +1,57 @@
+[rospy.client][INFO] 2021-12-08 10:38:46,025: [32minit_node, name[/ss42/anti_instagram_node], pid[5078][0m
+[xmlrpc][INFO] 2021-12-08 10:38:46,029: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[xmlrpc][INFO] 2021-12-08 10:38:46,036: [32mStarted XML-RPC server [http://ss42.local:39062/][0m
+[rospy.init][INFO] 2021-12-08 10:38:46,039: [32mROS Slave URI: [http://ss42.local:39062/][0m
+[rospy.impl.masterslave][INFO] 2021-12-08 10:38:46,045: [32m_ready: http://ss42.local:39062/[0m
+[rospy.registration][INFO] 2021-12-08 10:38:46,056: [32mRegistering with master node http://ss42.local:11311/[0m
+[xmlrpc][INFO] 2021-12-08 10:38:46,058: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.init][INFO] 2021-12-08 10:38:46,149: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-12-08 10:38:46,151: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-12-08 10:38:46,181: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-12-08 10:38:46,192: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rospy.internal][INFO] 2021-12-08 10:38:46,350: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rospy.internal][INFO] 2021-12-08 10:38:46,380: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [http://ss42.local:41094/], count 0[0m
+[rospy.internal][INFO] 2021-12-08 10:38:46,402: [32mtopic[/ss42/anti_instagram_node/click] adding connection to [http://ss42.local:42996/], count 0[0m
+[rospy.internal][INFO] 2021-12-08 10:38:47,070: [32mtopic[/ss42/anti_instagram_node/transform] adding connection to [/ss42/line_detector_node], count 0[0m
+[rosout][INFO] 2021-12-08 10:41:04,293: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-08 10:41:07,406: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-08 10:41:07,454: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-08 10:41:17,656: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-08 10:41:20,241: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-08 10:41:24,417: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-08 10:41:24,434: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-08 10:43:07,914: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-08 10:44:47,923: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-08 10:44:54,102: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-08 10:44:54,110: [32mHealth is not good[0m
+[rosout][INFO] 2021-12-08 10:45:02,293: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-08 10:45:06,687: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-08 10:45:10,259: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-08 10:45:10,268: [32mHealth is not good[0m
+[rosout][INFO] 2021-12-08 10:45:14,615: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-08 10:45:20,456: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-08 10:45:24,551: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-08 10:45:24,570: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-08 11:00:20,736: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-08 11:00:28,455: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-08 11:00:32,829: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-08 11:00:32,843: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-08 11:05:59,386: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-08 11:06:01,942: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-08 11:06:04,333: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-08 11:06:04,341: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-08 11:07:16,885: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-08 11:07:18,702: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-08 11:07:23,676: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-08 11:07:23,685: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-08 11:07:28,766: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-08 11:08:00,770: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-08 11:08:04,332: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-08 11:08:04,345: [32mai: Color transform published.[0m
+[rospy.core][INFO] 2021-12-08 11:08:13,391: [32msignal_shutdown [signal-2][0m
+[rospy.internal][INFO] 2021-12-08 11:08:13,691: [32mtopic[/ss42/anti_instagram_node/transform] removing connection to /ss42/line_detector_node[0m
+[rospy.internal][INFO] 2021-12-08 11:08:13,712: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-12-08 11:08:13,719: [32mtopic[/ss42/anti_instagram_node/click] removing connection to http://ss42.local:42996/[0m
+[rospy.internal][INFO] 2021-12-08 11:08:13,723: [32mtopic[/ss42/camera_node/image/compressed] removing connection to http://ss42.local:41094/[0m
+[rospy.impl.masterslave][INFO] 2021-12-08 11:08:13,728: [32msignal-2[0m
+[rospy.core][INFO] 2021-12-08 11:08:14,014: [32msignal_shutdown [atexit][0m

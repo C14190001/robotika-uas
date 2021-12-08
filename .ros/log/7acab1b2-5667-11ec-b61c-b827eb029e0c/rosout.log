@@ -1,0 +1,241 @@
+
+
+1638776303.560929471  Node Startup
+1638776304.362960002 INFO [/tmp/binarydeb/ros-kinetic-joy-1.12.0/src/joy_node.cpp:255(main) [topics: /rosout, /diagnostics, /ss42/joy] Opened joystick: /dev/input/js0. deadzone_: 0.010000.
+1638776307.543210983 INFO [wheels_driver_node.py:9(__init__) [topics: /ss42/wheels_driver_node/wheels_cmd_executed, /ss42/wheels_driver_node/wheels_cmd, /rosout] [/ss42/wheels_driver_node] Initializing 
+1638776307.877259969 INFO [joy_mapper_node.py:57(setupParam) [topics: /rosout] [/ss42/joy_mapper_node] ~speed_gain = 0.41 
+1638776307.965471982 INFO [joy_mapper_node.py:57(setupParam) [topics: /rosout] [/ss42/joy_mapper_node] ~steer_gain = 8.3 
+1638776308.036210060 INFO [joy_mapper_node.py:57(setupParam) [topics: /rosout] [/ss42/joy_mapper_node] ~bicycle_kinematics = 0.0 
+1638776308.088177919 INFO [joy_mapper_node.py:57(setupParam) [topics: /rosout] [/ss42/joy_mapper_node] ~steer_angle_gain = 1.04 
+1638776308.183176040 INFO [joy_mapper_node.py:57(setupParam) [topics: /rosout] [/ss42/joy_mapper_node] ~simulated_vehicle_length = 0.18 
+1638776309.237958908 INFO [car_cmd_switch_node.py:24(__init__) [topics: /ss42/fsm_node/mode, /ss42/vehicle_avoidance_control_node/car_cmd, /ss42/simple_stop_controller_node/car_cmd, /rosout, /ss42/open_loop_intersection_control_node/car_cmd, /ss42/lane_controller_node/car_cmd, /ss42/lane_supervisor_node/car_cmd, /ss42/lane_recovery_node/car_cmd, /ss42/joy_mapper_node/car_cmd, /ss42/simple_coordinator_node/car_cmd, /ss42/car_cmd_switch_node/cmd] [/ss42/car_cmd_switch_node] Initialized. 
+1638776309.226856946 INFO [lane_controller_node.py:32(setupParameter) [topics: /rosout] [/ss42/lane_controller_node] ~v_bar = 0.3864 
+1638776309.307352066 INFO [lane_controller_node.py:32(setupParameter) [topics: /rosout] [/ss42/lane_controller_node] ~k_d = -10.3 
+1638776309.369641065 INFO [lane_controller_node.py:32(setupParameter) [topics: /rosout] [/ss42/lane_controller_node] ~k_theta = -5.15 
+1638776309.407602071 INFO [lane_controller_node.py:32(setupParameter) [topics: /rosout] [/ss42/lane_controller_node] ~d_thres = 0.2615 
+1638776309.377775907 INFO [duckiebot_visualizer.py:12(__init__) [topics: /rosout] [/ss42/duckiebot_visualizer] Initialzing.
+1638776309.437844991 INFO [duckiebot_visualizer.py:66(setupParameter) [topics: /rosout] [/ss42/duckiebot_visualizer] ~veh_name = ss42 
+1638776309.508469104 INFO [fsm_node.py:61(__init__) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/led_emitter_node/switch, /ss42/stop_line_filter_node/at_stop_line, /ss42/apriltag_detector_node/switch, /ss42/camera_node/framerate_high_switch, /ss42/line_detector_node/switch, /ss42/lane_filter_node/switch, /ss42/fsm_node/mode, /ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy, /ss42/vehicle_detection_node/switch, /ss42/joy_mapper_node/parallel_autonomy, /ss42/open_loop_intersection_control_node/intersection_done, /ss42/vehicle_avoidance_control_node/vehicle_detected, /ss42/simple_coordinator_node/intersection_go, /rosout, /ss42/decoder_node/switch, /ss42/stop_line_filter_node/switch, /ss42/LED_detector_node/switch, /ss42/static_object_detector_node/switch, /ss42/logic_gate_node/intersection_done_and_parallel_autonomy, /ss42/obstacle_safety_node/object_too_close, /ss42/joy_mapper_node/start_avoidance] [/ss42/fsm_node] Initialized.
+1638776309.511410951 INFO [fsm_node.py:157(publishBools) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/led_emitter_node/switch, /ss42/stop_line_filter_node/at_stop_line, /ss42/apriltag_detector_node/switch, /ss42/camera_node/framerate_high_switch, /ss42/line_detector_node/switch, /ss42/lane_filter_node/switch, /ss42/fsm_node/mode, /ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy, /ss42/vehicle_detection_node/switch, /ss42/joy_mapper_node/parallel_autonomy, /ss42/open_loop_intersection_control_node/intersection_done, /ss42/vehicle_avoidance_control_node/vehicle_detected, /ss42/simple_coordinator_node/intersection_go, /rosout, /ss42/decoder_node/switch, /ss42/stop_line_filter_node/switch, /ss42/LED_detector_node/switch, /ss42/static_object_detector_node/switch, /ss42/logic_gate_node/intersection_done_and_parallel_autonomy, /ss42/obstacle_safety_node/object_too_close, /ss42/joy_mapper_node/start_avoidance] [/ss42/fsm_node] Node vehicle_detector_node is OFF in JOYSTICK_CONTROL
+1638776309.516180992 INFO [fsm_node.py:157(publishBools) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/led_emitter_node/switch, /ss42/stop_line_filter_node/at_stop_line, /ss42/apriltag_detector_node/switch, /ss42/camera_node/framerate_high_switch, /ss42/line_detector_node/switch, /ss42/lane_filter_node/switch, /ss42/fsm_node/mode, /ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy, /ss42/vehicle_detection_node/switch, /ss42/joy_mapper_node/parallel_autonomy, /ss42/open_loop_intersection_control_node/intersection_done, /ss42/vehicle_avoidance_control_node/vehicle_detected, /ss42/simple_coordinator_node/intersection_go, /rosout, /ss42/decoder_node/switch, /ss42/stop_line_filter_node/switch, /ss42/LED_detector_node/switch, /ss42/static_object_detector_node/switch, /ss42/logic_gate_node/intersection_done_and_parallel_autonomy, /ss42/obstacle_safety_node/object_too_close, /ss42/joy_mapper_node/start_avoidance] [/ss42/fsm_node] Node framerate_high is ON in JOYSTICK_CONTROL
+1638776309.521039009 INFO [fsm_node.py:157(publishBools) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/led_emitter_node/switch, /ss42/stop_line_filter_node/at_stop_line, /ss42/apriltag_detector_node/switch, /ss42/camera_node/framerate_high_switch, /ss42/line_detector_node/switch, /ss42/lane_filter_node/switch, /ss42/fsm_node/mode, /ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy, /ss42/vehicle_detection_node/switch, /ss42/joy_mapper_node/parallel_autonomy, /ss42/open_loop_intersection_control_node/intersection_done, /ss42/vehicle_avoidance_control_node/vehicle_detected, /ss42/simple_coordinator_node/intersection_go, /rosout, /ss42/decoder_node/switch, /ss42/stop_line_filter_node/switch, /ss42/LED_detector_node/switch, /ss42/static_object_detector_node/switch, /ss42/logic_gate_node/intersection_done_and_parallel_autonomy, /ss42/obstacle_safety_node/object_too_close, /ss42/joy_mapper_node/start_avoidance] [/ss42/fsm_node] Node decoder_node is ON in JOYSTICK_CONTROL
+1638776309.525233030 INFO [fsm_node.py:157(publishBools) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/led_emitter_node/switch, /ss42/stop_line_filter_node/at_stop_line, /ss42/apriltag_detector_node/switch, /ss42/camera_node/framerate_high_switch, /ss42/line_detector_node/switch, /ss42/lane_filter_node/switch, /ss42/fsm_node/mode, /ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy, /ss42/vehicle_detection_node/switch, /ss42/joy_mapper_node/parallel_autonomy, /ss42/open_loop_intersection_control_node/intersection_done, /ss42/vehicle_avoidance_control_node/vehicle_detected, /ss42/simple_coordinator_node/intersection_go, /rosout, /ss42/decoder_node/switch, /ss42/stop_line_filter_node/switch, /ss42/LED_detector_node/switch, /ss42/static_object_detector_node/switch, /ss42/logic_gate_node/intersection_done_and_parallel_autonomy, /ss42/obstacle_safety_node/object_too_close, /ss42/joy_mapper_node/start_avoidance] [/ss42/fsm_node] Node stop_line_filter_node is ON in JOYSTICK_CONTROL
+1638776309.527604103 INFO [lane_controller_node.py:32(setupParameter) [topics: /rosout] [/ss42/lane_controller_node] ~theta_thres = 0.523 
+1638776309.528275966 INFO [fsm_node.py:157(publishBools) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/led_emitter_node/switch, /ss42/stop_line_filter_node/at_stop_line, /ss42/apriltag_detector_node/switch, /ss42/camera_node/framerate_high_switch, /ss42/line_detector_node/switch, /ss42/lane_filter_node/switch, /ss42/fsm_node/mode, /ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy, /ss42/vehicle_detection_node/switch, /ss42/joy_mapper_node/parallel_autonomy, /ss42/open_loop_intersection_control_node/intersection_done, /ss42/vehicle_avoidance_control_node/vehicle_detected, /ss42/simple_coordinator_node/intersection_go, /rosout, /ss42/decoder_node/switch, /ss42/stop_line_filter_node/switch, /ss42/LED_detector_node/switch, /ss42/static_object_detector_node/switch, /ss42/logic_gate_node/intersection_done_and_parallel_autonomy, /ss42/obstacle_safety_node/object_too_close, /ss42/joy_mapper_node/start_avoidance] [/ss42/fsm_node] Node lane_filter_node is ON in JOYSTICK_CONTROL
+1638776309.542440891 INFO [fsm_node.py:157(publishBools) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/led_emitter_node/switch, /ss42/stop_line_filter_node/at_stop_line, /ss42/apriltag_detector_node/switch, /ss42/camera_node/framerate_high_switch, /ss42/line_detector_node/switch, /ss42/lane_filter_node/switch, /ss42/fsm_node/mode, /ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy, /ss42/vehicle_detection_node/switch, /ss42/joy_mapper_node/parallel_autonomy, /ss42/open_loop_intersection_control_node/intersection_done, /ss42/vehicle_avoidance_control_node/vehicle_detected, /ss42/simple_coordinator_node/intersection_go, /rosout, /ss42/decoder_node/switch, /ss42/stop_line_filter_node/switch, /ss42/LED_detector_node/switch, /ss42/static_object_detector_node/switch, /ss42/logic_gate_node/intersection_done_and_parallel_autonomy, /ss42/obstacle_safety_node/object_too_close, /ss42/joy_mapper_node/start_avoidance] [/ss42/fsm_node] Node led_detector_node is OFF in JOYSTICK_CONTROL
+1638776309.556049108 INFO [fsm_node.py:157(publishBools) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/led_emitter_node/switch, /ss42/stop_line_filter_node/at_stop_line, /ss42/apriltag_detector_node/switch, /ss42/camera_node/framerate_high_switch, /ss42/line_detector_node/switch, /ss42/lane_filter_node/switch, /ss42/fsm_node/mode, /ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy, /ss42/vehicle_detection_node/switch, /ss42/joy_mapper_node/parallel_autonomy, /ss42/open_loop_intersection_control_node/intersection_done, /ss42/vehicle_avoidance_control_node/vehicle_detected, /ss42/simple_coordinator_node/intersection_go, /rosout, /ss42/decoder_node/switch, /ss42/stop_line_filter_node/switch, /ss42/LED_detector_node/switch, /ss42/static_object_detector_node/switch, /ss42/logic_gate_node/intersection_done_and_parallel_autonomy, /ss42/obstacle_safety_node/object_too_close, /ss42/joy_mapper_node/start_avoidance] [/ss42/fsm_node] Node static_object_detector_node is OFF in JOYSTICK_CONTROL
+1638776309.569849014 INFO [fsm_node.py:157(publishBools) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/led_emitter_node/switch, /ss42/stop_line_filter_node/at_stop_line, /ss42/apriltag_detector_node/switch, /ss42/camera_node/framerate_high_switch, /ss42/line_detector_node/switch, /ss42/lane_filter_node/switch, /ss42/fsm_node/mode, /ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy, /ss42/vehicle_detection_node/switch, /ss42/joy_mapper_node/parallel_autonomy, /ss42/open_loop_intersection_control_node/intersection_done, /ss42/vehicle_avoidance_control_node/vehicle_detected, /ss42/simple_coordinator_node/intersection_go, /rosout, /ss42/decoder_node/switch, /ss42/stop_line_filter_node/switch, /ss42/LED_detector_node/switch, /ss42/static_object_detector_node/switch, /ss42/logic_gate_node/intersection_done_and_parallel_autonomy, /ss42/obstacle_safety_node/object_too_close, /ss42/joy_mapper_node/start_avoidance] [/ss42/fsm_node] Node led_emitter_node is OFF in JOYSTICK_CONTROL
+1638776309.571692943 INFO [fsm_node.py:157(publishBools) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/led_emitter_node/switch, /ss42/stop_line_filter_node/at_stop_line, /ss42/apriltag_detector_node/switch, /ss42/camera_node/framerate_high_switch, /ss42/line_detector_node/switch, /ss42/lane_filter_node/switch, /ss42/fsm_node/mode, /ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy, /ss42/vehicle_detection_node/switch, /ss42/joy_mapper_node/parallel_autonomy, /ss42/open_loop_intersection_control_node/intersection_done, /ss42/vehicle_avoidance_control_node/vehicle_detected, /ss42/simple_coordinator_node/intersection_go, /rosout, /ss42/decoder_node/switch, /ss42/stop_line_filter_node/switch, /ss42/LED_detector_node/switch, /ss42/static_object_detector_node/switch, /ss42/logic_gate_node/intersection_done_and_parallel_autonomy, /ss42/obstacle_safety_node/object_too_close, /ss42/joy_mapper_node/start_avoidance] [/ss42/fsm_node] Node line_detector_node is ON in JOYSTICK_CONTROL
+1638776309.580604076 INFO [fsm_node.py:157(publishBools) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/led_emitter_node/switch, /ss42/stop_line_filter_node/at_stop_line, /ss42/apriltag_detector_node/switch, /ss42/camera_node/framerate_high_switch, /ss42/line_detector_node/switch, /ss42/lane_filter_node/switch, /ss42/fsm_node/mode, /ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy, /ss42/vehicle_detection_node/switch, /ss42/joy_mapper_node/parallel_autonomy, /ss42/open_loop_intersection_control_node/intersection_done, /ss42/vehicle_avoidance_control_node/vehicle_detected, /ss42/simple_coordinator_node/intersection_go, /rosout, /ss42/decoder_node/switch, /ss42/stop_line_filter_node/switch, /ss42/LED_detector_node/switch, /ss42/static_object_detector_node/switch, /ss42/logic_gate_node/intersection_done_and_parallel_autonomy, /ss42/obstacle_safety_node/object_too_close, /ss42/joy_mapper_node/start_avoidance] [/ss42/fsm_node] Node apriltag_node is ON in JOYSTICK_CONTROL
+1638776309.587800979 INFO [car_cmd_switch_node.py:33(cbFSMState) [topics: /ss42/fsm_node/mode, /ss42/vehicle_avoidance_control_node/car_cmd, /ss42/simple_stop_controller_node/car_cmd, /rosout, /ss42/open_loop_intersection_control_node/car_cmd, /ss42/lane_controller_node/car_cmd, /ss42/lane_supervisor_node/car_cmd, /ss42/lane_recovery_node/car_cmd, /ss42/joy_mapper_node/car_cmd, /ss42/simple_coordinator_node/car_cmd, /ss42/car_cmd_switch_node/cmd] [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+1638776309.609100103 INFO [led_emitter_node.py:62(changePattern_) [topics: /ss42/led_emitter_node/change_color_pattern, /ss42/led_emitter_node/current_led_state, /rosout, /ss42/led_emitter_node/switch] changePattern('CAR_SIGNAL_A')
+1638776309.608726024 INFO [fsm_node.py:148(publishState) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/led_emitter_node/switch, /ss42/stop_line_filter_node/at_stop_line, /ss42/apriltag_detector_node/switch, /ss42/camera_node/framerate_high_switch, /ss42/line_detector_node/switch, /ss42/lane_filter_node/switch, /ss42/fsm_node/mode, /ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy, /ss42/vehicle_detection_node/switch, /ss42/joy_mapper_node/parallel_autonomy, /ss42/open_loop_intersection_control_node/intersection_done, /ss42/vehicle_avoidance_control_node/vehicle_detected, /ss42/simple_coordinator_node/intersection_go, /rosout, /ss42/decoder_node/switch, /ss42/stop_line_filter_node/switch, /ss42/LED_detector_node/switch, /ss42/static_object_detector_node/switch, /ss42/logic_gate_node/intersection_done_and_parallel_autonomy, /ss42/obstacle_safety_node/object_too_close, /ss42/joy_mapper_node/start_avoidance] [/ss42/fsm_node] FSMState: JOYSTICK_CONTROL
+1638776309.653953075 INFO [duckiebot_visualizer.py:32(__init__) [topics: /ss42/ground_projection/lineseglist_out, /rosout, /ss42/duckiebot_visualizer/segment_list_markers] [/ss42/duckiebot_visualizer] Initialzed.
+1638776309.680114030 INFO [lane_controller_node.py:32(setupParameter) [topics: /rosout] [/ss42/lane_controller_node] ~d_offset = 0.0 
+1638776309.718570947 INFO [lane_controller_node.py:27(__init__) [topics: /ss42/lane_controller_node/car_cmd, /rosout, /ss42/lane_filter_node/lane_pose] [/ss42/lane_controller_node] Initialized 
+1638776315.533202886 INFO [GroundProjection.py:154(load_homography) [topics: /rosout] Using extrinsic calibration of ss42
+1638776315.522469997 WARN [inverse_kinematics_node.py:54(readParamFromFile) [topics: /rosout] [/ss42/inverse_kinematics_node] /home/robotikabot/duckiefleet/calibrations/kinematics/ss42.yaml does not exist. Using default.yaml.
+1638776315.745579957 INFO [camera_node_sequence.py:112(setupParam) [topics: /rosout] [/ss42/camera_node] ~res_h = 480 
+1638776315.656722068 INFO [cam_info_reader_node.py:37(__init__) [topics: /ss42/camera_node/camera_info, /rosout] [/ss42/cam_info_reader_node] Using calibration file: /home/robotikabot/duckiefleet/calibrations/camera_intrinsic/ss42.yaml
+1638776315.768371105 INFO [inverse_kinematics_node.py:182(setup_parameter) [topics: /rosout] [/ss42/inverse_kinematics_node] ~gain = 1.0 
+1638776315.807100057 INFO [inverse_kinematics_node.py:182(setup_parameter) [topics: /rosout] [/ss42/inverse_kinematics_node] ~trim = 0.0 
+1638776315.841083049 INFO [inverse_kinematics_node.py:182(setup_parameter) [topics: /rosout] [/ss42/inverse_kinematics_node] ~baseline = 0.1 
+1638776315.508810043 INFO [lane_filter_node.py:101(loginfo) [topics: /rosout] [Lane Filter] new filter config: ['lane_filter.LaneFilterHistogram', {'configuration': {'phi_max': 1.5, 'lanewidth': 0.23, 'mean_d_0': 0, 'min_max': 0.1, 'phi_min': -1.5, 'd_max': 0.3, 'sigma_phi_mask': 2.0, 'sigma_d_mask': 1.0, 'mean_phi_0': 0, 'sigma_phi_0': 0.1, 'linewidth_white': 0.05, 'linewidth_yellow': 0.025, 'delta_d': 0.02, 'd_min': -0.15, 'delta_phi': 0.1, 'sigma_d_0': 0.1, 'cov_v': 0.5}}]
+1638776315.867470026 INFO [cam_info_reader_node.py:40(__init__) [topics: /ss42/camera_node/camera_info, /rosout] [/ss42/cam_info_reader_node] CameraInfo: header: 
+  seq: 0
+  stamp: 
+    secs: 0
+    nsecs:         0
+  frame_id: "/ss42/camera_optical_frame"
+height: 480
+width: 640
+distortion_model: "plumb_bob"
+D: [-0.28641390045488485, 0.06209789284600532, -0.0001318435562548337, 0.0031223920632866965, 0.0]
+K: [341.7458993299522, 0.0, 320.3474156981522, 0.0, 333.0071183936255, 227.2769727771955, 0.0, 0.0, 1.0]
+R: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+P: [239.97491455078125, 0.0, 324.3419250574734, 0.0, 0.0, 270.124755859375, 220.02747465779248, 0.0, 0.0, 0.0, 1.0, 0.0]
+binning_x: 0
+binning_y: 0
+roi: 
+  x_offset: 0
+  y_offset: 0
+  height: 0
+  width: 0
+  do_rectify: False
+1638776315.870079994 WARN [cam_info_reader_node.py:45(__init__) [topics: /ss42/camera_node/camera_info, /rosout] [/ss42/cam_info_reader_node] ==============CompressedImage
+1638776315.874361038 INFO [inverse_kinematics_node.py:182(setup_parameter) [topics: /rosout] [/ss42/inverse_kinematics_node] ~radius = 0.0318 
+1638776315.915230035 INFO [inverse_kinematics_node.py:182(setup_parameter) [topics: /rosout] [/ss42/inverse_kinematics_node] ~k = 27.0 
+1638776315.953123092 INFO [inverse_kinematics_node.py:182(setup_parameter) [topics: /rosout] [/ss42/inverse_kinematics_node] ~limit = 1.0 
+1638776316.032835960 INFO [ground_projection_node.py:24(__init__) [topics: /rosout] camera info topic is /ss42/camera_node/camera_info
+1638776316.036986112 INFO [ground_projection_node.py:25(__init__) [topics: /rosout] waiting for camera info
+1638776316.062390089 INFO [inverse_kinematics_node.py:46(__init__) [topics: /ss42/wheels_driver_node/wheels_cmd, /rosout, /ss42/car_cmd_switch_node/cmd] [/ss42/inverse_kinematics_node] Initialized.
+1638776316.064553976 INFO [inverse_kinematics_node.py:147(printValues) [topics: /ss42/wheels_driver_node/wheels_cmd, /rosout, /ss42/car_cmd_switch_node/cmd] [/ss42/inverse_kinematics_node] gain: 1.0 trim: 0.0 baseline: 0.1 radius: 0.0318 k: 27.0 limit: 1.0
+1638776316.305315017 INFO [camera_node_sequence.py:56(__init__) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [/ss42/camera_node] Initialized.
+1638776316.307473897 INFO [camera_node_sequence.py:68(startCapturing) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [/ss42/camera_node] Start capturing.
+1638776316.538724899 INFO [camera_node_sequence.py:104(grabAndPublish) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [/ss42/camera_node] Published the first image.
+1638776316.571432113 INFO [ground_projection_node.py:27(__init__) [topics: /rosout] camera info received
+1638776318.046291112 INFO [lane_pose_visualizer_node.py:25(__init__) [topics: /ss42/lane_pose_visualizer_node/lane_pose_markers, /rosout, /ss42/lane_filter_node/lane_pose] [/ss42/lane_pose_visualizer_node] Initialzed.
+1638776318.903913021 INFO [line_detector_node.py:280(processed) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] line_detector_node processing first image.
+1638776319.125888109 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode]   1:# segments: white   0 yellow  13 red   0
+1638776319.129247903 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode]   1:
+Latencies:
+               acquired | total latency     9.3 ms | delta wall     None clock     None
+                decoded | total latency    95.3 ms | delta wall  86.1 ms clock  26.4 ms
+                resized | total latency   127.4 ms | delta wall  32.1 ms clock   6.6 ms
+              corrected | total latency   138.1 ms | delta wall  10.7 ms clock   4.7 ms
+               detected | total latency   229.1 ms | delta wall  91.0 ms clock  21.1 ms
+               prepared | total latency   232.0 ms | delta wall   3.0 ms clock   3.1 ms
+          --pub_lines-- | total latency   232.9 ms | delta wall   0.9 ms clock   1.0 ms
+
+1638776319.137017011 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode]   1:In the last 0.4 s: received 8 (20.8 fps) processed 2 (5.2 fps) skipped 6 (15.6 fps) (75%)
+1638776325.257354974 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 101:# segments: white   0 yellow  20 red   0
+1638776325.265806913 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 101:
+Latencies:
+               acquired | total latency     4.2 ms | delta wall     None clock     None
+                decoded | total latency    34.8 ms | delta wall  30.6 ms clock  30.8 ms
+                resized | total latency    36.7 ms | delta wall   1.9 ms clock   1.7 ms
+              corrected | total latency    41.7 ms | delta wall   5.0 ms clock   4.9 ms
+               detected | total latency    63.0 ms | delta wall  21.3 ms clock  24.3 ms
+               prepared | total latency    68.1 ms | delta wall   5.1 ms clock   5.5 ms
+          --pub_lines-- | total latency    70.4 ms | delta wall   2.3 ms clock   2.1 ms
+
+1638776325.270596027 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 101:In the last 6.1 s: received 184 (30.0 fps) processed 100 (16.3 fps) skipped 84 (13.7 fps) (46%)
+1638776331.339668035 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 201:# segments: white   0 yellow   2 red   0
+1638776331.342293977 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 201:
+Latencies:
+               acquired | total latency     8.1 ms | delta wall     None clock     None
+                decoded | total latency    40.3 ms | delta wall  32.2 ms clock  23.7 ms
+                resized | total latency    41.2 ms | delta wall   0.9 ms clock   0.9 ms
+              corrected | total latency    43.4 ms | delta wall   2.2 ms clock   2.3 ms
+               detected | total latency    51.5 ms | delta wall   8.1 ms clock   9.8 ms
+               prepared | total latency    53.7 ms | delta wall   2.2 ms clock   2.2 ms
+          --pub_lines-- | total latency    54.2 ms | delta wall   0.5 ms clock   0.7 ms
+
+1638776331.358758926 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 201:In the last 6.1 s: received 183 (30.1 fps) processed 100 (16.4 fps) skipped 83 (13.6 fps) (45%)
+1638776337.030195951 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 301:# segments: white   0 yellow   3 red   0
+1638776337.038614034 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 301:
+Latencies:
+               acquired | total latency     8.8 ms | delta wall     None clock     None
+                decoded | total latency    29.8 ms | delta wall  21.0 ms clock  20.0 ms
+                resized | total latency    30.7 ms | delta wall   0.9 ms clock   0.8 ms
+              corrected | total latency    33.4 ms | delta wall   2.8 ms clock   2.5 ms
+               detected | total latency    44.2 ms | delta wall  10.7 ms clock  12.1 ms
+               prepared | total latency    52.3 ms | delta wall   8.1 ms clock   2.6 ms
+          --pub_lines-- | total latency    52.9 ms | delta wall   0.6 ms clock   0.6 ms
+
+1638776337.057939052 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 301:In the last 5.7 s: received 171 (30.0 fps) processed 100 (17.6 fps) skipped 71 (12.5 fps) (42%)
+1638776342.996638059 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 401:# segments: white   0 yellow  15 red   0
+1638776342.999128103 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 401:
+Latencies:
+               acquired | total latency     5.2 ms | delta wall     None clock     None
+                decoded | total latency    30.5 ms | delta wall  25.3 ms clock  20.3 ms
+                resized | total latency    32.1 ms | delta wall   1.7 ms clock   1.0 ms
+              corrected | total latency    35.1 ms | delta wall   2.9 ms clock   2.7 ms
+               detected | total latency    47.7 ms | delta wall  12.6 ms clock  13.8 ms
+               prepared | total latency    50.3 ms | delta wall   2.6 ms clock   2.7 ms
+          --pub_lines-- | total latency    51.1 ms | delta wall   0.8 ms clock   0.8 ms
+
+1638776343.018897056 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 401:In the last 6.0 s: received 179 (30.0 fps) processed 100 (16.8 fps) skipped 79 (13.3 fps) (44%)
+1638776349.221328973 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 501:# segments: white   0 yellow  17 red   0
+1638776349.224291086 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 501:
+Latencies:
+               acquired | total latency     4.5 ms | delta wall     None clock     None
+                decoded | total latency    22.9 ms | delta wall  18.3 ms clock  18.1 ms
+                resized | total latency    23.5 ms | delta wall   0.6 ms clock   0.6 ms
+              corrected | total latency    25.9 ms | delta wall   2.5 ms clock   2.4 ms
+               detected | total latency    41.0 ms | delta wall  15.1 ms clock  13.4 ms
+               prepared | total latency    43.9 ms | delta wall   2.9 ms clock   2.8 ms
+          --pub_lines-- | total latency    45.0 ms | delta wall   1.1 ms clock   1.1 ms
+
+1638776349.250330924 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 501:In the last 6.2 s: received 187 (30.0 fps) processed 100 (16.1 fps) skipped 87 (14.0 fps) (47%)
+1638776355.594892024 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 601:# segments: white   0 yellow  17 red   0
+1638776355.597466945 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 601:
+Latencies:
+               acquired | total latency    10.0 ms | delta wall     None clock     None
+                decoded | total latency    31.6 ms | delta wall  21.6 ms clock  20.6 ms
+                resized | total latency    32.5 ms | delta wall   1.0 ms clock   1.0 ms
+              corrected | total latency    38.0 ms | delta wall   5.5 ms clock   3.4 ms
+               detected | total latency    50.8 ms | delta wall  12.8 ms clock  14.4 ms
+               prepared | total latency    53.4 ms | delta wall   2.6 ms clock   2.9 ms
+          --pub_lines-- | total latency    54.3 ms | delta wall   0.9 ms clock   1.0 ms
+
+1638776355.613513946 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 601:In the last 6.4 s: received 191 (30.0 fps) processed 100 (15.7 fps) skipped 91 (14.3 fps) (48%)
+1638776361.929615974 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 701:# segments: white   0 yellow  19 red   0
+1638776361.932569026 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 701:
+Latencies:
+               acquired | total latency     7.8 ms | delta wall     None clock     None
+                decoded | total latency    34.6 ms | delta wall  26.8 ms clock  21.5 ms
+                resized | total latency    42.9 ms | delta wall   8.3 ms clock   4.1 ms
+              corrected | total latency    45.3 ms | delta wall   2.4 ms clock   2.4 ms
+               detected | total latency    54.9 ms | delta wall   9.6 ms clock  11.0 ms
+               prepared | total latency    57.9 ms | delta wall   3.0 ms clock   3.1 ms
+          --pub_lines-- | total latency    58.8 ms | delta wall   0.9 ms clock   0.9 ms
+
+1638776361.943806886 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 701:In the last 6.3 s: received 190 (30.0 fps) processed 100 (15.8 fps) skipped 90 (14.2 fps) (47%)
+1638776368.315210103 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 801:# segments: white   0 yellow  16 red   0
+1638776368.317934989 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 801:
+Latencies:
+               acquired | total latency     5.4 ms | delta wall     None clock     None
+                decoded | total latency    28.6 ms | delta wall  23.2 ms clock  20.7 ms
+                resized | total latency    29.5 ms | delta wall   0.9 ms clock   0.8 ms
+              corrected | total latency    32.4 ms | delta wall   2.9 ms clock   2.5 ms
+               detected | total latency    46.2 ms | delta wall  13.8 ms clock  15.0 ms
+               prepared | total latency    48.8 ms | delta wall   2.6 ms clock   2.8 ms
+          --pub_lines-- | total latency    49.9 ms | delta wall   1.2 ms clock   1.0 ms
+
+1638776368.341543912 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 801:In the last 6.4 s: received 192 (30.0 fps) processed 100 (15.6 fps) skipped 92 (14.4 fps) (48%)
+1638776374.441395044 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 901:# segments: white   0 yellow  17 red   0
+1638776374.444493055 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 901:
+Latencies:
+               acquired | total latency     3.7 ms | delta wall     None clock     None
+                decoded | total latency    23.9 ms | delta wall  20.2 ms clock  20.0 ms
+                resized | total latency    24.9 ms | delta wall   1.0 ms clock   1.0 ms
+              corrected | total latency    27.5 ms | delta wall   2.6 ms clock   2.6 ms
+               detected | total latency    41.7 ms | delta wall  14.2 ms clock  14.2 ms
+               prepared | total latency    44.6 ms | delta wall   2.9 ms clock   2.9 ms
+          --pub_lines-- | total latency    45.5 ms | delta wall   0.9 ms clock   1.0 ms
+
+1638776374.470794916 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 901:In the last 6.1 s: received 184 (30.0 fps) processed 100 (16.3 fps) skipped 84 (13.7 fps) (46%)
+1638776380.805381059 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 1001:# segments: white   0 yellow   2 red   0
+1638776380.807718038 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 1001:
+Latencies:
+               acquired | total latency     4.6 ms | delta wall     None clock     None
+                decoded | total latency    25.0 ms | delta wall  20.4 ms clock  19.8 ms
+                resized | total latency    25.9 ms | delta wall   0.9 ms clock   0.9 ms
+              corrected | total latency    28.3 ms | delta wall   2.4 ms clock   2.4 ms
+               detected | total latency    41.8 ms | delta wall  13.5 ms clock  12.3 ms
+               prepared | total latency    44.1 ms | delta wall   2.3 ms clock   2.5 ms
+          --pub_lines-- | total latency    44.5 ms | delta wall   0.4 ms clock   0.4 ms
+
+1638776380.833431005 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 1001:In the last 6.4 s: received 191 (30.0 fps) processed 100 (15.7 fps) skipped 91 (14.3 fps) (48%)
+1638776386.666954040 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 1101:# segments: white   0 yellow   0 red   0
+1638776386.670351982 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 1101:
+Latencies:
+               acquired | total latency     4.5 ms | delta wall     None clock     None
+                decoded | total latency    25.3 ms | delta wall  20.7 ms clock  20.0 ms
+                resized | total latency    26.4 ms | delta wall   1.1 ms clock   0.9 ms
+              corrected | total latency    28.7 ms | delta wall   2.3 ms clock   2.4 ms
+               detected | total latency    39.4 ms | delta wall  10.7 ms clock  12.0 ms
+               prepared | total latency    41.2 ms | delta wall   1.8 ms clock   1.8 ms
+          --pub_lines-- | total latency    41.5 ms | delta wall   0.3 ms clock   0.3 ms
+
+1638776386.699847936 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] 1101:In the last 5.9 s: received 176 (30.0 fps) processed 100 (17.1 fps) skipped 76 (13.0 fps) (43%)
+1638776389.775850057 INFO [fake_coordinator_node.py:23(onShutdown) [topics: /ss42/fsm_node/mode, /ss42/simple_coordinator_node/intersection_go, /rosout, /ss42/simple_coordinator_node/car_cmd] [LaneFilterNode] Shutdown.
+1638776389.783821105 INFO [lane_pose_visualizer_node.py:71(on_shutdown) [topics: /ss42/lane_pose_visualizer_node/lane_pose_markers, /rosout, /ss42/lane_filter_node/lane_pose] [/ss42/lane_pose_visualizer_node] Shutting down.
+1638776389.807965040 INFO [line_detector_node.py:110(loginfo) [topics: /ss42/line_detector_node/image_with_lines, /rosout, /ss42/camera_node/image/compressed, /ss42/line_detector_node/segment_list, /ss42/anti_instagram_node/transform, /ss42/line_detector_node/switch] [LineDetectorNode] Shutdown.
+1638776389.816073894 INFO [lane_controller_node.py:75(custom_shutdown) [topics: /ss42/lane_controller_node/car_cmd, /rosout, /ss42/lane_filter_node/lane_pose] [/ss42/lane_controller_node] Shutting down...
+1638776389.820324897 INFO [duckiebot_visualizer.py:70(on_shutdown) [topics: /ss42/ground_projection/lineseglist_out, /rosout, /ss42/duckiebot_visualizer/segment_list_markers] [/ss42/duckiebot_visualizer] Shutting down.
+1638776389.835756063 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/wheels_driver_node/emergency_stop, /ss42/joy, /rosout, /ss42/joy_mapper_node/parallel_autonomy, /ss42/joy_mapper_node/start_avoidance, /ss42/anti_instagram_node/click, /ss42/joy_mapper_node/car_cmd] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1638776389.839881896 INFO [lane_filter_node.py:97(onShutdown) [topics: /ss42/lane_filter_node/entropy, /ss42/lane_filter_node/lane_pose, /rosout, /ss42/lane_filter_node/belief_img, /ss42/lane_filter_node/in_lane, /ss42/ground_projection/lineseglist_out, /ss42/lane_filter_node/ml_img, /ss42/lane_filter_node/switch, /ss42/car_cmd_switch_node/cmd] [LaneFilterNode] Shutdown.
+1638776389.850651025 INFO [ground_projection_node.py:87(onShutdown) [topics: /ss42/line_detector_node/segment_list, /ss42/ground_projection/lineseglist_out, /rosout] [GroundProjectionNode] Shutdown.
+1638776389.984587907 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/led_emitter_node/switch, /ss42/stop_line_filter_node/at_stop_line, /ss42/apriltag_detector_node/switch, /ss42/camera_node/framerate_high_switch, /ss42/line_detector_node/switch, /ss42/lane_filter_node/switch, /ss42/fsm_node/mode, /ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy, /ss42/vehicle_detection_node/switch, /ss42/joy_mapper_node/parallel_autonomy, /ss42/open_loop_intersection_control_node/intersection_done, /ss42/vehicle_avoidance_control_node/vehicle_detected, /ss42/simple_coordinator_node/intersection_go, /rosout, /ss42/decoder_node/switch, /ss42/stop_line_filter_node/switch, /ss42/LED_detector_node/switch, /ss42/static_object_detector_node/switch, /ss42/logic_gate_node/intersection_done_and_parallel_autonomy, /ss42/obstacle_safety_node/object_too_close, /ss42/joy_mapper_node/start_avoidance] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1638776390.019262075 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/led_emitter_node/switch, /ss42/stop_line_filter_node/at_stop_line, /ss42/apriltag_detector_node/switch, /ss42/camera_node/framerate_high_switch, /ss42/line_detector_node/switch, /ss42/lane_filter_node/switch, /ss42/fsm_node/mode, /ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy, /ss42/vehicle_detection_node/switch, /ss42/joy_mapper_node/parallel_autonomy, /ss42/open_loop_intersection_control_node/intersection_done, /ss42/vehicle_avoidance_control_node/vehicle_detected, /ss42/simple_coordinator_node/intersection_go, /rosout, /ss42/decoder_node/switch, /ss42/stop_line_filter_node/switch, /ss42/LED_detector_node/switch, /ss42/static_object_detector_node/switch, /ss42/logic_gate_node/intersection_done_and_parallel_autonomy, /ss42/obstacle_safety_node/object_too_close, /ss42/joy_mapper_node/start_avoidance] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1638776390.027499914 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1638776390.258553028 INFO [logic_gate_node.py:97(on_shutdown) [topics: /ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy, /ss42/open_loop_intersection_control_node/intersection_done, /ss42/joy_mapper_node/parallel_autonomy, /rosout, /ss42/logic_gate_node/intersection_done_and_parallel_autonomy] [/ss42/logic_gate_node] Shutting down.
+1638776390.461030960 INFO [lane_controller_node.py:86(custom_shutdown) [topics: /ss42/lane_controller_node/car_cmd, /rosout] [/ss42/lane_controller_node] Shutdown
+1638776390.634186983 INFO [car_cmd_switch_node.py:46(on_shutdown) [topics: /ss42/fsm_node/mode, /ss42/vehicle_avoidance_control_node/car_cmd, /ss42/simple_stop_controller_node/car_cmd, /rosout, /ss42/open_loop_intersection_control_node/car_cmd, /ss42/lane_controller_node/car_cmd, /ss42/lane_supervisor_node/car_cmd, /ss42/lane_recovery_node/car_cmd, /ss42/joy_mapper_node/car_cmd, /ss42/simple_coordinator_node/car_cmd, /ss42/car_cmd_switch_node/cmd] [/ss42/car_cmd_switch_node] Shutting down.
+1638776390.654598951 INFO [fsm_node.py:181(on_shutdown) [topics: /ss42/joy_mapper_node/joystick_override, /ss42/led_emitter_node/switch, /ss42/stop_line_filter_node/at_stop_line, /ss42/apriltag_detector_node/switch, /ss42/camera_node/framerate_high_switch, /ss42/line_detector_node/switch, /ss42/lane_filter_node/switch, /ss42/fsm_node/mode, /ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy, /ss42/vehicle_detection_node/switch, /ss42/joy_mapper_node/parallel_autonomy, /ss42/open_loop_intersection_control_node/intersection_done, /ss42/vehicle_avoidance_control_node/vehicle_detected, /ss42/simple_coordinator_node/intersection_go, /rosout, /ss42/decoder_node/switch, /ss42/stop_line_filter_node/switch, /ss42/LED_detector_node/switch, /ss42/static_object_detector_node/switch, /ss42/logic_gate_node/intersection_done_and_parallel_autonomy, /ss42/obstacle_safety_node/object_too_close, /ss42/joy_mapper_node/start_avoidance] [/ss42/fsm_node] Shutting down.
+1638776390.876281023 INFO [wheels_driver_node.py:51(on_shutdown) [topics: /ss42/wheels_driver_node/wheels_cmd_executed, /ss42/wheels_driver_node/emergency_stop, /ss42/wheels_driver_node/wheels_cmd, /rosout] [/ss42/wheels_driver_node] Shutting down.
+1638776391.436961889 INFO [cam_info_reader_node.py:74(on_shutdown) [topics: /ss42/camera_node/camera_info, /rosout, /ss42/camera_node/image/compressed] [/ss42/cam_info_reader_node] Shutdown.
+1638776391.491997003 INFO [camera_node_sequence.py:116(onShutdown) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [/ss42/camera_node] Closing camera.
+1638776391.494065046 INFO [camera_node_sequence.py:118(onShutdown) [topics: /ss42/camera_node/image/compressed, /ss42/camera_node/framerate_high_switch, /rosout] [/ss42/camera_node] Shutdown.

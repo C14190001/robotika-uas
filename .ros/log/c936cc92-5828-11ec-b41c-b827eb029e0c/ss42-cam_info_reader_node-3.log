@@ -1,0 +1,56 @@
+[rospy.client][INFO] 2021-12-08 14:14:54,162: [32minit_node, name[/ss42/cam_info_reader_node], pid[8055][0m
+[xmlrpc][INFO] 2021-12-08 14:14:54,179: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[xmlrpc][INFO] 2021-12-08 14:14:54,186: [32mStarted XML-RPC server [http://ss42.local:44181/][0m
+[rospy.init][INFO] 2021-12-08 14:14:54,187: [32mROS Slave URI: [http://ss42.local:44181/][0m
+[rospy.impl.masterslave][INFO] 2021-12-08 14:14:54,188: [32m_ready: http://ss42.local:44181/[0m
+[xmlrpc][INFO] 2021-12-08 14:14:54,190: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.registration][INFO] 2021-12-08 14:14:54,192: [32mRegistering with master node http://ss42.local:11311/[0m
+[rospy.init][INFO] 2021-12-08 14:14:54,289: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-12-08 14:14:54,290: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-12-08 14:14:54,317: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-12-08 14:14:54,369: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rosout][INFO] 2021-12-08 14:14:54,485: [32m[/ss42/cam_info_reader_node] ~config = baseline [0m
+[rosout][INFO] 2021-12-08 14:14:54,568: [32m[/ss42/cam_info_reader_node] ~cali_file_name = ss42 [0m
+[rosout][INFO] 2021-12-08 14:14:54,612: [32m[/ss42/cam_info_reader_node] ~image_type = compressed [0m
+[rospy.internal][INFO] 2021-12-08 14:14:54,649: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rosout][INFO] 2021-12-08 14:14:54,670: [32m[/ss42/cam_info_reader_node] Using calibration file: /home/robotikabot/duckiefleet/calibrations/camera_intrinsic/ss42.yaml[0m
+[rosout][INFO] 2021-12-08 14:14:54,804: [32m[/ss42/cam_info_reader_node] CameraInfo: header: 
+  seq: 0
+  stamp: 
+    secs: 0
+    nsecs:         0
+  frame_id: "/ss42/camera_optical_frame"
+height: 480
+width: 640
+distortion_model: "plumb_bob"
+D: [-0.28641390045488485, 0.06209789284600532, -0.0001318435562548337, 0.0031223920632866965, 0.0]
+K: [341.7458993299522, 0.0, 320.3474156981522, 0.0, 333.0071183936255, 227.2769727771955, 0.0, 0.0, 1.0]
+R: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+P: [239.97491455078125, 0.0, 324.3419250574734, 0.0, 0.0, 270.124755859375, 220.02747465779248, 0.0, 0.0, 0.0, 1.0, 0.0]
+binning_x: 0
+binning_y: 0
+roi: 
+  x_offset: 0
+  y_offset: 0
+  height: 0
+  width: 0
+  do_rectify: False[0m
+[rosout][WARNING] 2021-12-08 14:14:54,806: [33m[/ss42/cam_info_reader_node] ==============CompressedImage[0m
+[rospy.internal][INFO] 2021-12-08 14:14:55,295: [32mtopic[/ss42/camera_node/camera_info] adding connection to [/ss42/ground_projection], count 0[0m
+[rospy.internal][INFO] 2021-12-08 14:14:55,466: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [http://ss42.local:36252/], count 0[0m
+[rospy.internal][INFO] 2021-12-08 14:14:55,595: [32mtopic[/ss42/camera_node/camera_info] removing connection to /ss42/ground_projection[0m
+[rospy.core][INFO] 2021-12-08 15:05:02,391: [32msignal_shutdown [signal-2][0m
+[rosout][INFO] 2021-12-08 15:05:03,281: [32m[/ss42/cam_info_reader_node] Shutdown.[0m
+[rospy.internal][INFO] 2021-12-08 15:05:04,605: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-12-08 15:05:04,638: [32mtopic[/ss42/camera_node/image/compressed] removing connection to http://ss42.local:36252/[0m
+[rospy.impl.masterslave][INFO] 2021-12-08 15:05:04,744: [32msignal-2[0m
+[rospy.internal][WARNING] 2021-12-08 15:05:04,851: [33mUnknown error initiating TCP/IP socket to ss42.local:42310 (http://ss42.local:36252/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[0m
+[rospy.core][INFO] 2021-12-08 15:05:05,068: [32msignal_shutdown [atexit][0m

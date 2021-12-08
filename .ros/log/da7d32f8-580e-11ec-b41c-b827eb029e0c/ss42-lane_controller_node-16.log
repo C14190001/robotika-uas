@@ -1,0 +1,98 @@
+[rospy.client][INFO] 2021-12-08 11:09:09,143: init_node, name[/ss42/lane_controller_node], pid[4758]
+[xmlrpc][INFO] 2021-12-08 11:09:09,163: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-08 11:09:09,176: Started XML-RPC server [http://ss42.local:33803/]
+[rospy.impl.masterslave][INFO] 2021-12-08 11:09:09,177: _ready: http://ss42.local:33803/
+[rospy.init][INFO] 2021-12-08 11:09:09,183: ROS Slave URI: [http://ss42.local:33803/]
+[xmlrpc][INFO] 2021-12-08 11:09:09,209: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-12-08 11:09:09,210: Registering with master node http://ss42.local:11311/
+[rospy.init][INFO] 2021-12-08 11:09:09,284: registered with master
+[rospy.rosout][INFO] 2021-12-08 11:09:09,285: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-08 11:09:09,312: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-08 11:09:09,334: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-08 11:09:09,476: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2021-12-08 11:09:09,514: [/ss42/lane_controller_node] ~v_bar = 0.3864 
+[rosout][INFO] 2021-12-08 11:09:09,578: [/ss42/lane_controller_node] ~k_d = -10.3 
+[rosout][INFO] 2021-12-08 11:09:09,640: [/ss42/lane_controller_node] ~k_theta = -5.15 
+[rosout][INFO] 2021-12-08 11:09:09,695: [/ss42/lane_controller_node] ~d_thres = 0.2615 
+[rosout][INFO] 2021-12-08 11:09:09,750: [/ss42/lane_controller_node] ~theta_thres = 0.523 
+[rosout][INFO] 2021-12-08 11:09:09,823: [/ss42/lane_controller_node] ~d_offset = 0.0 
+[rosout][INFO] 2021-12-08 11:09:09,988: [/ss42/lane_controller_node] Initialized 
+[rospy.internal][INFO] 2021-12-08 11:09:10,070: topic[/ss42/lane_controller_node/car_cmd] adding connection to [/ss42/car_cmd_switch_node], count 0
+[rospy.internal][INFO] 2021-12-08 11:09:19,589: topic[/ss42/lane_filter_node/lane_pose] adding connection to [http://ss42.local:32779/], count 0
+[rosout][INFO] 2021-12-08 11:13:05,067: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:13:05,078: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.261500, d_thres 0.523000, d_offset 0.000000
+[rosout][INFO] 2021-12-08 11:13:05,081: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.200000, d_thres 0.523000, d_offset 0.000000
+[rosout][INFO] 2021-12-08 11:13:49,052: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:13:49,056: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.200000, d_thres 0.523000, d_offset 0.000000
+[rosout][INFO] 2021-12-08 11:13:49,061: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.000000
+[rosout][INFO] 2021-12-08 11:14:51,091: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:14:51,097: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.000000
+[rosout][INFO] 2021-12-08 11:14:51,103: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 1.000000
+[rosout][INFO] 2021-12-08 11:15:39,110: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:15:39,114: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 1.000000
+[rosout][INFO] 2021-12-08 11:15:39,117: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.800000
+[rosout][INFO] 2021-12-08 11:18:18,052: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:18:18,055: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.800000
+[rosout][INFO] 2021-12-08 11:18:18,057: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.500000
+[rosout][INFO] 2021-12-08 11:19:32,098: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:19:32,102: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.500000
+[rosout][INFO] 2021-12-08 11:19:32,108: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.900000
+[rosout][INFO] 2021-12-08 11:20:48,038: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:20:48,040: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.900000
+[rosout][INFO] 2021-12-08 11:20:48,042: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.850000
+[rosout][INFO] 2021-12-08 11:21:27,093: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:21:27,098: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.850000
+[rosout][INFO] 2021-12-08 11:21:27,101: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.800000
+[rosout][INFO] 2021-12-08 11:21:41,039: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:21:41,041: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.800000
+[rosout][INFO] 2021-12-08 11:21:41,043: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.050000, d_thres 0.523000, d_offset 0.800000
+[rosout][INFO] 2021-12-08 11:23:09,041: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:23:09,050: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.050000, d_thres 0.523000, d_offset 0.800000
+[rosout][INFO] 2021-12-08 11:23:09,052: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 1.000000, d_thres 0.523000, d_offset 0.800000
+[rosout][INFO] 2021-12-08 11:25:40,041: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:25:40,043: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 1.000000, d_thres 0.523000, d_offset 0.800000
+[rosout][INFO] 2021-12-08 11:25:40,047: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 1.000000, d_thres 0.523000, d_offset 0.200000
+[rosout][INFO] 2021-12-08 11:25:56,065: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:25:56,072: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 1.000000, d_thres 0.523000, d_offset 0.200000
+[rosout][INFO] 2021-12-08 11:25:56,076: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 1.000000, d_thres 0.523000, d_offset 0.000000
+[rosout][INFO] 2021-12-08 11:26:29,038: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:26:29,042: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 1.000000, d_thres 0.523000, d_offset 0.000000
+[rosout][INFO] 2021-12-08 11:26:29,044: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 1.000000, d_thres 0.523000, d_offset 0.100000
+[rosout][INFO] 2021-12-08 11:26:45,101: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:26:45,104: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 1.000000, d_thres 0.523000, d_offset 0.100000
+[rosout][INFO] 2021-12-08 11:26:45,107: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.500000, d_thres 0.523000, d_offset 0.100000
+[rosout][INFO] 2021-12-08 11:28:13,045: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:28:13,047: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.500000, d_thres 0.523000, d_offset 0.100000
+[rosout][INFO] 2021-12-08 11:28:13,049: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.300000, d_thres 0.523000, d_offset 0.100000
+[rosout][INFO] 2021-12-08 11:29:09,051: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:29:09,052: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.300000, d_thres 0.523000, d_offset 0.100000
+[rosout][INFO] 2021-12-08 11:29:09,060: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.100000
+[rosout][INFO] 2021-12-08 11:29:41,049: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:29:41,051: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.100000
+[rosout][INFO] 2021-12-08 11:29:41,053: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.300000, d_thres 0.523000, d_offset 0.100000
+[rosout][INFO] 2021-12-08 11:30:33,032: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:30:33,034: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.300000, d_thres 0.523000, d_offset 0.100000
+[rosout][INFO] 2021-12-08 11:30:33,036: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.300000, d_thres 0.523000, d_offset 0.600000
+[rosout][INFO] 2021-12-08 11:30:57,091: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:30:57,102: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.300000, d_thres 0.523000, d_offset 0.600000
+[rosout][INFO] 2021-12-08 11:30:57,106: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.300000, d_thres 0.523000, d_offset 0.400000
+[rosout][INFO] 2021-12-08 11:31:17,066: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:31:17,071: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.300000, d_thres 0.523000, d_offset 0.400000
+[rosout][INFO] 2021-12-08 11:31:17,074: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.300000, d_thres 0.523000, d_offset 0.350000
+[rosout][INFO] 2021-12-08 11:31:47,033: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:31:47,035: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.300000, d_thres 0.523000, d_offset 0.350000
+[rosout][INFO] 2021-12-08 11:31:47,037: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.300000, d_thres 0.523000, d_offset 0.250000
+[rosout][INFO] 2021-12-08 11:32:27,052: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:32:27,055: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.300000, d_thres 0.523000, d_offset 0.250000
+[rosout][INFO] 2021-12-08 11:32:27,056: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.300000, d_thres 0.523000, d_offset 0.300000
+[rosout][INFO] 2021-12-08 11:33:09,035: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:33:09,037: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.300000, d_thres 0.523000, d_offset 0.300000
+[rosout][INFO] 2021-12-08 11:33:09,039: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.300000
+[rosout][INFO] 2021-12-08 11:33:12,031: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:33:12,033: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.300000
+[rosout][INFO] 2021-12-08 11:33:12,041: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.800000
+[rosout][INFO] 2021-12-08 11:35:32,049: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-08 11:35:32,055: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.800000
+[rosout][INFO] 2021-12-08 11:35:32,058: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.600000
+[rospy.core][INFO] 2021-12-08 11:38:45,039: signal_shutdown [signal-2]
+[rospy.core][INFO] 2021-12-08 11:38:45,051: signal_shutdown [atexit]

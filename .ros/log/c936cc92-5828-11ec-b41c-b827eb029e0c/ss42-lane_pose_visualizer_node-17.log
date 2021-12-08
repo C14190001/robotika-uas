@@ -1,0 +1,24 @@
+[rospy.client][INFO] 2021-12-08 14:14:57,537: init_node, name[/ss42/lane_pose_visualizer_node], pid[8100]
+[xmlrpc][INFO] 2021-12-08 14:14:57,539: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-08 14:14:57,541: Started XML-RPC server [http://ss42.local:41271/]
+[rospy.init][INFO] 2021-12-08 14:14:57,541: ROS Slave URI: [http://ss42.local:41271/]
+[rospy.impl.masterslave][INFO] 2021-12-08 14:14:57,543: _ready: http://ss42.local:41271/
+[rospy.registration][INFO] 2021-12-08 14:14:57,546: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-08 14:14:57,546: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-08 14:14:57,644: registered with master
+[rospy.rosout][INFO] 2021-12-08 14:14:57,644: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-08 14:14:58,044: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-08 14:14:58,059: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-08 14:14:58,102: [/ss42/lane_pose_visualizer_node] Initialzing.
+[rosout][INFO] 2021-12-08 14:14:58,103: [/ss42/lane_pose_visualizer_node] Vehicle name: ss42
+[rosout][INFO] 2021-12-08 14:14:58,152: [/ss42/lane_pose_visualizer_node] Initialzed.
+[rospy.internal][INFO] 2021-12-08 14:14:58,246: topic[/ss42/lane_filter_node/lane_pose] adding connection to [http://ss42.local:34260/], count 0
+[rospy.internal][INFO] 2021-12-08 14:14:58,294: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-08 14:15:12,919: topic[/ss42/lane_pose_visualizer_node/lane_pose_markers] adding connection to [/rviz_1638969303596646942], count 0
+[rospy.internal][INFO] 2021-12-08 15:04:44,974: topic[/ss42/lane_pose_visualizer_node/lane_pose_markers] removing connection to /rviz_1638969303596646942
+[rospy.core][INFO] 2021-12-08 15:04:46,700: signal_shutdown [signal-2]
+[rosout][INFO] 2021-12-08 15:04:46,716: [/ss42/lane_pose_visualizer_node] Shutting down.
+[rospy.internal][INFO] 2021-12-08 15:04:47,880: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-08 15:04:47,889: topic[/ss42/lane_filter_node/lane_pose] removing connection to http://ss42.local:34260/
+[rospy.impl.masterslave][INFO] 2021-12-08 15:04:47,936: signal-2
+[rospy.core][INFO] 2021-12-08 15:04:48,530: signal_shutdown [atexit]

@@ -1,0 +1,27 @@
+[rospy.client][INFO] 2021-12-08 10:38:29,229: init_node, name[/ss42/duckiebot_visualizer], pid[5052]
+[xmlrpc][INFO] 2021-12-08 10:38:29,242: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-08 10:38:29,244: Started XML-RPC server [http://ss42.local:35650/]
+[rospy.impl.masterslave][INFO] 2021-12-08 10:38:29,245: _ready: http://ss42.local:35650/
+[rospy.init][INFO] 2021-12-08 10:38:29,246: ROS Slave URI: [http://ss42.local:35650/]
+[rospy.registration][INFO] 2021-12-08 10:38:29,269: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-08 10:38:29,272: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-08 10:38:29,348: registered with master
+[rospy.rosout][INFO] 2021-12-08 10:38:29,349: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-08 10:38:29,383: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-08 10:38:29,402: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-08 10:38:29,499: [/ss42/duckiebot_visualizer] Initialzing.
+[rosout][INFO] 2021-12-08 10:38:29,535: [/ss42/duckiebot_visualizer] ~veh_name = ss42 
+[rosout][INFO] 2021-12-08 10:38:29,611: [/ss42/duckiebot_visualizer] Initialzed.
+[rospy.internal][INFO] 2021-12-08 10:38:29,679: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-08 10:38:43,883: topic[/ss42/ground_projection/lineseglist_out] adding connection to [http://ss42.local:44965/], count 0
+[rospy.core][INFO] 2021-12-08 11:08:13,453: signal_shutdown [signal-2]
+[rosout][INFO] 2021-12-08 11:08:13,477: [/ss42/duckiebot_visualizer] Shutting down.
+[rospy.internal][INFO] 2021-12-08 11:08:13,979: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-08 11:08:13,981: topic[/ss42/ground_projection/lineseglist_out] removing connection to http://ss42.local:44965/
+[rospy.internal][WARNING] 2021-12-08 11:08:14,024: Unknown error initiating TCP/IP socket to ss42.local:40994 (http://ss42.local:44965/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.impl.masterslave][INFO] 2021-12-08 11:08:14,028: signal-2
+[rospy.core][INFO] 2021-12-08 11:08:14,270: signal_shutdown [atexit]

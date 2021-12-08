@@ -1,0 +1,23 @@
+[rospy.client][INFO] 2021-12-08 14:14:46,527: init_node, name[/ss42/logic_gate_node], pid[8075]
+[xmlrpc][INFO] 2021-12-08 14:14:46,529: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-08 14:14:46,531: Started XML-RPC server [http://ss42.local:37748/]
+[rospy.impl.masterslave][INFO] 2021-12-08 14:14:46,532: _ready: http://ss42.local:37748/
+[rospy.init][INFO] 2021-12-08 14:14:46,533: ROS Slave URI: [http://ss42.local:37748/]
+[rospy.registration][INFO] 2021-12-08 14:14:46,557: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-08 14:14:46,558: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-08 14:14:46,634: registered with master
+[rospy.rosout][INFO] 2021-12-08 14:14:46,635: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-08 14:14:46,755: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-08 14:14:46,844: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-08 14:14:46,993: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-08 14:14:48,002: topic[/ss42/joy_mapper_node/parallel_autonomy] adding connection to [http://ss42.local:45579/], count 0
+[rospy.internal][INFO] 2021-12-08 14:14:48,798: topic[/ss42/logic_gate_node/intersection_done_and_parallel_autonomy] adding connection to [/ss42/fsm_node], count 0
+[rospy.internal][INFO] 2021-12-08 14:14:48,823: topic[/ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy] adding connection to [/ss42/fsm_node], count 0
+[rospy.core][INFO] 2021-12-08 15:04:48,323: signal_shutdown [signal-2]
+[rosout][INFO] 2021-12-08 15:04:49,348: [/ss42/logic_gate_node] Shutting down.
+[rospy.internal][INFO] 2021-12-08 15:04:52,759: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-08 15:04:52,938: topic[/ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy] removing connection to /ss42/fsm_node
+[rospy.internal][INFO] 2021-12-08 15:04:52,963: topic[/ss42/logic_gate_node/intersection_done_and_parallel_autonomy] removing connection to /ss42/fsm_node
+[rospy.internal][INFO] 2021-12-08 15:04:53,062: topic[/ss42/joy_mapper_node/parallel_autonomy] removing connection to http://ss42.local:45579/
+[rospy.impl.masterslave][INFO] 2021-12-08 15:04:53,197: signal-2
+[rospy.core][INFO] 2021-12-08 15:04:53,672: signal_shutdown [atexit]

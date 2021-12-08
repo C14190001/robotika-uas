@@ -1,0 +1,30 @@
+[rospy.client][INFO] 2021-12-06 08:38:28,839: init_node, name[/ss42/lane_controller_node], pid[1635]
+[xmlrpc][INFO] 2021-12-06 08:38:28,853: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2021-12-06 08:38:28,855: ROS Slave URI: [http://ss42.local:42454/]
+[xmlrpc][INFO] 2021-12-06 08:38:28,856: Started XML-RPC server [http://ss42.local:42454/]
+[rospy.impl.masterslave][INFO] 2021-12-06 08:38:28,857: _ready: http://ss42.local:42454/
+[rospy.registration][INFO] 2021-12-06 08:38:28,874: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-06 08:38:28,883: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-06 08:38:28,956: registered with master
+[rospy.rosout][INFO] 2021-12-06 08:38:28,957: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-06 08:38:29,023: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-06 08:38:29,074: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-06 08:38:29,225: [/ss42/lane_controller_node] ~v_bar = 0.3864 
+[rospy.internal][INFO] 2021-12-06 08:38:29,306: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2021-12-06 08:38:29,305: [/ss42/lane_controller_node] ~k_d = -10.3 
+[rosout][INFO] 2021-12-06 08:38:29,368: [/ss42/lane_controller_node] ~k_theta = -5.15 
+[rosout][INFO] 2021-12-06 08:38:29,407: [/ss42/lane_controller_node] ~d_thres = 0.2615 
+[rosout][INFO] 2021-12-06 08:38:29,526: [/ss42/lane_controller_node] ~theta_thres = 0.523 
+[rosout][INFO] 2021-12-06 08:38:29,676: [/ss42/lane_controller_node] ~d_offset = 0.0 
+[rosout][INFO] 2021-12-06 08:38:29,717: [/ss42/lane_controller_node] Initialized 
+[rospy.internal][INFO] 2021-12-06 08:38:29,763: topic[/ss42/lane_controller_node/car_cmd] adding connection to [/ss42/car_cmd_switch_node], count 0
+[rospy.internal][INFO] 2021-12-06 08:38:38,427: topic[/ss42/lane_filter_node/lane_pose] adding connection to [http://ss42.local:45341/], count 0
+[rospy.core][INFO] 2021-12-06 08:39:49,809: signal_shutdown [signal-2]
+[rosout][INFO] 2021-12-06 08:39:49,815: [/ss42/lane_controller_node] Shutting down...
+[rospy.internal][INFO] 2021-12-06 08:39:49,817: topic impl's ref count is zero, deleting topic /ss42/lane_filter_node/lane_pose...
+[rospy.internal][INFO] 2021-12-06 08:39:49,828: topic[/ss42/lane_filter_node/lane_pose] removing connection to http://ss42.local:45341/
+[rosout][INFO] 2021-12-06 08:39:50,460: [/ss42/lane_controller_node] Shutdown
+[rospy.internal][INFO] 2021-12-06 08:39:50,490: topic[/ss42/lane_controller_node/car_cmd] removing connection to /ss42/car_cmd_switch_node
+[rospy.internal][INFO] 2021-12-06 08:39:50,493: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2021-12-06 08:39:50,494: signal-2
+[rospy.core][INFO] 2021-12-06 08:39:50,611: signal_shutdown [atexit]

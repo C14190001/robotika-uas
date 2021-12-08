@@ -1,0 +1,51 @@
+[rospy.client][INFO] 2021-12-06 08:40:26,428: init_node, name[/ss42/lane_controller_node], pid[5269]
+[xmlrpc][INFO] 2021-12-06 08:40:26,452: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-06 08:40:26,462: Started XML-RPC server [http://ss42.local:35721/]
+[rospy.init][INFO] 2021-12-06 08:40:26,463: ROS Slave URI: [http://ss42.local:35721/]
+[rospy.impl.masterslave][INFO] 2021-12-06 08:40:26,464: _ready: http://ss42.local:35721/
+[rospy.registration][INFO] 2021-12-06 08:40:26,489: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-06 08:40:26,490: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-06 08:40:26,565: registered with master
+[rospy.rosout][INFO] 2021-12-06 08:40:26,567: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-06 08:40:26,654: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-06 08:40:26,762: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-06 08:40:26,838: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2021-12-06 08:40:27,104: [/ss42/lane_controller_node] ~v_bar = 0.3864 
+[rosout][INFO] 2021-12-06 08:40:27,265: [/ss42/lane_controller_node] ~k_d = -10.3 
+[rosout][INFO] 2021-12-06 08:40:27,457: [/ss42/lane_controller_node] ~k_theta = -5.15 
+[rosout][INFO] 2021-12-06 08:40:27,591: [/ss42/lane_controller_node] ~d_thres = 0.2615 
+[rosout][INFO] 2021-12-06 08:40:27,687: [/ss42/lane_controller_node] ~theta_thres = 0.523 
+[rosout][INFO] 2021-12-06 08:40:27,756: [/ss42/lane_controller_node] ~d_offset = 0.0 
+[rosout][INFO] 2021-12-06 08:40:27,877: [/ss42/lane_controller_node] Initialized 
+[rospy.internal][INFO] 2021-12-06 08:40:27,970: topic[/ss42/lane_controller_node/car_cmd] adding connection to [/ss42/car_cmd_switch_node], count 0
+[rospy.internal][INFO] 2021-12-06 08:40:34,554: topic[/ss42/lane_filter_node/lane_pose] adding connection to [http://ss42.local:36803/], count 0
+[rosout][INFO] 2021-12-06 08:41:31,913: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-06 08:41:31,923: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.261500, d_thres 0.523000, d_offset 0.000000
+[rosout][INFO] 2021-12-06 08:41:31,925: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.200000, d_thres 0.523000, d_offset 0.000000
+[rosout][INFO] 2021-12-06 08:47:26,921: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-06 08:47:26,924: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.200000, d_thres 0.523000, d_offset 0.000000
+[rosout][INFO] 2021-12-06 08:47:26,929: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.000000
+[rosout][INFO] 2021-12-06 08:49:42,918: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-06 08:49:42,920: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.523000, d_offset 0.000000
+[rosout][INFO] 2021-12-06 08:49:42,922: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.400000, d_offset 0.000000
+[rosout][INFO] 2021-12-06 09:08:59,942: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-06 09:08:59,945: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.400000, d_offset 0.000000
+[rosout][INFO] 2021-12-06 09:08:59,948: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.200000, d_offset 0.000000
+[rosout][INFO] 2021-12-06 09:09:37,912: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-06 09:09:37,915: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.200000, d_offset 0.000000
+[rosout][INFO] 2021-12-06 09:09:37,917: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.100000, d_offset 0.000000
+[rosout][INFO] 2021-12-06 09:09:50,923: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-06 09:09:50,925: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.100000, d_offset 0.000000
+[rosout][INFO] 2021-12-06 09:09:50,926: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.300000, d_thres 0.100000, d_offset 0.000000
+[rosout][INFO] 2021-12-06 09:13:42,913: [/ss42/lane_controller_node] Gains changed.
+[rosout][INFO] 2021-12-06 09:13:42,915: old gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.300000, d_thres 0.100000, d_offset 0.000000
+[rosout][INFO] 2021-12-06 09:13:42,917: new gains, v_var 0.386400, k_d -10.300000, k_theta -5.150000, theta_thres 0.100000, d_thres 0.100000, d_offset 0.000000
+[rospy.core][INFO] 2021-12-06 09:22:14,497: signal_shutdown [signal-2]
+[rosout][INFO] 2021-12-06 09:22:14,511: [/ss42/lane_controller_node] Shutting down...
+[rospy.internal][INFO] 2021-12-06 09:22:14,514: topic impl's ref count is zero, deleting topic /ss42/lane_filter_node/lane_pose...
+[rospy.internal][INFO] 2021-12-06 09:22:14,550: topic[/ss42/lane_filter_node/lane_pose] removing connection to http://ss42.local:36803/
+[rosout][INFO] 2021-12-06 09:22:15,127: [/ss42/lane_controller_node] Shutdown
+[rospy.internal][INFO] 2021-12-06 09:22:15,208: topic[/ss42/lane_controller_node/car_cmd] removing connection to /ss42/car_cmd_switch_node
+[rospy.internal][INFO] 2021-12-06 09:22:15,222: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2021-12-06 09:22:15,227: signal-2
+[rospy.core][INFO] 2021-12-06 09:22:15,914: signal_shutdown [atexit]

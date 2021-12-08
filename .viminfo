@@ -21,7 +21,7 @@
 # Registers:
 
 # File marks:
-'0  1  10  ~/.git/COMMIT_EDITMSG
+'0  1  15  ~/.git/COMMIT_EDITMSG
 '1  3  17  ~/duckiefleet/robots/taiwan/ss42.robot.yaml
 '2  5  21  ~/duckiefleet/robots/taiwan/ss42.robot.yaml
 '3  2  0  ~/.git/MERGE_MSG
@@ -32,7 +32,7 @@
 '8  7  30  ~/duckiefleet/robots/taiwan/ss42.robot.yaml
 
 # Jumplist (newest first):
--'  1  10  ~/.git/COMMIT_EDITMSG
+-'  1  15  ~/.git/COMMIT_EDITMSG
 -'  3  17  ~/duckiefleet/robots/taiwan/ss42.robot.yaml
 -'  1  0  ~/duckiefleet/robots/taiwan/ss42.robot.yaml
 -'  5  21  ~/duckiefleet/robots/taiwan/ss42.robot.yaml
@@ -132,14 +132,14 @@
 # History of marks within files (newest to oldest):
 
 > ~/.git/COMMIT_EDITMSG
-	"	1	10
-	^	1	11
-	.	1	10
+	"	1	15
+	^	1	16
+	.	1	15
 	+	1	20
 	+	2	20
 	+	1	11
 	+	2	0
-	+	1	10
+	+	1	15
 
 > ~/duckiefleet/robots/taiwan/ss42.robot.yaml
 	"	3	17

@@ -1,0 +1,70 @@
+[rospy.client][INFO] 2021-12-06 08:40:34,453: [32minit_node, name[/ss42/anti_instagram_node], pid[5283][0m
+[xmlrpc][INFO] 2021-12-06 08:40:34,456: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[xmlrpc][INFO] 2021-12-06 08:40:34,459: [32mStarted XML-RPC server [http://ss42.local:40485/][0m
+[rospy.init][INFO] 2021-12-06 08:40:34,459: [32mROS Slave URI: [http://ss42.local:40485/][0m
+[rospy.impl.masterslave][INFO] 2021-12-06 08:40:34,461: [32m_ready: http://ss42.local:40485/[0m
+[rospy.registration][INFO] 2021-12-06 08:40:34,475: [32mRegistering with master node http://ss42.local:11311/[0m
+[xmlrpc][INFO] 2021-12-06 08:40:34,476: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.init][INFO] 2021-12-06 08:40:34,562: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-12-06 08:40:34,563: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-12-06 08:40:34,577: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-12-06 08:40:34,587: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rospy.internal][INFO] 2021-12-06 08:40:34,700: [32mtopic[/ss42/anti_instagram_node/click] adding connection to [http://ss42.local:37360/], count 0[0m
+[rospy.internal][INFO] 2021-12-06 08:40:34,702: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [http://ss42.local:46581/], count 0[0m
+[rospy.internal][INFO] 2021-12-06 08:40:34,794: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rospy.internal][INFO] 2021-12-06 08:40:35,123: [32mtopic[/ss42/anti_instagram_node/transform] adding connection to [/ss42/line_detector_node], count 0[0m
+[rosout][INFO] 2021-12-06 08:43:08,212: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-06 08:43:10,186: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-06 08:43:10,284: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-06 08:43:21,524: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-06 08:43:24,023: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-06 08:43:25,563: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-06 08:43:25,567: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-06 08:43:30,298: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-06 08:43:34,185: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-06 08:43:35,701: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-06 08:43:35,709: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-06 08:46:24,003: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-06 08:46:28,085: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-06 08:46:29,396: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-06 08:46:29,400: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-06 08:50:43,117: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-06 08:54:41,793: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-06 08:54:44,599: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-06 08:54:44,606: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-06 08:54:57,721: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-06 08:55:14,718: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-06 08:55:16,854: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-06 08:55:16,863: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-06 08:55:16,868: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-06 08:55:23,691: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-06 08:55:27,716: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-06 08:55:27,721: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-06 08:55:30,720: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-06 09:00:14,980: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-06 09:00:19,317: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-06 09:00:19,325: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-06 09:02:07,623: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-06 09:10:58,912: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-06 09:11:02,452: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-06 09:11:02,456: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-06 09:11:31,393: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-06 09:16:30,510: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-06 09:16:33,175: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-06 09:16:33,187: [32mHealth is not good[0m
+[rosout][INFO] 2021-12-06 09:16:41,320: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-06 09:16:45,955: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-06 09:16:47,855: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-06 09:16:47,860: [32mHealth is not good[0m
+[rospy.core][INFO] 2021-12-06 09:22:14,449: [32msignal_shutdown [signal-2][0m
+[rospy.internal][INFO] 2021-12-06 09:22:14,516: [32mtopic[/ss42/anti_instagram_node/transform] removing connection to /ss42/line_detector_node[0m
+[rospy.internal][INFO] 2021-12-06 09:22:14,518: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-12-06 09:22:14,519: [32mtopic[/ss42/anti_instagram_node/click] removing connection to http://ss42.local:37360/[0m
+[rospy.internal][INFO] 2021-12-06 09:22:14,522: [32mtopic[/ss42/camera_node/image/compressed] removing connection to http://ss42.local:46581/[0m
+[rospy.impl.masterslave][INFO] 2021-12-06 09:22:14,526: [32msignal-2[0m
+[rospy.internal][WARNING] 2021-12-06 09:22:14,537: [33mUnknown error initiating TCP/IP socket to ss42.local:39181 (http://ss42.local:46581/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+[0m
+[rospy.core][INFO] 2021-12-06 09:22:15,202: [32msignal_shutdown [atexit][0m

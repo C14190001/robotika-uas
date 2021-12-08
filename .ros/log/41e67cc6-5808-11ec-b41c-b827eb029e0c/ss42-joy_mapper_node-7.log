@@ -1,0 +1,76 @@
+[rospy.client][INFO] 2021-12-08 10:22:02,528: init_node, name[/ss42/joy_mapper_node], pid[2386]
+[xmlrpc][INFO] 2021-12-08 10:22:02,540: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-08 10:22:02,542: Started XML-RPC server [http://ss42.local:39913/]
+[rospy.impl.masterslave][INFO] 2021-12-08 10:22:02,543: _ready: http://ss42.local:39913/
+[rospy.init][INFO] 2021-12-08 10:22:02,544: ROS Slave URI: [http://ss42.local:39913/]
+[rospy.registration][INFO] 2021-12-08 10:22:02,571: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-08 10:22:02,573: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-08 10:22:02,645: registered with master
+[rospy.rosout][INFO] 2021-12-08 10:22:02,647: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-08 10:22:02,759: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-08 10:22:02,804: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-08 10:22:02,949: [/ss42/joy_mapper_node] Initializing 
+[rospy.internal][INFO] 2021-12-08 10:22:03,028: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2021-12-08 10:22:03,083: [/ss42/joy_mapper_node] ~speed_gain = 0.41 
+[rosout][INFO] 2021-12-08 10:22:03,184: [/ss42/joy_mapper_node] ~steer_gain = 8.3 
+[rosout][INFO] 2021-12-08 10:22:03,318: [/ss42/joy_mapper_node] ~bicycle_kinematics = 0.0 
+[rosout][INFO] 2021-12-08 10:22:03,469: [/ss42/joy_mapper_node] ~steer_angle_gain = 1.04 
+[rosout][INFO] 2021-12-08 10:22:03,666: [/ss42/joy_mapper_node] ~simulated_vehicle_length = 0.18 
+[rospy.internal][INFO] 2021-12-08 10:22:04,283: topic[/ss42/wheels_driver_node/emergency_stop] adding connection to [/ss42/wheels_driver_node], count 0
+[rospy.internal][INFO] 2021-12-08 10:22:04,338: topic[/ss42/joy] adding connection to [http://ss42.local:35988/], count 0
+[rospy.internal][INFO] 2021-12-08 10:22:05,787: topic[/ss42/joy_mapper_node/car_cmd] adding connection to [/ss42/car_cmd_switch_node], count 0
+[rospy.internal][INFO] 2021-12-08 10:22:05,826: topic[/ss42/joy_mapper_node/joystick_override] adding connection to [/ss42/fsm_node], count 0
+[rospy.internal][INFO] 2021-12-08 10:22:05,874: topic[/ss42/joy_mapper_node/parallel_autonomy] adding connection to [/ss42/fsm_node], count 0
+[rospy.internal][INFO] 2021-12-08 10:22:06,007: topic[/ss42/joy_mapper_node/start_avoidance] adding connection to [/ss42/fsm_node], count 0
+[rospy.internal][INFO] 2021-12-08 10:22:07,093: topic[/ss42/joy_mapper_node/parallel_autonomy] adding connection to [/ss42/logic_gate_node], count 1
+[rosout][INFO] 2021-12-08 10:22:18,149: override_msg = True
+[rosout][INFO] 2021-12-08 10:22:19,308: E-stop message
+[rosout][INFO] 2021-12-08 10:22:20,850: E-stop message
+[rosout][INFO] 2021-12-08 10:22:23,022: override_msg = True
+[rospy.internal][INFO] 2021-12-08 10:22:25,751: topic[/ss42/anti_instagram_node/click] adding connection to [/ss42/anti_instagram_node], count 0
+[rosout][INFO] 2021-12-08 10:22:26,850: override_msg = False
+[rosout][INFO] 2021-12-08 10:22:37,565: override_msg = True
+[rosout][INFO] 2021-12-08 10:22:44,115: anti_instagram message
+[rosout][INFO] 2021-12-08 10:22:48,120: override_msg = False
+[rosout][INFO] 2021-12-08 10:22:52,053: override_msg = True
+[rosout][INFO] 2021-12-08 10:22:57,430: override_msg = False
+[rosout][INFO] 2021-12-08 10:22:59,771: override_msg = True
+[rosout][INFO] 2021-12-08 10:23:06,624: override_msg = False
+[rosout][INFO] 2021-12-08 10:23:41,745: override_msg = True
+[rosout][INFO] 2021-12-08 10:23:43,217: override_msg = False
+[rosout][INFO] 2021-12-08 10:23:46,378: override_msg = True
+[rosout][INFO] 2021-12-08 10:23:47,449: override_msg = False
+[rosout][INFO] 2021-12-08 10:23:51,043: override_msg = True
+[rosout][INFO] 2021-12-08 10:23:52,604: override_msg = False
+[rosout][INFO] 2021-12-08 10:23:54,644: override_msg = True
+[rosout][INFO] 2021-12-08 10:23:56,468: override_msg = False
+[rosout][INFO] 2021-12-08 10:24:05,446: override_msg = True
+[rosout][INFO] 2021-12-08 10:24:13,777: override_msg = False
+[rosout][INFO] 2021-12-08 10:24:38,122: override_msg = True
+[rosout][INFO] 2021-12-08 10:24:44,351: anti_instagram message
+[rosout][INFO] 2021-12-08 10:24:47,140: override_msg = False
+[rosout][INFO] 2021-12-08 10:24:53,298: override_msg = True
+[rosout][INFO] 2021-12-08 10:24:57,670: anti_instagram message
+[rosout][INFO] 2021-12-08 10:25:01,748: override_msg = False
+[rosout][INFO] 2021-12-08 10:25:14,334: override_msg = True
+[rospy.internal][INFO] 2021-12-08 10:37:19,896: topic[/ss42/anti_instagram_node/click] removing connection to /ss42/anti_instagram_node
+[rospy.core][INFO] 2021-12-08 10:37:25,281: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-12-08 10:37:25,530: topic[/ss42/joy_mapper_node/joystick_override] removing connection to /ss42/fsm_node
+[rospy.internal][INFO] 2021-12-08 10:37:25,540: topic[/ss42/wheels_driver_node/emergency_stop] removing connection to /ss42/wheels_driver_node
+[rospy.internal][INFO] 2021-12-08 10:37:25,546: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-08 10:37:25,548: topic[/ss42/joy_mapper_node/parallel_autonomy] removing connection to /ss42/fsm_node
+[rospy.internal][INFO] 2021-12-08 10:37:25,551: topic[/ss42/joy_mapper_node/parallel_autonomy] removing connection to /ss42/logic_gate_node
+[rospy.internal][INFO] 2021-12-08 10:37:25,560: topic[/ss42/joy_mapper_node/start_avoidance] removing connection to /ss42/fsm_node
+[rospy.internal][INFO] 2021-12-08 10:37:25,564: topic[/ss42/joy_mapper_node/car_cmd] removing connection to /ss42/car_cmd_switch_node
+[rospy.internal][INFO] 2021-12-08 10:37:25,580: topic[/ss42/joy] removing connection to http://ss42.local:35988/
+[rospy.impl.masterslave][INFO] 2021-12-08 10:37:25,589: signal-2
+[rospy.internal][WARNING] 2021-12-08 10:37:25,681: Unknown error initiating TCP/IP socket to ss42.local:53309 (http://ss42.local:35988/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.core][INFO] 2021-12-08 10:37:26,017: signal_shutdown [atexit]

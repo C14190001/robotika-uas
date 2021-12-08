@@ -1,0 +1,134 @@
+[rospy.client][INFO] 2021-12-06 08:38:27,554: init_node, name[/ss42/fsm_node], pid[1603]
+[xmlrpc][INFO] 2021-12-06 08:38:27,565: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2021-12-06 08:38:27,582: ROS Slave URI: [http://ss42.local:44999/]
+[xmlrpc][INFO] 2021-12-06 08:38:27,566: Started XML-RPC server [http://ss42.local:44999/]
+[rospy.impl.masterslave][INFO] 2021-12-06 08:38:27,583: _ready: http://ss42.local:44999/
+[xmlrpc][INFO] 2021-12-06 08:38:27,592: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-12-06 08:38:27,601: Registering with master node http://ss42.local:11311/
+[rospy.init][INFO] 2021-12-06 08:38:27,683: registered with master
+[rospy.rosout][INFO] 2021-12-06 08:38:27,684: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-06 08:38:27,738: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-06 08:38:27,790: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-06 08:38:28,035: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-06 08:38:28,709: topic[/ss42/fsm_node/mode] adding connection to [/ss42/car_cmd_switch_node], count 0
+[rosout][INFO] 2021-12-06 08:38:29,505: [/ss42/fsm_node] Initialized.
+[rosout][INFO] 2021-12-06 08:38:29,510: [/ss42/fsm_node] Node vehicle_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-12-06 08:38:29,515: [/ss42/fsm_node] Node framerate_high is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-12-06 08:38:29,520: [/ss42/fsm_node] Node decoder_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-12-06 08:38:29,523: [/ss42/fsm_node] Node stop_line_filter_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-12-06 08:38:29,527: [/ss42/fsm_node] Node lane_filter_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-12-06 08:38:29,541: [/ss42/fsm_node] Node led_detector_node is OFF in JOYSTICK_CONTROL
+[rospy.internal][INFO] 2021-12-06 08:38:29,551: topic[/ss42/simple_coordinator_node/intersection_go] adding connection to [http://ss42.local:38353/], count 0
+[rosout][INFO] 2021-12-06 08:38:29,553: [/ss42/fsm_node] Node static_object_detector_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-12-06 08:38:29,569: [/ss42/fsm_node] Node led_emitter_node is OFF in JOYSTICK_CONTROL
+[rosout][INFO] 2021-12-06 08:38:29,570: [/ss42/fsm_node] Node line_detector_node is ON in JOYSTICK_CONTROL
+[rosout][INFO] 2021-12-06 08:38:29,579: [/ss42/fsm_node] Node apriltag_node is ON in JOYSTICK_CONTROL
+[rospy.internal][INFO] 2021-12-06 08:38:29,587: topic[/ss42/logic_gate_node/intersection_done_and_parallel_autonomy] adding connection to [http://ss42.local:41548/], count 0
+[rospy.internal][INFO] 2021-12-06 08:38:29,604: topic[/ss42/joy_mapper_node/start_avoidance] adding connection to [http://ss42.local:36461/], count 0
+[rospy.internal][INFO] 2021-12-06 08:38:29,606: topic[/ss42/fsm_node/mode] adding connection to [/ss42/fake_coordinator_node], count 1
+[rospy.internal][INFO] 2021-12-06 08:38:29,606: topic[/ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy] adding connection to [http://ss42.local:41548/], count 0
+[rosout][INFO] 2021-12-06 08:38:29,608: [/ss42/fsm_node] FSMState: JOYSTICK_CONTROL
+[rospy.internal][INFO] 2021-12-06 08:38:29,625: topic[/ss42/led_emitter_node/switch] adding connection to [/ss42/led_emitter_node], count 0
+[rospy.internal][INFO] 2021-12-06 08:38:29,634: topic[/ss42/joy_mapper_node/parallel_autonomy] adding connection to [http://ss42.local:36461/], count 0
+[rospy.internal][INFO] 2021-12-06 08:38:29,658: topic[/ss42/joy_mapper_node/joystick_override] adding connection to [http://ss42.local:36461/], count 0
+[rospy.internal][INFO] 2021-12-06 08:38:36,366: topic[/ss42/camera_node/framerate_high_switch] adding connection to [/ss42/camera_node], count 0
+[rospy.internal][INFO] 2021-12-06 08:38:38,381: topic[/ss42/lane_filter_node/switch] adding connection to [/ss42/lane_filter_node], count 0
+[rospy.internal][INFO] 2021-12-06 08:38:38,877: topic[/ss42/line_detector_node/switch] adding connection to [/ss42/line_detector_node], count 0
+[rospy.internal][ERROR] 2021-12-06 08:39:49,855: Unable to initiate TCP/IP socket to ss42.local:44599 (http://ss42.local:38353/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2021-12-06 08:39:49,870: topic[/ss42/fsm_node/mode] adding connection to [/ss42/fake_coordinator_node], count 2
+[rospy.internal][INFO] 2021-12-06 08:39:49,872: topic[/ss42/fsm_node/mode] removing connection to /ss42/fake_coordinator_node
+[rosout][WARNING] 2021-12-06 08:39:49,982: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2021-12-06 08:39:49,987: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rosout][WARNING] 2021-12-06 08:39:50,018: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2021-12-06 08:39:50,021: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2021-12-06 08:39:50,236: topic[/ss42/fsm_node/mode] removing connection to /ss42/fake_coordinator_node
+[rospy.internal][INFO] 2021-12-06 08:39:50,238: topic[/ss42/led_emitter_node/switch] removing connection to /ss42/led_emitter_node
+[rospy.internal][INFO] 2021-12-06 08:39:50,239: topic[/ss42/line_detector_node/switch] removing connection to /ss42/line_detector_node
+[rospy.internal][INFO] 2021-12-06 08:39:50,241: topic[/ss42/lane_filter_node/switch] removing connection to /ss42/lane_filter_node
+[rospy.internal][ERROR] 2021-12-06 08:39:50,297: Unable to initiate TCP/IP socket to ss42.local:36069 (http://ss42.local:41548/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2021-12-06 08:39:50,302: Unknown error initiating TCP/IP socket to ss42.local:36069 (http://ss42.local:41548/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2021-12-06 08:39:50,304: topic[/ss42/logic_gate_node/intersection_done_and_parallel_autonomy] removing connection to http://ss42.local:41548/
+[rospy.core][INFO] 2021-12-06 08:39:50,652: signal_shutdown [signal-2]
+[rosout][INFO] 2021-12-06 08:39:50,653: [/ss42/fsm_node] Shutting down.
+[rospy.internal][WARNING] 2021-12-06 08:39:50,865: Unknown error initiating TCP/IP socket to ss42.local:44599 (http://ss42.local:38353/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2021-12-06 08:39:50,866: topic[/ss42/simple_coordinator_node/intersection_go] removing connection to http://ss42.local:38353/
+[rospy.internal][ERROR] 2021-12-06 08:39:50,904: Unable to initiate TCP/IP socket to ss42.local:41254 (http://ss42.local:36461/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2021-12-06 08:39:50,918: Unable to initiate TCP/IP socket to ss42.local:41254 (http://ss42.local:36461/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2021-12-06 08:39:50,937: Unable to initiate TCP/IP socket to ss42.local:41254 (http://ss42.local:36461/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2021-12-06 08:39:50,938: topic[/ss42/fsm_node/mode] removing connection to /ss42/car_cmd_switch_node
+[rospy.internal][INFO] 2021-12-06 08:39:50,950: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-06 08:39:50,955: topic[/ss42/camera_node/framerate_high_switch] removing connection to /ss42/camera_node
+[rospy.internal][INFO] 2021-12-06 08:39:50,963: topic[/ss42/joy_mapper_node/joystick_override] removing connection to http://ss42.local:36461/
+[rospy.internal][INFO] 2021-12-06 08:39:50,965: topic[/ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy] removing connection to http://ss42.local:41548/
+[rospy.internal][INFO] 2021-12-06 08:39:50,966: topic[/ss42/joy_mapper_node/parallel_autonomy] removing connection to http://ss42.local:36461/
+[rospy.internal][INFO] 2021-12-06 08:39:50,967: topic[/ss42/joy_mapper_node/start_avoidance] removing connection to http://ss42.local:36461/
+[rospy.impl.masterslave][INFO] 2021-12-06 08:39:50,969: signal-2
+[rospy.core][INFO] 2021-12-06 08:39:51,294: signal_shutdown [atexit]

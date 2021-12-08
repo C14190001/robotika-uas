@@ -1,0 +1,829 @@
+[rosmaster.main][INFO] 2021-12-08 10:21:51,350: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2021-12-08 10:21:51,352: Starting ROS Master Node
+[xmlrpc][INFO] 2021-12-08 10:21:51,356: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2021-12-08 10:21:51,358: Started XML-RPC server [http://ss42.local:11311/]
+[rosmaster.master][INFO] 2021-12-08 10:21:51,359: Master initialized: port[11311], uri[http://ss42.local:11311/]
+[xmlrpc][INFO] 2021-12-08 10:21:51,360: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2021-12-08 10:21:51,434: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:51,445: +PARAM [/roslaunch/uris/host_ss42_local__41142] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,640: +PARAM [/ss42/lane_controller_node/k_d] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,642: +PARAM [/ss42/led_emitter_node/LED_protocol/signals/traffic_light_stop/color] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,643: +PARAM [/ss42/fsm_node/states/JOYSTICK_CONTROL/transitions/start_avoidance] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,644: +PARAM [/ss42/led_emitter_node/LED_protocol/signals/light_off/frequency] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,645: +PARAM [/ss42/fsm_node/nodes/static_object_detector_node] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,646: +PARAM [/ss42/fsm_node/events/intersection_done_and_parallel_autonomy/topic] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,647: +PARAM [/ss42/logic_gate_node/events/parallel_autonomy_on/topic] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,648: +PARAM [/ss42/cam_info_reader_node/image_type] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,649: +PARAM [/ss42/fsm_node/states/LANE_RECOVERY/transitions/found_lane] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,650: +PARAM [/ss42/car_cmd_switch_node/source_topics/obstacle] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,650: +PARAM [/ss42/logic_gate_node/gates/intersection_done_and_parallel_autonomy_off/gate_type] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,651: +PARAM [/ss42/fsm_node/events/intersection_done_and_not_parallel_autonomy/topic] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,652: +PARAM [/ss42/fsm_node/states/LANE_FOLLOWING/lights] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,653: +PARAM [/ss42/fsm_node/events/obstacle_cleared/topic] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,654: +PARAM [/ss42/fsm_node/events/intersection_done/topic] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,655: +PARAM [/ss42/fsm_node/events/joystick_override_on/msg_type] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,656: +PARAM [/ss42/duckiebot_visualizer/veh_name] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,657: +PARAM [/ss42/led_emitter_node/LED_protocol/signals/CAR_SIGNAL_A/frequency] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,658: +PARAM [/ss42/fsm_node/events/intersection_done_and_not_parallel_autonomy/trigger] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,659: +PARAM [/ss42/fsm_node/states/LANE_RECOVERY/active_nodes] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,660: +PARAM [/ss42/car_cmd_switch_node/source_topics/lane] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,661: +PARAM [/enable_statistics] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,662: +PARAM [/ss42/fsm_node/states/LANE_RECOVERY/transitions/lane_recovery_timeout_reached] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,662: +PARAM [/ss42/fsm_node/events/joystick_override_off/msg_type] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,663: +PARAM [/ss42/joy_node/deadzone] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,664: +PARAM [/ss42/ground_projection/config] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,665: +PARAM [/ss42/fsm_node/states/PARALLEL_AUTONOMY/active_nodes] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,666: +PARAM [/ss42/cam_info_reader_node/pub_freq] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,667: +PARAM [/ss42/fsm_node/states/COORDINATION/transitions/intersection_go] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,668: +PARAM [/ss42/fsm_node/nodes/framerate_high] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,669: +PARAM [/ss42/fsm_node/events/vehicle_cleared/msg_type] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,670: +PARAM [/ss42/fsm_node/states/JOYSTICK_CONTROL/active_nodes] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,671: +PARAM [/ss42/car_cmd_switch_node/source_topics/coordination] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,672: +PARAM [/ss42/fsm_node/events/parallel_autonomy_off/trigger] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,672: +PARAM [/ss42/fsm_node/states/LANE_FOLLOWING_AVOID/transitions/obstacle_detection] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,673: +PARAM [/ss42/fsm_node/events/intersection_done_and_parallel_autonomy/msg_type] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,674: +PARAM [/ss42/led_emitter_node/LED_protocol/colors/yellow] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,675: +PARAM [/ss42/fsm_node/initial_state] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,676: +PARAM [/ss42/fsm_node/nodes/stop_line_filter_node] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,677: +PARAM [/ss42/fsm_node/events/parallel_autonomy_on/msg_type] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,678: +PARAM [/ss42/joy_mapper_node/steer_angle_gain] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,679: +PARAM [/ss42/fsm_node/events/obstacle_cleared/msg_type] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,680: +PARAM [/ss42/fsm_node/states/INTERSECTION_RECOVERY/transitions/found_lane] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,681: +PARAM [/ss42/fsm_node/states/AVOID_VEHICLE/transitions/vehicle_cleared] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,682: +PARAM [/ss42/fsm_node/nodes/led_detector_node] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,683: +PARAM [/ss42/logic_gate_node/gates/intersection_done_and_parallel_autonomy_on/inputs] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,684: +PARAM [/ss42/ground_projection/config_file_name] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,685: +PARAM [/ss42/fsm_node/events/intersection_go/trigger] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,686: +PARAM [/ss42/fsm_node/events/parallel_autonomy_off/msg_type] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,687: +PARAM [/ss42/fsm_node/events/parallel_autonomy_on/topic] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,688: +PARAM [/ss42/fsm_node/states/PARALLEL_AUTONOMY/lights] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,689: +PARAM [/ss42/fsm_node/states/INTERSECTION_CONTROL/transitions/intersection_done] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,690: +PARAM [/ss42/fsm_node/states/LANE_FOLLOWING_AVOID/active_nodes] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,691: +PARAM [/ss42/fsm_node/states/COORDINATION/lights] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,692: +PARAM [/ss42/fsm_node/events/start_avoidance/topic] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,693: +PARAM [/ss42/fsm_node/states/INTERSECTION_RECOVERY/active_nodes] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,694: +PARAM [/ss42/lane_controller_node/theta_thres] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,694: +PARAM [/ss42/fsm_node/states/LANE_FOLLOWING/active_nodes] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,695: +PARAM [/ss42/fsm_node/states/AVOID_OBSTACLE/transitions/obstacle_cleared] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,696: +PARAM [/ss42/fsm_node/events/at_stop_line/topic] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,697: +PARAM [/ss42/fsm_node/states/LANE_FOLLOWING/transitions/at_stop_line] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,698: +PARAM [/ss42/led_emitter_node/LED_protocol/signals/traffic_light_go/color] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,699: +PARAM [/ss42/led_emitter_node/LED_protocol/frequencies/f2] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,700: +PARAM [/ss42/line_detector_node/top_cutoff] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,701: +PARAM [/ss42/camera_node/res_w] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,702: +PARAM [/ss42/lane_filter_node/use_propagation] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,703: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,704: +PARAM [/ss42/led_emitter_node/LED_protocol/signals/CAR_SIGNAL_C/color] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,705: +PARAM [/ss42/fsm_node/events/intersection_done_and_not_parallel_autonomy/msg_type] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,706: +PARAM [/ss42/fsm_node/events/vehicle_cleared/trigger] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,708: +PARAM [/ss42/fsm_node/states/PARALLEL_AUTONOMY/transitions/vehicle_detection] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,710: +PARAM [/ss42/fsm_node/events/intersection_done_and_parallel_autonomy/trigger] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,711: +PARAM [/ss42/fsm_node/nodes/line_detector_node] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,712: +PARAM [/ss42/lane_controller_node/k_theta] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,713: +PARAM [/ss42/camera_node/res_h] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,713: +PARAM [/ss42/lane_controller_node/v_bar] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,714: +PARAM [/ss42/fsm_node/events/vehicle_detection/topic] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,715: +PARAM [/ss42/led_emitter_node/LED_protocol/signals/CAR_SIGNAL_A/color] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,716: +PARAM [/ss42/fsm_node/events/obstacle_cleared/trigger] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,717: +PARAM [/ss42/fsm_node/events/obstacle_detection/topic] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,721: +PARAM [/ss42/led_emitter_node/LED_protocol/colors/green] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,722: +PARAM [/ss42/fsm_node/events/parallel_autonomy_off/topic] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,724: +PARAM [/ss42/led_emitter_node/LED_protocol/signals/CAR_SIGNAL_B/color] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,725: +PARAM [/ss42/logic_gate_node/gates/intersection_done_and_parallel_autonomy_off/output_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,726: +PARAM [/ss42/fsm_node/events/at_stop_line/msg_type] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,727: +PARAM [/ss42/fsm_node/events/joystick_override_on/trigger] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,728: +PARAM [/ss42/joy_node/coalesce_interval] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,729: +PARAM [/ss42/fsm_node/states/AVOID_VEHICLE/active_nodes] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,731: +PARAM [/ss42/led_emitter_node/LED_protocol/colors/black] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,732: +PARAM [/ss42/logic_gate_node/gates/intersection_done_and_parallel_autonomy_off/inputs] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,733: +PARAM [/ss42/fsm_node/events/intersection_done/msg_type] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,735: +PARAM [/ss42/logic_gate_node/gates/intersection_done_and_parallel_autonomy_on/output_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,736: +PARAM [/ss42/fsm_node/states/COORDINATION/active_nodes] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,737: +PARAM [/ss42/car_cmd_switch_node/mappings/JOYSTICK_CONTROL] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,738: +PARAM [/ss42/led_emitter_node/LED_protocol/colors/cyan] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,741: +SERVICE [/rosout/get_loggers] /rosout http://ss42.local:37112/
+[rosmaster.master][INFO] 2021-12-08 10:21:52,742: +PARAM [/ss42/fsm_node/states/AVOID_OBSTACLE/lights] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,744: +PARAM [/ss42/fsm_node/states/AVOID_VEHICLE/lights] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,746: +PARAM [/ss42/fsm_node/events/start_avoidance/trigger] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,748: +PARAM [/ss42/car_cmd_switch_node/source_topics/vehicle] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,749: +PARAM [/ss42/led_emitter_node/LED_protocol/signals/traffic_light_stop/frequency] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,750: +PARAM [/ss42/car_cmd_switch_node/mappings/INTERSECTION_RECOVERY] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,751: +PARAM [/ss42/joy_mapper_node/speed_gain] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,752: +PARAM [/ss42/fsm_node/events/vehicle_detection/trigger] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,752: +PARAM [/ss42/car_cmd_switch_node/mappings/AVOID_OBSTACLE] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,753: +PARAM [/ss42/line_detector_node/verbose] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,754: +PARAM [/ss42/fsm_node/events/intersection_go/topic] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,755: +PARAM [/ss42/joy_node/autorepeat_rate] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,756: +PARAM [/ss42/fsm_node/nodes/decoder_node] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,757: +PARAM [/ss42/led_emitter_node/LED_protocol/signals/CAR_SIGNAL_C/frequency] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,760: +SERVICE [/rosout/set_logger_level] /rosout http://ss42.local:37112/
+[rosmaster.master][INFO] 2021-12-08 10:21:52,761: +PARAM [/ss42/led_emitter_node/LED_protocol/signals/traffic_light_go/frequency] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,763: +PARAM [/ss42/fsm_node/events/joystick_override_off/trigger] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,765: +PARAM [/ss42/car_cmd_switch_node/mappings/LANE_FOLLOWING] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,766: +PARAM [/ss42/led_emitter_node/LED_protocol/colors/white] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,768: +PARAM [/ss42/fsm_node/global_transitions/joystick_override_on] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,772: +PARAM [/ss42/camera_node/framerate_low] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,773: +PARAM [/ss42/fsm_node/events/vehicle_detection/msg_type] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,774: +PARAM [/ss42/fsm_node/events/intersection_done/trigger] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,776: +PARAM [/ss42/logic_gate_node/events/intersection_done/topic] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,778: +PARAM [/ss42/joy_mapper_node/simulated_vehicle_length] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,779: +PARAM [/ss42/fsm_node/states/JOYSTICK_CONTROL/lights] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,780: +PARAM [/ss42/led_emitter_node/LED_protocol/signals/CAR_SIGNAL_B/frequency] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,780: +PARAM [/ss42/car_cmd_switch_node/mappings/LOCALIZATION] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,781: +PARAM [/ss42/fsm_node/events/at_stop_line/trigger] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,782: +PARAM [/ss42/fsm_node/nodes/lane_filter_node] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,783: +PARAM [/ss42/line_detector_node/img_size] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,784: +PARAM [/ss42/car_cmd_switch_node/source_topics/recovery] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,785: +PARAM [/ss42/fsm_node/states/INTERSECTION_RECOVERY/transitions/intersection_recovery_timeout_reached] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,787: +PARAM [/ss42/camera_node/framerate_high] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,790: +PUB [/rosout_agg] /rosout http://ss42.local:37112/
+[rosmaster.master][INFO] 2021-12-08 10:21:52,791: +PARAM [/ss42/fsm_node/states/PARALLEL_AUTONOMY/transitions/at_stop_line] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,793: +PARAM [/ss42/fsm_node/states/AVOID_OBSTACLE/active_nodes] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,795: +PARAM [/ss42/fsm_node/nodes/apriltag_node] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,796: +PARAM [/ss42/logic_gate_node/events/intersection_done/trigger] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,798: +PARAM [/ss42/cam_info_reader_node/cali_file_name] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,799: +PARAM [/ss42/fsm_node/events/obstacle_detection/trigger] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,800: +PARAM [/ss42/fsm_node/states/INTERSECTION_CONTROL/active_nodes] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,801: +PARAM [/ss42/logic_gate_node/events/parallel_autonomy_off/topic] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,802: +PARAM [/ss42/fsm_node/events/obstacle_detection/msg_type] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,803: +PARAM [/ss42/led_emitter_node/LED_protocol/signals/light_off/color] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,804: +PARAM [/ss42/logic_gate_node/events/parallel_autonomy_off/trigger] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,805: +PARAM [/ss42/fsm_node/events/joystick_override_off/topic] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,806: +PARAM [/ss42/lane_filter_node/filter] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,807: +PARAM [/ss42/fsm_node/nodes/led_emitter_node] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,811: +PARAM [/ss42/fsm_node/events/joystick_override_on/topic] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,813: +PARAM [/ss42/fsm_node/nodes/vehicle_detector_node] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,814: +PARAM [/ss42/fsm_node/states/LANE_FOLLOWING_AVOID/transitions/vehicle_detection] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,816: +PARAM [/ss42/line_detector_node/detector] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,817: +PARAM [/ss42/fsm_node/events/start_avoidance/msg_type] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,818: +PARAM [/ss42/car_cmd_switch_node/mappings/LANE_FOLLOWING_AVOID] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,819: +PARAM [/ss42/lane_controller_node/d_offset] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,820: +PARAM [/ss42/joy_mapper_node/steer_gain] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,821: +PARAM [/ss42/fsm_node/global_transitions/parallel_autonomy_on] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,822: +PARAM [/ss42/car_cmd_switch_node/source_topics/intersection] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,822: +PARAM [/ss42/car_cmd_switch_node/mappings/INTERSECTION_CONTROL] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,823: +PARAM [/ss42/led_emitter_node/LED_protocol/frequencies/f1] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,824: +PARAM [/ss42/car_cmd_switch_node/mappings/LANE_RECOVERY] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,825: +PARAM [/ss42/led_emitter_node/LED_protocol/frequencies/f3] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,826: +PARAM [/ss42/car_cmd_switch_node/mappings/PARALLEL_AUTONOMY] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,827: +PARAM [/ss42/fsm_node/events/parallel_autonomy_on/trigger] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,828: +PARAM [/ss42/joy_mapper_node/bicycle_kinematics] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,829: +PARAM [/ss42/led_emitter_node/LED_protocol/colors/purple] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,830: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,831: +PARAM [/ss42/led_emitter_node/LED_protocol/colors/red] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,831: +PARAM [/ss42/car_cmd_switch_node/mappings/AVOID_VEHICLE] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,832: +PARAM [/ss42/fsm_node/states/LANE_FOLLOWING_AVOID/transitions/at_stop_line] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,833: +PARAM [/ss42/logic_gate_node/gates/intersection_done_and_parallel_autonomy_on/gate_type] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,834: +PARAM [/ss42/cam_info_reader_node/config] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,835: +PARAM [/ss42/car_cmd_switch_node/mode_topic] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,836: +PARAM [/ss42/led_emitter_node/LED_protocol/colors/blue] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,837: +PARAM [/ss42/fsm_node/events/vehicle_cleared/topic] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,844: +PARAM [/ss42/fsm_node/global_transitions/parallel_autonomy_off] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,845: +PARAM [/ss42/car_cmd_switch_node/source_topics/joystick] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,850: +PARAM [/ss42/car_cmd_switch_node/source_topics/parallel_autonomy] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,852: +PARAM [/ss42/car_cmd_switch_node/mappings/COORDINATION] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,853: +PARAM [/ss42/fsm_node/events/intersection_go/msg_type] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,857: +PARAM [/ss42/fsm_node/states/LANE_FOLLOWING_AVOID/lights] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,859: +PARAM [/ss42/lane_controller_node/d_thres] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,860: +PARAM [/ss42/fsm_node/states/JOYSTICK_CONTROL/transitions/joystick_override_off] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,861: +PARAM [/ss42/joy_node/dev] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,862: +PARAM [/ss42/logic_gate_node/events/parallel_autonomy_on/trigger] by /roslaunch
+[rosmaster.master][INFO] 2021-12-08 10:21:52,901: +SUB [/rosout] /rosout http://ss42.local:37112/
+[rosmaster.master][INFO] 2021-12-08 10:21:53,460: +PUB [/rosout] /ss42/joy_node http://ss42.local:35988/
+[rosmaster.master][INFO] 2021-12-08 10:21:53,490: +SERVICE [/ss42/joy_node/get_loggers] /ss42/joy_node http://ss42.local:35988/
+[rosmaster.master][INFO] 2021-12-08 10:21:53,520: +SERVICE [/ss42/joy_node/set_logger_level] /ss42/joy_node http://ss42.local:35988/
+[rosmaster.master][INFO] 2021-12-08 10:21:53,545: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/']
+[rosmaster.master][INFO] 2021-12-08 10:21:53,563: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:21:53,590: +PUB [/diagnostics] /ss42/joy_node http://ss42.local:35988/
+[rosmaster.master][INFO] 2021-12-08 10:21:53,690: +PUB [/ss42/joy] /ss42/joy_node http://ss42.local:35988/
+[rosmaster.master][INFO] 2021-12-08 10:21:54,858: +PUB [/rosout] /ss42_to_map http://ss42.local:46522/
+[rosmaster.master][INFO] 2021-12-08 10:21:54,878: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/']
+[rosmaster.master][INFO] 2021-12-08 10:21:54,900: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:21:54,909: +SERVICE [/ss42_to_map/get_loggers] /ss42_to_map http://ss42.local:46522/
+[rosmaster.master][INFO] 2021-12-08 10:21:54,957: +SERVICE [/ss42_to_map/set_logger_level] /ss42_to_map http://ss42.local:46522/
+[rosmaster.master][INFO] 2021-12-08 10:21:55,014: +PUB [/tf] /ss42_to_map http://ss42.local:46522/
+[rosmaster.master][INFO] 2021-12-08 10:22:02,718: +PUB [/rosout] /ss42/joy_mapper_node http://ss42.local:39913/
+[rosmaster.master][INFO] 2021-12-08 10:22:02,764: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/']
+[rosmaster.master][INFO] 2021-12-08 10:22:02,768: +PUB [/rosout] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:02,776: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:02,777: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/']
+[rosmaster.master][INFO] 2021-12-08 10:22:02,787: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:02,858: +SERVICE [/ss42/joy_mapper_node/get_loggers] /ss42/joy_mapper_node http://ss42.local:39913/
+[rosmaster.master][INFO] 2021-12-08 10:22:02,905: +SERVICE [/ss42/fsm_node/get_loggers] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:02,910: +SERVICE [/ss42/joy_mapper_node/set_logger_level] /ss42/joy_mapper_node http://ss42.local:39913/
+[rosmaster.master][INFO] 2021-12-08 10:22:02,970: +SERVICE [/ss42/fsm_node/set_logger_level] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:03,078: +PARAM [/ss42/joy_mapper_node/speed_gain] by /ss42/joy_mapper_node
+[rosmaster.master][INFO] 2021-12-08 10:22:03,167: +PARAM [/ss42/joy_mapper_node/steer_gain] by /ss42/joy_mapper_node
+[rosmaster.master][INFO] 2021-12-08 10:22:03,180: +PUB [/rosout] /ss42/wheels_driver_node http://ss42.local:41351/
+[rosmaster.master][INFO] 2021-12-08 10:22:03,208: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/']
+[rosmaster.master][INFO] 2021-12-08 10:22:03,217: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:03,303: +PARAM [/ss42/joy_mapper_node/bicycle_kinematics] by /ss42/joy_mapper_node
+[rosmaster.master][INFO] 2021-12-08 10:22:03,330: +PUB [/ss42/fsm_node/mode] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:03,364: +SERVICE [/ss42/wheels_driver_node/get_loggers] /ss42/wheels_driver_node http://ss42.local:41351/
+[rosmaster.master][INFO] 2021-12-08 10:22:03,412: +SERVICE [/ss42/fsm_node/set_state] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:03,434: +SERVICE [/ss42/wheels_driver_node/set_logger_level] /ss42/wheels_driver_node http://ss42.local:41351/
+[rosmaster.master][INFO] 2021-12-08 10:22:03,450: +PARAM [/ss42/joy_mapper_node/steer_angle_gain] by /ss42/joy_mapper_node
+[rosmaster.master][INFO] 2021-12-08 10:22:03,590: +PUB [/ss42/wheels_driver_node/wheels_cmd_executed] /ss42/wheels_driver_node http://ss42.local:41351/
+[rosmaster.master][INFO] 2021-12-08 10:22:03,618: +PUB [/ss42/vehicle_detection_node/switch] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:03,616: +PARAM [/ss42/joy_mapper_node/simulated_vehicle_length] by /ss42/joy_mapper_node
+[rosmaster.master][INFO] 2021-12-08 10:22:03,696: +PUB [/ss42/camera_node/framerate_high_switch] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:03,745: +PUB [/ss42/joy_mapper_node/car_cmd] /ss42/joy_mapper_node http://ss42.local:39913/
+[rosmaster.master][INFO] 2021-12-08 10:22:03,771: +SUB [/ss42/wheels_driver_node/wheels_cmd] /ss42/wheels_driver_node http://ss42.local:41351/
+[rosmaster.master][INFO] 2021-12-08 10:22:03,799: +PUB [/ss42/decoder_node/switch] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:03,830: +PUB [/ss42/joy_mapper_node/joystick_override] /ss42/joy_mapper_node http://ss42.local:39913/
+[rosmaster.master][INFO] 2021-12-08 10:22:03,850: +PUB [/ss42/stop_line_filter_node/switch] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:03,871: +PUB [/ss42/joy_mapper_node/parallel_autonomy] /ss42/joy_mapper_node http://ss42.local:39913/
+[rosmaster.master][INFO] 2021-12-08 10:22:03,904: +PUB [/ss42/lane_filter_node/switch] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:03,909: +SUB [/ss42/wheels_driver_node/emergency_stop] /ss42/wheels_driver_node http://ss42.local:41351/
+[rosmaster.master][INFO] 2021-12-08 10:22:03,955: +PUB [/ss42/anti_instagram_node/click] /ss42/joy_mapper_node http://ss42.local:39913/
+[rosmaster.master][INFO] 2021-12-08 10:22:03,989: +PUB [/ss42/LED_detector_node/switch] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:04,039: +PUB [/ss42/wheels_driver_node/emergency_stop] /ss42/joy_mapper_node http://ss42.local:39913/
+[rosmaster.master][INFO] 2021-12-08 10:22:04,049: publisherUpdate[/ss42/wheels_driver_node/emergency_stop] -> http://ss42.local:41351/ ['http://ss42.local:39913/']
+[rosmaster.master][INFO] 2021-12-08 10:22:04,057: +PUB [/ss42/static_object_detector_node/switch] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:04,068: +PUB [/rosout] /ss42/car_cmd_switch_node http://ss42.local:35635/
+[rosmaster.master][INFO] 2021-12-08 10:22:04,086: publisherUpdate[/ss42/wheels_driver_node/emergency_stop] -> http://ss42.local:41351/ ['http://ss42.local:39913/']: sec=0.04, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:04,088: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/']
+[rosmaster.master][INFO] 2021-12-08 10:22:04,099: +PUB [/ss42/joy_mapper_node/start_avoidance] /ss42/joy_mapper_node http://ss42.local:39913/
+[rosmaster.master][INFO] 2021-12-08 10:22:04,104: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:04,124: +PUB [/ss42/led_emitter_node/switch] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:04,215: +PUB [/ss42/line_detector_node/switch] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:04,241: +SUB [/ss42/joy] /ss42/joy_mapper_node http://ss42.local:39913/
+[rosmaster.master][INFO] 2021-12-08 10:22:04,293: +SERVICE [/ss42/car_cmd_switch_node/get_loggers] /ss42/car_cmd_switch_node http://ss42.local:35635/
+[rosmaster.master][INFO] 2021-12-08 10:22:04,340: +PUB [/ss42/apriltag_detector_node/switch] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:04,353: +SERVICE [/ss42/car_cmd_switch_node/set_logger_level] /ss42/car_cmd_switch_node http://ss42.local:35635/
+[rosmaster.master][INFO] 2021-12-08 10:22:04,539: +PUB [/ss42/car_cmd_switch_node/cmd] /ss42/car_cmd_switch_node http://ss42.local:35635/
+[rosmaster.master][INFO] 2021-12-08 10:22:04,634: +SUB [/ss42/fsm_node/mode] /ss42/car_cmd_switch_node http://ss42.local:35635/
+[rosmaster.master][INFO] 2021-12-08 10:22:04,678: +SUB [/ss42/open_loop_intersection_control_node/intersection_done] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:04,720: +SUB [/ss42/lane_controller_node/car_cmd] /ss42/car_cmd_switch_node http://ss42.local:35635/
+[rosmaster.master][INFO] 2021-12-08 10:22:04,860: +SUB [/ss42/open_loop_intersection_control_node/car_cmd] /ss42/car_cmd_switch_node http://ss42.local:35635/
+[rosmaster.master][INFO] 2021-12-08 10:22:04,880: +SUB [/ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:04,952: +SUB [/ss42/lane_recovery_node/car_cmd] /ss42/car_cmd_switch_node http://ss42.local:35635/
+[rosmaster.master][INFO] 2021-12-08 10:22:04,986: +PUB [/rosout] /ss42/fake_coordinator_node http://ss42.local:40933/
+[rosmaster.master][INFO] 2021-12-08 10:22:05,015: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/']
+[rosmaster.master][INFO] 2021-12-08 10:22:05,032: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:05,041: +SUB [/ss42/vehicle_avoidance_control_node/vehicle_detected] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:05,103: +SUB [/ss42/simple_stop_controller_node/car_cmd] /ss42/car_cmd_switch_node http://ss42.local:35635/
+[rosmaster.master][INFO] 2021-12-08 10:22:05,139: +SERVICE [/ss42/fake_coordinator_node/get_loggers] /ss42/fake_coordinator_node http://ss42.local:40933/
+[rosmaster.master][INFO] 2021-12-08 10:22:05,190: +SUB [/ss42/logic_gate_node/intersection_done_and_parallel_autonomy] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:05,220: +SERVICE [/ss42/fake_coordinator_node/set_logger_level] /ss42/fake_coordinator_node http://ss42.local:40933/
+[rosmaster.master][INFO] 2021-12-08 10:22:05,249: +SUB [/ss42/vehicle_avoidance_control_node/car_cmd] /ss42/car_cmd_switch_node http://ss42.local:35635/
+[rosmaster.master][INFO] 2021-12-08 10:22:05,311: +SUB [/ss42/joy_mapper_node/joystick_override] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:05,380: +SUB [/ss42/fsm_node/mode] /ss42/fake_coordinator_node http://ss42.local:40933/
+[rosmaster.master][INFO] 2021-12-08 10:22:05,437: +SUB [/ss42/joy_mapper_node/car_cmd] /ss42/car_cmd_switch_node http://ss42.local:35635/
+[rosmaster.master][INFO] 2021-12-08 10:22:05,464: +PUB [/ss42/simple_coordinator_node/intersection_go] /ss42/fake_coordinator_node http://ss42.local:40933/
+[rosmaster.master][INFO] 2021-12-08 10:22:05,489: +SUB [/ss42/joy_mapper_node/parallel_autonomy] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:05,526: +PUB [/ss42/simple_coordinator_node/car_cmd] /ss42/fake_coordinator_node http://ss42.local:40933/
+[rosmaster.master][INFO] 2021-12-08 10:22:05,598: +SUB [/ss42/lane_supervisor_node/car_cmd] /ss42/car_cmd_switch_node http://ss42.local:35635/
+[rosmaster.master][INFO] 2021-12-08 10:22:05,653: +SUB [/ss42/joy_mapper_node/start_avoidance] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:05,778: +SUB [/ss42/simple_coordinator_node/car_cmd] /ss42/car_cmd_switch_node http://ss42.local:35635/
+[rosmaster.master][INFO] 2021-12-08 10:22:05,793: +PUB [/rosout] /ss42/duckiebot_visualizer http://ss42.local:34995/
+[rosmaster.master][INFO] 2021-12-08 10:22:05,823: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/']
+[rosmaster.master][INFO] 2021-12-08 10:22:05,832: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:05,898: +SUB [/ss42/obstacle_safety_node/object_too_close] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:05,935: +SERVICE [/ss42/duckiebot_visualizer/get_loggers] /ss42/duckiebot_visualizer http://ss42.local:34995/
+[rosmaster.master][INFO] 2021-12-08 10:22:05,977: +SERVICE [/ss42/duckiebot_visualizer/set_logger_level] /ss42/duckiebot_visualizer http://ss42.local:34995/
+[rosmaster.master][INFO] 2021-12-08 10:22:05,992: +SUB [/ss42/simple_coordinator_node/intersection_go] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:06,077: +PARAM [/ss42/duckiebot_visualizer/veh_name] by /ss42/duckiebot_visualizer
+[rosmaster.master][INFO] 2021-12-08 10:22:06,112: +SUB [/ss42/stop_line_filter_node/at_stop_line] /ss42/fsm_node http://ss42.local:33112/
+[rosmaster.master][INFO] 2021-12-08 10:22:06,138: +PUB [/rosout] /ss42/lane_controller_node http://ss42.local:33340/
+[rosmaster.master][INFO] 2021-12-08 10:22:06,160: +PUB [/ss42/duckiebot_visualizer/segment_list_markers] /ss42/duckiebot_visualizer http://ss42.local:34995/
+[rosmaster.master][INFO] 2021-12-08 10:22:06,187: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/']
+[rosmaster.master][INFO] 2021-12-08 10:22:06,214: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:06,274: +SUB [/ss42/ground_projection/lineseglist_out] /ss42/duckiebot_visualizer http://ss42.local:34995/
+[rosmaster.master][INFO] 2021-12-08 10:22:06,312: +SERVICE [/ss42/lane_controller_node/get_loggers] /ss42/lane_controller_node http://ss42.local:33340/
+[rosmaster.master][INFO] 2021-12-08 10:22:06,371: +SERVICE [/ss42/lane_controller_node/set_logger_level] /ss42/lane_controller_node http://ss42.local:33340/
+[rosmaster.master][INFO] 2021-12-08 10:22:06,416: +PARAM [/ss42/lane_controller_node/v_bar] by /ss42/lane_controller_node
+[rosmaster.master][INFO] 2021-12-08 10:22:06,470: +PARAM [/ss42/lane_controller_node/k_d] by /ss42/lane_controller_node
+[rosmaster.master][INFO] 2021-12-08 10:22:06,491: +PUB [/rosout] /ss42/logic_gate_node http://ss42.local:38250/
+[rosmaster.master][INFO] 2021-12-08 10:22:06,508: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/']
+[rosmaster.master][INFO] 2021-12-08 10:22:06,543: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:06,547: +PARAM [/ss42/lane_controller_node/k_theta] by /ss42/lane_controller_node
+[rosmaster.master][INFO] 2021-12-08 10:22:06,578: +SERVICE [/ss42/logic_gate_node/get_loggers] /ss42/logic_gate_node http://ss42.local:38250/
+[rosmaster.master][INFO] 2021-12-08 10:22:06,598: +SERVICE [/ss42/logic_gate_node/set_logger_level] /ss42/logic_gate_node http://ss42.local:38250/
+[rosmaster.master][INFO] 2021-12-08 10:22:06,604: +PARAM [/ss42/lane_controller_node/d_thres] by /ss42/lane_controller_node
+[rosmaster.master][INFO] 2021-12-08 10:22:06,646: +PARAM [/ss42/lane_controller_node/theta_thres] by /ss42/lane_controller_node
+[rosmaster.master][INFO] 2021-12-08 10:22:06,677: +PUB [/ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy] /ss42/logic_gate_node http://ss42.local:38250/
+[rosmaster.master][INFO] 2021-12-08 10:22:06,682: +PARAM [/ss42/lane_controller_node/d_offset] by /ss42/lane_controller_node
+[rosmaster.master][INFO] 2021-12-08 10:22:06,701: +PUB [/ss42/logic_gate_node/intersection_done_and_parallel_autonomy] /ss42/logic_gate_node http://ss42.local:38250/
+[rosmaster.master][INFO] 2021-12-08 10:22:06,715: +PUB [/ss42/lane_controller_node/car_cmd] /ss42/lane_controller_node http://ss42.local:33340/
+[rosmaster.master][INFO] 2021-12-08 10:22:06,726: publisherUpdate[/ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy] -> http://ss42.local:33112/ ['http://ss42.local:38250/']
+[rosmaster.master][INFO] 2021-12-08 10:22:06,745: publisherUpdate[/ss42/lane_controller_node/car_cmd] -> http://ss42.local:35635/ ['http://ss42.local:33340/']
+[rosmaster.master][INFO] 2021-12-08 10:22:06,758: publisherUpdate[/ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy] -> http://ss42.local:33112/ ['http://ss42.local:38250/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:06,760: publisherUpdate[/ss42/logic_gate_node/intersection_done_and_parallel_autonomy] -> http://ss42.local:33112/ ['http://ss42.local:38250/']
+[rosmaster.master][INFO] 2021-12-08 10:22:06,775: publisherUpdate[/ss42/logic_gate_node/intersection_done_and_parallel_autonomy] -> http://ss42.local:33112/ ['http://ss42.local:38250/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:06,787: +SUB [/ss42/open_loop_intersection_control_node/intersection_done] /ss42/logic_gate_node http://ss42.local:38250/
+[rosmaster.master][INFO] 2021-12-08 10:22:06,795: publisherUpdate[/ss42/lane_controller_node/car_cmd] -> http://ss42.local:35635/ ['http://ss42.local:33340/']: sec=0.05, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:06,815: +SUB [/ss42/lane_filter_node/lane_pose] /ss42/lane_controller_node http://ss42.local:33340/
+[rosmaster.master][INFO] 2021-12-08 10:22:06,871: +PUB [/rosout] /ss42/led_emitter_node http://ss42.local:42935/
+[rosmaster.master][INFO] 2021-12-08 10:22:06,872: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/']
+[rosmaster.master][INFO] 2021-12-08 10:22:06,888: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:06,927: +SUB [/ss42/joy_mapper_node/parallel_autonomy] /ss42/logic_gate_node http://ss42.local:38250/
+[rosmaster.master][INFO] 2021-12-08 10:22:07,011: +SERVICE [/ss42/led_emitter_node/get_loggers] /ss42/led_emitter_node http://ss42.local:42935/
+[rosmaster.master][INFO] 2021-12-08 10:22:07,058: +SERVICE [/ss42/led_emitter_node/set_logger_level] /ss42/led_emitter_node http://ss42.local:42935/
+[rosmaster.master][INFO] 2021-12-08 10:22:07,236: +PUB [/ss42/led_emitter_node/current_led_state] /ss42/led_emitter_node http://ss42.local:42935/
+[rosmaster.master][INFO] 2021-12-08 10:22:07,297: +SUB [/ss42/led_emitter_node/change_color_pattern] /ss42/led_emitter_node http://ss42.local:42935/
+[rosmaster.master][INFO] 2021-12-08 10:22:07,338: +SUB [/ss42/led_emitter_node/switch] /ss42/led_emitter_node http://ss42.local:42935/
+[rosmaster.master][INFO] 2021-12-08 10:22:20,789: +PUB [/rosout] /ss42/lane_filter_node http://ss42.local:43722/
+[rosmaster.master][INFO] 2021-12-08 10:22:20,796: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/']
+[rosmaster.master][INFO] 2021-12-08 10:22:20,808: +PUB [/rosout] /ss42/ground_projection http://ss42.local:35739/
+[rosmaster.master][INFO] 2021-12-08 10:22:20,831: +PUB [/rosout] /ss42/inverse_kinematics_node http://ss42.local:41167/
+[rosmaster.master][INFO] 2021-12-08 10:22:20,859: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/']: sec=0.06, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:20,861: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/']
+[rosmaster.master][INFO] 2021-12-08 10:22:20,872: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:20,874: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/']
+[rosmaster.master][INFO] 2021-12-08 10:22:20,896: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:20,908: +PUB [/rosout] /ss42/cam_info_reader_node http://ss42.local:36917/
+[rosmaster.master][INFO] 2021-12-08 10:22:20,937: +SERVICE [/ss42/lane_filter_node/get_loggers] /ss42/lane_filter_node http://ss42.local:43722/
+[rosmaster.master][INFO] 2021-12-08 10:22:20,958: +PUB [/rosout] /ss42/camera_node http://ss42.local:33661/
+[rosmaster.master][INFO] 2021-12-08 10:22:20,968: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/']
+[rosmaster.master][INFO] 2021-12-08 10:22:20,992: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:21,002: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/']
+[rosmaster.master][INFO] 2021-12-08 10:22:21,001: +SERVICE [/ss42/ground_projection/get_loggers] /ss42/ground_projection http://ss42.local:35739/
+[rosmaster.master][INFO] 2021-12-08 10:22:21,033: +SERVICE [/ss42/lane_filter_node/set_logger_level] /ss42/lane_filter_node http://ss42.local:43722/
+[rosmaster.master][INFO] 2021-12-08 10:22:21,043: +SERVICE [/ss42/inverse_kinematics_node/get_loggers] /ss42/inverse_kinematics_node http://ss42.local:41167/
+[rosmaster.master][INFO] 2021-12-08 10:22:21,048: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:21,092: +SERVICE [/ss42/cam_info_reader_node/get_loggers] /ss42/cam_info_reader_node http://ss42.local:36917/
+[rosmaster.master][INFO] 2021-12-08 10:22:21,175: +SERVICE [/ss42/ground_projection/set_logger_level] /ss42/ground_projection http://ss42.local:35739/
+[rosmaster.master][INFO] 2021-12-08 10:22:21,207: +SERVICE [/ss42/inverse_kinematics_node/set_logger_level] /ss42/inverse_kinematics_node http://ss42.local:41167/
+[rosmaster.master][INFO] 2021-12-08 10:22:21,224: +SERVICE [/ss42/camera_node/get_loggers] /ss42/camera_node http://ss42.local:33661/
+[rosmaster.master][INFO] 2021-12-08 10:22:21,229: +SERVICE [/ss42/cam_info_reader_node/set_logger_level] /ss42/cam_info_reader_node http://ss42.local:36917/
+[rosmaster.master][INFO] 2021-12-08 10:22:21,244: +SERVICE [/ss42/camera_node/set_logger_level] /ss42/camera_node http://ss42.local:33661/
+[rosmaster.master][INFO] 2021-12-08 10:22:21,271: +PARAM [/ss42/cam_info_reader_node/config] by /ss42/cam_info_reader_node
+[rosmaster.master][INFO] 2021-12-08 10:22:21,420: +PARAM [/ss42/cam_info_reader_node/cali_file_name] by /ss42/cam_info_reader_node
+[rosmaster.master][INFO] 2021-12-08 10:22:21,422: +PARAM [/ss42/camera_node/framerate_high] by /ss42/camera_node
+[rosmaster.master][INFO] 2021-12-08 10:22:21,459: +PARAM [/ss42/inverse_kinematics_node/gain] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-08 10:22:21,469: +PARAM [/ss42/cam_info_reader_node/image_type] by /ss42/cam_info_reader_node
+[rosmaster.master][INFO] 2021-12-08 10:22:21,498: +PUB [/ss42/camera_node/camera_info] /ss42/cam_info_reader_node http://ss42.local:36917/
+[rosmaster.master][INFO] 2021-12-08 10:22:21,513: +PARAM [/ss42/inverse_kinematics_node/trim] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-08 10:22:21,520: +PARAM [/ss42/camera_node/framerate_low] by /ss42/camera_node
+[rosmaster.master][INFO] 2021-12-08 10:22:21,529: +PARAM [/ss42/inverse_kinematics_node/baseline] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-08 10:22:21,549: +PARAM [/ss42/inverse_kinematics_node/k] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-08 10:22:21,560: +PARAM [/ss42/inverse_kinematics_node/radius] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-08 10:22:21,568: +PARAM [/ss42/camera_node/res_w] by /ss42/camera_node
+[rosmaster.master][INFO] 2021-12-08 10:22:21,587: +PARAM [/ss42/inverse_kinematics_node/limit] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-08 10:22:21,637: +PARAM [/ss42/camera_node/res_h] by /ss42/camera_node
+[rosmaster.master][INFO] 2021-12-08 10:22:21,655: +PARAM [/ss42/inverse_kinematics_node/gain] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-08 10:22:21,704: +PARAM [/ss42/inverse_kinematics_node/trim] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-08 10:22:21,758: +PARAM [/ss42/inverse_kinematics_node/baseline] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-08 10:22:21,816: +PARAM [/ss42/inverse_kinematics_node/radius] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-08 10:22:21,900: +PARAM [/ss42/inverse_kinematics_node/k] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-08 10:22:21,944: +PARAM [/ss42/inverse_kinematics_node/limit] by /ss42/inverse_kinematics_node
+[rosmaster.master][INFO] 2021-12-08 10:22:21,968: +SERVICE [/ss42/inverse_kinematics_node/set_gain] /ss42/inverse_kinematics_node http://ss42.local:41167/
+[rosmaster.master][INFO] 2021-12-08 10:22:21,995: +SERVICE [/ss42/inverse_kinematics_node/set_trim] /ss42/inverse_kinematics_node http://ss42.local:41167/
+[rosmaster.master][INFO] 2021-12-08 10:22:22,010: +SERVICE [/ss42/inverse_kinematics_node/set_baseline] /ss42/inverse_kinematics_node http://ss42.local:41167/
+[rosmaster.master][INFO] 2021-12-08 10:22:22,021: +SERVICE [/ss42/inverse_kinematics_node/set_radius] /ss42/inverse_kinematics_node http://ss42.local:41167/
+[rosmaster.master][INFO] 2021-12-08 10:22:22,044: +SERVICE [/ss42/inverse_kinematics_node/set_k] /ss42/inverse_kinematics_node http://ss42.local:41167/
+[rosmaster.master][INFO] 2021-12-08 10:22:22,060: +SERVICE [/ss42/inverse_kinematics_node/set_limit] /ss42/inverse_kinematics_node http://ss42.local:41167/
+[rosmaster.master][INFO] 2021-12-08 10:22:22,081: +SERVICE [/ss42/inverse_kinematics_node/save_calibration] /ss42/inverse_kinematics_node http://ss42.local:41167/
+[rosmaster.master][INFO] 2021-12-08 10:22:22,132: +SUB [/ss42/car_cmd_switch_node/cmd] /ss42/inverse_kinematics_node http://ss42.local:41167/
+[rosmaster.master][INFO] 2021-12-08 10:22:22,161: +SUB [/ss42/camera_node/image/compressed] /ss42/cam_info_reader_node http://ss42.local:36917/
+[rosmaster.master][INFO] 2021-12-08 10:22:22,174: +PUB [/ss42/wheels_driver_node/wheels_cmd] /ss42/inverse_kinematics_node http://ss42.local:41167/
+[rosmaster.master][INFO] 2021-12-08 10:22:22,175: publisherUpdate[/ss42/wheels_driver_node/wheels_cmd] -> http://ss42.local:41351/ ['http://ss42.local:41167/']
+[rosmaster.master][INFO] 2021-12-08 10:22:22,205: publisherUpdate[/ss42/wheels_driver_node/wheels_cmd] -> http://ss42.local:41351/ ['http://ss42.local:41167/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:22,495: +PUB [/ss42/camera_node/image/compressed] /ss42/camera_node http://ss42.local:33661/
+[rosmaster.master][INFO] 2021-12-08 10:22:22,508: publisherUpdate[/ss42/camera_node/image/compressed] -> http://ss42.local:36917/ ['http://ss42.local:33661/']
+[rosmaster.master][INFO] 2021-12-08 10:22:22,519: publisherUpdate[/ss42/camera_node/image/compressed] -> http://ss42.local:36917/ ['http://ss42.local:33661/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:22,542: +SUB [/ss42/camera_node/framerate_high_switch] /ss42/camera_node http://ss42.local:33661/
+[rosmaster.master][INFO] 2021-12-08 10:22:22,564: +SERVICE [/ss42/camera_node/set_camera_info] /ss42/camera_node http://ss42.local:33661/
+[rosmaster.master][INFO] 2021-12-08 10:22:22,579: +SUB [/ss42/camera_node/camera_info] /ss42/ground_projection http://ss42.local:35739/
+[rosmaster.master][INFO] 2021-12-08 10:22:22,763: -SUB [/ss42/camera_node/camera_info] /ss42/ground_projection http://ss42.local:35739/
+[rosmaster.master][INFO] 2021-12-08 10:22:22,961: +PUB [/ss42/ground_projection/lineseglist_out] /ss42/ground_projection http://ss42.local:35739/
+[rosmaster.master][INFO] 2021-12-08 10:22:23,006: +SUB [/ss42/line_detector_node/segment_list] /ss42/ground_projection http://ss42.local:35739/
+[rosmaster.master][INFO] 2021-12-08 10:22:23,020: +SERVICE [/ss42/ground_projection/estimate_homography] /ss42/ground_projection http://ss42.local:35739/
+[rosmaster.master][INFO] 2021-12-08 10:22:23,026: publisherUpdate[/ss42/ground_projection/lineseglist_out] -> http://ss42.local:34995/ ['http://ss42.local:35739/']
+[rosmaster.master][INFO] 2021-12-08 10:22:23,040: +SERVICE [/ss42/ground_projection/get_ground_coordinate] /ss42/ground_projection http://ss42.local:35739/
+[rosmaster.master][INFO] 2021-12-08 10:22:23,055: +SERVICE [/ss42/ground_projection/get_image_coordinate] /ss42/ground_projection http://ss42.local:35739/
+[rosmaster.master][INFO] 2021-12-08 10:22:23,058: publisherUpdate[/ss42/ground_projection/lineseglist_out] -> http://ss42.local:34995/ ['http://ss42.local:35739/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:24,986: +PUB [/rosout] /ss42/lane_pose_visualizer_node http://ss42.local:39685/
+[rosmaster.master][INFO] 2021-12-08 10:22:25,055: +SERVICE [/ss42/lane_pose_visualizer_node/get_loggers] /ss42/lane_pose_visualizer_node http://ss42.local:39685/
+[rosmaster.master][INFO] 2021-12-08 10:22:25,058: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/']
+[rosmaster.master][INFO] 2021-12-08 10:22:25,070: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:25,079: +SERVICE [/ss42/lane_pose_visualizer_node/set_logger_level] /ss42/lane_pose_visualizer_node http://ss42.local:39685/
+[rosmaster.master][INFO] 2021-12-08 10:22:25,286: +PUB [/rosout] /ss42/anti_instagram_node http://ss42.local:40790/
+[rosmaster.master][INFO] 2021-12-08 10:22:25,329: +SERVICE [/ss42/anti_instagram_node/get_loggers] /ss42/anti_instagram_node http://ss42.local:40790/
+[rosmaster.master][INFO] 2021-12-08 10:22:25,349: +SERVICE [/ss42/anti_instagram_node/set_logger_level] /ss42/anti_instagram_node http://ss42.local:40790/
+[rosmaster.master][INFO] 2021-12-08 10:22:25,373: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:40790/']
+[rosmaster.master][INFO] 2021-12-08 10:22:25,389: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:40790/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:25,394: +PUB [/ss42/anti_instagram_node/corrected_image] /ss42/anti_instagram_node http://ss42.local:40790/
+[rosmaster.master][INFO] 2021-12-08 10:22:25,412: +PUB [/ss42/anti_instagram_node/health] /ss42/anti_instagram_node http://ss42.local:40790/
+[rosmaster.master][INFO] 2021-12-08 10:22:25,426: +PUB [/ss42/anti_instagram_node/transform] /ss42/anti_instagram_node http://ss42.local:40790/
+[rosmaster.master][INFO] 2021-12-08 10:22:25,454: +SUB [/ss42/camera_node/image/compressed] /ss42/anti_instagram_node http://ss42.local:40790/
+[rosmaster.master][INFO] 2021-12-08 10:22:25,479: +SUB [/ss42/anti_instagram_node/click] /ss42/anti_instagram_node http://ss42.local:40790/
+[rosmaster.master][INFO] 2021-12-08 10:22:25,715: +PUB [/ss42/lane_pose_visualizer_node/lane_pose_markers] /ss42/lane_pose_visualizer_node http://ss42.local:39685/
+[rosmaster.master][INFO] 2021-12-08 10:22:25,775: +SUB [/ss42/lane_filter_node/lane_pose] /ss42/lane_pose_visualizer_node http://ss42.local:39685/
+[rosmaster.master][INFO] 2021-12-08 10:22:26,933: +SUB [/ss42/ground_projection/lineseglist_out] /ss42/lane_filter_node http://ss42.local:43722/
+[rosmaster.master][INFO] 2021-12-08 10:22:26,957: +SUB [/ss42/lane_filter_node/switch] /ss42/lane_filter_node http://ss42.local:43722/
+[rosmaster.master][INFO] 2021-12-08 10:22:26,981: +SUB [/ss42/car_cmd_switch_node/cmd] /ss42/lane_filter_node http://ss42.local:43722/
+[rosmaster.master][INFO] 2021-12-08 10:22:27,006: +PUB [/ss42/lane_filter_node/lane_pose] /ss42/lane_filter_node http://ss42.local:43722/
+[rosmaster.master][INFO] 2021-12-08 10:22:27,006: publisherUpdate[/ss42/lane_filter_node/lane_pose] -> http://ss42.local:33340/ ['http://ss42.local:43722/']
+[rosmaster.master][INFO] 2021-12-08 10:22:27,025: publisherUpdate[/ss42/lane_filter_node/lane_pose] -> http://ss42.local:33340/ ['http://ss42.local:43722/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:27,028: +PUB [/ss42/lane_filter_node/belief_img] /ss42/lane_filter_node http://ss42.local:43722/
+[rosmaster.master][INFO] 2021-12-08 10:22:27,029: publisherUpdate[/ss42/lane_filter_node/lane_pose] -> http://ss42.local:39685/ ['http://ss42.local:43722/']
+[rosmaster.master][INFO] 2021-12-08 10:22:27,048: +PUB [/ss42/lane_filter_node/ml_img] /ss42/lane_filter_node http://ss42.local:43722/
+[rosmaster.master][INFO] 2021-12-08 10:22:27,056: publisherUpdate[/ss42/lane_filter_node/lane_pose] -> http://ss42.local:39685/ ['http://ss42.local:43722/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:27,082: +PUB [/ss42/lane_filter_node/entropy] /ss42/lane_filter_node http://ss42.local:43722/
+[rosmaster.master][INFO] 2021-12-08 10:22:27,098: +PUB [/ss42/lane_filter_node/in_lane] /ss42/lane_filter_node http://ss42.local:43722/
+[rosmaster.master][INFO] 2021-12-08 10:22:27,148: +PUB [/rosout] /ss42/line_detector_node http://ss42.local:44410/
+[rosmaster.master][INFO] 2021-12-08 10:22:27,158: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:40790/', 'http://ss42.local:44410/']
+[rosmaster.master][INFO] 2021-12-08 10:22:27,177: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:40790/', 'http://ss42.local:44410/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:27,182: +SERVICE [/ss42/line_detector_node/get_loggers] /ss42/line_detector_node http://ss42.local:44410/
+[rosmaster.master][INFO] 2021-12-08 10:22:27,200: +SERVICE [/ss42/line_detector_node/set_logger_level] /ss42/line_detector_node http://ss42.local:44410/
+[rosmaster.master][INFO] 2021-12-08 10:22:27,448: +PUB [/ss42/line_detector_node/segment_list] /ss42/line_detector_node http://ss42.local:44410/
+[rosmaster.master][INFO] 2021-12-08 10:22:27,460: +PUB [/ss42/line_detector_node/image_with_lines] /ss42/line_detector_node http://ss42.local:44410/
+[rosmaster.master][INFO] 2021-12-08 10:22:27,480: +SUB [/ss42/camera_node/image/compressed] /ss42/line_detector_node http://ss42.local:44410/
+[rosmaster.master][INFO] 2021-12-08 10:22:27,481: publisherUpdate[/ss42/line_detector_node/segment_list] -> http://ss42.local:35739/ ['http://ss42.local:44410/']
+[rosmaster.master][INFO] 2021-12-08 10:22:27,495: publisherUpdate[/ss42/line_detector_node/segment_list] -> http://ss42.local:35739/ ['http://ss42.local:44410/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:22:27,519: +SUB [/ss42/anti_instagram_node/transform] /ss42/line_detector_node http://ss42.local:44410/
+[rosmaster.master][INFO] 2021-12-08 10:22:27,540: +SUB [/ss42/line_detector_node/switch] /ss42/line_detector_node http://ss42.local:44410/
+[rosmaster.master][INFO] 2021-12-08 10:27:09,380: +PARAM [/ss43/line_detector_node/verbose] by /rosparam-4043
+[rosmaster.master][INFO] 2021-12-08 10:27:16,771: +PUB [/rosout] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:27:16,785: +SERVICE [/rviz_1638955636250917164/get_loggers] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:27:16,797: +SERVICE [/rviz_1638955636250917164/set_logger_level] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:27:16,817: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:40790/', 'http://ss42.local:44410/', 'http://robotikahost.local:46387/']
+[rosmaster.master][INFO] 2021-12-08 10:27:16,935: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:40790/', 'http://ss42.local:44410/', 'http://robotikahost.local:46387/']: sec=0.12, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:27:20,051: +SUB [/tf] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:27:20,188: +SUB [/tf_static] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:27:21,390: +PUB [/initialpose] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:27:21,407: +PUB [/goal] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:27:21,487: -PUB [/goal] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:27:21,530: -PUB [/initialpose] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:27:21,575: +PUB [/initialpose] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:27:21,601: +PUB [/goal] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:27:21,647: +PUB [/move_base_simple/goal] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:27:21,674: -PUB [/goal] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:27:21,693: +PUB [/clicked_point] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:27:22,024: +SERVICE [/rviz_1638955636250917164/reload_shaders] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:27:49,140: +SUB [/visualization_marker_array] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:27:49,155: -SUB [/visualization_marker_array] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:27:49,269: +SUB [/ss42/lane_pose_visualizer_node/lane_pose_markers] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:27:57,963: +SUB [/ss42/line_detector_node/image_with_lines] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:28:24,959: -SUB [/ss42/line_detector_node/image_with_lines] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:28:35,151: +SUB [/ss42/line_detector_node/image_with_lines] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:28:40,914: -SUB [/ss42/line_detector_node/image_with_lines] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:29:01,008: +SUB [/ss42/camera_node/image/compressed] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:29:01,076: +SERVICE [/rviz_1638955636250917164/compressed/set_parameters] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:29:01,109: +PUB [/rviz_1638955636250917164/compressed/parameter_descriptions] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:29:01,140: +PUB [/rviz_1638955636250917164/compressed/parameter_updates] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:29:01,196: +PARAM [/rviz_1638955636250917164/compressed/mode] by /rviz_1638955636250917164
+[rosmaster.master][INFO] 2021-12-08 10:29:01,230: +PARAM [/rviz_1638955636250917164/compressed/mode] by /rviz_1638955636250917164
+[rosmaster.master][INFO] 2021-12-08 10:29:06,582: -SUB [/ss42/camera_node/image/compressed] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:29:06,652: -PUB [/rviz_1638955636250917164/compressed/parameter_descriptions] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:29:06,676: -PUB [/rviz_1638955636250917164/compressed/parameter_updates] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:29:06,715: -SERVICE [/rviz_1638955636250917164/compressed/set_parameters] /rviz_1638955636250917164 rosrpc://robotikahost.local:41383
+[rosmaster.master][INFO] 2021-12-08 10:29:43,030: +SUB [/ss42/line_detector_node/image_with_lines] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:29:49,491: -SUB [/ss42/line_detector_node/image_with_lines] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:29:49,609: -SUB [/ss42/lane_pose_visualizer_node/lane_pose_markers] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:29:49,652: -PUB [/clicked_point] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:29:49,679: -PUB [/move_base_simple/goal] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:29:49,693: -PUB [/initialpose] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:29:49,713: -SUB [/tf_static] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:29:49,730: -SUB [/tf] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:29:49,752: -SERVICE [/rviz_1638955636250917164/reload_shaders] /rviz_1638955636250917164 rosrpc://robotikahost.local:41383
+[rosmaster.master][INFO] 2021-12-08 10:29:49,886: -PUB [/rosout] /rviz_1638955636250917164 http://robotikahost.local:46387/
+[rosmaster.master][INFO] 2021-12-08 10:29:49,897: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:40790/', 'http://ss42.local:44410/']
+[rosmaster.master][INFO] 2021-12-08 10:29:49,905: -SERVICE [/rviz_1638955636250917164/get_loggers] /rviz_1638955636250917164 rosrpc://robotikahost.local:41383
+[rosmaster.master][INFO] 2021-12-08 10:29:49,927: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:40790/', 'http://ss42.local:44410/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:29:49,929: -SERVICE [/rviz_1638955636250917164/set_logger_level] /rviz_1638955636250917164 rosrpc://robotikahost.local:41383
+[rosmaster.master][INFO] 2021-12-08 10:29:53,254: +PUB [/rosout] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:29:53,259: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:40790/', 'http://ss42.local:44410/', 'http://robotikahost.local:39451/']
+[rosmaster.master][INFO] 2021-12-08 10:29:53,278: +SERVICE [/rviz_1638955792730788131/get_loggers] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:29:53,295: +SERVICE [/rviz_1638955792730788131/set_logger_level] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:29:53,383: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:40790/', 'http://ss42.local:44410/', 'http://robotikahost.local:39451/']: sec=0.12, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:29:53,709: +SUB [/tf] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:29:53,828: +SUB [/tf_static] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:29:53,979: +PUB [/initialpose] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:29:53,999: +PUB [/goal] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:29:54,061: -PUB [/goal] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:29:54,084: -PUB [/initialpose] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:29:54,118: +PUB [/initialpose] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:29:54,139: +PUB [/goal] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:29:54,153: +PUB [/move_base_simple/goal] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:29:54,178: -PUB [/goal] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:29:54,190: +PUB [/clicked_point] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:29:54,289: +SERVICE [/rviz_1638955792730788131/reload_shaders] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:30:21,239: +SUB [/visualization_marker_array] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:30:21,262: -SUB [/visualization_marker_array] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:30:21,384: +SUB [/ss42/lane_pose_visualizer_node/lane_pose_markers] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:30:34,730: +SUB [/ss42/camera_node/image/compressed] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:30:34,741: +SERVICE [/rviz_1638955792730788131/compressed/set_parameters] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:30:34,763: +PUB [/rviz_1638955792730788131/compressed/parameter_descriptions] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:30:34,774: +PUB [/rviz_1638955792730788131/compressed/parameter_updates] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:30:34,794: +PARAM [/rviz_1638955792730788131/compressed/mode] by /rviz_1638955792730788131
+[rosmaster.master][INFO] 2021-12-08 10:30:34,804: +PARAM [/rviz_1638955792730788131/compressed/mode] by /rviz_1638955792730788131
+[rosmaster.master][INFO] 2021-12-08 10:30:38,154: -SUB [/ss42/camera_node/image/compressed] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:30:38,179: -PUB [/rviz_1638955792730788131/compressed/parameter_descriptions] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:30:38,189: -PUB [/rviz_1638955792730788131/compressed/parameter_updates] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:30:38,216: -SERVICE [/rviz_1638955792730788131/compressed/set_parameters] /rviz_1638955792730788131 rosrpc://robotikahost.local:52689
+[rosmaster.master][INFO] 2021-12-08 10:31:02,595: +SUB [/ss42/line_detector_node/image_with_lines] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:31:28,149: -SUB [/ss42/line_detector_node/image_with_lines] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:31:28,250: -SUB [/ss42/lane_pose_visualizer_node/lane_pose_markers] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:31:28,275: -PUB [/clicked_point] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:31:28,288: -PUB [/move_base_simple/goal] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:31:28,313: -PUB [/initialpose] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:31:28,331: -SUB [/tf_static] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:31:28,364: -SUB [/tf] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:31:28,388: -SERVICE [/rviz_1638955792730788131/reload_shaders] /rviz_1638955792730788131 rosrpc://robotikahost.local:52689
+[rosmaster.master][INFO] 2021-12-08 10:31:28,625: -PUB [/rosout] /rviz_1638955792730788131 http://robotikahost.local:39451/
+[rosmaster.master][INFO] 2021-12-08 10:31:28,653: -SERVICE [/rviz_1638955792730788131/get_loggers] /rviz_1638955792730788131 rosrpc://robotikahost.local:52689
+[rosmaster.master][INFO] 2021-12-08 10:31:28,665: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:40790/', 'http://ss42.local:44410/']
+[rosmaster.master][INFO] 2021-12-08 10:31:28,679: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:40790/', 'http://ss42.local:44410/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:31:28,683: -SERVICE [/rviz_1638955792730788131/set_logger_level] /rviz_1638955792730788131 rosrpc://robotikahost.local:52689
+[rosmaster.master][INFO] 2021-12-08 10:32:09,184: +PARAM [/ss42/line_detector_node/verbose] by /rosparam-4236
+[rosmaster.master][INFO] 2021-12-08 10:32:09,600: +PUB [/ss42/line_detector_node/edge] /ss42/line_detector_node http://ss42.local:44410/
+[rosmaster.master][INFO] 2021-12-08 10:32:09,616: +PUB [/ss42/line_detector_node/colorSegment] /ss42/line_detector_node http://ss42.local:44410/
+[rosmaster.master][INFO] 2021-12-08 10:32:18,926: +PUB [/rosout] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:18,941: +SERVICE [/rviz_1638955938398124993/get_loggers] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:18,961: +SERVICE [/rviz_1638955938398124993/set_logger_level] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:18,970: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:40790/', 'http://ss42.local:44410/', 'http://robotikahost.local:41227/']
+[rosmaster.master][INFO] 2021-12-08 10:32:19,089: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:40790/', 'http://ss42.local:44410/', 'http://robotikahost.local:41227/']: sec=0.12, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:32:19,323: +SUB [/tf] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:19,424: +SUB [/tf_static] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:19,587: +PUB [/initialpose] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:19,605: +PUB [/goal] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:19,676: -PUB [/goal] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:19,687: -PUB [/initialpose] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:19,706: +PUB [/initialpose] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:19,745: +PUB [/goal] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:19,756: +PUB [/move_base_simple/goal] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:19,788: -PUB [/goal] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:19,799: +PUB [/clicked_point] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:19,900: +SERVICE [/rviz_1638955938398124993/reload_shaders] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:41,642: +SUB [/ss42/camera_node/image/compressed] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:41,679: +SERVICE [/rviz_1638955938398124993/compressed/set_parameters] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:41,713: +PUB [/rviz_1638955938398124993/compressed/parameter_descriptions] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:41,749: +PUB [/rviz_1638955938398124993/compressed/parameter_updates] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:41,823: +PARAM [/rviz_1638955938398124993/compressed/mode] by /rviz_1638955938398124993
+[rosmaster.master][INFO] 2021-12-08 10:32:41,865: +PARAM [/rviz_1638955938398124993/compressed/mode] by /rviz_1638955938398124993
+[rosmaster.master][INFO] 2021-12-08 10:32:53,503: +SUB [/visualization_marker_array] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:53,543: -SUB [/visualization_marker_array] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:32:53,764: +SUB [/ss42/lane_pose_visualizer_node/lane_pose_markers] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:33:02,171: +SUB [/ss42/line_detector_node/colorSegment] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:34:52,853: -SUB [/ss42/camera_node/image/compressed] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:34:52,910: -PUB [/rviz_1638955938398124993/compressed/parameter_descriptions] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:34:52,938: -PUB [/rviz_1638955938398124993/compressed/parameter_updates] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:34:52,965: -SERVICE [/rviz_1638955938398124993/compressed/set_parameters] /rviz_1638955938398124993 rosrpc://robotikahost.local:51401
+[rosmaster.master][INFO] 2021-12-08 10:34:53,065: +SUB [/ss42/camera_node/image/compressed] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:34:53,087: +SERVICE [/rviz_1638955938398124993/compressed/set_parameters] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:34:53,101: +PUB [/rviz_1638955938398124993/compressed/parameter_descriptions] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:34:53,118: +PUB [/rviz_1638955938398124993/compressed/parameter_updates] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:34:53,147: +PARAM [/rviz_1638955938398124993/compressed/mode] by /rviz_1638955938398124993
+[rosmaster.master][INFO] 2021-12-08 10:34:53,161: +PARAM [/rviz_1638955938398124993/compressed/mode] by /rviz_1638955938398124993
+[rosmaster.master][INFO] 2021-12-08 10:34:53,178: -SUB [/ss42/line_detector_node/colorSegment] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:34:56,089: -SUB [/ss42/camera_node/image/compressed] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:34:56,132: -PUB [/rviz_1638955938398124993/compressed/parameter_descriptions] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:34:56,153: -PUB [/rviz_1638955938398124993/compressed/parameter_updates] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:34:56,177: -SERVICE [/rviz_1638955938398124993/compressed/set_parameters] /rviz_1638955938398124993 rosrpc://robotikahost.local:51401
+[rosmaster.master][INFO] 2021-12-08 10:34:56,247: -SUB [/ss42/lane_pose_visualizer_node/lane_pose_markers] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:34:56,288: -PUB [/clicked_point] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:34:56,315: -PUB [/move_base_simple/goal] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:34:56,336: -PUB [/initialpose] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:34:56,358: -SUB [/tf_static] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:34:56,382: -SUB [/tf] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:34:56,399: -SERVICE [/rviz_1638955938398124993/reload_shaders] /rviz_1638955938398124993 rosrpc://robotikahost.local:51401
+[rosmaster.master][INFO] 2021-12-08 10:34:56,551: -PUB [/rosout] /rviz_1638955938398124993 http://robotikahost.local:41227/
+[rosmaster.master][INFO] 2021-12-08 10:34:56,554: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:40790/', 'http://ss42.local:44410/']
+[rosmaster.master][INFO] 2021-12-08 10:34:56,564: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:40790/', 'http://ss42.local:44410/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:34:56,570: -SERVICE [/rviz_1638955938398124993/get_loggers] /rviz_1638955938398124993 rosrpc://robotikahost.local:51401
+[rosmaster.master][INFO] 2021-12-08 10:34:56,586: -SERVICE [/rviz_1638955938398124993/set_logger_level] /rviz_1638955938398124993 rosrpc://robotikahost.local:51401
+[rosmaster.master][INFO] 2021-12-08 10:37:19,340: -SUB [/ss42/anti_instagram_node/click] /ss42/anti_instagram_node http://ss42.local:40790/
+[rosmaster.master][INFO] 2021-12-08 10:37:19,366: -SUB [/ss42/camera_node/image/compressed] /ss42/anti_instagram_node http://ss42.local:40790/
+[rosmaster.master][INFO] 2021-12-08 10:37:19,373: -PUB [/ss42/anti_instagram_node/corrected_image] /ss42/anti_instagram_node http://ss42.local:40790/
+[rosmaster.master][INFO] 2021-12-08 10:37:19,376: -PUB [/ss42/anti_instagram_node/transform] /ss42/anti_instagram_node http://ss42.local:40790/
+[rosmaster.master][INFO] 2021-12-08 10:37:19,399: publisherUpdate[/ss42/anti_instagram_node/transform] -> http://ss42.local:44410/ []
+[rosmaster.master][INFO] 2021-12-08 10:37:19,403: -PUB [/rosout] /ss42/anti_instagram_node http://ss42.local:40790/
+[rosmaster.master][INFO] 2021-12-08 10:37:19,413: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:44410/']
+[rosmaster.master][INFO] 2021-12-08 10:37:19,441: -PUB [/ss42/anti_instagram_node/health] /ss42/anti_instagram_node http://ss42.local:40790/
+[rosmaster.master][INFO] 2021-12-08 10:37:19,450: -SERVICE [/ss42/anti_instagram_node/set_logger_level] /ss42/anti_instagram_node rosrpc://ss42.local:34584
+[rosmaster.master][INFO] 2021-12-08 10:37:19,452: -SERVICE [/ss42/anti_instagram_node/get_loggers] /ss42/anti_instagram_node rosrpc://ss42.local:34584
+[rosmaster.master][INFO] 2021-12-08 10:37:19,460: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:42935/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:44410/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:37:19,475: -SUB [/ss42/led_emitter_node/change_color_pattern] /ss42/led_emitter_node http://ss42.local:42935/
+[rosmaster.master][INFO] 2021-12-08 10:37:19,478: -SUB [/ss42/led_emitter_node/switch] /ss42/led_emitter_node http://ss42.local:42935/
+[rosmaster.master][INFO] 2021-12-08 10:37:19,492: -PUB [/ss42/led_emitter_node/current_led_state] /ss42/led_emitter_node http://ss42.local:42935/
+[rosmaster.master][INFO] 2021-12-08 10:37:19,499: publisherUpdate[/ss42/anti_instagram_node/transform] -> http://ss42.local:44410/ []: sec=0.08, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:37:19,503: -PUB [/rosout] /ss42/led_emitter_node http://ss42.local:42935/
+[rosmaster.master][INFO] 2021-12-08 10:37:19,506: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:44410/']
+[rosmaster.master][INFO] 2021-12-08 10:37:19,509: -SERVICE [/ss42/led_emitter_node/get_loggers] /ss42/led_emitter_node rosrpc://ss42.local:37415
+[rosmaster.master][INFO] 2021-12-08 10:37:19,524: -SERVICE [/ss42/led_emitter_node/set_logger_level] /ss42/led_emitter_node rosrpc://ss42.local:37415
+[rosmaster.master][INFO] 2021-12-08 10:37:19,532: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:46522/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:44410/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:37:19,718: -PUB [/rosout] /ss42_to_map http://ss42.local:46522/
+[rosmaster.master][INFO] 2021-12-08 10:37:19,731: -PUB [/tf] /ss42_to_map http://ss42.local:46522/
+[rosmaster.master][INFO] 2021-12-08 10:37:19,741: -SERVICE [/ss42_to_map/get_loggers] /ss42_to_map rosrpc://ss42.local:44053
+[rosmaster.master][INFO] 2021-12-08 10:37:19,742: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:44410/']
+[rosmaster.master][INFO] 2021-12-08 10:37:19,761: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:39913/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:44410/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:37:19,770: -SERVICE [/ss42_to_map/set_logger_level] /ss42_to_map rosrpc://ss42.local:44053
+[rosmaster.master][INFO] 2021-12-08 10:37:25,336: -SUB [/ss42/joy] /ss42/joy_mapper_node http://ss42.local:39913/
+[rosmaster.master][INFO] 2021-12-08 10:37:25,338: -PUB [/ss42/joy_mapper_node/joystick_override] /ss42/joy_mapper_node http://ss42.local:39913/
+[rosmaster.master][INFO] 2021-12-08 10:37:25,340: -PUB [/ss42/wheels_driver_node/emergency_stop] /ss42/joy_mapper_node http://ss42.local:39913/
+[rosmaster.master][INFO] 2021-12-08 10:37:25,341: -PUB [/rosout] /ss42/joy_mapper_node http://ss42.local:39913/
+[rosmaster.master][INFO] 2021-12-08 10:37:25,342: -PUB [/ss42/joy_mapper_node/parallel_autonomy] /ss42/joy_mapper_node http://ss42.local:39913/
+[rosmaster.master][INFO] 2021-12-08 10:37:25,343: -PUB [/ss42/joy_mapper_node/start_avoidance] /ss42/joy_mapper_node http://ss42.local:39913/
+[rosmaster.master][INFO] 2021-12-08 10:37:25,344: -PUB [/ss42/anti_instagram_node/click] /ss42/joy_mapper_node http://ss42.local:39913/
+[rosmaster.master][INFO] 2021-12-08 10:37:25,345: -PUB [/ss42/joy_mapper_node/car_cmd] /ss42/joy_mapper_node http://ss42.local:39913/
+[rosmaster.master][INFO] 2021-12-08 10:37:25,346: -SERVICE [/ss42/joy_mapper_node/set_logger_level] /ss42/joy_mapper_node rosrpc://ss42.local:40820
+[rosmaster.master][INFO] 2021-12-08 10:37:25,347: -SERVICE [/ss42/joy_mapper_node/get_loggers] /ss42/joy_mapper_node rosrpc://ss42.local:40820
+[rosmaster.master][INFO] 2021-12-08 10:37:25,382: publisherUpdate[/ss42/joy_mapper_node/joystick_override] -> http://ss42.local:33112/ []
+[rosmaster.master][INFO] 2021-12-08 10:37:25,387: publisherUpdate[/ss42/wheels_driver_node/emergency_stop] -> http://ss42.local:41351/ []
+[rosmaster.master][INFO] 2021-12-08 10:37:25,404: publisherUpdate[/ss42/wheels_driver_node/emergency_stop] -> http://ss42.local:41351/ []: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:37:25,405: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:44410/']
+[rosmaster.master][INFO] 2021-12-08 10:37:25,408: publisherUpdate[/ss42/joy_mapper_node/parallel_autonomy] -> http://ss42.local:38250/ []
+[rosmaster.master][INFO] 2021-12-08 10:37:25,414: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:35988/', 'http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:44410/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:37:25,415: publisherUpdate[/ss42/joy_mapper_node/car_cmd] -> http://ss42.local:35635/ []
+[rosmaster.master][INFO] 2021-12-08 10:37:25,533: -SUB [/ss42/car_cmd_switch_node/cmd] /ss42/inverse_kinematics_node http://ss42.local:41167/
+[rosmaster.master][INFO] 2021-12-08 10:37:25,542: -PUB [/ss42/wheels_driver_node/wheels_cmd] /ss42/inverse_kinematics_node http://ss42.local:41167/
+[rosmaster.master][INFO] 2021-12-08 10:37:25,550: -PUB [/rosout] /ss42/joy_node http://ss42.local:35988/
+[rosmaster.master][INFO] 2021-12-08 10:37:25,554: -PUB [/rosout] /ss42/inverse_kinematics_node http://ss42.local:41167/
+[rosmaster.master][INFO] 2021-12-08 10:37:25,562: -PUB [/diagnostics] /ss42/joy_node http://ss42.local:35988/
+[rosmaster.master][INFO] 2021-12-08 10:37:25,578: -SERVICE [/ss42/inverse_kinematics_node/set_radius] /ss42/inverse_kinematics_node rosrpc://ss42.local:38538
+[rosmaster.master][INFO] 2021-12-08 10:37:25,581: -PUB [/ss42/joy] /ss42/joy_node http://ss42.local:35988/
+[rosmaster.master][INFO] 2021-12-08 10:37:25,584: -SERVICE [/ss42/inverse_kinematics_node/set_limit] /ss42/inverse_kinematics_node rosrpc://ss42.local:38538
+[rosmaster.master][INFO] 2021-12-08 10:37:25,591: -SERVICE [/ss42/inverse_kinematics_node/set_baseline] /ss42/inverse_kinematics_node rosrpc://ss42.local:38538
+[rosmaster.master][INFO] 2021-12-08 10:37:25,593: -SERVICE [/ss42/joy_node/get_loggers] /ss42/joy_node rosrpc://ss42.local:53309
+[rosmaster.master][INFO] 2021-12-08 10:37:25,596: -SERVICE [/ss42/inverse_kinematics_node/set_trim] /ss42/inverse_kinematics_node rosrpc://ss42.local:38538
+[rosmaster.master][INFO] 2021-12-08 10:37:25,608: -SERVICE [/ss42/inverse_kinematics_node/set_gain] /ss42/inverse_kinematics_node rosrpc://ss42.local:38538
+[rosmaster.master][INFO] 2021-12-08 10:37:25,609: -SERVICE [/ss42/inverse_kinematics_node/set_logger_level] /ss42/inverse_kinematics_node rosrpc://ss42.local:38538
+[rosmaster.master][INFO] 2021-12-08 10:37:25,611: -SERVICE [/ss42/inverse_kinematics_node/get_loggers] /ss42/inverse_kinematics_node rosrpc://ss42.local:38538
+[rosmaster.master][INFO] 2021-12-08 10:37:25,616: -SERVICE [/ss42/joy_node/set_logger_level] /ss42/joy_node rosrpc://ss42.local:53309
+[rosmaster.master][INFO] 2021-12-08 10:37:25,619: -SERVICE [/ss42/inverse_kinematics_node/set_k] /ss42/inverse_kinematics_node rosrpc://ss42.local:38538
+[rosmaster.master][INFO] 2021-12-08 10:37:25,620: -SERVICE [/ss42/inverse_kinematics_node/save_calibration] /ss42/inverse_kinematics_node rosrpc://ss42.local:38538
+[rosmaster.master][INFO] 2021-12-08 10:37:26,275: publisherUpdate[/ss42/joy_mapper_node/parallel_autonomy] -> http://ss42.local:38250/ []: sec=0.87, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2021-12-08 10:37:26,766: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2021-12-08 10:37:26,767: publisherUpdate[/ss42/wheels_driver_node/wheels_cmd] -> http://ss42.local:41351/ []
+[rosmaster.master][INFO] 2021-12-08 10:37:27,505: publisherUpdate[/ss42/joy_mapper_node/car_cmd] -> http://ss42.local:35635/ []: sec=2.09, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2021-12-08 10:37:27,519: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2021-12-08 10:37:27,520: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:44410/']
+[rosmaster.master][INFO] 2021-12-08 10:37:27,538: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:41167/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:44410/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:37:27,546: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:44410/']
+[rosmaster.master][INFO] 2021-12-08 10:37:27,570: publisherUpdate[/rosout] -> http://ss42.local:37112/ ['http://ss42.local:33112/', 'http://ss42.local:41351/', 'http://ss42.local:35635/', 'http://ss42.local:40933/', 'http://ss42.local:34995/', 'http://ss42.local:33340/', 'http://ss42.local:38250/', 'http://ss42.local:43722/', 'http://ss42.local:35739/', 'http://ss42.local:36917/', 'http://ss42.local:33661/', 'http://ss42.local:39685/', 'http://ss42.local:44410/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-12-08 10:37:28,146: publisherUpdate[/ss42/joy_mapper_node/joystick_override] -> http://ss42.local:33112/ []: sec=2.76, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2021-12-08 10:37:28,148: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2021-12-08 10:37:28,149: publisherUpdate[/ss42/joy_mapper_node/parallel_autonomy] -> http://ss42.local:33112/ []
+[rosmaster.master][INFO] 2021-12-08 10:37:28,152: publisherUpdate[/ss42/joy_mapper_node/parallel_autonomy] -> http://ss42.local:33112/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2021-12-08 10:37:28,155: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2021-12-08 10:37:28,156: publisherUpdate[/ss42/joy_mapper_node/start_avoidance] -> http://ss42.local:33112/ []
+[rosmaster.master][INFO] 2021-12-08 10:37:28,162: publisherUpdate[/ss42/joy_mapper_node/start_avoidance] -> http://ss42.local:33112/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2021-12-08 10:37:28,165: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2021-12-08 10:37:28,300: publisherUpdate[/ss42/wheels_driver_node/wheels_cmd] -> http://ss42.local:41351/ []: sec=1.53, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2021-12-08 10:37:28,302: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2021-12-08 10:37:28,673: -PUB [/rosout_agg] /rosout http://ss42.local:37112/
+[rosmaster.master][INFO] 2021-12-08 10:37:28,680: -SUB [/rosout] /rosout http://ss42.local:37112/
+[rosmaster.master][INFO] 2021-12-08 10:37:28,687: -SERVICE [/rosout/get_loggers] /rosout rosrpc://ss42.local:57975
+[rosmaster.master][INFO] 2021-12-08 10:37:28,693: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://ss42.local:57975
+[rosmaster.main][INFO] 2021-12-08 10:37:28,868: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2021-12-08 10:37:28,870: stopping master...
+[rospy.core][INFO] 2021-12-08 10:37:28,887: signal_shutdown [atexit]

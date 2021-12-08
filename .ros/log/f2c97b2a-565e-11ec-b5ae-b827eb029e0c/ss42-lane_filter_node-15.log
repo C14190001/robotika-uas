@@ -1,0 +1,55 @@
+[rospy.client][INFO] 2021-12-06 07:37:51,023: [32minit_node, name[/ss42/lane_filter_node], pid[2507][0m
+[xmlrpc][INFO] 2021-12-06 07:37:51,059: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[xmlrpc][INFO] 2021-12-06 07:37:51,076: [32mStarted XML-RPC server [http://ss42.local:36336/][0m
+[rospy.init][INFO] 2021-12-06 07:37:51,078: [32mROS Slave URI: [http://ss42.local:36336/][0m
+[rospy.impl.masterslave][INFO] 2021-12-06 07:37:51,079: [32m_ready: http://ss42.local:36336/[0m
+[xmlrpc][INFO] 2021-12-06 07:37:51,096: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.registration][INFO] 2021-12-06 07:37:51,107: [32mRegistering with master node http://ss42.local:11311/[0m
+[rospy.init][INFO] 2021-12-06 07:37:51,183: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-12-06 07:37:51,186: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-12-06 07:37:51,246: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-12-06 07:37:51,287: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rosout][INFO] 2021-12-06 07:37:51,375: [32m[Lane Filter] new filter config: ['lane_filter.LaneFilterHistogram', {'configuration': {'phi_max': 1.5, 'lanewidth': 0.23, 'mean_d_0': 0, 'min_max': 0.1, 'phi_min': -1.5, 'd_max': 0.3, 'sigma_phi_mask': 2.0, 'sigma_d_mask': 1.0, 'mean_phi_0': 0, 'sigma_phi_0': 0.1, 'linewidth_white': 0.05, 'linewidth_yellow': 0.025, 'delta_d': 0.02, 'd_min': -0.15, 'delta_phi': 0.1, 'sigma_d_0': 0.1, 'cov_v': 0.5}}][0m
+[rospy.internal][INFO] 2021-12-06 07:37:51,600: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rospy.internal][INFO] 2021-12-06 07:37:55,415: [32mtopic[/ss42/ground_projection/lineseglist_out] adding connection to [http://ss42.local:44433/], count 0[0m
+[rospy.internal][INFO] 2021-12-06 07:37:55,453: [32mtopic[/ss42/lane_filter_node/switch] adding connection to [http://ss42.local:40861/], count 0[0m
+[rospy.internal][INFO] 2021-12-06 07:37:55,519: [32mtopic[/ss42/car_cmd_switch_node/cmd] adding connection to [http://ss42.local:34438/], count 0[0m
+[rospy.internal][INFO] 2021-12-06 07:37:55,668: [32mtopic[/ss42/lane_filter_node/lane_pose] adding connection to [/ss42/lane_controller_node], count 0[0m
+[rospy.internal][INFO] 2021-12-06 07:37:55,687: [32mtopic[/ss42/lane_filter_node/lane_pose] adding connection to [/ss42/lane_pose_visualizer_node], count 1[0m
+[rospy.core][INFO] 2021-12-06 07:54:54,762: [32msignal_shutdown [signal-2][0m
+[rosout][INFO] 2021-12-06 07:54:54,763: [32m[LaneFilterNode] Shutdown.[0m
+[rospy.internal][INFO] 2021-12-06 07:54:54,816: [32mtopic[/ss42/lane_filter_node/lane_pose] removing connection to /ss42/lane_controller_node[0m
+[rospy.internal][INFO] 2021-12-06 07:54:55,138: [32mtopic[/ss42/lane_filter_node/lane_pose] removing connection to /ss42/lane_pose_visualizer_node[0m
+[rospy.internal][INFO] 2021-12-06 07:54:55,173: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-12-06 07:54:55,175: [32mtopic[/ss42/ground_projection/lineseglist_out] removing connection to http://ss42.local:44433/[0m
+[rospy.internal][INFO] 2021-12-06 07:54:55,189: [32mtopic[/ss42/lane_filter_node/switch] removing connection to http://ss42.local:40861/[0m
+[rospy.internal][INFO] 2021-12-06 07:54:55,397: [32mtopic[/ss42/car_cmd_switch_node/cmd] removing connection to http://ss42.local:34438/[0m
+[rospy.impl.masterslave][INFO] 2021-12-06 07:54:55,399: [32msignal-2[0m
+[rospy.internal][WARNING] 2021-12-06 07:54:55,240: [33mUnknown error initiating TCP/IP socket to ss42.local:43937 (http://ss42.local:40861/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+[0m
+[rospy.rosout][ERROR] 2021-12-06 07:54:55,442: [31mUnable to report rosout: publish() to a closed topic
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    _rosout_pub.publish(l)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+ROSException: publish() to a closed topic
+[0m
+[rosout][ERROR] 2021-12-06 07:54:55,378: [31mbad callback: <bound method LaneFilterNode.processSegments of <__main__.LaneFilterNode object at 0x6e57ffb0>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/robotikabot/duckietown/catkin_ws/src/10-lane-control/lane_filter/src/lane_filter_node.py", line 78, in processSegments
+    self.pub_lane_pose.publish(lanePose)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+ROSException: publish() to a closed topic
+[0m
+[rospy.core][INFO] 2021-12-06 07:54:55,560: [32msignal_shutdown [atexit][0m

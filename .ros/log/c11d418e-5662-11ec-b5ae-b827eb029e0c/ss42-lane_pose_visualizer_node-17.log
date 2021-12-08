@@ -1,0 +1,22 @@
+[rospy.client][INFO] 2021-12-06 08:04:58,609: init_node, name[/ss42/lane_pose_visualizer_node], pid[21674]
+[xmlrpc][INFO] 2021-12-06 08:04:58,625: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2021-12-06 08:04:58,633: ROS Slave URI: [http://ss42.local:37449/]
+[xmlrpc][INFO] 2021-12-06 08:04:58,635: Started XML-RPC server [http://ss42.local:37449/]
+[rospy.impl.masterslave][INFO] 2021-12-06 08:04:58,636: _ready: http://ss42.local:37449/
+[xmlrpc][INFO] 2021-12-06 08:04:58,660: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-12-06 08:04:58,662: Registering with master node http://ss42.local:11311/
+[rospy.init][INFO] 2021-12-06 08:04:58,735: registered with master
+[rospy.rosout][INFO] 2021-12-06 08:04:58,736: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-06 08:04:58,769: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-06 08:04:58,803: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-06 08:04:58,907: [/ss42/lane_pose_visualizer_node] Initialzing.
+[rosout][INFO] 2021-12-06 08:04:58,909: [/ss42/lane_pose_visualizer_node] Vehicle name: ss42
+[rospy.internal][INFO] 2021-12-06 08:04:58,954: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2021-12-06 08:04:59,015: [/ss42/lane_pose_visualizer_node] Initialzed.
+[rospy.internal][INFO] 2021-12-06 08:05:03,812: topic[/ss42/lane_filter_node/lane_pose] adding connection to [http://ss42.local:45415/], count 0
+[rospy.internal][INFO] 2021-12-06 08:10:45,389: topic[/ss42/lane_pose_visualizer_node/lane_pose_markers] adding connection to [/rviz_1638774592148477185], count 0
+[rospy.internal][INFO] 2021-12-06 08:14:28,125: topic[/ss42/lane_pose_visualizer_node/lane_pose_markers] removing connection to /rviz_1638774592148477185
+[rospy.internal][INFO] 2021-12-06 08:20:24,704: topic[/ss42/lane_pose_visualizer_node/lane_pose_markers] adding connection to [/rviz_1638774870473769219], count 0
+[rospy.internal][INFO] 2021-12-06 08:29:32,472: topic[/ss42/lane_pose_visualizer_node/lane_pose_markers] removing connection to /rviz_1638774870473769219
+[rospy.core][INFO] 2021-12-06 08:30:21,505: signal_shutdown [signal-2]
+[rospy.core][INFO] 2021-12-06 08:30:21,515: signal_shutdown [atexit]

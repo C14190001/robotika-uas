@@ -1,3 +1,5 @@
 [user]
 	email = c14190001@john.petra.ac.id
-	name = C14190001
+	name = c14190001@john.petra.ac.id
+[credential]
+	helper = store

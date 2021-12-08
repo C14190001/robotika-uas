@@ -1,0 +1,19 @@
+[rospy.client][INFO] 2021-12-06 07:37:38,397: init_node, name[/ss42/led_emitter_node], pid[2516]
+[xmlrpc][INFO] 2021-12-06 07:37:38,435: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-06 07:37:38,445: Started XML-RPC server [http://ss42.local:44115/]
+[rospy.init][INFO] 2021-12-06 07:37:38,447: ROS Slave URI: [http://ss42.local:44115/]
+[rospy.impl.masterslave][INFO] 2021-12-06 07:37:38,457: _ready: http://ss42.local:44115/
+[rospy.registration][INFO] 2021-12-06 07:37:38,499: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-06 07:37:38,500: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-06 07:37:38,559: registered with master
+[rospy.rosout][INFO] 2021-12-06 07:37:38,560: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-06 07:37:38,628: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-06 07:37:38,701: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-06 07:37:38,862: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-06 07:37:39,263: topic[/ss42/led_emitter_node/switch] adding connection to [http://ss42.local:40861/], count 0
+[rosout][INFO] 2021-12-06 07:37:39,279: changePattern('CAR_SIGNAL_A')
+[rospy.core][INFO] 2021-12-06 07:54:54,676: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-12-06 07:54:55,007: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-06 07:54:55,034: topic[/ss42/led_emitter_node/switch] removing connection to http://ss42.local:40861/
+[rospy.impl.masterslave][INFO] 2021-12-06 07:54:55,040: signal-2
+[rospy.core][INFO] 2021-12-06 07:54:55,327: signal_shutdown [atexit]

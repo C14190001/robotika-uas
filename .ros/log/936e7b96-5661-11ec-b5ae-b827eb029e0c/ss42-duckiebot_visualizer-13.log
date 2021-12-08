@@ -1,0 +1,27 @@
+[rospy.client][INFO] 2021-12-06 07:56:22,568: init_node, name[/ss42/duckiebot_visualizer], pid[5368]
+[xmlrpc][INFO] 2021-12-06 07:56:22,605: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2021-12-06 07:56:22,630: ROS Slave URI: [http://ss42.local:41273/]
+[xmlrpc][INFO] 2021-12-06 07:56:22,638: Started XML-RPC server [http://ss42.local:41273/]
+[rospy.impl.masterslave][INFO] 2021-12-06 07:56:22,643: _ready: http://ss42.local:41273/
+[rospy.registration][INFO] 2021-12-06 07:56:22,667: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-06 07:56:22,669: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-06 07:56:22,733: registered with master
+[rospy.rosout][INFO] 2021-12-06 07:56:22,734: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-06 07:56:22,804: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-06 07:56:22,887: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-06 07:56:23,011: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2021-12-06 07:56:23,042: [/ss42/duckiebot_visualizer] Initialzing.
+[rosout][INFO] 2021-12-06 07:56:23,172: [/ss42/duckiebot_visualizer] ~veh_name = ss42 
+[rosout][INFO] 2021-12-06 07:56:23,603: [/ss42/duckiebot_visualizer] Initialzed.
+[rospy.internal][INFO] 2021-12-06 07:56:37,816: topic[/ss42/ground_projection/lineseglist_out] adding connection to [http://ss42.local:34705/], count 0
+[rospy.core][INFO] 2021-12-06 08:03:49,248: signal_shutdown [signal-2]
+[rosout][INFO] 2021-12-06 08:03:49,250: [/ss42/duckiebot_visualizer] Shutting down.
+[rospy.internal][INFO] 2021-12-06 08:03:49,643: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-06 08:03:49,650: topic[/ss42/ground_projection/lineseglist_out] removing connection to http://ss42.local:34705/
+[rospy.impl.masterslave][INFO] 2021-12-06 08:03:49,675: signal-2
+[rospy.internal][WARNING] 2021-12-06 08:03:49,678: Unknown error initiating TCP/IP socket to ss42.local:38450 (http://ss42.local:34705/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2021-12-06 08:03:49,953: signal_shutdown [atexit]

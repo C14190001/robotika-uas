@@ -1,0 +1,31 @@
+[rospy.client][INFO] 2021-12-06 07:56:24,026: init_node, name[/ss42/fake_coordinator_node], pid[5384]
+[xmlrpc][INFO] 2021-12-06 07:56:24,060: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-06 07:56:24,062: Started XML-RPC server [http://ss42.local:44908/]
+[rospy.impl.masterslave][INFO] 2021-12-06 07:56:24,064: _ready: http://ss42.local:44908/
+[rospy.init][INFO] 2021-12-06 07:56:24,065: ROS Slave URI: [http://ss42.local:44908/]
+[rospy.registration][INFO] 2021-12-06 07:56:24,070: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-06 07:56:24,071: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-06 07:56:24,174: registered with master
+[rospy.rosout][INFO] 2021-12-06 07:56:24,176: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-06 07:56:24,321: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-06 07:56:24,375: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-06 07:56:24,546: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-06 07:56:24,752: topic[/ss42/fsm_node/mode] adding connection to [http://ss42.local:36746/], count 0
+[rospy.internal][INFO] 2021-12-06 07:56:24,797: topic[/ss42/simple_coordinator_node/car_cmd] adding connection to [/ss42/car_cmd_switch_node], count 0
+[rospy.internal][INFO] 2021-12-06 07:56:24,815: topic[/ss42/simple_coordinator_node/intersection_go] adding connection to [/ss42/fsm_node], count 0
+[rospy.core][INFO] 2021-12-06 08:03:49,149: signal_shutdown [signal-2]
+[rosout][INFO] 2021-12-06 08:03:49,150: [LaneFilterNode] Shutdown.
+[rospy.internal][INFO] 2021-12-06 08:03:49,593: topic[/ss42/simple_coordinator_node/intersection_go] removing connection to /ss42/fsm_node
+[rospy.internal][INFO] 2021-12-06 08:03:49,597: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-06 08:03:49,601: topic[/ss42/simple_coordinator_node/car_cmd] removing connection to /ss42/car_cmd_switch_node
+[rospy.internal][INFO] 2021-12-06 08:03:49,616: topic[/ss42/simple_coordinator_node/car_cmd] removing connection to /ss42/car_cmd_switch_node
+[rospy.topics][ERROR] 2021-12-06 08:03:49,663: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2021-12-06 08:03:49,681: topic[/ss42/fsm_node/mode] removing connection to http://ss42.local:36746/
+[rospy.impl.masterslave][INFO] 2021-12-06 08:03:49,693: signal-2
+[rospy.core][INFO] 2021-12-06 08:03:49,811: signal_shutdown [atexit]

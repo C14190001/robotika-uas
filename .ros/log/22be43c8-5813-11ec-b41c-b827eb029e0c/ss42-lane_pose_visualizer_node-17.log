@@ -1,0 +1,33 @@
+[rospy.client][INFO] 2021-12-08 11:39:59,005: init_node, name[/ss42/lane_pose_visualizer_node], pid[3131]
+[xmlrpc][INFO] 2021-12-08 11:39:59,007: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-08 11:39:59,008: Started XML-RPC server [http://ss42.local:40712/]
+[rospy.init][INFO] 2021-12-08 11:39:59,009: ROS Slave URI: [http://ss42.local:40712/]
+[rospy.impl.masterslave][INFO] 2021-12-08 11:39:59,010: _ready: http://ss42.local:40712/
+[rospy.registration][INFO] 2021-12-08 11:39:59,014: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-08 11:39:59,014: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-08 11:39:59,111: registered with master
+[rospy.rosout][INFO] 2021-12-08 11:39:59,112: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-08 11:39:59,135: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-08 11:39:59,141: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-08 11:39:59,156: [/ss42/lane_pose_visualizer_node] Initialzing.
+[rosout][INFO] 2021-12-08 11:39:59,158: [/ss42/lane_pose_visualizer_node] Vehicle name: ss42
+[rosout][INFO] 2021-12-08 11:39:59,177: [/ss42/lane_pose_visualizer_node] Initialzed.
+[rospy.internal][INFO] 2021-12-08 11:39:59,186: topic[/ss42/lane_filter_node/lane_pose] adding connection to [http://ss42.local:34428/], count 0
+[rospy.internal][INFO] 2021-12-08 11:39:59,490: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-08 11:41:17,010: topic[/ss42/lane_pose_visualizer_node/lane_pose_markers] adding connection to [/rviz_1638960058993965301], count 0
+[rospy.core][INFO] 2021-12-08 14:14:06,657: signal_shutdown [signal-2]
+[rosout][INFO] 2021-12-08 14:14:06,680: [/ss42/lane_pose_visualizer_node] Shutting down.
+[rospy.internal][ERROR] 2021-12-08 14:14:06,936: Unable to initiate TCP/IP socket to ss42.local:43948 (http://ss42.local:34428/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2021-12-08 14:14:07,517: topic[/ss42/lane_pose_visualizer_node/lane_pose_markers] removing connection to /rviz_1638960058993965301
+[rospy.internal][INFO] 2021-12-08 14:14:07,520: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-08 14:14:07,522: topic[/ss42/lane_filter_node/lane_pose] removing connection to http://ss42.local:34428/
+[rospy.impl.masterslave][INFO] 2021-12-08 14:14:07,525: signal-2
+[rospy.core][INFO] 2021-12-08 14:14:08,101: signal_shutdown [atexit]

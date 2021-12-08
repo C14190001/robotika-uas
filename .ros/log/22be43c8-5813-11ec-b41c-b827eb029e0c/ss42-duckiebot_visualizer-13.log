@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2021-12-08 11:39:46,857: init_node, name[/ss42/duckiebot_visualizer], pid[3126]
+[xmlrpc][INFO] 2021-12-08 11:39:46,877: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-08 11:39:46,879: Started XML-RPC server [http://ss42.local:35869/]
+[rospy.impl.masterslave][INFO] 2021-12-08 11:39:46,880: _ready: http://ss42.local:35869/
+[rospy.init][INFO] 2021-12-08 11:39:46,882: ROS Slave URI: [http://ss42.local:35869/]
+[rospy.registration][INFO] 2021-12-08 11:39:46,904: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-08 11:39:46,905: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-08 11:39:46,983: registered with master
+[rospy.rosout][INFO] 2021-12-08 11:39:46,984: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-08 11:39:47,013: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-08 11:39:47,052: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-08 11:39:47,157: [/ss42/duckiebot_visualizer] Initialzing.
+[rosout][INFO] 2021-12-08 11:39:47,263: [/ss42/duckiebot_visualizer] ~veh_name = ss42 
+[rospy.internal][INFO] 2021-12-08 11:39:47,327: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2021-12-08 11:39:47,443: [/ss42/duckiebot_visualizer] Initialzed.
+[rospy.internal][INFO] 2021-12-08 11:39:56,129: topic[/ss42/ground_projection/lineseglist_out] adding connection to [http://ss42.local:44314/], count 0
+[rospy.core][INFO] 2021-12-08 14:14:06,816: signal_shutdown [signal-2]
+[rosout][INFO] 2021-12-08 14:14:07,186: [/ss42/duckiebot_visualizer] Shutting down.
+[rospy.internal][WARNING] 2021-12-08 14:14:07,494: Unknown error initiating TCP/IP socket to ss42.local:46571 (http://ss42.local:44314/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2021-12-08 14:14:07,513: topic[/ss42/ground_projection/lineseglist_out] removing connection to http://ss42.local:44314/
+[rospy.internal][INFO] 2021-12-08 14:14:08,215: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2021-12-08 14:14:08,219: signal-2
+[rospy.core][INFO] 2021-12-08 14:14:08,609: signal_shutdown [atexit]

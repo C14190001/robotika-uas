@@ -1,0 +1,19 @@
+[rospy.client][INFO] 2021-12-08 10:22:02,922: init_node, name[/ss42/wheels_driver_node], pid[2384]
+[xmlrpc][INFO] 2021-12-08 10:22:02,954: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-08 10:22:02,957: Started XML-RPC server [http://ss42.local:41351/]
+[rospy.init][INFO] 2021-12-08 10:22:02,985: ROS Slave URI: [http://ss42.local:41351/]
+[rospy.impl.masterslave][INFO] 2021-12-08 10:22:02,992: _ready: http://ss42.local:41351/
+[xmlrpc][INFO] 2021-12-08 10:22:03,028: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-12-08 10:22:03,033: Registering with master node http://ss42.local:11311/
+[rospy.init][INFO] 2021-12-08 10:22:03,096: registered with master
+[rospy.rosout][INFO] 2021-12-08 10:22:03,098: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-08 10:22:03,210: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-08 10:22:03,275: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-08 10:22:03,448: [/ss42/wheels_driver_node] Initializing 
+[rospy.internal][INFO] 2021-12-08 10:22:03,457: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-08 10:22:04,167: topic[/ss42/wheels_driver_node/emergency_stop] adding connection to [http://ss42.local:39913/], count 0
+[rosout][INFO] 2021-12-08 10:22:19,314: [%s] Emergency Stop Activated
+[rosout][INFO] 2021-12-08 10:22:20,856: [%s] Emergency Stop Released
+[rospy.internal][INFO] 2021-12-08 10:22:22,226: topic[/ss42/wheels_driver_node/wheels_cmd] adding connection to [http://ss42.local:41167/], count 0
+[rospy.core][INFO] 2021-12-08 10:37:25,493: signal_shutdown [signal-2]
+[rospy.core][INFO] 2021-12-08 10:37:25,540: signal_shutdown [atexit]

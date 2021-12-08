@@ -1,0 +1,56 @@
+[rospy.client][INFO] 2021-12-06 07:37:54,952: [32minit_node, name[/ss42/anti_instagram_node], pid[2522][0m
+[xmlrpc][INFO] 2021-12-06 07:37:54,955: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[rospy.init][INFO] 2021-12-06 07:37:54,959: [32mROS Slave URI: [http://ss42.local:44979/][0m
+[xmlrpc][INFO] 2021-12-06 07:37:54,961: [32mStarted XML-RPC server [http://ss42.local:44979/][0m
+[rospy.impl.masterslave][INFO] 2021-12-06 07:37:54,962: [32m_ready: http://ss42.local:44979/[0m
+[rospy.registration][INFO] 2021-12-06 07:37:54,974: [32mRegistering with master node http://ss42.local:11311/[0m
+[xmlrpc][INFO] 2021-12-06 07:37:54,975: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.init][INFO] 2021-12-06 07:37:55,061: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-12-06 07:37:55,063: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-12-06 07:37:55,088: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-12-06 07:37:55,102: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rospy.internal][INFO] 2021-12-06 07:37:55,313: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [http://ss42.local:45244/], count 0[0m
+[rospy.internal][INFO] 2021-12-06 07:37:55,336: [32mtopic[/ss42/anti_instagram_node/click] adding connection to [http://ss42.local:37088/], count 0[0m
+[rospy.internal][INFO] 2021-12-06 07:37:55,370: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rospy.internal][INFO] 2021-12-06 07:37:57,060: [32mtopic[/ss42/anti_instagram_node/transform] adding connection to [/ss42/line_detector_node], count 0[0m
+[rosout][INFO] 2021-12-06 07:40:12,640: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-06 07:40:14,668: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-06 07:40:14,708: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-06 07:40:55,035: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-06 07:40:59,331: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-06 07:41:02,815: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-06 07:41:02,825: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-06 07:41:19,737: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-06 07:43:43,806: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-06 07:43:47,323: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-06 07:43:47,331: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-06 07:44:20,071: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-06 07:44:20,099: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-06 07:44:24,077: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-06 07:44:24,083: [32mHealth is not good[0m
+[rosout][INFO] 2021-12-06 07:47:51,061: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-06 07:48:36,240: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-06 07:48:40,022: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-06 07:48:40,031: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-06 07:49:23,143: [32mai: Color transform is turned OFF![0m
+[rospy.core][INFO] 2021-12-06 07:54:54,643: [32msignal_shutdown [signal-2][0m
+[rospy.internal][INFO] 2021-12-06 07:54:54,830: [32mtopic[/ss42/anti_instagram_node/transform] removing connection to /ss42/line_detector_node[0m
+[rospy.internal][INFO] 2021-12-06 07:54:54,840: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-12-06 07:54:54,845: [32mtopic[/ss42/anti_instagram_node/click] removing connection to http://ss42.local:37088/[0m
+[rospy.internal][INFO] 2021-12-06 07:54:54,848: [32mtopic[/ss42/camera_node/image/compressed] removing connection to http://ss42.local:45244/[0m
+[rospy.internal][WARNING] 2021-12-06 07:54:54,867: [33mUnknown error initiating TCP/IP socket to ss42.local:41230 (http://ss42.local:45244/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+[0m
+[rospy.topics][ERROR] 2021-12-06 07:54:54,890: [31mTraceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+[0m
+[rospy.impl.masterslave][INFO] 2021-12-06 07:54:54,892: [32msignal-2[0m
+[rospy.core][INFO] 2021-12-06 07:54:55,281: [32msignal_shutdown [atexit][0m

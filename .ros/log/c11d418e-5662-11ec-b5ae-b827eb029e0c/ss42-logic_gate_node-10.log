@@ -1,0 +1,17 @@
+[rospy.client][INFO] 2021-12-06 08:04:47,591: init_node, name[/ss42/logic_gate_node], pid[21656]
+[xmlrpc][INFO] 2021-12-06 08:04:47,627: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-06 08:04:47,634: Started XML-RPC server [http://ss42.local:43487/]
+[rospy.init][INFO] 2021-12-06 08:04:47,650: ROS Slave URI: [http://ss42.local:43487/]
+[rospy.impl.masterslave][INFO] 2021-12-06 08:04:47,663: _ready: http://ss42.local:43487/
+[rospy.registration][INFO] 2021-12-06 08:04:47,717: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-06 08:04:47,718: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-06 08:04:47,765: registered with master
+[rospy.rosout][INFO] 2021-12-06 08:04:47,766: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-06 08:04:47,827: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-06 08:04:47,917: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-06 08:04:48,160: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-06 08:04:48,299: topic[/ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy] adding connection to [/ss42/fsm_node], count 0
+[rospy.internal][INFO] 2021-12-06 08:04:48,499: topic[/ss42/logic_gate_node/intersection_done_and_parallel_autonomy] adding connection to [/ss42/fsm_node], count 0
+[rospy.internal][INFO] 2021-12-06 08:04:48,534: topic[/ss42/joy_mapper_node/parallel_autonomy] adding connection to [http://ss42.local:41009/], count 0
+[rospy.core][INFO] 2021-12-06 08:30:21,866: signal_shutdown [signal-2]
+[rospy.core][INFO] 2021-12-06 08:30:21,872: signal_shutdown [atexit]

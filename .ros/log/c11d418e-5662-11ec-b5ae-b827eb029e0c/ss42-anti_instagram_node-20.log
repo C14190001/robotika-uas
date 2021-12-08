@@ -1,0 +1,33 @@
+[rospy.client][INFO] 2021-12-06 08:05:02,625: [32minit_node, name[/ss42/anti_instagram_node], pid[21686][0m
+[xmlrpc][INFO] 2021-12-06 08:05:02,629: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[rospy.init][INFO] 2021-12-06 08:05:02,636: [32mROS Slave URI: [http://ss42.local:35167/][0m
+[xmlrpc][INFO] 2021-12-06 08:05:02,640: [32mStarted XML-RPC server [http://ss42.local:35167/][0m
+[rospy.impl.masterslave][INFO] 2021-12-06 08:05:02,641: [32m_ready: http://ss42.local:35167/[0m
+[xmlrpc][INFO] 2021-12-06 08:05:02,648: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.registration][INFO] 2021-12-06 08:05:02,654: [32mRegistering with master node http://ss42.local:11311/[0m
+[rospy.init][INFO] 2021-12-06 08:05:02,738: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-12-06 08:05:02,740: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-12-06 08:05:02,771: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-12-06 08:05:02,822: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rospy.internal][INFO] 2021-12-06 08:05:03,034: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rospy.internal][INFO] 2021-12-06 08:05:03,062: [32mtopic[/ss42/anti_instagram_node/click] adding connection to [http://ss42.local:41009/], count 0[0m
+[rospy.internal][INFO] 2021-12-06 08:05:03,080: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [http://ss42.local:39499/], count 0[0m
+[rospy.internal][INFO] 2021-12-06 08:05:03,081: [32mtopic[/ss42/anti_instagram_node/transform] adding connection to [/ss42/line_detector_node], count 0[0m
+[rosout][INFO] 2021-12-06 08:22:14,203: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-06 08:22:17,922: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-06 08:22:17,962: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-06 08:22:22,974: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-06 08:22:26,290: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-06 08:22:30,464: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-06 08:22:30,483: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-06 08:26:15,589: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-06 08:26:19,239: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-06 08:26:22,557: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-06 08:26:22,564: [32mai: Color transform published.[0m
+[rospy.core][INFO] 2021-12-06 08:30:21,402: [32msignal_shutdown [signal-2][0m
+[rospy.internal][INFO] 2021-12-06 08:30:21,556: [32mtopic[/ss42/anti_instagram_node/transform] removing connection to /ss42/line_detector_node[0m
+[rospy.internal][INFO] 2021-12-06 08:30:21,570: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-12-06 08:30:21,595: [32mtopic[/ss42/anti_instagram_node/click] removing connection to http://ss42.local:41009/[0m
+[rospy.internal][INFO] 2021-12-06 08:30:21,599: [32mtopic[/ss42/camera_node/image/compressed] removing connection to http://ss42.local:39499/[0m
+[rospy.impl.masterslave][INFO] 2021-12-06 08:30:21,601: [32msignal-2[0m
+[rospy.core][INFO] 2021-12-06 08:30:22,043: [32msignal_shutdown [atexit][0m

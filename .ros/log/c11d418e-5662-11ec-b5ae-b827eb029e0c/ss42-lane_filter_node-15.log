@@ -1,0 +1,20 @@
+[rospy.client][INFO] 2021-12-06 08:05:00,314: [32minit_node, name[/ss42/lane_filter_node], pid[21671][0m
+[xmlrpc][INFO] 2021-12-06 08:05:00,317: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[rospy.init][INFO] 2021-12-06 08:05:00,339: [32mROS Slave URI: [http://ss42.local:45415/][0m
+[xmlrpc][INFO] 2021-12-06 08:05:00,341: [32mStarted XML-RPC server [http://ss42.local:45415/][0m
+[rospy.impl.masterslave][INFO] 2021-12-06 08:05:00,346: [32m_ready: http://ss42.local:45415/[0m
+[xmlrpc][INFO] 2021-12-06 08:05:00,359: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.registration][INFO] 2021-12-06 08:05:00,366: [32mRegistering with master node http://ss42.local:11311/[0m
+[rospy.init][INFO] 2021-12-06 08:05:00,441: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-12-06 08:05:00,445: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-12-06 08:05:00,514: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-12-06 08:05:00,559: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rosout][INFO] 2021-12-06 08:05:00,723: [32m[Lane Filter] new filter config: ['lane_filter.LaneFilterHistogram', {'configuration': {'phi_max': 1.5, 'lanewidth': 0.23, 'mean_d_0': 0, 'min_max': 0.1, 'phi_min': -1.5, 'd_max': 0.3, 'sigma_phi_mask': 2.0, 'sigma_d_mask': 1.0, 'mean_phi_0': 0, 'sigma_phi_0': 0.1, 'linewidth_white': 0.05, 'linewidth_yellow': 0.025, 'delta_d': 0.02, 'd_min': -0.15, 'delta_phi': 0.1, 'sigma_d_0': 0.1, 'cov_v': 0.5}}][0m
+[rospy.internal][INFO] 2021-12-06 08:05:00,930: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rospy.internal][INFO] 2021-12-06 08:05:03,674: [32mtopic[/ss42/ground_projection/lineseglist_out] adding connection to [http://ss42.local:43235/], count 0[0m
+[rospy.internal][INFO] 2021-12-06 08:05:03,688: [32mtopic[/ss42/lane_filter_node/switch] adding connection to [http://ss42.local:46535/], count 0[0m
+[rospy.internal][INFO] 2021-12-06 08:05:03,725: [32mtopic[/ss42/car_cmd_switch_node/cmd] adding connection to [http://ss42.local:39163/], count 0[0m
+[rospy.internal][INFO] 2021-12-06 08:05:03,913: [32mtopic[/ss42/lane_filter_node/lane_pose] adding connection to [/ss42/lane_pose_visualizer_node], count 0[0m
+[rospy.internal][INFO] 2021-12-06 08:05:03,917: [32mtopic[/ss42/lane_filter_node/lane_pose] adding connection to [/ss42/lane_controller_node], count 1[0m
+[rospy.core][INFO] 2021-12-06 08:30:21,603: [32msignal_shutdown [signal-2][0m
+[rospy.core][INFO] 2021-12-06 08:30:21,609: [32msignal_shutdown [atexit][0m

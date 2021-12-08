@@ -1,0 +1,72 @@
+[rospy.client][INFO] 2021-12-06 08:04:57,147: [32minit_node, name[/ss42/camera_node], pid[21634][0m
+[xmlrpc][INFO] 2021-12-06 08:04:57,160: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[rospy.init][INFO] 2021-12-06 08:04:57,171: [32mROS Slave URI: [http://ss42.local:39499/][0m
+[xmlrpc][INFO] 2021-12-06 08:04:57,172: [32mStarted XML-RPC server [http://ss42.local:39499/][0m
+[rospy.impl.masterslave][INFO] 2021-12-06 08:04:57,173: [32m_ready: http://ss42.local:39499/[0m
+[xmlrpc][INFO] 2021-12-06 08:04:57,180: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.registration][INFO] 2021-12-06 08:04:57,184: [32mRegistering with master node http://ss42.local:11311/[0m
+[rospy.init][INFO] 2021-12-06 08:04:57,273: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-12-06 08:04:57,274: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-12-06 08:04:57,332: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-12-06 08:04:57,367: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rosout][INFO] 2021-12-06 08:04:57,416: [32m[/ss42/camera_node] Initializing......[0m
+[rosout][INFO] 2021-12-06 08:04:57,467: [32m[/ss42/camera_node] ~framerate_high = 30 [0m
+[rosout][INFO] 2021-12-06 08:04:57,505: [32m[/ss42/camera_node] ~framerate_low = 15 [0m
+[rosout][INFO] 2021-12-06 08:04:57,540: [32m[/ss42/camera_node] ~res_w = 640 [0m
+[rospy.internal][INFO] 2021-12-06 08:04:57,575: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rosout][INFO] 2021-12-06 08:04:57,590: [32m[/ss42/camera_node] ~res_h = 480 [0m
+[rosout][INFO] 2021-12-06 08:04:58,160: [32m[/ss42/camera_node] Initialized.[0m
+[rosout][INFO] 2021-12-06 08:04:58,170: [32m[/ss42/camera_node] Start capturing.[0m
+[rospy.internal][INFO] 2021-12-06 08:04:58,203: [32mtopic[/ss42/camera_node/framerate_high_switch] adding connection to [http://ss42.local:46535/], count 0[0m
+[rosout][INFO] 2021-12-06 08:04:58,267: [32m[/ss42/camera_node] Published the first image.[0m
+[rospy.internal][INFO] 2021-12-06 08:05:00,201: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/ss42/cam_info_reader_node], count 0[0m
+[rospy.internal][INFO] 2021-12-06 08:05:02,308: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/ss42/line_detector_node], count 1[0m
+[rospy.internal][INFO] 2021-12-06 08:05:03,105: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/ss42/anti_instagram_node], count 2[0m
+[rospy.internal][INFO] 2021-12-06 08:11:00,315: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638774592148477185], count 3[0m
+[rospy.internal][INFO] 2021-12-06 08:12:32,796: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638774592148477185[0m
+[rospy.internal][INFO] 2021-12-06 08:12:33,137: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638774592148477185], count 3[0m
+[rospy.internal][INFO] 2021-12-06 08:12:36,667: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638774592148477185[0m
+[rospy.internal][INFO] 2021-12-06 08:12:37,055: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638774592148477185], count 3[0m
+[rospy.internal][INFO] 2021-12-06 08:12:40,898: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638774592148477185[0m
+[rospy.internal][INFO] 2021-12-06 08:12:41,271: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638774592148477185], count 3[0m
+[rospy.internal][INFO] 2021-12-06 08:12:42,160: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638774592148477185[0m
+[rospy.internal][INFO] 2021-12-06 08:12:42,492: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638774592148477185], count 3[0m
+[rospy.internal][INFO] 2021-12-06 08:13:02,685: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638774592148477185[0m
+[rospy.internal][INFO] 2021-12-06 08:13:03,070: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638774592148477185], count 3[0m
+[rospy.internal][INFO] 2021-12-06 08:13:04,613: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638774592148477185[0m
+[rospy.internal][INFO] 2021-12-06 08:13:05,276: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638774592148477185], count 3[0m
+[rospy.internal][INFO] 2021-12-06 08:13:14,405: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638774592148477185[0m
+[rospy.internal][INFO] 2021-12-06 08:13:14,709: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638774592148477185], count 3[0m
+[rospy.internal][INFO] 2021-12-06 08:13:32,068: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638774592148477185[0m
+[rospy.internal][INFO] 2021-12-06 08:13:32,420: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638774592148477185], count 3[0m
+[rospy.internal][INFO] 2021-12-06 08:13:33,274: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638774592148477185[0m
+[rospy.internal][INFO] 2021-12-06 08:13:33,638: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638774592148477185], count 3[0m
+[rospy.internal][INFO] 2021-12-06 08:14:23,940: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638774592148477185[0m
+[rospy.internal][INFO] 2021-12-06 08:20:48,473: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638774870473769219], count 3[0m
+[rospy.internal][INFO] 2021-12-06 08:20:50,668: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638774870473769219[0m
+[rospy.internal][INFO] 2021-12-06 08:20:51,293: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638774870473769219], count 3[0m
+[rospy.internal][INFO] 2021-12-06 08:20:54,156: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638774870473769219[0m
+[rospy.internal][INFO] 2021-12-06 08:20:54,603: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638774870473769219], count 3[0m
+[rospy.internal][INFO] 2021-12-06 08:21:31,173: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638774870473769219[0m
+[rospy.internal][INFO] 2021-12-06 08:22:00,435: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638774870473769219], count 3[0m
+[rospy.internal][INFO] 2021-12-06 08:22:01,430: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638774870473769219[0m
+[rospy.internal][INFO] 2021-12-06 08:22:02,160: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638774870473769219], count 3[0m
+[rospy.internal][INFO] 2021-12-06 08:23:38,405: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638774870473769219[0m
+[rospy.internal][INFO] 2021-12-06 08:23:47,602: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638774870473769219], count 3[0m
+[rospy.internal][INFO] 2021-12-06 08:23:50,865: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638774870473769219[0m
+[rospy.internal][INFO] 2021-12-06 08:23:51,637: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638774870473769219], count 3[0m
+[rospy.internal][INFO] 2021-12-06 08:23:58,430: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638774870473769219[0m
+[rospy.internal][INFO] 2021-12-06 08:24:12,682: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/rviz_1638774870473769219], count 3[0m
+[rospy.internal][INFO] 2021-12-06 08:24:18,943: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /rviz_1638774870473769219[0m
+[rospy.internal][INFO] 2021-12-06 08:30:21,659: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /ss42/anti_instagram_node[0m
+[rospy.internal][INFO] 2021-12-06 08:30:22,820: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /ss42/line_detector_node[0m
+[rospy.internal][WARNING] 2021-12-06 08:30:22,865: [33mUnknown error initiating TCP/IP socket to ss42.local:39201 (http://ss42.local:46535/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+[0m
+[rospy.internal][INFO] 2021-12-06 08:30:22,866: [32mtopic[/ss42/camera_node/framerate_high_switch] removing connection to http://ss42.local:46535/[0m
+[rospy.core][INFO] 2021-12-06 08:30:22,907: [32msignal_shutdown [signal-2][0m
+[rospy.core][INFO] 2021-12-06 08:30:22,921: [32msignal_shutdown [atexit][0m

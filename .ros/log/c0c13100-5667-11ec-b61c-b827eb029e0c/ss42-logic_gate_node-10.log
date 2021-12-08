@@ -1,0 +1,30 @@
+[rospy.client][INFO] 2021-12-06 08:40:26,218: init_node, name[/ss42/logic_gate_node], pid[5248]
+[xmlrpc][INFO] 2021-12-06 08:40:26,239: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-06 08:40:26,241: Started XML-RPC server [http://ss42.local:38376/]
+[rospy.impl.masterslave][INFO] 2021-12-06 08:40:26,241: _ready: http://ss42.local:38376/
+[rospy.init][INFO] 2021-12-06 08:40:26,243: ROS Slave URI: [http://ss42.local:38376/]
+[rospy.registration][INFO] 2021-12-06 08:40:26,253: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-06 08:40:26,257: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-06 08:40:26,344: registered with master
+[rospy.rosout][INFO] 2021-12-06 08:40:26,345: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-06 08:40:26,410: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-06 08:40:26,509: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-06 08:40:26,722: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-06 08:40:27,391: topic[/ss42/joy_mapper_node/parallel_autonomy] adding connection to [http://ss42.local:37360/], count 0
+[rospy.internal][INFO] 2021-12-06 08:40:27,669: topic[/ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy] adding connection to [/ss42/fsm_node], count 0
+[rospy.internal][INFO] 2021-12-06 08:40:27,975: topic[/ss42/logic_gate_node/intersection_done_and_parallel_autonomy] adding connection to [/ss42/fsm_node], count 0
+[rospy.core][INFO] 2021-12-06 09:22:15,683: signal_shutdown [signal-2]
+[rosout][INFO] 2021-12-06 09:22:16,390: [/ss42/logic_gate_node] Shutting down.
+[rospy.internal][INFO] 2021-12-06 09:22:19,181: topic[/ss42/logic_gate_node/intersection_done_and_not_parallel_autonomy] removing connection to /ss42/fsm_node
+[rospy.internal][INFO] 2021-12-06 09:22:19,187: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-06 09:22:19,189: topic[/ss42/logic_gate_node/intersection_done_and_parallel_autonomy] removing connection to /ss42/fsm_node
+[rospy.internal][WARNING] 2021-12-06 09:22:19,208: Unknown error initiating TCP/IP socket to ss42.local:34990 (http://ss42.local:37360/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2021-12-06 09:22:19,209: topic[/ss42/joy_mapper_node/parallel_autonomy] removing connection to http://ss42.local:37360/
+[rospy.impl.masterslave][INFO] 2021-12-06 09:22:19,216: signal-2
+[rospy.core][INFO] 2021-12-06 09:22:19,911: signal_shutdown [atexit]

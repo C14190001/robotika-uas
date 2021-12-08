@@ -1,0 +1,54 @@
+[rospy.client][INFO] 2021-12-06 08:38:27,979: init_node, name[/ss42/car_cmd_switch_node], pid[1610]
+[xmlrpc][INFO] 2021-12-06 08:38:28,001: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2021-12-06 08:38:28,017: ROS Slave URI: [http://ss42.local:33569/]
+[xmlrpc][INFO] 2021-12-06 08:38:28,019: Started XML-RPC server [http://ss42.local:33569/]
+[rospy.impl.masterslave][INFO] 2021-12-06 08:38:28,022: _ready: http://ss42.local:33569/
+[rospy.registration][INFO] 2021-12-06 08:38:28,044: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-06 08:38:28,044: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-06 08:38:28,119: registered with master
+[rospy.rosout][INFO] 2021-12-06 08:38:28,120: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-06 08:38:28,177: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-06 08:38:28,216: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-06 08:38:28,416: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-06 08:38:28,626: topic[/ss42/fsm_node/mode] adding connection to [http://ss42.local:44999/], count 0
+[rospy.internal][INFO] 2021-12-06 08:38:29,121: topic[/ss42/joy_mapper_node/car_cmd] adding connection to [http://ss42.local:36461/], count 0
+[rosout][INFO] 2021-12-06 08:38:29,234: [/ss42/car_cmd_switch_node] Initialized. 
+[rosout][INFO] 2021-12-06 08:38:29,587: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rospy.internal][INFO] 2021-12-06 08:38:29,691: topic[/ss42/simple_coordinator_node/car_cmd] adding connection to [http://ss42.local:38353/], count 0
+[rospy.internal][INFO] 2021-12-06 08:38:29,754: topic[/ss42/lane_controller_node/car_cmd] adding connection to [http://ss42.local:42454/], count 0
+[rospy.internal][INFO] 2021-12-06 08:38:36,095: topic[/ss42/car_cmd_switch_node/cmd] adding connection to [/ss42/inverse_kinematics_node], count 0
+[rospy.internal][INFO] 2021-12-06 08:38:38,384: topic[/ss42/car_cmd_switch_node/cmd] adding connection to [/ss42/lane_filter_node], count 1
+[rospy.internal][ERROR] 2021-12-06 08:39:49,856: Unable to initiate TCP/IP socket to ss42.local:44599 (http://ss42.local:38353/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2021-12-06 08:39:50,351: topic[/ss42/car_cmd_switch_node/cmd] removing connection to /ss42/lane_filter_node
+[rospy.internal][ERROR] 2021-12-06 08:39:50,489: Unable to initiate TCP/IP socket to ss42.local:45509 (http://ss42.local:42454/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.core][INFO] 2021-12-06 08:39:50,632: signal_shutdown [signal-2]
+[rosout][INFO] 2021-12-06 08:39:50,633: [/ss42/car_cmd_switch_node] Shutting down.
+[rospy.internal][INFO] 2021-12-06 08:39:50,751: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-06 08:39:50,756: topic[/ss42/car_cmd_switch_node/cmd] removing connection to /ss42/inverse_kinematics_node
+[rospy.internal][WARNING] 2021-12-06 08:39:50,768: Unknown error initiating TCP/IP socket to ss42.local:35402 (http://ss42.local:44999/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2021-12-06 08:39:50,764: topic[/ss42/fsm_node/mode] removing connection to http://ss42.local:44999/
+[rospy.internal][INFO] 2021-12-06 08:39:50,770: topic[/ss42/lane_controller_node/car_cmd] removing connection to http://ss42.local:42454/
+[rospy.internal][INFO] 2021-12-06 08:39:50,771: topic[/ss42/joy_mapper_node/car_cmd] removing connection to http://ss42.local:36461/
+[rospy.internal][INFO] 2021-12-06 08:39:50,791: topic[/ss42/simple_coordinator_node/car_cmd] removing connection to http://ss42.local:38353/
+[rospy.impl.masterslave][INFO] 2021-12-06 08:39:50,796: signal-2
+[rospy.core][INFO] 2021-12-06 08:39:51,315: signal_shutdown [atexit]
