@@ -1,0 +1,22 @@
+[rospy.client][INFO] 2021-12-09 13:09:47,768: init_node, name[/ss42/duckiebot_visualizer], pid[7926]
+[xmlrpc][INFO] 2021-12-09 13:09:47,776: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-09 13:09:47,779: Started XML-RPC server [http://ss42.local:44287/]
+[rospy.impl.masterslave][INFO] 2021-12-09 13:09:47,780: _ready: http://ss42.local:44287/
+[rospy.init][INFO] 2021-12-09 13:09:47,782: ROS Slave URI: [http://ss42.local:44287/]
+[rospy.registration][INFO] 2021-12-09 13:09:47,805: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-09 13:09:47,806: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-09 13:09:47,883: registered with master
+[rospy.rosout][INFO] 2021-12-09 13:09:47,885: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-09 13:09:47,934: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-09 13:09:48,005: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-09 13:09:48,171: [/ss42/duckiebot_visualizer] Initialzing.
+[rospy.internal][INFO] 2021-12-09 13:09:48,185: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2021-12-09 13:09:48,262: [/ss42/duckiebot_visualizer] ~veh_name = ss42 
+[rosout][INFO] 2021-12-09 13:09:48,454: [/ss42/duckiebot_visualizer] Initialzed.
+[rospy.internal][INFO] 2021-12-09 13:10:01,365: topic[/ss42/ground_projection/lineseglist_out] adding connection to [http://ss42.local:36410/], count 0
+[rospy.core][INFO] 2021-12-09 13:39:38,558: signal_shutdown [signal-2]
+[rosout][INFO] 2021-12-09 13:39:38,559: [/ss42/duckiebot_visualizer] Shutting down.
+[rospy.internal][INFO] 2021-12-09 13:39:38,687: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-09 13:39:38,688: topic[/ss42/ground_projection/lineseglist_out] removing connection to http://ss42.local:36410/
+[rospy.impl.masterslave][INFO] 2021-12-09 13:39:38,690: signal-2
+[rospy.core][INFO] 2021-12-09 13:39:39,214: signal_shutdown [atexit]

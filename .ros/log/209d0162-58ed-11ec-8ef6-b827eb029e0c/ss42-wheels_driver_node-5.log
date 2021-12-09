@@ -1,0 +1,28 @@
+[rospy.client][INFO] 2021-12-09 13:40:14,628: init_node, name[/ss42/wheels_driver_node], pid[6266]
+[xmlrpc][INFO] 2021-12-09 13:40:14,648: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-09 13:40:14,650: Started XML-RPC server [http://ss42.local:35370/]
+[rospy.impl.masterslave][INFO] 2021-12-09 13:40:14,650: _ready: http://ss42.local:35370/
+[rospy.init][INFO] 2021-12-09 13:40:14,652: ROS Slave URI: [http://ss42.local:35370/]
+[rospy.registration][INFO] 2021-12-09 13:40:14,665: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-09 13:40:14,674: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-09 13:40:14,753: registered with master
+[rospy.rosout][INFO] 2021-12-09 13:40:14,753: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-09 13:40:14,794: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-09 13:40:14,848: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-09 13:40:14,946: [/ss42/wheels_driver_node] Initializing 
+[rospy.internal][INFO] 2021-12-09 13:40:15,052: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-09 13:40:15,947: topic[/ss42/wheels_driver_node/emergency_stop] adding connection to [http://ss42.local:42175/], count 0
+[rospy.internal][INFO] 2021-12-09 13:40:21,914: topic[/ss42/wheels_driver_node/wheels_cmd] adding connection to [http://ss42.local:39403/], count 0
+[rosout][INFO] 2021-12-09 13:40:25,216: [%s] Emergency Stop Activated
+[rosout][INFO] 2021-12-09 13:40:25,851: [%s] Emergency Stop Released
+[rospy.internal][ERROR] 2021-12-09 14:07:45,793: Unable to initiate TCP/IP socket to ss42.local:32778 (http://ss42.local:42175/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.core][INFO] 2021-12-09 14:07:45,859: signal_shutdown [signal-2]
+[rospy.core][INFO] 2021-12-09 14:07:45,871: signal_shutdown [atexit]

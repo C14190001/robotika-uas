@@ -1,0 +1,43 @@
+[rospy.client][INFO] 2021-12-09 13:10:02,850: [32minit_node, name[/ss42/anti_instagram_node], pid[7943][0m
+[xmlrpc][INFO] 2021-12-09 13:10:02,852: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[xmlrpc][INFO] 2021-12-09 13:10:02,855: [32mStarted XML-RPC server [http://ss42.local:34150/][0m
+[rospy.init][INFO] 2021-12-09 13:10:02,856: [32mROS Slave URI: [http://ss42.local:34150/][0m
+[rospy.impl.masterslave][INFO] 2021-12-09 13:10:02,857: [32m_ready: http://ss42.local:34150/[0m
+[rospy.registration][INFO] 2021-12-09 13:10:02,862: [32mRegistering with master node http://ss42.local:11311/[0m
+[xmlrpc][INFO] 2021-12-09 13:10:02,863: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.init][INFO] 2021-12-09 13:10:02,958: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-12-09 13:10:02,960: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-12-09 13:10:02,983: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-12-09 13:10:02,994: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rospy.internal][INFO] 2021-12-09 13:10:03,154: [32mtopic[/ss42/anti_instagram_node/click] adding connection to [http://ss42.local:35336/], count 0[0m
+[rospy.internal][INFO] 2021-12-09 13:10:03,160: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [http://ss42.local:40395/], count 0[0m
+[rospy.internal][INFO] 2021-12-09 13:10:03,344: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rospy.internal][INFO] 2021-12-09 13:10:03,463: [32mtopic[/ss42/anti_instagram_node/transform] adding connection to [/ss42/line_detector_node], count 0[0m
+[rosout][INFO] 2021-12-09 13:11:57,855: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-09 13:12:00,585: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-09 13:12:00,639: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-09 13:29:05,612: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-09 13:29:06,925: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-09 13:29:08,097: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-09 13:29:08,120: [32mai: Color transform published.[0m
+[rosout][INFO] 2021-12-09 13:33:56,948: [32mai: Color transform is turned OFF![0m
+[rosout][INFO] 2021-12-09 13:33:57,812: [32mai: Computing color transform...[0m
+[DT][INFO] 2021-12-09 13:33:59,710: [32mpicked 3 colors[0m
+[rosout][INFO] 2021-12-09 13:33:59,731: [32mai: Color transform published.[0m
+[rospy.core][INFO] 2021-12-09 13:39:38,499: [32msignal_shutdown [signal-2][0m
+[rospy.internal][INFO] 2021-12-09 13:39:38,537: [32mtopic[/ss42/anti_instagram_node/transform] removing connection to /ss42/line_detector_node[0m
+[rospy.internal][INFO] 2021-12-09 13:39:38,555: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-12-09 13:39:38,563: [32mtopic[/ss42/anti_instagram_node/click] removing connection to http://ss42.local:35336/[0m
+[rospy.internal][INFO] 2021-12-09 13:39:38,575: [32mtopic[/ss42/camera_node/image/compressed] removing connection to http://ss42.local:40395/[0m
+[rospy.internal][WARNING] 2021-12-09 13:39:38,583: [33mUnknown error initiating TCP/IP socket to ss42.local:36744 (http://ss42.local:35336/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+[0m
+[rospy.impl.masterslave][INFO] 2021-12-09 13:39:38,585: [32msignal-2[0m
+[rospy.internal][WARNING] 2021-12-09 13:39:38,591: [33mUnknown error initiating TCP/IP socket to ss42.local:37058 (http://ss42.local:40395/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+[0m
+[rospy.core][INFO] 2021-12-09 13:39:39,119: [32msignal_shutdown [atexit][0m

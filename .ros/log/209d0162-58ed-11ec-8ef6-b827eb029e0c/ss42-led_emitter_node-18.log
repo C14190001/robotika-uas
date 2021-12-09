@@ -1,0 +1,24 @@
+[rospy.client][INFO] 2021-12-09 13:40:15,418: init_node, name[/ss42/led_emitter_node], pid[6313]
+[xmlrpc][INFO] 2021-12-09 13:40:15,467: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2021-12-09 13:40:15,476: ROS Slave URI: [http://ss42.local:39366/]
+[xmlrpc][INFO] 2021-12-09 13:40:15,477: Started XML-RPC server [http://ss42.local:39366/]
+[rospy.impl.masterslave][INFO] 2021-12-09 13:40:15,478: _ready: http://ss42.local:39366/
+[rospy.registration][INFO] 2021-12-09 13:40:15,490: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-09 13:40:15,493: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-09 13:40:15,578: registered with master
+[rospy.rosout][INFO] 2021-12-09 13:40:15,579: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-09 13:40:15,641: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-09 13:40:15,715: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-09 13:40:15,872: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2021-12-09 13:40:16,276: changePattern('CAR_SIGNAL_A')
+[rospy.internal][INFO] 2021-12-09 13:40:16,302: topic[/ss42/led_emitter_node/switch] adding connection to [http://ss42.local:37334/], count 0
+[rospy.core][INFO] 2021-12-09 14:07:45,248: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-12-09 14:07:45,341: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-09 14:07:45,347: topic[/ss42/led_emitter_node/switch] removing connection to http://ss42.local:37334/
+[rospy.impl.masterslave][INFO] 2021-12-09 14:07:45,349: signal-2
+[rospy.internal][WARNING] 2021-12-09 14:07:45,355: Unknown error initiating TCP/IP socket to ss42.local:36900 (http://ss42.local:37334/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2021-12-09 14:07:45,922: signal_shutdown [atexit]

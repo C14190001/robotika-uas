@@ -1,0 +1,37 @@
+[rospy.client][INFO] 2021-12-09 14:08:57,150: [32minit_node, name[/ss42/lane_filter_node], pid[28890][0m
+[xmlrpc][INFO] 2021-12-09 14:08:57,165: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[xmlrpc][INFO] 2021-12-09 14:08:57,172: [32mStarted XML-RPC server [http://ss42.local:42062/][0m
+[rospy.init][INFO] 2021-12-09 14:08:57,173: [32mROS Slave URI: [http://ss42.local:42062/][0m
+[rospy.impl.masterslave][INFO] 2021-12-09 14:08:57,174: [32m_ready: http://ss42.local:42062/[0m
+[xmlrpc][INFO] 2021-12-09 14:08:57,187: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.registration][INFO] 2021-12-09 14:08:57,190: [32mRegistering with master node http://ss42.local:11311/[0m
+[rospy.init][INFO] 2021-12-09 14:08:57,275: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-12-09 14:08:57,276: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-12-09 14:08:57,302: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-12-09 14:08:57,318: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rosout][INFO] 2021-12-09 14:08:57,364: [32m[Lane Filter] new filter config: ['lane_filter.LaneFilterHistogram', {'configuration': {'phi_max': 1.5, 'lanewidth': 0.23, 'mean_d_0': 0, 'min_max': 0.1, 'phi_min': -1.5, 'd_max': 0.3, 'sigma_phi_mask': 2.0, 'sigma_d_mask': 1.0, 'mean_phi_0': 0, 'sigma_phi_0': 0.1, 'linewidth_white': 0.05, 'linewidth_yellow': 0.025, 'delta_d': 0.02, 'd_min': -0.15, 'delta_phi': 0.1, 'sigma_d_0': 0.1, 'cov_v': 0.5}}][0m
+[rospy.internal][INFO] 2021-12-09 14:08:57,733: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rospy.internal][INFO] 2021-12-09 14:08:58,767: [32mtopic[/ss42/ground_projection/lineseglist_out] adding connection to [http://ss42.local:38051/], count 0[0m
+[rospy.internal][INFO] 2021-12-09 14:08:58,793: [32mtopic[/ss42/lane_filter_node/switch] adding connection to [http://ss42.local:43686/], count 0[0m
+[rospy.internal][INFO] 2021-12-09 14:08:58,844: [32mtopic[/ss42/lane_filter_node/lane_pose] adding connection to [/ss42/lane_controller_node], count 0[0m
+[rospy.internal][INFO] 2021-12-09 14:08:58,848: [32mtopic[/ss42/car_cmd_switch_node/cmd] adding connection to [http://ss42.local:37467/], count 0[0m
+[rospy.internal][INFO] 2021-12-09 14:08:58,875: [32mtopic[/ss42/lane_filter_node/lane_pose] adding connection to [/ss42/lane_pose_visualizer_node], count 1[0m
+[rospy.core][INFO] 2021-12-09 14:53:44,536: [32msignal_shutdown [signal-2][0m
+[rosout][INFO] 2021-12-09 14:53:44,536: [32m[LaneFilterNode] Shutdown.[0m
+[rospy.internal][INFO] 2021-12-09 14:53:44,567: [32mtopic[/ss42/lane_filter_node/lane_pose] removing connection to /ss42/lane_controller_node[0m
+[rospy.internal][ERROR] 2021-12-09 14:53:44,754: [31mUnable to initiate TCP/IP socket to ss42.local:46259 (http://ss42.local:38051/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+[0m
+[rospy.internal][INFO] 2021-12-09 14:53:44,754: [32mtopic[/ss42/lane_filter_node/lane_pose] removing connection to /ss42/lane_pose_visualizer_node[0m
+[rospy.internal][INFO] 2021-12-09 14:53:44,756: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-12-09 14:53:44,760: [32mtopic[/ss42/ground_projection/lineseglist_out] removing connection to http://ss42.local:38051/[0m
+[rospy.internal][INFO] 2021-12-09 14:53:44,762: [32mtopic[/ss42/lane_filter_node/switch] removing connection to http://ss42.local:43686/[0m
+[rospy.internal][INFO] 2021-12-09 14:53:44,768: [32mtopic[/ss42/car_cmd_switch_node/cmd] removing connection to http://ss42.local:37467/[0m
+[rospy.impl.masterslave][INFO] 2021-12-09 14:53:44,769: [32msignal-2[0m
+[rospy.core][INFO] 2021-12-09 14:53:45,185: [32msignal_shutdown [atexit][0m

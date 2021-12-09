@@ -1,0 +1,28 @@
+[rospy.client][INFO] 2021-12-09 14:08:51,299: init_node, name[/ss42/fake_coordinator_node], pid[28904]
+[xmlrpc][INFO] 2021-12-09 14:08:51,315: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2021-12-09 14:08:51,317: ROS Slave URI: [http://ss42.local:37134/]
+[xmlrpc][INFO] 2021-12-09 14:08:51,318: Started XML-RPC server [http://ss42.local:37134/]
+[rospy.impl.masterslave][INFO] 2021-12-09 14:08:51,318: _ready: http://ss42.local:37134/
+[xmlrpc][INFO] 2021-12-09 14:08:51,328: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-12-09 14:08:51,333: Registering with master node http://ss42.local:11311/
+[rospy.init][INFO] 2021-12-09 14:08:51,418: registered with master
+[rospy.rosout][INFO] 2021-12-09 14:08:51,419: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-09 14:08:51,470: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-09 14:08:51,529: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-09 14:08:51,695: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-09 14:08:52,079: topic[/ss42/fsm_node/mode] adding connection to [http://ss42.local:43686/], count 0
+[rospy.internal][INFO] 2021-12-09 14:08:52,388: topic[/ss42/simple_coordinator_node/car_cmd] adding connection to [/ss42/car_cmd_switch_node], count 0
+[rospy.internal][INFO] 2021-12-09 14:08:52,778: topic[/ss42/simple_coordinator_node/intersection_go] adding connection to [/ss42/fsm_node], count 0
+[rospy.core][INFO] 2021-12-09 14:53:44,471: signal_shutdown [signal-2]
+[rosout][INFO] 2021-12-09 14:53:44,471: [LaneFilterNode] Shutdown.
+[rospy.internal][INFO] 2021-12-09 14:53:44,650: topic[/ss42/simple_coordinator_node/intersection_go] removing connection to /ss42/fsm_node
+[rospy.internal][INFO] 2021-12-09 14:53:44,651: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-09 14:53:44,655: topic[/ss42/simple_coordinator_node/car_cmd] removing connection to /ss42/car_cmd_switch_node
+[rospy.internal][INFO] 2021-12-09 14:53:44,678: topic[/ss42/fsm_node/mode] removing connection to http://ss42.local:43686/
+[rospy.impl.masterslave][INFO] 2021-12-09 14:53:44,680: signal-2
+[rospy.internal][WARNING] 2021-12-09 14:53:44,683: Unknown error initiating TCP/IP socket to ss42.local:44474 (http://ss42.local:43686/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2021-12-09 14:53:45,098: signal_shutdown [atexit]

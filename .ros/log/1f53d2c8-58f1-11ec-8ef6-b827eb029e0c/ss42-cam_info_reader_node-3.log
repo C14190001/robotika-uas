@@ -1,0 +1,47 @@
+[rospy.client][INFO] 2021-12-09 14:08:56,635: [32minit_node, name[/ss42/cam_info_reader_node], pid[28854][0m
+[xmlrpc][INFO] 2021-12-09 14:08:56,648: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[rospy.init][INFO] 2021-12-09 14:08:56,651: [32mROS Slave URI: [http://ss42.local:38962/][0m
+[xmlrpc][INFO] 2021-12-09 14:08:56,652: [32mStarted XML-RPC server [http://ss42.local:38962/][0m
+[rospy.impl.masterslave][INFO] 2021-12-09 14:08:56,653: [32m_ready: http://ss42.local:38962/[0m
+[rospy.registration][INFO] 2021-12-09 14:08:56,669: [32mRegistering with master node http://ss42.local:11311/[0m
+[xmlrpc][INFO] 2021-12-09 14:08:56,670: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.init][INFO] 2021-12-09 14:08:56,753: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-12-09 14:08:56,753: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-12-09 14:08:56,778: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-12-09 14:08:56,793: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rosout][INFO] 2021-12-09 14:08:56,911: [32m[/ss42/cam_info_reader_node] ~config = baseline [0m
+[rosout][INFO] 2021-12-09 14:08:56,972: [32m[/ss42/cam_info_reader_node] ~cali_file_name = ss42 [0m
+[rospy.internal][INFO] 2021-12-09 14:08:57,040: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rosout][INFO] 2021-12-09 14:08:57,071: [32m[/ss42/cam_info_reader_node] ~image_type = compressed [0m
+[rosout][INFO] 2021-12-09 14:08:57,096: [32m[/ss42/cam_info_reader_node] Using calibration file: /home/robotikabot/duckiefleet/calibrations/camera_intrinsic/ss42.yaml[0m
+[rosout][INFO] 2021-12-09 14:08:57,196: [32m[/ss42/cam_info_reader_node] CameraInfo: header: 
+  seq: 0
+  stamp: 
+    secs: 0
+    nsecs:         0
+  frame_id: "/ss42/camera_optical_frame"
+height: 480
+width: 640
+distortion_model: "plumb_bob"
+D: [-0.28641390045488485, 0.06209789284600532, -0.0001318435562548337, 0.0031223920632866965, 0.0]
+K: [341.7458993299522, 0.0, 320.3474156981522, 0.0, 333.0071183936255, 227.2769727771955, 0.0, 0.0, 1.0]
+R: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+P: [239.97491455078125, 0.0, 324.3419250574734, 0.0, 0.0, 270.124755859375, 220.02747465779248, 0.0, 0.0, 0.0, 1.0, 0.0]
+binning_x: 0
+binning_y: 0
+roi: 
+  x_offset: 0
+  y_offset: 0
+  height: 0
+  width: 0
+  do_rectify: False[0m
+[rosout][WARNING] 2021-12-09 14:08:57,201: [33m[/ss42/cam_info_reader_node] ==============CompressedImage[0m
+[rospy.internal][INFO] 2021-12-09 14:08:57,239: [32mtopic[/ss42/camera_node/camera_info] adding connection to [/ss42/ground_projection], count 0[0m
+[rospy.internal][INFO] 2021-12-09 14:08:57,602: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [http://ss42.local:41334/], count 0[0m
+[rospy.internal][INFO] 2021-12-09 14:08:57,760: [32mtopic[/ss42/camera_node/camera_info] removing connection to /ss42/ground_projection[0m
+[rospy.core][INFO] 2021-12-09 14:53:45,754: [32msignal_shutdown [signal-2][0m
+[rosout][INFO] 2021-12-09 14:53:45,755: [32m[/ss42/cam_info_reader_node] Shutdown.[0m
+[rospy.internal][INFO] 2021-12-09 14:53:45,809: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-12-09 14:53:45,816: [32mtopic[/ss42/camera_node/image/compressed] removing connection to http://ss42.local:41334/[0m
+[rospy.impl.masterslave][INFO] 2021-12-09 14:53:45,817: [32msignal-2[0m
+[rospy.core][INFO] 2021-12-09 14:53:46,385: [32msignal_shutdown [atexit][0m

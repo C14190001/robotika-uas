@@ -1,0 +1,45 @@
+[rospy.client][INFO] 2021-12-09 14:08:56,585: [32minit_node, name[/ss42/camera_node], pid[28853][0m
+[xmlrpc][INFO] 2021-12-09 14:08:56,598: [32mXML-RPC server binding to 0.0.0.0:0[0m
+[rospy.init][INFO] 2021-12-09 14:08:56,601: [32mROS Slave URI: [http://ss42.local:41334/][0m
+[xmlrpc][INFO] 2021-12-09 14:08:56,601: [32mStarted XML-RPC server [http://ss42.local:41334/][0m
+[rospy.impl.masterslave][INFO] 2021-12-09 14:08:56,603: [32m_ready: http://ss42.local:41334/[0m
+[xmlrpc][INFO] 2021-12-09 14:08:56,618: [32mxml rpc node: starting XML-RPC server[0m
+[rospy.registration][INFO] 2021-12-09 14:08:56,620: [32mRegistering with master node http://ss42.local:11311/[0m
+[rospy.init][INFO] 2021-12-09 14:08:56,702: [32mregistered with master[0m
+[rospy.rosout][INFO] 2021-12-09 14:08:56,703: [32minitializing /rosout core topic[0m
+[rospy.rosout][INFO] 2021-12-09 14:08:56,735: [32mconnected to core topic /rosout[0m
+[rospy.simtime][INFO] 2021-12-09 14:08:56,746: [32m/use_sim_time is not set, will not subscribe to simulated time [/clock] topic[0m
+[rosout][INFO] 2021-12-09 14:08:56,825: [32m[/ss42/camera_node] Initializing......[0m
+[rosout][INFO] 2021-12-09 14:08:56,881: [32m[/ss42/camera_node] ~framerate_high = 30 [0m
+[rosout][INFO] 2021-12-09 14:08:56,933: [32m[/ss42/camera_node] ~framerate_low = 15 [0m
+[rosout][INFO] 2021-12-09 14:08:56,993: [32m[/ss42/camera_node] ~res_w = 640 [0m
+[rospy.internal][INFO] 2021-12-09 14:08:57,041: [32mtopic[/rosout] adding connection to [/rosout], count 0[0m
+[rosout][INFO] 2021-12-09 14:08:57,082: [32m[/ss42/camera_node] ~res_h = 480 [0m
+[rosout][INFO] 2021-12-09 14:08:57,597: [32m[/ss42/camera_node] Initialized.[0m
+[rosout][INFO] 2021-12-09 14:08:57,607: [32m[/ss42/camera_node] Start capturing.[0m
+[rospy.internal][INFO] 2021-12-09 14:08:57,630: [32mtopic[/ss42/camera_node/framerate_high_switch] adding connection to [http://ss42.local:43686/], count 0[0m
+[rospy.internal][INFO] 2021-12-09 14:08:57,648: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/ss42/cam_info_reader_node], count 0[0m
+[rosout][INFO] 2021-12-09 14:08:57,689: [32m[/ss42/camera_node] Published the first image.[0m
+[rospy.internal][INFO] 2021-12-09 14:08:59,460: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/ss42/line_detector_node], count 1[0m
+[rospy.internal][INFO] 2021-12-09 14:08:59,476: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/ss42/anti_instagram_node], count 2[0m
+[rospy.internal][INFO] 2021-12-09 14:53:44,565: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /ss42/anti_instagram_node[0m
+[rospy.internal][INFO] 2021-12-09 14:53:44,828: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /ss42/line_detector_node[0m
+[rospy.internal][ERROR] 2021-12-09 14:53:45,571: [31mUnable to initiate TCP/IP socket to ss42.local:44474 (http://ss42.local:43686/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+[0m
+[rospy.internal][INFO] 2021-12-09 14:53:45,814: [32mtopic[/ss42/camera_node/image/compressed] adding connection to [/ss42/cam_info_reader_node], count 1[0m
+[rospy.internal][INFO] 2021-12-09 14:53:45,815: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /ss42/cam_info_reader_node[0m
+[rospy.internal][INFO] 2021-12-09 14:53:45,860: [32mtopic[/ss42/camera_node/image/compressed] removing connection to /ss42/cam_info_reader_node[0m
+[rospy.core][INFO] 2021-12-09 14:53:45,869: [32msignal_shutdown [signal-2][0m
+[rosout][INFO] 2021-12-09 14:53:45,870: [32m[/ss42/camera_node] Closing camera.[0m
+[rosout][INFO] 2021-12-09 14:53:45,871: [32m[/ss42/camera_node] Shutdown.[0m
+[rospy.internal][INFO] 2021-12-09 14:53:45,890: [32mtopic[/rosout] removing connection to /rosout[0m
+[rospy.internal][INFO] 2021-12-09 14:53:45,892: [32mtopic[/ss42/camera_node/framerate_high_switch] removing connection to http://ss42.local:43686/[0m
+[rospy.impl.masterslave][INFO] 2021-12-09 14:53:45,894: [32msignal-2[0m
+[rospy.core][INFO] 2021-12-09 14:53:46,008: [32msignal_shutdown [atexit][0m

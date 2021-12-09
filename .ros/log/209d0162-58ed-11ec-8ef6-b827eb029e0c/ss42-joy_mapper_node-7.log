@@ -1,0 +1,94 @@
+[rospy.client][INFO] 2021-12-09 13:40:14,618: init_node, name[/ss42/joy_mapper_node], pid[6268]
+[xmlrpc][INFO] 2021-12-09 13:40:14,653: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-09 13:40:14,666: Started XML-RPC server [http://ss42.local:42175/]
+[rospy.init][INFO] 2021-12-09 13:40:14,667: ROS Slave URI: [http://ss42.local:42175/]
+[rospy.impl.masterslave][INFO] 2021-12-09 13:40:14,668: _ready: http://ss42.local:42175/
+[rospy.registration][INFO] 2021-12-09 13:40:14,689: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-09 13:40:14,689: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-09 13:40:14,769: registered with master
+[rospy.rosout][INFO] 2021-12-09 13:40:14,770: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-09 13:40:14,816: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-09 13:40:14,866: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-09 13:40:14,982: [/ss42/joy_mapper_node] Initializing 
+[rospy.internal][INFO] 2021-12-09 13:40:15,085: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2021-12-09 13:40:15,149: [/ss42/joy_mapper_node] ~speed_gain = 0.41 
+[rosout][INFO] 2021-12-09 13:40:15,292: [/ss42/joy_mapper_node] ~steer_gain = 8.3 
+[rosout][INFO] 2021-12-09 13:40:15,403: [/ss42/joy_mapper_node] ~bicycle_kinematics = 0.0 
+[rosout][INFO] 2021-12-09 13:40:15,509: [/ss42/joy_mapper_node] ~steer_angle_gain = 1.04 
+[rosout][INFO] 2021-12-09 13:40:15,581: [/ss42/joy_mapper_node] ~simulated_vehicle_length = 0.18 
+[rospy.internal][INFO] 2021-12-09 13:40:15,776: topic[/ss42/joy_mapper_node/car_cmd] adding connection to [/ss42/car_cmd_switch_node], count 0
+[rospy.internal][INFO] 2021-12-09 13:40:16,053: topic[/ss42/wheels_driver_node/emergency_stop] adding connection to [/ss42/wheels_driver_node], count 0
+[rospy.internal][INFO] 2021-12-09 13:40:16,066: topic[/ss42/joy] adding connection to [http://ss42.local:46167/], count 0
+[rospy.internal][INFO] 2021-12-09 13:40:17,289: topic[/ss42/joy_mapper_node/start_avoidance] adding connection to [/ss42/fsm_node], count 0
+[rospy.internal][INFO] 2021-12-09 13:40:17,299: topic[/ss42/joy_mapper_node/parallel_autonomy] adding connection to [/ss42/fsm_node], count 0
+[rospy.internal][INFO] 2021-12-09 13:40:17,308: topic[/ss42/joy_mapper_node/joystick_override] adding connection to [/ss42/fsm_node], count 0
+[rospy.internal][INFO] 2021-12-09 13:40:17,549: topic[/ss42/joy_mapper_node/parallel_autonomy] adding connection to [/ss42/logic_gate_node], count 1
+[rospy.internal][INFO] 2021-12-09 13:40:24,234: topic[/ss42/anti_instagram_node/click] adding connection to [/ss42/anti_instagram_node], count 0
+[rosout][INFO] 2021-12-09 13:40:25,204: E-stop message
+[rosout][INFO] 2021-12-09 13:40:25,849: E-stop message
+[rosout][INFO] 2021-12-09 13:40:27,338: override_msg = True
+[rosout][INFO] 2021-12-09 13:42:06,225: anti_instagram message
+[rosout][INFO] 2021-12-09 13:42:30,301: override_msg = False
+[rosout][INFO] 2021-12-09 13:42:41,079: override_msg = True
+[rosout][INFO] 2021-12-09 13:42:51,323: override_msg = False
+[rosout][INFO] 2021-12-09 13:43:01,024: override_msg = True
+[rosout][INFO] 2021-12-09 13:44:21,698: override_msg = False
+[rosout][INFO] 2021-12-09 13:44:32,686: override_msg = True
+[rosout][INFO] 2021-12-09 13:44:36,644: state_parallel_autonomy = True
+[rosout][INFO] 2021-12-09 13:44:37,420: state_parallel_autonomy = False
+[rosout][INFO] 2021-12-09 13:44:37,440: state_parallel_autonomy = True
+[rosout][INFO] 2021-12-09 13:44:37,496: state_parallel_autonomy = False
+[rosout][INFO] 2021-12-09 13:44:37,520: state_parallel_autonomy = True
+[rosout][INFO] 2021-12-09 13:44:38,084: state_parallel_autonomy = False
+[rosout][INFO] 2021-12-09 13:44:38,529: state_parallel_autonomy = True
+[rosout][INFO] 2021-12-09 13:44:39,256: state_parallel_autonomy = False
+[rosout][INFO] 2021-12-09 13:44:42,945: state_parallel_autonomy = True
+[rosout][INFO] 2021-12-09 13:44:44,877: override_msg = True
+[rosout][INFO] 2021-12-09 13:44:48,838: override_msg = False
+[rosout][INFO] 2021-12-09 13:45:00,652: override_msg = True
+[rosout][INFO] 2021-12-09 13:45:28,243: override_msg = False
+[rosout][INFO] 2021-12-09 13:45:39,340: override_msg = True
+[rosout][INFO] 2021-12-09 13:47:51,736: override_msg = False
+[rosout][INFO] 2021-12-09 13:48:07,162: override_msg = True
+[rosout][INFO] 2021-12-09 13:48:43,075: override_msg = False
+[rosout][INFO] 2021-12-09 13:49:11,611: override_msg = True
+[rosout][INFO] 2021-12-09 13:49:26,930: override_msg = False
+[rosout][INFO] 2021-12-09 13:50:12,605: override_msg = True
+[rosout][INFO] 2021-12-09 13:50:16,784: override_msg = False
+[rosout][INFO] 2021-12-09 13:50:27,494: override_msg = True
+[rosout][INFO] 2021-12-09 13:52:28,694: override_msg = False
+[rosout][INFO] 2021-12-09 13:55:13,897: override_msg = True
+[rosout][INFO] 2021-12-09 13:55:31,586: override_msg = False
+[rosout][INFO] 2021-12-09 13:55:42,252: override_msg = True
+[rosout][INFO] 2021-12-09 13:56:06,320: override_msg = False
+[rosout][INFO] 2021-12-09 13:57:34,832: override_msg = True
+[rosout][INFO] 2021-12-09 13:57:52,798: anti_instagram message
+[rosout][INFO] 2021-12-09 13:57:54,555: anti_instagram message
+[rosout][INFO] 2021-12-09 13:58:42,725: override_msg = False
+[rosout][INFO] 2021-12-09 13:59:48,442: override_msg = True
+[rosout][INFO] 2021-12-09 14:00:11,657: override_msg = False
+[rosout][INFO] 2021-12-09 14:01:07,361: override_msg = True
+[rosout][INFO] 2021-12-09 14:01:42,786: override_msg = False
+[rosout][INFO] 2021-12-09 14:01:48,959: override_msg = True
+[rosout][INFO] 2021-12-09 14:01:51,596: override_msg = False
+[rosout][INFO] 2021-12-09 14:03:12,980: override_msg = True
+[rosout][INFO] 2021-12-09 14:03:51,574: override_msg = False
+[rosout][INFO] 2021-12-09 14:04:43,888: override_msg = True
+[rosout][INFO] 2021-12-09 14:04:58,540: override_msg = False
+[rosout][INFO] 2021-12-09 14:05:26,914: override_msg = True
+[rosout][INFO] 2021-12-09 14:05:40,838: override_msg = False
+[rosout][INFO] 2021-12-09 14:05:54,977: override_msg = True
+[rosout][INFO] 2021-12-09 14:05:59,233: override_msg = False
+[rosout][INFO] 2021-12-09 14:06:09,199: override_msg = True
+[rospy.internal][INFO] 2021-12-09 14:07:45,622: topic[/ss42/anti_instagram_node/click] removing connection to /ss42/anti_instagram_node
+[rospy.core][INFO] 2021-12-09 14:07:45,700: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-12-09 14:07:45,777: topic[/ss42/joy_mapper_node/joystick_override] removing connection to /ss42/fsm_node
+[rospy.internal][INFO] 2021-12-09 14:07:45,779: topic[/ss42/wheels_driver_node/emergency_stop] removing connection to /ss42/wheels_driver_node
+[rospy.internal][INFO] 2021-12-09 14:07:45,792: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-09 14:07:45,794: topic[/ss42/joy_mapper_node/parallel_autonomy] removing connection to /ss42/fsm_node
+[rospy.internal][INFO] 2021-12-09 14:07:45,797: topic[/ss42/joy_mapper_node/parallel_autonomy] removing connection to /ss42/logic_gate_node
+[rospy.internal][INFO] 2021-12-09 14:07:45,798: topic[/ss42/joy_mapper_node/start_avoidance] removing connection to /ss42/fsm_node
+[rospy.internal][INFO] 2021-12-09 14:07:45,799: topic[/ss42/joy_mapper_node/car_cmd] removing connection to /ss42/car_cmd_switch_node
+[rospy.internal][INFO] 2021-12-09 14:07:45,818: topic[/ss42/joy] removing connection to http://ss42.local:46167/
+[rospy.impl.masterslave][INFO] 2021-12-09 14:07:45,821: signal-2
+[rospy.core][INFO] 2021-12-09 14:07:46,344: signal_shutdown [atexit]

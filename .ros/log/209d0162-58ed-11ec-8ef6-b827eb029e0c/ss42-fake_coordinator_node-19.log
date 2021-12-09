@@ -1,0 +1,17 @@
+[rospy.client][INFO] 2021-12-09 13:40:15,890: init_node, name[/ss42/fake_coordinator_node], pid[6314]
+[xmlrpc][INFO] 2021-12-09 13:40:15,902: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2021-12-09 13:40:15,929: ROS Slave URI: [http://ss42.local:42708/]
+[xmlrpc][INFO] 2021-12-09 13:40:15,929: Started XML-RPC server [http://ss42.local:42708/]
+[rospy.impl.masterslave][INFO] 2021-12-09 13:40:15,930: _ready: http://ss42.local:42708/
+[xmlrpc][INFO] 2021-12-09 13:40:15,931: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-12-09 13:40:15,934: Registering with master node http://ss42.local:11311/
+[rospy.init][INFO] 2021-12-09 13:40:16,030: registered with master
+[rospy.rosout][INFO] 2021-12-09 13:40:16,031: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-09 13:40:16,090: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-09 13:40:16,152: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-09 13:40:16,319: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-09 13:40:16,599: topic[/ss42/fsm_node/mode] adding connection to [http://ss42.local:37334/], count 0
+[rospy.internal][INFO] 2021-12-09 13:40:16,691: topic[/ss42/simple_coordinator_node/car_cmd] adding connection to [/ss42/car_cmd_switch_node], count 0
+[rospy.internal][INFO] 2021-12-09 13:40:17,295: topic[/ss42/simple_coordinator_node/intersection_go] adding connection to [/ss42/fsm_node], count 0
+[rospy.core][INFO] 2021-12-09 14:07:45,241: signal_shutdown [signal-2]
+[rospy.core][INFO] 2021-12-09 14:07:45,254: signal_shutdown [atexit]

@@ -1,0 +1,40 @@
+[rospy.client][INFO] 2021-12-09 14:08:49,695: init_node, name[/ss42/wheels_driver_node], pid[28856]
+[xmlrpc][INFO] 2021-12-09 14:08:49,738: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-09 14:08:49,739: Started XML-RPC server [http://ss42.local:39076/]
+[rospy.impl.masterslave][INFO] 2021-12-09 14:08:49,740: _ready: http://ss42.local:39076/
+[rospy.init][INFO] 2021-12-09 14:08:49,741: ROS Slave URI: [http://ss42.local:39076/]
+[rospy.registration][INFO] 2021-12-09 14:08:49,744: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-09 14:08:49,744: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-09 14:08:49,842: registered with master
+[rospy.rosout][INFO] 2021-12-09 14:08:49,843: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-09 14:08:49,876: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-09 14:08:49,908: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-09 14:08:49,952: [/ss42/wheels_driver_node] Initializing 
+[rospy.internal][INFO] 2021-12-09 14:08:50,219: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-09 14:08:50,677: topic[/ss42/wheels_driver_node/emergency_stop] adding connection to [http://ss42.local:36077/], count 0
+[rospy.internal][INFO] 2021-12-09 14:08:57,850: topic[/ss42/wheels_driver_node/wheels_cmd] adding connection to [http://ss42.local:33589/], count 0
+[rospy.internal][ERROR] 2021-12-09 14:53:45,620: Unable to initiate TCP/IP socket to ss42.local:44078 (http://ss42.local:36077/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.core][INFO] 2021-12-09 14:53:45,674: signal_shutdown [signal-2]
+[rosout][INFO] 2021-12-09 14:53:45,686: [/ss42/wheels_driver_node] Shutting down.
+[rospy.internal][ERROR] 2021-12-09 14:53:45,750: Unable to initiate TCP/IP socket to ss42.local:42322 (http://ss42.local:33589/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2021-12-09 14:53:45,751: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-09 14:53:45,754: topic[/ss42/wheels_driver_node/emergency_stop] removing connection to http://ss42.local:36077/
+[rospy.internal][INFO] 2021-12-09 14:53:45,756: topic[/ss42/wheels_driver_node/wheels_cmd] removing connection to http://ss42.local:33589/
+[rospy.impl.masterslave][INFO] 2021-12-09 14:53:45,758: signal-2
+[rospy.core][INFO] 2021-12-09 14:53:46,377: signal_shutdown [atexit]

@@ -629,3 +629,19 @@ source environment.sh
 source set_ros_master.sh ss42
 source set_vehicle_name.sh ss42
 roslaunch duckietown_demos lane_following.launch veh:=ss42
+cd duckietown
+source environment.sh 
+source set_ros_master.sh ss42
+source set_vehicle_name.sh ss42
+roslaunch duckietown_demos lane_following.launch veh:=ss42
+cd
+git status
+git add .
+git commit -m "Kalibrasi parameter Lane Following"
+git push origin master
+sudo shutdown now
+cd duckietown/
+source environment.sh 
+source set_ros_master.sh ss42
+source set_vehicle_name.sh ss42
+roslaunch duckietown_demos lane_following.launch veh:=ss42

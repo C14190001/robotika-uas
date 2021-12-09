@@ -1,0 +1,89 @@
+[rospy.client][INFO] 2021-12-09 13:40:14,370: init_node, name[/ss42/car_cmd_switch_node], pid[6277]
+[xmlrpc][INFO] 2021-12-09 13:40:14,384: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-09 13:40:14,385: Started XML-RPC server [http://ss42.local:37470/]
+[rospy.impl.masterslave][INFO] 2021-12-09 13:40:14,386: _ready: http://ss42.local:37470/
+[rospy.init][INFO] 2021-12-09 13:40:14,403: ROS Slave URI: [http://ss42.local:37470/]
+[rospy.registration][INFO] 2021-12-09 13:40:14,406: Registering with master node http://ss42.local:11311/
+[xmlrpc][INFO] 2021-12-09 13:40:14,407: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-12-09 13:40:14,504: registered with master
+[rospy.rosout][INFO] 2021-12-09 13:40:14,505: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-09 13:40:14,524: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-09 13:40:14,545: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-12-09 13:40:14,728: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-12-09 13:40:15,600: topic[/ss42/fsm_node/mode] adding connection to [http://ss42.local:37334/], count 0
+[rosout][INFO] 2021-12-09 13:40:15,673: [/ss42/car_cmd_switch_node] Initialized. 
+[rospy.internal][INFO] 2021-12-09 13:40:15,728: topic[/ss42/joy_mapper_node/car_cmd] adding connection to [http://ss42.local:42175/], count 0
+[rospy.internal][INFO] 2021-12-09 13:40:16,653: topic[/ss42/simple_coordinator_node/car_cmd] adding connection to [http://ss42.local:42708/], count 0
+[rospy.internal][INFO] 2021-12-09 13:40:16,982: topic[/ss42/lane_controller_node/car_cmd] adding connection to [http://ss42.local:45704/], count 0
+[rosout][INFO] 2021-12-09 13:40:17,229: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rospy.internal][INFO] 2021-12-09 13:40:21,897: topic[/ss42/car_cmd_switch_node/cmd] adding connection to [/ss42/inverse_kinematics_node], count 0
+[rospy.internal][INFO] 2021-12-09 13:40:23,169: topic[/ss42/car_cmd_switch_node/cmd] adding connection to [/ss42/lane_filter_node], count 1
+[rosout][INFO] 2021-12-09 13:40:27,371: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 13:42:30,374: [/ss42/car_cmd_switch_node] Car cmd switched to lane in state LANE_FOLLOWING.
+[rosout][INFO] 2021-12-09 13:42:41,147: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 13:42:51,396: [/ss42/car_cmd_switch_node] Car cmd switched to lane in state LANE_FOLLOWING.
+[rosout][INFO] 2021-12-09 13:43:01,081: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 13:44:21,730: [/ss42/car_cmd_switch_node] Car cmd switched to lane in state LANE_FOLLOWING.
+[rosout][INFO] 2021-12-09 13:44:32,736: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 13:44:36,681: [/ss42/car_cmd_switch_node] Car cmd switched to parallel_autonomy in state PARALLEL_AUTONOMY.
+[rosout][INFO] 2021-12-09 13:44:37,463: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 13:44:37,511: [/ss42/car_cmd_switch_node] Car cmd switched to parallel_autonomy in state PARALLEL_AUTONOMY.
+[rosout][INFO] 2021-12-09 13:44:37,554: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 13:44:37,590: [/ss42/car_cmd_switch_node] Car cmd switched to parallel_autonomy in state PARALLEL_AUTONOMY.
+[rosout][INFO] 2021-12-09 13:44:38,145: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 13:44:38,631: [/ss42/car_cmd_switch_node] Car cmd switched to parallel_autonomy in state PARALLEL_AUTONOMY.
+[rosout][INFO] 2021-12-09 13:44:39,321: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 13:44:43,034: [/ss42/car_cmd_switch_node] Car cmd switched to parallel_autonomy in state PARALLEL_AUTONOMY.
+[rosout][INFO] 2021-12-09 13:44:44,933: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 13:44:48,897: [/ss42/car_cmd_switch_node] Car cmd switched to lane in state LANE_FOLLOWING.
+[rosout][INFO] 2021-12-09 13:45:00,724: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 13:45:28,274: [/ss42/car_cmd_switch_node] Car cmd switched to lane in state LANE_FOLLOWING.
+[rosout][INFO] 2021-12-09 13:45:39,394: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 13:47:51,792: [/ss42/car_cmd_switch_node] Car cmd switched to lane in state LANE_FOLLOWING.
+[rosout][INFO] 2021-12-09 13:48:07,249: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 13:48:43,135: [/ss42/car_cmd_switch_node] Car cmd switched to lane in state LANE_FOLLOWING.
+[rosout][INFO] 2021-12-09 13:49:11,653: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 13:49:27,012: [/ss42/car_cmd_switch_node] Car cmd switched to lane in state LANE_FOLLOWING.
+[rosout][INFO] 2021-12-09 13:50:12,665: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 13:50:16,822: [/ss42/car_cmd_switch_node] Car cmd switched to lane in state LANE_FOLLOWING.
+[rosout][INFO] 2021-12-09 13:50:27,551: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 13:52:28,733: [/ss42/car_cmd_switch_node] Car cmd switched to lane in state LANE_FOLLOWING.
+[rosout][INFO] 2021-12-09 13:55:13,959: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 13:55:31,624: [/ss42/car_cmd_switch_node] Car cmd switched to lane in state LANE_FOLLOWING.
+[rosout][INFO] 2021-12-09 13:55:42,289: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 13:56:06,355: [/ss42/car_cmd_switch_node] Car cmd switched to lane in state LANE_FOLLOWING.
+[rosout][INFO] 2021-12-09 13:57:34,881: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 13:58:42,775: [/ss42/car_cmd_switch_node] Car cmd switched to lane in state LANE_FOLLOWING.
+[rosout][INFO] 2021-12-09 13:59:48,503: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 14:00:11,705: [/ss42/car_cmd_switch_node] Car cmd switched to lane in state LANE_FOLLOWING.
+[rosout][INFO] 2021-12-09 14:01:07,422: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 14:01:42,818: [/ss42/car_cmd_switch_node] Car cmd switched to lane in state LANE_FOLLOWING.
+[rosout][INFO] 2021-12-09 14:01:49,021: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 14:01:51,657: [/ss42/car_cmd_switch_node] Car cmd switched to lane in state LANE_FOLLOWING.
+[rosout][INFO] 2021-12-09 14:03:13,032: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 14:03:51,621: [/ss42/car_cmd_switch_node] Car cmd switched to lane in state LANE_FOLLOWING.
+[rosout][INFO] 2021-12-09 14:04:43,955: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 14:04:58,566: [/ss42/car_cmd_switch_node] Car cmd switched to lane in state LANE_FOLLOWING.
+[rosout][INFO] 2021-12-09 14:05:26,979: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 14:05:40,878: [/ss42/car_cmd_switch_node] Car cmd switched to lane in state LANE_FOLLOWING.
+[rosout][INFO] 2021-12-09 14:05:55,043: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rosout][INFO] 2021-12-09 14:05:59,288: [/ss42/car_cmd_switch_node] Car cmd switched to lane in state LANE_FOLLOWING.
+[rosout][INFO] 2021-12-09 14:06:09,251: [/ss42/car_cmd_switch_node] Car cmd switched to joystick in state JOYSTICK_CONTROL.
+[rospy.internal][WARNING] 2021-12-09 14:07:45,437: Unknown error initiating TCP/IP socket to ss42.local:36824 (http://ss42.local:45704/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2021-12-09 14:07:45,438: topic[/ss42/lane_controller_node/car_cmd] removing connection to http://ss42.local:45704/
+[rospy.internal][WARNING] 2021-12-09 14:07:45,462: Unknown error initiating TCP/IP socket to ss42.local:41387 (http://ss42.local:42708/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2021-12-09 14:07:45,463: topic[/ss42/simple_coordinator_node/car_cmd] removing connection to http://ss42.local:42708/
+[rospy.core][INFO] 2021-12-09 14:07:45,550: signal_shutdown [signal-2]
+[rospy.core][INFO] 2021-12-09 14:07:45,554: signal_shutdown [atexit]
